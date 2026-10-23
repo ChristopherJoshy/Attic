@@ -1,0 +1,105 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String         @id @default(cuid())
+  username       String         @unique
+  passwordHash   String
+  displayName    String?
+  createdAt      DateTime       @default(now())
+  memberships    GroupMember[]
+  paidExpenses   Expense[]      @relation("ExpensePayer")
+  splits         ExpenseSplit[]
+  settlementsFrom Settlement[]  @relation("SettlementFrom")
+  settlementsTo   Settlement[]  @relation("SettlementTo")
+  chatMessages   ChatMessage[]
+}
+
+model Group {
+  id           String         @id @default(cuid())
+  name         String
+  description  String?
+  inviteCode   String         @unique @default(cuid())
+  createdBy    String
+  currency     String         @default("USD")
+  createdAt    DateTime       @default(now())
+  members      GroupMember[]
+  expenses     Expense[]
+  settlements  Settlement[]
+  chatMessages ChatMessage[]
+}
+
+model GroupMember {
+  id        String   @id @default(cuid())
+  groupId   String
+  userId    String
+  joinedAt  DateTime @default(now())
+  group     Group    @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([groupId, userId])
+}
+
+model Expense {
+  id          String         @id @default(cuid())
+  groupId     String
+  paidById    String
+  amount      Float
+  description String
+  category    String         @default("other")
+  splitType   String         @default("equal")
+  note        String?
+  source      String         @default("manual")
+  createdAt   DateTime       @default(now())
+  group       Group          @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  paidBy      User           @relation("ExpensePayer", fields: [paidById], references: [id])
+  splits      ExpenseSplit[]
+
+  @@index([groupId])
+}
+
+model ExpenseSplit {
+  id        String   @id @default(cuid())
+  expenseId String
+  userId    String
+  amount    Float
+  expense   Expense @relation(fields: [expenseId], references: [id], onDelete: Cascade)
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([expenseId, userId])
+  @@index([userId])
+}
+
+model Settlement {
+  id         String   @id @default(cuid())
+  groupId    String
+  fromUserId String
+  toUserId   String
+  amount     Float
+  status     String   @default("completed")
+  createdAt  DateTime @default(now())
+  group      Group    @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  fromUser   User     @relation("SettlementFrom", fields: [fromUserId], references: [id])
+  toUser     User     @relation("SettlementTo", fields: [toUserId], references: [id])
+
+  @@index([groupId])
+}
+
+model ChatMessage {
+  id        String    @id @default(cuid())
+  groupId   String
+  userId    String?
+  role      String
+  content   String
+  createdAt DateTime  @default(now())
+  group     Group     @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  user      User?     @relation(fields: [userId], references: [id])
+
+  @@index([groupId])
+}

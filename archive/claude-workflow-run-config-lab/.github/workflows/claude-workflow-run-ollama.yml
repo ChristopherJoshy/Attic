@@ -1,0 +1,40 @@
+name: Claude workflow_run OpenRouter PoC
+
+on:
+  workflow_run:
+    workflows: ["PR CI"]
+    types: [completed]
+
+jobs:
+  claude:
+    if: ${{ github.event.workflow_run.event == 'pull_request' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+    env:
+      ANTHROPIC_BASE_URL: https://openrouter.ai/api
+    steps:
+      - name: Checkout PR head at workspace root
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+
+      - name: Run Claude Code Action through OpenRouter
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.OPENROUTER_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: "Reply with OK only."
+          claude_args: "--model arcee-ai/trinity-large-thinking:free --max-turns 1"
+
+      - name: Check marker file
+        if: always()
+        run: |
+          if [ -f claude-startup-marker.txt ]; then
+            cat claude-startup-marker.txt
+          else
+            echo "No Claude startup marker file found"
+          fi

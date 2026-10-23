@@ -1,0 +1,2 @@
+task,status,arc_agi_right,arc_agi_wrong,arc_gen_right,arc_gen_wrong,memory,params,cost,points,filesize,nodes,seconds,error
+74,error,0,0,0,0,,,,,1824,18,0.060,NotImplemented: [ONNXRuntimeError] : 9 : NOT_IMPLEMENTED : Could not find an implementation for Max(13) node with name 'safe_name_29'

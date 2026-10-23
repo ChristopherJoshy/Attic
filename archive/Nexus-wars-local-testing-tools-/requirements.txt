@@ -1,0 +1,5 @@
+# Nexus Wars Local Testing - Requirements
+# No external dependencies required - uses only Python standard library
+
+# Optional: for development
+# pytest>=7.0.0

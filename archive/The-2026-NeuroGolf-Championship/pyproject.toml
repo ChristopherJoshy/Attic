@@ -1,0 +1,26 @@
+[project]
+name = "neurogolf-2026"
+version = "0.1.0"
+description = "Kaggle NeuroGolf 2026 solver + tooling (evidence-gated ONNX task-level optimization)"
+requires-python = ">=3.12"
+
+dependencies = [
+    "numpy>=2.0",
+    "onnx>=1.17",
+    "onnxruntime>=1.20",
+    "onnx-tool>=1.0",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+kaggle = [
+    "kaggle>=1.6",
+]
+notebook = [
+    "ipython>=8.0",
+    "jupyter>=1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

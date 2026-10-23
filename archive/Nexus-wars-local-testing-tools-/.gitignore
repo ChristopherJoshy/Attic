@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+replay.json
+tournament_results.json
+*.log
+.env
+.venv/
+venv/

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv and caches
+.venv/
+.uv-cache/
+.matplotlib/
+
+# Opencode runtime state and handoff tarballs (root-level only)
+/opencode.db
+/opencode.db-*
+/neurogolf_device_handoff*.tar.gz
+/oh-my-opencode-slim.*.log
+# handoff/ subdir IS tracked; it contains the handoff tarball we want to migrate.
+
+# Local profiling dumps (79GB of temporary task profile JSONs)
+artifacts/profiles/
+
+# Local submission.zip scratch (rebuilt from candidate bundles when needed)
+submission.zip
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Kaggle CLI caches
+.kaggle/

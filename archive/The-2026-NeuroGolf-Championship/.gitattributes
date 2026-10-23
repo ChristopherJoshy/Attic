@@ -1,0 +1,38 @@
+# Force LF line endings for text files (Windows-friendly)
+* text=auto eol=lf
+
+# Explicitly mark binary files
+*.onnx binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.onnxruntime_profile__*.json binary
+*.tar.gz binary
+*.db binary
+*.db-wal binary
+*.db-shm binary
+
+# Python source
+*.py text eol=lf
+*.pyc binary
+*.pyx text eol=lf
+
+# Markdown / docs
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Shellscripts
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Git / config
+*.gitignore text eol=lf
+*.gitattributes text eol=lf

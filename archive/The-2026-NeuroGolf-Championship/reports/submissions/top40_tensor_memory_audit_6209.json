@@ -1,0 +1,9127 @@
+[
+  {
+    "task": 219,
+    "points": 8.639996,
+    "cost": 12736775,
+    "memory": 12733327,
+    "params": 3448,
+    "nodes": 518,
+    "file_size": 66945,
+    "dtype_bytes": {
+      "FLOAT": 72000
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "output",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "lower_tri",
+        "FLOAT",
+        [
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "/Constant_215_output_0",
+        "FLOAT",
+        [
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        630,
+        "/GreaterOrEqual_output_0",
+        "BOOL",
+        [
+          1,
+          1,
+          21,
+          30
+        ]
+      ],
+      [
+        180,
+        "/Expand_output_0",
+        "FLOAT",
+        [
+          1,
+          6,
+          30
+        ]
+      ],
+      [
+        168,
+        "onnx::Add_1566",
+        "FLOAT",
+        [
+          1,
+          8,
+          21
+        ]
+      ],
+      [
+        30,
+        "task219_maskedmax_col_plus_big",
+        "FLOAT",
+        [
+          1,
+          1,
+          1,
+          30
+        ]
+      ],
+      [
+        30,
+        "onnx::Mul_1552",
+        "FLOAT",
+        [
+          1,
+          1,
+          30,
+          1
+        ]
+      ],
+      [
+        30,
+        "onnx::Mul_1549",
+        "FLOAT",
+        [
+          1,
+          1,
+          30,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 157,
+    "points": 10.283974,
+    "cost": 2460871,
+    "memory": 2406658,
+    "params": 54213,
+    "nodes": 678,
+    "file_size": 327441,
+    "dtype_bytes": {
+      "FLOAT": 931068,
+      "FLOAT16": 1332618,
+      "BOOL": 186020,
+      "INT64": 10952
+    },
+    "top_tensors": [
+      {
+        "bytes": 97344,
+        "name": "top_cnt32_total",
+        "dtype": "FLOAT",
+        "shape": [
+          156,
+          156
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 97344,
+        "name": "top_cnt32_23_PP",
+        "dtype": "FLOAT",
+        "shape": [
+          156,
+          156
+        ],
+        "producer": "Tile"
+      },
+      {
+        "bytes": 97344,
+        "name": "top_cnt32_01_PP",
+        "dtype": "FLOAT",
+        "shape": [
+          156,
+          156
+        ],
+        "producer": "Tile"
+      },
+      {
+        "bytes": 97344,
+        "name": "final_score_total",
+        "dtype": "FLOAT",
+        "shape": [
+          156,
+          156
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 97344,
+        "name": "final_score_23_PP",
+        "dtype": "FLOAT",
+        "shape": [
+          156,
+          156
+        ],
+        "producer": "Tile"
+      },
+      {
+        "bytes": 97344,
+        "name": "final_score_01_PP",
+        "dtype": "FLOAT",
+        "shape": [
+          156,
+          156
+        ],
+        "producer": "Tile"
+      },
+      {
+        "bytes": 97344,
+        "name": "combo_score_flat",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          24336
+        ],
+        "producer": "Reshape"
+      },
+      {
+        "bytes": 97344,
+        "name": "combo_score",
+        "dtype": "FLOAT",
+        "shape": [
+          156,
+          156
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 56160,
+        "name": "p23c_vis_R",
+        "dtype": "FLOAT16",
+        "shape": [
+          156,
+          180
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 56160,
+        "name": "p23c_b_vis_R",
+        "dtype": "FLOAT16",
+        "shape": [
+          156,
+          180
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 56160,
+        "name": "p23c_a_vis_R",
+        "dtype": "FLOAT16",
+        "shape": [
+          156,
+          180
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 56160,
+        "name": "p23_vis_T",
+        "dtype": "FLOAT16",
+        "shape": [
+          180,
+          156
+        ],
+        "producer": "Transpose"
+      }
+    ],
+    "top_initializers": [
+      [
+        20880,
+        "TOP_SHIFT_VALID16",
+        "FLOAT16",
+        [
+          116,
+          180
+        ]
+      ],
+      [
+        20880,
+        "TOP_SHIFT_IDX",
+        "INT64",
+        [
+          116,
+          180
+        ]
+      ],
+      [
+        900,
+        "valid_drm1_dc0",
+        "BOOL",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "valid_dr1_dc0",
+        "BOOL",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "valid_dr0_dcm1",
+        "BOOL",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "valid_dr0_dc1",
+        "BOOL",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "idx_drm1_dc0",
+        "INT64",
+        [
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "idx_dr1_dc0",
+        "INT64",
+        [
+          30,
+          30
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 255,
+    "points": 10.66365,
+    "cost": 1683440,
+    "memory": 1539906,
+    "params": 143534,
+    "nodes": 175,
+    "file_size": 296352,
+    "dtype_bytes": {
+      "FLOAT16": 237070,
+      "UINT8": 644850,
+      "BOOL": 650770,
+      "FLOAT": 79200,
+      "INT64": 16
+    },
+    "top_tensors": [
+      {
+        "bytes": 211250,
+        "name": "score",
+        "dtype": "FLOAT16",
+        "shape": [
+          325,
+          325
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 189225,
+        "name": "rect_obs",
+        "dtype": "UINT8",
+        "shape": [
+          435,
+          435
+        ],
+        "producer": "QLinearMatMul"
+      },
+      {
+        "bytes": 189225,
+        "name": "all_bg_f",
+        "dtype": "UINT8",
+        "shape": [
+          435,
+          435
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 189225,
+        "name": "all_bg",
+        "dtype": "BOOL",
+        "shape": [
+          435,
+          435
+        ],
+        "producer": "Equal"
+      },
+      {
+        "bytes": 105625,
+        "name": "all_bg_for_score",
+        "dtype": "BOOL",
+        "shape": [
+          325,
+          325
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 36000,
+        "name": "output",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 13050,
+        "name": "vu_tmp",
+        "dtype": "UINT8",
+        "shape": [
+          30,
+          435
+        ],
+        "producer": "QLinearMatMul"
+      },
+      {
+        "bytes": 13050,
+        "name": "vu_row_up_T_mask",
+        "dtype": "BOOL",
+        "shape": [
+          30,
+          435
+        ],
+        "producer": "Expand"
+      },
+      {
+        "bytes": 13050,
+        "name": "vu_row_up_T",
+        "dtype": "UINT8",
+        "shape": [
+          30,
+          435
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 13050,
+        "name": "vd_tmp",
+        "dtype": "UINT8",
+        "shape": [
+          30,
+          435
+        ],
+        "producer": "QLinearMatMul"
+      },
+      {
+        "bytes": 13050,
+        "name": "vd_row_down_T_mask",
+        "dtype": "BOOL",
+        "shape": [
+          30,
+          435
+        ],
+        "producer": "Expand"
+      }
+    ],
+    "top_initializers": [
+      [
+        105625,
+        "score_static",
+        "FLOAT16",
+        [
+          325,
+          325
+        ]
+      ],
+      [
+        13050,
+        "R",
+        "UINT8",
+        [
+          435,
+          30
+        ]
+      ],
+      [
+        13050,
+        "C",
+        "UINT8",
+        [
+          30,
+          435
+        ]
+      ],
+      [
+        9000,
+        "color3_hw",
+        "FLOAT",
+        [
+          1,
+          10,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "zero_hw16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        435,
+        "r1",
+        "FLOAT16",
+        [
+          435
+        ]
+      ],
+      [
+        435,
+        "r0",
+        "FLOAT16",
+        [
+          435
+        ]
+      ],
+      [
+        435,
+        "c1",
+        "FLOAT16",
+        [
+          435
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 233,
+    "points": 10.677923,
+    "cost": 1659583,
+    "memory": 1647529,
+    "params": 12054,
+    "nodes": 2428,
+    "file_size": 321271,
+    "dtype_bytes": {
+      "FLOAT": 50416,
+      "FLOAT16": 962748,
+      "INT64": 21952,
+      "UINT8": 128000,
+      "BOOL": 538413
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 18000,
+        "name": "inp_flat",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          900
+        ],
+        "producer": "Reshape"
+      },
+      {
+        "bytes": 18000,
+        "name": "inp16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 8000,
+        "name": "out_grid_fp16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 8000,
+        "name": "inp_translated_pre",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 8000,
+        "name": "inp_translated",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 8000,
+        "name": "in_border_chan_pre",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Tile"
+      },
+      {
+        "bytes": 7200,
+        "name": "window_2_mask",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 7200,
+        "name": "labels_2_idx",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30,
+          1
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 7200,
+        "name": "labels_2_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3608,
+        "name": "hist_2_init",
+        "dtype": "FLOAT",
+        "shape": [
+          902
+        ],
+        "producer": "ConstantOfShape"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "row_idx_full",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "col_idx_full",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "cell_id",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        400,
+        "zero_select_f",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "zero_chan",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "row_idx_grid",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "rot_bonus32_2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "rot_bonus32_1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 366,
+    "points": 11.096658,
+    "cost": 1091804,
+    "memory": 1086269,
+    "params": 5535,
+    "nodes": 899,
+    "file_size": 107036,
+    "dtype_bytes": {
+      "FLOAT": 63208,
+      "FLOAT16": 728404,
+      "BOOL": 269633,
+      "INT64": 70024
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "input_shift_row",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 18000,
+        "name": "input_shift_col",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 18000,
+        "name": "input16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 18000,
+        "name": "half_b_shifted",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 18000,
+        "name": "half_b",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 18000,
+        "name": "half_a",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 7200,
+        "name": "lbl_b_idx",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30,
+          1
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 7200,
+        "name": "lbl_b_i64_raw",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 7200,
+        "name": "lbl_b_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Clip"
+      },
+      {
+        "bytes": 7200,
+        "name": "lbl_a_idx",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30,
+          1
+        ],
+        "producer": "Unsqueeze"
+      }
+    ],
+    "top_initializers": [
+      [
+        3481,
+        "desc_idx_59",
+        "FLOAT16",
+        [
+          1,
+          1,
+          59,
+          59
+        ]
+      ],
+      [
+        900,
+        "zero_hw",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "label_init",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        30,
+        "row_idx_30",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          1
+        ]
+      ],
+      [
+        30,
+        "col_idx_30",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          30
+        ]
+      ],
+      [
+        30,
+        "arange30_i64",
+        "INT64",
+        [
+          30
+        ]
+      ],
+      [
+        8,
+        "pad_lrtb1",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        "tile_to_1_1_59_59",
+        "INT64",
+        [
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 319,
+    "points": 11.48839,
+    "cost": 737934,
+    "memory": 728857,
+    "params": 9077,
+    "nodes": 2051,
+    "file_size": 260816,
+    "dtype_bytes": {
+      "FLOAT": 53568,
+      "FLOAT16": 560856,
+      "INT64": 2904,
+      "INT32": 31768,
+      "BOOL": 133761
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 14440,
+        "name": "input_grid",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          19,
+          19
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 7220,
+        "name": "output_crop",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          19,
+          19
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 2888,
+        "name": "cell_color_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          19,
+          19
+        ],
+        "producer": "ArgMax"
+      },
+      {
+        "bytes": 1444,
+        "name": "in_grid_sum",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          19,
+          19
+        ],
+        "producer": "ReduceSum"
+      },
+      {
+        "bytes": 1444,
+        "name": "cand9_tl_lin_i64_full",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          19,
+          19
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1444,
+        "name": "cand9_tl_idx2d",
+        "dtype": "INT32",
+        "shape": [
+          19,
+          19
+        ],
+        "producer": "Squeeze"
+      },
+      {
+        "bytes": 1444,
+        "name": "cand8_tl_lin_i64_full",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          19,
+          19
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1444,
+        "name": "cand8_tl_idx2d",
+        "dtype": "INT32",
+        "shape": [
+          19,
+          19
+        ],
+        "producer": "Squeeze"
+      },
+      {
+        "bytes": 1444,
+        "name": "cand7_tl_lin_i64_full",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          19,
+          19
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1444,
+        "name": "cand7_tl_idx2d",
+        "dtype": "INT32",
+        "shape": [
+          19,
+          19
+        ],
+        "producer": "Squeeze"
+      }
+    ],
+    "top_initializers": [
+      [
+        361,
+        "shift_valid_dy0_dx0",
+        "BOOL",
+        [
+          1,
+          1,
+          19,
+          19
+        ]
+      ],
+      [
+        361,
+        "shift_valid_dy0_dx-2",
+        "BOOL",
+        [
+          1,
+          1,
+          19,
+          19
+        ]
+      ],
+      [
+        361,
+        "shift_valid_dy0_dx-1",
+        "BOOL",
+        [
+          1,
+          1,
+          19,
+          19
+        ]
+      ],
+      [
+        361,
+        "shift_valid_dy-2_dx0",
+        "BOOL",
+        [
+          1,
+          1,
+          19,
+          19
+        ]
+      ],
+      [
+        361,
+        "shift_valid_dy-2_dx-1",
+        "BOOL",
+        [
+          1,
+          1,
+          19,
+          19
+        ]
+      ],
+      [
+        361,
+        "shift_valid_dy-1_dx0",
+        "BOOL",
+        [
+          1,
+          1,
+          19,
+          19
+        ]
+      ],
+      [
+        361,
+        "shift_valid_dy-1_dx-1",
+        "BOOL",
+        [
+          1,
+          1,
+          19,
+          19
+        ]
+      ],
+      [
+        361,
+        "shift_idx_dy0_dx0",
+        "INT64",
+        [
+          19,
+          19
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 133,
+    "points": 11.522102,
+    "cost": 713472,
+    "memory": 709806,
+    "params": 3666,
+    "nodes": 509,
+    "file_size": 65902,
+    "dtype_bytes": {
+      "FLOAT": 79680,
+      "FLOAT16": 264622,
+      "BOOL": 155776,
+      "INT64": 21600,
+      "INT32": 140400,
+      "UINT8": 92728
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "input16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 7200,
+        "name": "cell_label_idx",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30,
+          1
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 7200,
+        "name": "cell_label_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 7200,
+        "name": "cell_color_argmax_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ArgMax"
+      },
+      {
+        "bytes": 3604,
+        "name": "label_active_sumf",
+        "dtype": "FLOAT",
+        "shape": [
+          901
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3604,
+        "name": "color_in_label_9_sumf",
+        "dtype": "FLOAT",
+        "shape": [
+          901
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3604,
+        "name": "color_in_label_8_sumf",
+        "dtype": "FLOAT",
+        "shape": [
+          901
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3604,
+        "name": "color_in_label_7_sumf",
+        "dtype": "FLOAT",
+        "shape": [
+          901
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3604,
+        "name": "color_in_label_6_sumf",
+        "dtype": "FLOAT",
+        "shape": [
+          901
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3604,
+        "name": "color_in_label_5_sumf",
+        "dtype": "FLOAT",
+        "shape": [
+          901
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "row_idx_full",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "label_init",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "col_idx_full",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "canvas_zero",
+        "UINT8",
+        [
+          900
+        ]
+      ],
+      [
+        4,
+        "shape_1130_30",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "shape_1111",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        1,
+        "shape_900_flat",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "offset_present_shape",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 285,
+    "points": 11.903441,
+    "cost": 487263,
+    "memory": 473648,
+    "params": 13615,
+    "nodes": 325,
+    "file_size": 64932,
+    "dtype_bytes": {
+      "FLOAT": 39600,
+      "BOOL": 160200,
+      "INT64": 7200,
+      "INT32": 86400,
+      "FLOAT16": 216248,
+      "UINT8": 9000
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 7200,
+        "name": "cell_color_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ArgMax"
+      },
+      {
+        "bytes": 3600,
+        "name": "xr_i64",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Div"
+      },
+      {
+        "bytes": 3600,
+        "name": "xc_i64",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Mod"
+      },
+      {
+        "bytes": 3600,
+        "name": "tr_x30_i32",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 3600,
+        "name": "tgt_r_i64_raw",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3600,
+        "name": "tgt_r_i64",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Clip"
+      },
+      {
+        "bytes": 3600,
+        "name": "tgt_c_i64_raw",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3600,
+        "name": "tgt_c_i64",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Clip"
+      },
+      {
+        "bytes": 3600,
+        "name": "seed_single_id_raw3",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3600,
+        "name": "seed_single_id_raw2",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "TWO_HW",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "THIRTY_I32_HW",
+        "INT32",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "ROW_I32",
+        "INT32",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "ROW16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "PRIO_n1_n1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "PRIO_n1_1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "PRIO_1_n1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "PRIO_1_1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 18,
+    "points": 11.926438,
+    "cost": 476185,
+    "memory": 475190,
+    "params": 995,
+    "nodes": 192,
+    "file_size": 29359,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 421652,
+      "BOOL": 53282,
+      "UINT8": 9000,
+      "INT64": 256
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 25920,
+        "name": "/Pad_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          36,
+          36
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 25920,
+        "name": "/Pad_1_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          36,
+          36
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Mul_26_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Mul_18_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Mul_16_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "/ConvTranspose_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 18000,
+        "name": "/ConvTranspose_1_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Cast_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Add_13_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 16200,
+        "name": "/Slice_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 16200,
+        "name": "/Slice_17_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "pos_idx",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        30,
+        "/Constant_16_output_0",
+        "FLOAT16",
+        [
+          30
+        ]
+      ],
+      [
+        9,
+        "box_kernel",
+        "FLOAT16",
+        [
+          1,
+          1,
+          3,
+          3
+        ]
+      ],
+      [
+        8,
+        "/Reshape_1_output_0",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        7,
+        "/Constant_36_output_0",
+        "INT64",
+        [
+          7
+        ]
+      ],
+      [
+        4,
+        "/Constant_73_output_0",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "/Constant_67_output_0",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        3,
+        "onnx::ReduceSum_226",
+        "INT64",
+        [
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 158,
+    "points": 11.947692,
+    "cost": 466171,
+    "memory": 461005,
+    "params": 5166,
+    "nodes": 345,
+    "file_size": 58170,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 384130,
+      "BOOL": 85755,
+      "INT64": 120
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "input_full16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 13520,
+        "name": "tpl_mask_c10",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Tile"
+      },
+      {
+        "bytes": 13520,
+        "name": "mp3_bg_x",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 13520,
+        "name": "mp3",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "MaxPool"
+      },
+      {
+        "bytes": 13520,
+        "name": "is_anchor_v_hw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Tile"
+      },
+      {
+        "bytes": 13520,
+        "name": "input_in_tpl",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 13520,
+        "name": "input_at_TA",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 13520,
+        "name": "input_at_BA",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 13520,
+        "name": "input16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 13520,
+        "name": "inp_x_idx",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 13520,
+        "name": "chan_idx_hw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          26,
+          26
+        ],
+        "producer": "Tile"
+      }
+    ],
+    "top_initializers": [
+      [
+        676,
+        "prio_tl",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          26
+        ]
+      ],
+      [
+        676,
+        "avg_lo_S3",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          26
+        ]
+      ],
+      [
+        676,
+        "avg_lo_S2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          26
+        ]
+      ],
+      [
+        676,
+        "avg_lo_S1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          26
+        ]
+      ],
+      [
+        676,
+        "avg_hi_S3",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          26
+        ]
+      ],
+      [
+        676,
+        "avg_hi_S2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          26
+        ]
+      ],
+      [
+        676,
+        "avg_hi_S1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          26
+        ]
+      ],
+      [
+        26,
+        "row_idx",
+        "FLOAT16",
+        [
+          1,
+          1,
+          26,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 76,
+    "points": 12.153801,
+    "cost": 379344,
+    "memory": 378097,
+    "params": 1247,
+    "nodes": 465,
+    "file_size": 48400,
+    "dtype_bytes": {
+      "FLOAT": 103500,
+      "FLOAT16": 294662,
+      "INT32": 14400,
+      "BOOL": 37535
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "output",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 9000,
+        "name": "output_crop",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          15,
+          15
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 9000,
+        "name": "input_grid",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          15,
+          15
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 3698,
+        "name": "p6_stamp4_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 3698,
+        "name": "p6_stamp3_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 3698,
+        "name": "p6_stamp2_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 3698,
+        "name": "p6_stamp1_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 3698,
+        "name": "p5_stamp4_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 3698,
+        "name": "p5_stamp3_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 3698,
+        "name": "p5_stamp2_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 3698,
+        "name": "p5_stamp1_88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          43,
+          43
+        ],
+        "producer": "ConvTranspose"
+      }
+    ],
+    "top_initializers": [
+      [
+        225,
+        "ZERO_FULL16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          15,
+          15
+        ]
+      ],
+      [
+        225,
+        "ROW16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          15,
+          15
+        ]
+      ],
+      [
+        225,
+        "ONE_FULL16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          15,
+          15
+        ]
+      ],
+      [
+        225,
+        "LABEL16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          15,
+          15
+        ]
+      ],
+      [
+        225,
+        "COL16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          15,
+          15
+        ]
+      ],
+      [
+        8,
+        "pads_grid_to_30",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        "zero_ch_expand_shape_1",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "tile_full",
+        "INT64",
+        [
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 101,
+    "points": 12.166824,
+    "cost": 374436,
+    "memory": 374325,
+    "params": 111,
+    "nodes": 125,
+    "file_size": 19733,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 289942,
+      "BOOL": 90487,
+      "INT64": 2896
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 24500,
+        "name": "/Pad_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          35,
+          35
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 18000,
+        "name": "input_f16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 18000,
+        "name": "_v_951",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 18000,
+        "name": "_v_946",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 18000,
+        "name": "_v_941",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Mul_11_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Add_7_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 18000,
+        "name": "/Add_6_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 9000,
+        "name": "task101_orig_fg_full_b",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Greater"
+      },
+      {
+        "bytes": 9000,
+        "name": "task101_new_fg_full_b",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Greater"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      }
+    ],
+    "top_initializers": [
+      [
+        30,
+        "/Constant_30_output_0",
+        "FLOAT16",
+        [
+          30
+        ]
+      ],
+      [
+        9,
+        "up3",
+        "FLOAT16",
+        [
+          1,
+          1,
+          3,
+          3
+        ]
+      ],
+      [
+        9,
+        "cross",
+        "FLOAT16",
+        [
+          1,
+          1,
+          3,
+          3
+        ]
+      ],
+      [
+        8,
+        "/Reshape_3_output_0",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "/Reshape_1_output_0",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        5,
+        "/Constant_46_output_0",
+        "INT64",
+        [
+          5
+        ]
+      ],
+      [
+        4,
+        "up2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          2,
+          2
+        ]
+      ],
+      [
+        4,
+        "/Constant_79_output_0",
+        "INT64",
+        [
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 209,
+    "points": 12.515879,
+    "cost": 264110,
+    "memory": 262743,
+    "params": 1367,
+    "nodes": 829,
+    "file_size": 120021,
+    "dtype_bytes": {
+      "FLOAT": 52000,
+      "BOOL": 87555,
+      "FLOAT16": 142556,
+      "INT64": 25632
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 16000,
+        "name": "input_grid",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 8000,
+        "name": "input_x_idx_expanded_1",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Expand"
+      },
+      {
+        "bytes": 8000,
+        "name": "input_x_idx",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 8000,
+        "name": "input16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 4000,
+        "name": "output_crop",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 960,
+        "name": "bc_padr4",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          24
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 960,
+        "name": "bc_padd4",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          24,
+          20
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 920,
+        "name": "bc_padr3",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          23
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 920,
+        "name": "bc_padd3",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          23,
+          20
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 880,
+        "name": "bc_padr2",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          22
+        ],
+        "producer": "Pad"
+      }
+    ],
+    "top_initializers": [
+      [
+        400,
+        "row_idx",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "col_idx",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        20,
+        "max_rh_bs_4_30_init",
+        "INT64",
+        [
+          20
+        ]
+      ],
+      [
+        20,
+        "max_rh_bs_3_30_init",
+        "INT64",
+        [
+          20
+        ]
+      ],
+      [
+        20,
+        "max_rh_bs_2_30_init",
+        "INT64",
+        [
+          20
+        ]
+      ],
+      [
+        20,
+        "max_cw_bs_4_30_init",
+        "INT64",
+        [
+          20
+        ]
+      ],
+      [
+        20,
+        "max_cw_bs_3_30_init",
+        "INT64",
+        [
+          20
+        ]
+      ],
+      [
+        20,
+        "max_cw_bs_2_30_init",
+        "INT64",
+        [
+          20
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 367,
+    "points": 12.580519,
+    "cost": 247578,
+    "memory": 244976,
+    "params": 2602,
+    "nodes": 194,
+    "file_size": 26209,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 185976,
+      "INT64": 61952,
+      "BOOL": 15048
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 18000,
+        "name": "input_f16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 8000,
+        "name": "out_fp16_crop",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 8000,
+        "name": "input_grid",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 3872,
+        "name": "idx_top_right_i",
+        "dtype": "INT64",
+        "shape": [
+          22,
+          22
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3872,
+        "name": "idx_top_left_i",
+        "dtype": "INT64",
+        "shape": [
+          22,
+          22
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3872,
+        "name": "idx_rcol_top_i",
+        "dtype": "INT64",
+        "shape": [
+          22,
+          22
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3872,
+        "name": "idx_rcol_bot_i",
+        "dtype": "INT64",
+        "shape": [
+          22,
+          22
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3872,
+        "name": "idx_lcol_top_i",
+        "dtype": "INT64",
+        "shape": [
+          22,
+          22
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3872,
+        "name": "idx_lcol_bot_i",
+        "dtype": "INT64",
+        "shape": [
+          22,
+          22
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3872,
+        "name": "idx_ext_h_i",
+        "dtype": "INT64",
+        "shape": [
+          22,
+          22
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        484,
+        "thirtytwo_2d",
+        "FLOAT16",
+        [
+          22,
+          22
+        ]
+      ],
+      [
+        484,
+        "row_idx_32",
+        "FLOAT16",
+        [
+          1,
+          1,
+          22,
+          22
+        ]
+      ],
+      [
+        484,
+        "one_4d",
+        "FLOAT16",
+        [
+          1,
+          1,
+          22,
+          22
+        ]
+      ],
+      [
+        484,
+        "one_2d",
+        "FLOAT16",
+        [
+          22,
+          22
+        ]
+      ],
+      [
+        484,
+        "col_idx_32",
+        "FLOAT16",
+        [
+          1,
+          1,
+          22,
+          22
+        ]
+      ],
+      [
+        8,
+        "pads_top1_h",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_right1_w",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_left1_w",
+        "INT64",
+        [
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 66,
+    "points": 12.758049,
+    "cost": 207306,
+    "memory": 207195,
+    "params": 111,
+    "nodes": 1531,
+    "file_size": 170467,
+    "dtype_bytes": {
+      "FLOAT": 70880,
+      "FLOAT16": 176736,
+      "BOOL": 13339,
+      "UINT8": 240
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 16000,
+        "name": "input_crop",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 16000,
+        "name": "/Gather_output_0",
+        "dtype": "FLOAT",
+        "shape": [
+          10,
+          20,
+          20
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 8000,
+        "name": "/Unsqueeze_34_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 8000,
+        "name": "/Concat_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 8000,
+        "name": "/Cast_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          10,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 800,
+        "name": "/Unsqueeze_33_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          20,
+          20
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 800,
+        "name": "/Unsqueeze_32_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          20,
+          20
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 800,
+        "name": "/Unsqueeze_31_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          20,
+          20
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 800,
+        "name": "/Unsqueeze_30_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          20,
+          20
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 800,
+        "name": "/Unsqueeze_29_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          20,
+          20
+        ],
+        "producer": "Unsqueeze"
+      }
+    ],
+    "top_initializers": [
+      [
+        20,
+        "stepK",
+        "FLOAT16",
+        [
+          20
+        ]
+      ],
+      [
+        20,
+        "onnx::Sub_2444",
+        "FLOAT16",
+        [
+          1,
+          20
+        ]
+      ],
+      [
+        20,
+        "idxH",
+        "FLOAT16",
+        [
+          20
+        ]
+      ],
+      [
+        8,
+        "task066_pads",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        "task066_crop_steps",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "task066_crop_starts",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "task066_crop_ends",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "task066_crop_axes",
+        "INT64",
+        [
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 182,
+    "points": 12.774169,
+    "cost": 203991,
+    "memory": 203398,
+    "params": 593,
+    "nodes": 289,
+    "file_size": 30647,
+    "dtype_bytes": {
+      "FLOAT": 39600,
+      "BOOL": 109786,
+      "INT64": 7200,
+      "FLOAT16": 91812
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 7200,
+        "name": "cell_color_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ArgMax"
+      },
+      {
+        "bytes": 3600,
+        "name": "in_border_count",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ReduceSum"
+      },
+      {
+        "bytes": 1800,
+        "name": "s9_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 1800,
+        "name": "s8_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 1800,
+        "name": "s7_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 1800,
+        "name": "s6_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 1800,
+        "name": "s5_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 1800,
+        "name": "s4_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 1800,
+        "name": "s3_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      },
+      {
+        "bytes": 1800,
+        "name": "s2_stamp_count",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ConvTranspose"
+      }
+    ],
+    "top_initializers": [
+      [
+        49,
+        "k_interior7",
+        "FLOAT16",
+        [
+          1,
+          1,
+          7,
+          7
+        ]
+      ],
+      [
+        49,
+        "k_frame7",
+        "FLOAT16",
+        [
+          1,
+          1,
+          7,
+          7
+        ]
+      ],
+      [
+        36,
+        "k_neighbor_5",
+        "FLOAT16",
+        [
+          1,
+          1,
+          6,
+          6
+        ]
+      ],
+      [
+        36,
+        "k_neighbor_4",
+        "FLOAT16",
+        [
+          1,
+          1,
+          6,
+          6
+        ]
+      ],
+      [
+        35,
+        "k_neighbor_1",
+        "FLOAT16",
+        [
+          1,
+          1,
+          5,
+          7
+        ]
+      ],
+      [
+        30,
+        "k_neighbor_9",
+        "FLOAT16",
+        [
+          1,
+          1,
+          5,
+          6
+        ]
+      ],
+      [
+        25,
+        "k_neighbor_7",
+        "FLOAT16",
+        [
+          1,
+          1,
+          5,
+          5
+        ]
+      ],
+      [
+        25,
+        "k_neighbor_0",
+        "FLOAT16",
+        [
+          1,
+          1,
+          5,
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 138,
+    "points": 12.804766,
+    "cost": 197844,
+    "memory": 197709,
+    "params": 135,
+    "nodes": 143,
+    "file_size": 11562,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 204858,
+      "BOOL": 9643,
+      "INT64": 1088,
+      "UINT8": 120
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "v68",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 18000,
+        "name": "v67",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 18000,
+        "name": "_fp16_input",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 16200,
+        "name": "v70",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 16200,
+        "name": "v180",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 16200,
+        "name": "v18",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 16200,
+        "name": "v179",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 16200,
+        "name": "v178",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 1800,
+        "name": "v93",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Sub"
+      },
+      {
+        "bytes": 1800,
+        "name": "v92",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        30,
+        "v8",
+        "INT64",
+        [
+          30
+        ]
+      ],
+      [
+        30,
+        "v7",
+        "INT64",
+        [
+          30
+        ]
+      ],
+      [
+        30,
+        "v3",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          30
+        ]
+      ],
+      [
+        30,
+        "v2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          1
+        ]
+      ],
+      [
+        9,
+        "v4",
+        "FLOAT16",
+        [
+          1,
+          9,
+          1,
+          1
+        ]
+      ],
+      [
+        1,
+        "v9",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v15",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v11",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 205,
+    "points": 12.814503,
+    "cost": 195927,
+    "memory": 195705,
+    "params": 222,
+    "nodes": 672,
+    "file_size": 48180,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 190910,
+      "BOOL": 22715,
+      "INT32": 80
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "v8",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 18000,
+        "name": "input_f16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 6000,
+        "name": "v743",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 2000,
+        "name": "v799",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          10
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 2000,
+        "name": "v798",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          10
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 2000,
+        "name": "v797",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          10
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 2000,
+        "name": "v772",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          10
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 2000,
+        "name": "v763",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          10
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 2000,
+        "name": "v752",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          10
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 2000,
+        "name": "v744",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          10,
+          10
+        ],
+        "producer": "Gather"
+      }
+    ],
+    "top_initializers": [
+      [
+        30,
+        "ridx30",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          1
+        ]
+      ],
+      [
+        30,
+        "cidx30",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          30
+        ]
+      ],
+      [
+        10,
+        "ridx10",
+        "FLOAT16",
+        [
+          1,
+          1,
+          10,
+          1
+        ]
+      ],
+      [
+        10,
+        "kr10",
+        "FLOAT16",
+        [
+          1,
+          1,
+          10,
+          1
+        ]
+      ],
+      [
+        10,
+        "kc10",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          10
+        ]
+      ],
+      [
+        10,
+        "cidx10",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          10
+        ]
+      ],
+      [
+        10,
+        "ch_idx",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        10,
+        "base_idx_f",
+        "FLOAT16",
+        [
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 96,
+    "points": 12.825227,
+    "cost": 193837,
+    "memory": 192521,
+    "params": 1316,
+    "nodes": 457,
+    "file_size": 59457,
+    "dtype_bytes": {
+      "FLOAT": 50440,
+      "INT32": 19800,
+      "FLOAT16": 60264,
+      "BOOL": 32166,
+      "UINT8": 74851
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 14440,
+        "name": "input_crop",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          19,
+          19
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 13200,
+        "name": "/Expand_output_0",
+        "dtype": "INT32",
+        "shape": [
+          10,
+          11,
+          30
+        ],
+        "producer": "Expand"
+      },
+      {
+        "bytes": 12100,
+        "name": "/Conv_1_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          10,
+          5,
+          11,
+          11
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 9000,
+        "name": "/Mul_1_output_0_pad30",
+        "dtype": "UINT8",
+        "shape": [
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 8820,
+        "name": "/Pad_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          10,
+          1,
+          21,
+          21
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 7220,
+        "name": "input_f16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          19,
+          19
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 7220,
+        "name": "/Mul_1_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          10,
+          19,
+          19
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 7220,
+        "name": "/Gather_output_0",
+        "dtype": "FLOAT16",
+        "shape": [
+          10,
+          19,
+          19
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 6050,
+        "name": "/Less_3_output_0",
+        "dtype": "BOOL",
+        "shape": [
+          10,
+          5,
+          11,
+          11
+        ],
+        "producer": "Equal"
+      },
+      {
+        "bytes": 6050,
+        "name": "/Cast_17_output_0",
+        "dtype": "UINT8",
+        "shape": [
+          10,
+          5,
+          11,
+          11
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        605,
+        "inside",
+        "FLOAT16",
+        [
+          5,
+          1,
+          11,
+          11
+        ]
+      ],
+      [
+        190,
+        "/Constant_16_output_0",
+        "FLOAT16",
+        [
+          10,
+          19
+        ]
+      ],
+      [
+        190,
+        "/Constant_15_output_0",
+        "FLOAT16",
+        [
+          10,
+          19
+        ]
+      ],
+      [
+        100,
+        "/Concat_12_output_0",
+        "INT64",
+        [
+          10,
+          5,
+          2
+        ]
+      ],
+      [
+        60,
+        "/Constant_180_output_0",
+        "FLOAT16",
+        [
+          10,
+          6
+        ]
+      ],
+      [
+        20,
+        "/Concat_11_output_0",
+        "INT64",
+        [
+          10,
+          1,
+          2
+        ]
+      ],
+      [
+        19,
+        "onnx::Where_1082",
+        "FLOAT16",
+        [
+          1,
+          19
+        ]
+      ],
+      [
+        11,
+        "onnx::Sub_1205",
+        "FLOAT16",
+        [
+          1,
+          1,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 324,
+    "points": 12.836882,
+    "cost": 191591,
+    "memory": 189952,
+    "params": 1639,
+    "nodes": 263,
+    "file_size": 26081,
+    "dtype_bytes": {
+      "FLOAT": 52000,
+      "BOOL": 19140,
+      "FLOAT16": 163780,
+      "INT64": 32
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 16000,
+        "name": "input_crop",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 8000,
+        "name": "transpose_25",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          20,
+          20,
+          10
+        ],
+        "producer": "Transpose"
+      },
+      {
+        "bytes": 8000,
+        "name": "reshape_27",
+        "dtype": "FLOAT16",
+        "shape": [
+          400,
+          10
+        ],
+        "producer": "Reshape"
+      },
+      {
+        "bytes": 8000,
+        "name": "output_pre_fp16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 8000,
+        "name": "mul_401",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 8000,
+        "name": "input_f16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 8000,
+        "name": "concat_394",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 4000,
+        "name": "output_crop_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Greater"
+      },
+      {
+        "bytes": 800,
+        "name": "sub_400",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Sub"
+      },
+      {
+        "bytes": 800,
+        "name": "sub_39",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Sub"
+      }
+    ],
+    "top_initializers": [
+      [
+        1521,
+        "x_kernel",
+        "FLOAT16",
+        [
+          1,
+          1,
+          39,
+          39
+        ]
+      ],
+      [
+        10,
+        "ones10",
+        "FLOAT16",
+        [
+          10
+        ]
+      ],
+      [
+        10,
+        "colors_i64_12",
+        "INT64",
+        [
+          10
+        ]
+      ],
+      [
+        8,
+        "pads_81",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_75",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_69",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_63",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "crop324_pads",
+        "INT64",
+        [
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 173,
+    "points": 12.926071,
+    "cost": 175243,
+    "memory": 175026,
+    "params": 217,
+    "nodes": 68,
+    "file_size": 10061,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 58750,
+      "BOOL": 39868,
+      "UINT8": 85408
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 11250,
+        "name": "x9",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          25,
+          25
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 11250,
+        "name": "v_detected_sum",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          25,
+          25
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 11250,
+        "name": "h_detected_sum",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          25,
+          25
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 11250,
+        "name": "corners_detected_sum",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          25,
+          25
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 9000,
+        "name": "_u8_input",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 6250,
+        "name": "out25_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          25,
+          25
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 5625,
+        "name": "x9_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          9,
+          25,
+          25
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 5625,
+        "name": "v_full_t_u8",
+        "dtype": "UINT8",
+        "shape": [
+          625,
+          9
+        ],
+        "producer": "Transpose"
+      },
+      {
+        "bytes": 5625,
+        "name": "v_full_flat_u8",
+        "dtype": "UINT8",
+        "shape": [
+          9,
+          625
+        ],
+        "producer": "Reshape"
+      },
+      {
+        "bytes": 5625,
+        "name": "v_full_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          9,
+          25,
+          25
+        ],
+        "producer": "Greater"
+      }
+    ],
+    "top_initializers": [
+      [
+        81,
+        "non_diag_u8",
+        "UINT8",
+        [
+          9,
+          9
+        ]
+      ],
+      [
+        36,
+        "corners_detect_weight",
+        "FLOAT16",
+        [
+          9,
+          1,
+          2,
+          2
+        ]
+      ],
+      [
+        18,
+        "v_detect_weight",
+        "FLOAT16",
+        [
+          9,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        18,
+        "h_detect_weight",
+        "FLOAT16",
+        [
+          9,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        9,
+        "color_values_4d",
+        "FLOAT16",
+        [
+          1,
+          9,
+          1,
+          1
+        ]
+      ],
+      [
+        9,
+        "color_values_2d_u8",
+        "UINT8",
+        [
+          9,
+          1
+        ]
+      ],
+      [
+        8,
+        "pad_to_30",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        "shape_1_1_25_25",
+        "INT64",
+        [
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 54,
+    "points": 12.938629,
+    "cost": 173056,
+    "memory": 172895,
+    "params": 161,
+    "nodes": 117,
+    "file_size": 9661,
+    "dtype_bytes": {
+      "FLOAT": 57600,
+      "BOOL": 19803,
+      "FLOAT16": 140492
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Equal"
+      },
+      {
+        "bytes": 3600,
+        "name": "v29_pre_fp16",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 3600,
+        "name": "CumSum_88_output_fp32",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "CumSum"
+      },
+      {
+        "bytes": 3600,
+        "name": "CumSum_82_output_fp32",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "CumSum"
+      },
+      {
+        "bytes": 3600,
+        "name": "CumSum_75_output_fp32",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "CumSum"
+      },
+      {
+        "bytes": 3600,
+        "name": "CumSum_69_output_fp32",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "CumSum"
+      },
+      {
+        "bytes": 3600,
+        "name": "CumSum_69_input_fp32",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1800,
+        "name": "v99",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 1800,
+        "name": "v97",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 1800,
+        "name": "v95",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 1800,
+        "name": "v93",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      }
+    ],
+    "top_initializers": [
+      [
+        30,
+        "v15",
+        "INT64",
+        [
+          30
+        ]
+      ],
+      [
+        30,
+        "v12",
+        "INT64",
+        [
+          30
+        ]
+      ],
+      [
+        30,
+        "v10",
+        "INT64",
+        [
+          30
+        ]
+      ],
+      [
+        25,
+        "v26",
+        "FLOAT16",
+        [
+          1,
+          1,
+          5,
+          5
+        ]
+      ],
+      [
+        10,
+        "v4_delay_fp32",
+        "FLOAT",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        10,
+        "v4",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        9,
+        "v9",
+        "FLOAT16",
+        [
+          1,
+          1,
+          3,
+          3
+        ]
+      ],
+      [
+        9,
+        "v8",
+        "FLOAT16",
+        [
+          1,
+          1,
+          3,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 396,
+    "points": 12.967995,
+    "cost": 168048,
+    "memory": 151392,
+    "params": 16656,
+    "nodes": 407,
+    "file_size": 148123,
+    "dtype_bytes": {
+      "FLOAT": 50440,
+      "BOOL": 48108,
+      "INT64": 44448,
+      "FLOAT16": 53396
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 9000,
+        "name": "output_flat_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          900
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Reshape"
+      },
+      {
+        "bytes": 7200,
+        "name": "valid_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          900
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 7200,
+        "name": "input_r_times_30",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          900
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 7200,
+        "name": "input_r_grid",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          900
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 7200,
+        "name": "input_c_grid",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          900
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 7200,
+        "name": "flat_indices_safe",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          900
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 7200,
+        "name": "flat_indices",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          900
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 3600,
+        "name": "marker_ch_pre_fp16",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 3600,
+        "name": "input_one_tail",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ReduceSum"
+      },
+      {
+        "bytes": 3600,
+        "name": "input_bg_tail",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "thirty_grid",
+        "INT64",
+        [
+          1,
+          900
+        ]
+      ],
+      [
+        900,
+        "out_r_grid",
+        "INT64",
+        [
+          1,
+          900
+        ]
+      ],
+      [
+        900,
+        "out_c_grid",
+        "INT64",
+        [
+          1,
+          900
+        ]
+      ],
+      [
+        225,
+        "row_bank_0",
+        "INT64",
+        [
+          225
+        ]
+      ],
+      [
+        225,
+        "pos_bonus_0",
+        "FLOAT16",
+        [
+          1,
+          1,
+          15,
+          15
+        ]
+      ],
+      [
+        225,
+        "col_bank_0",
+        "INT64",
+        [
+          225
+        ]
+      ],
+      [
+        210,
+        "row_bank_5",
+        "INT64",
+        [
+          210
+        ]
+      ],
+      [
+        210,
+        "row_bank_1",
+        "INT64",
+        [
+          210
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 286,
+    "points": 13.003421,
+    "cost": 162199,
+    "memory": 160895,
+    "params": 1304,
+    "nodes": 169,
+    "file_size": 19719,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 28754,
+      "BOOL": 51125,
+      "INT64": 15016,
+      "UINT8": 75000
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 12500,
+        "name": "x16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          25,
+          25
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 9000,
+        "name": "input_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 6250,
+        "name": "x_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          25,
+          25
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 6250,
+        "name": "out25_masked_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          25,
+          25
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 6250,
+        "name": "out25_equal_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          25,
+          25
+        ],
+        "producer": "Equal"
+      },
+      {
+        "bytes": 5000,
+        "name": "out_label_i64_keep",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          25,
+          25
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 5000,
+        "name": "out_label_i64_4d",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          25,
+          25
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 5000,
+        "name": "out_label_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          25,
+          25
+        ],
+        "producer": "Squeeze"
+      },
+      {
+        "bytes": 1250,
+        "name": "unreached_label",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          25,
+          25
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 1250,
+        "name": "seed_odd_values",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          25,
+          25
+        ],
+        "producer": "Mul"
+      }
+    ],
+    "top_initializers": [
+      [
+        625,
+        "odd_mask",
+        "FLOAT16",
+        [
+          1,
+          1,
+          25,
+          25
+        ]
+      ],
+      [
+        625,
+        "even_mask",
+        "FLOAT16",
+        [
+          1,
+          1,
+          25,
+          25
+        ]
+      ],
+      [
+        10,
+        "task286_color_values_i64",
+        "INT64",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        10,
+        "label_weight",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        8,
+        "pad_to_30",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        "slice_start",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "slice_end",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "axes4",
+        "INT64",
+        [
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 118,
+    "points": 13.009177,
+    "cost": 161268,
+    "memory": 161124,
+    "params": 144,
+    "nodes": 71,
+    "file_size": 7269,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 93602,
+      "BOOL": 76522
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "x16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 16200,
+        "name": "fg_chans",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 9000,
+        "name": "without_five",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 9000,
+        "name": "recolor_ch8",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 9000,
+        "name": "recolor_ch5",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Or"
+      },
+      {
+        "bytes": 9000,
+        "name": "keep_not_five",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Not"
+      },
+      {
+        "bytes": 9000,
+        "name": "input_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Greater"
+      },
+      {
+        "bytes": 1800,
+        "name": "twos3",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "twos2",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "two16_grid",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      }
+    ],
+    "top_initializers": [
+      [
+        49,
+        "k_plus3",
+        "FLOAT16",
+        [
+          1,
+          1,
+          7,
+          7
+        ]
+      ],
+      [
+        49,
+        "k_outer3",
+        "FLOAT16",
+        [
+          1,
+          1,
+          7,
+          7
+        ]
+      ],
+      [
+        25,
+        "k_plus2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          5,
+          5
+        ]
+      ],
+      [
+        10,
+        "chan_values",
+        "INT64",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        1,
+        "zero16",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "two16",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "slice_ch_start",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "slice_ch_end",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 370,
+    "points": 13.023819,
+    "cost": 158924,
+    "memory": 157554,
+    "params": 1370,
+    "nodes": 388,
+    "file_size": 43394,
+    "dtype_bytes": {
+      "FLOAT": 52000,
+      "FLOAT16": 57282,
+      "BOOL": 102272
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 16000,
+        "name": "input_proc",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 8000,
+        "name": "out16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 8000,
+        "name": "input16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 800,
+        "name": "zrmin_grid",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 800,
+        "name": "zcmin_grid",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 800,
+        "name": "out9",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 800,
+        "name": "out8",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 800,
+        "name": "out7",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 800,
+        "name": "out6",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 800,
+        "name": "out5",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        400,
+        "ROW16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "COL16",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        8,
+        "pad_ur_9",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pad_ur_8",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pad_ur_6",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pad_ur_5",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pad_ur_4",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pad_ur_3",
+        "INT64",
+        [
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 77,
+    "points": 13.0302,
+    "cost": 157913,
+    "memory": 155700,
+    "params": 2213,
+    "nodes": 68,
+    "file_size": 7690,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "UINT8": 9000
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      }
+    ],
+    "top_initializers": [
+      [
+        420,
+        "v27",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          21
+        ]
+      ],
+      [
+        420,
+        "v25",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          21
+        ]
+      ],
+      [
+        420,
+        "v23",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          21
+        ]
+      ],
+      [
+        420,
+        "v21",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          21
+        ]
+      ],
+      [
+        420,
+        "v18",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          21
+        ]
+      ],
+      [
+        21,
+        "v3",
+        "INT64",
+        [
+          21
+        ]
+      ],
+      [
+        21,
+        "v10",
+        "FLOAT16",
+        [
+          1,
+          21
+        ]
+      ],
+      [
+        20,
+        "v9",
+        "FLOAT16",
+        [
+          1,
+          20
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 80,
+    "points": 13.048013,
+    "cost": 155125,
+    "memory": 153632,
+    "params": 1493,
+    "nodes": 93,
+    "file_size": 18484,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 99932,
+      "UINT8": 27040,
+      "INT64": 19400,
+      "BOOL": 16260
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "non_bg",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "_fp16_input",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 9000,
+        "name": "tail_output1_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 9000,
+        "name": "tail_input_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 7200,
+        "name": "flat_labels",
+        "dtype": "INT64",
+        "shape": [
+          900
+        ],
+        "producer": "Reshape"
+      },
+      {
+        "bytes": 7200,
+        "name": "color_labels",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ArgMax"
+      },
+      {
+        "bytes": 3100,
+        "name": "seen_f",
+        "dtype": "FLOAT16",
+        "shape": [
+          10,
+          155
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1800,
+        "name": "zero_channel",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 1800,
+        "name": "p2_diagonal_add_3",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "p2_diagonal",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Clip"
+      }
+    ],
+    "top_initializers": [
+      [
+        155,
+        "idx_d",
+        "INT64",
+        [
+          155
+        ]
+      ],
+      [
+        155,
+        "idx_c",
+        "INT64",
+        [
+          155
+        ]
+      ],
+      [
+        155,
+        "idx_b",
+        "INT64",
+        [
+          155
+        ]
+      ],
+      [
+        155,
+        "idx_a",
+        "INT64",
+        [
+          155
+        ]
+      ],
+      [
+        155,
+        "cand_rank",
+        "FLOAT16",
+        [
+          155
+        ]
+      ],
+      [
+        155,
+        "cand_pid",
+        "INT64",
+        [
+          155
+        ]
+      ],
+      [
+        121,
+        "conv_sum_fuse_p2_diagonal_add_3_w",
+        "FLOAT16",
+        [
+          1,
+          1,
+          11,
+          11
+        ]
+      ],
+      [
+        121,
+        "conv_sum_fuse_p2_cardinal_add_3_w",
+        "FLOAT16",
+        [
+          1,
+          1,
+          11,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 92,
+    "points": 13.071487,
+    "cost": 151526,
+    "memory": 151500,
+    "params": 26,
+    "nodes": 42,
+    "file_size": 4299,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 85440,
+      "BOOL": 48060,
+      "UINT8": 27000
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "x",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 16200,
+        "name": "v_weighted",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 16200,
+        "name": "v_mask",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 16200,
+        "name": "nonbg",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Equal"
+      },
+      {
+        "bytes": 8100,
+        "name": "v_up_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "MaxPool"
+      },
+      {
+        "bytes": 8100,
+        "name": "v_up_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 8100,
+        "name": "v_mask_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 8100,
+        "name": "v_down_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "MaxPool"
+      },
+      {
+        "bytes": 8100,
+        "name": "v_down_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 8100,
+        "name": "v_between_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "And"
+      }
+    ],
+    "top_initializers": [
+      [
+        10,
+        "color_weight",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        9,
+        "color_values9",
+        "FLOAT16",
+        [
+          1,
+          9,
+          1,
+          1
+        ]
+      ],
+      [
+        1,
+        "zero",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "two",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "sentinel",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "nonbg_end",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "half",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "axis_c",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 349,
+    "points": 13.103296,
+    "cost": 146782,
+    "memory": 146700,
+    "params": 82,
+    "nodes": 89,
+    "file_size": 8755,
+    "dtype_bytes": {
+      "FLOAT": 43200,
+      "FLOAT16": 142200,
+      "BOOL": 15300
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 3600,
+        "name": "v52_pre_fp16",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 3600,
+        "name": "v51_pre_fp16",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 1800,
+        "name": "v99",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 1800,
+        "name": "v98",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "MaxPool"
+      },
+      {
+        "bytes": 1800,
+        "name": "v97",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "MaxPool"
+      },
+      {
+        "bytes": 1800,
+        "name": "v96",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1800,
+        "name": "v93",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "v90",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 1800,
+        "name": "v89",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Sub"
+      },
+      {
+        "bytes": 1800,
+        "name": "v88",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      }
+    ],
+    "top_initializers": [
+      [
+        12,
+        "v45",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          12
+        ]
+      ],
+      [
+        10,
+        "v43",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          10
+        ]
+      ],
+      [
+        10,
+        "v37",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          10
+        ]
+      ],
+      [
+        8,
+        "v35",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          8
+        ]
+      ],
+      [
+        8,
+        "v29",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          8
+        ]
+      ],
+      [
+        6,
+        "v27",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          6
+        ]
+      ],
+      [
+        6,
+        "v21",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          6
+        ]
+      ],
+      [
+        4,
+        "v19",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 25,
+    "points": 13.149938,
+    "cost": 140093,
+    "memory": 140028,
+    "params": 65,
+    "nodes": 127,
+    "file_size": 13460,
+    "dtype_bytes": {
+      "FLOAT": 58304,
+      "BOOL": 102840,
+      "UINT8": 23884
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 3600,
+        "name": "v_line_cells",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_right_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_right",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_left_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_left",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_below_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_below",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_above_u8",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays_above",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "And"
+      },
+      {
+        "bytes": 3600,
+        "name": "slot_strays",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          4,
+          30,
+          30
+        ],
+        "producer": "And"
+      }
+    ],
+    "top_initializers": [
+      [
+        10,
+        "color_weight",
+        "FLOAT",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        8,
+        "pads_right_3",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_left_3",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_below_2",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        8,
+        "pads_above_2",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        1,
+        "zero_pad",
+        "FLOAT",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "s_r3",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "e_r3",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 234,
+    "points": 13.151045,
+    "cost": 139938,
+    "memory": 138492,
+    "params": 1446,
+    "nodes": 96,
+    "file_size": 8333,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 18000
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "v2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        270,
+        "v4",
+        "FLOAT16",
+        [
+          9,
+          1,
+          1,
+          30
+        ]
+      ],
+      [
+        270,
+        "v3",
+        "FLOAT16",
+        [
+          9,
+          1,
+          30,
+          1
+        ]
+      ],
+      [
+        1,
+        "v6",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v5",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v1",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v0",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "_boolmask_where_zero_1",
+        "FLOAT16",
+        []
+      ]
+    ]
+  },
+  {
+    "task": 264,
+    "points": 13.154639,
+    "cost": 139436,
+    "memory": 138584,
+    "params": 852,
+    "nodes": 115,
+    "file_size": 10074,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 156584
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 18000,
+        "name": "_fp16_input",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 14400,
+        "name": "v108",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          8,
+          30,
+          30
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 3920,
+        "name": "v220",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 3920,
+        "name": "v219",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 3920,
+        "name": "v208",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 3920,
+        "name": "v207",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 3920,
+        "name": "v196",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 3920,
+        "name": "v195",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 3920,
+        "name": "v183",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 3920,
+        "name": "v182",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          14,
+          14
+        ],
+        "producer": "Slice"
+      }
+    ],
+    "top_initializers": [
+      [
+        81,
+        "v97",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "v88",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "v79",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "v70",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "v57",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "v44",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "v2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "v107",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 280,
+    "points": 13.156003,
+    "cost": 139246,
+    "memory": 139200,
+    "params": 46,
+    "nodes": 138,
+    "file_size": 16655,
+    "dtype_bytes": {
+      "FLOAT": 52000,
+      "FLOAT16": 141200
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 16000,
+        "name": "v292_pre_fp16",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 8000,
+        "name": "v523",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 8000,
+        "name": "v292",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 800,
+        "name": "v522",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Sub"
+      },
+      {
+        "bytes": 800,
+        "name": "v521",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 800,
+        "name": "v520",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 800,
+        "name": "v519",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 800,
+        "name": "v518",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Sub"
+      },
+      {
+        "bytes": 800,
+        "name": "v517",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 800,
+        "name": "v516",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Mul"
+      }
+    ],
+    "top_initializers": [
+      [
+        20,
+        "v3",
+        "INT64",
+        [
+          20
+        ]
+      ],
+      [
+        8,
+        "v8",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        "v7",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "v6",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "v5",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        1,
+        "v9",
+        "FLOAT16",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v2",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v10",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 19,
+    "points": 13.165832,
+    "cost": 137884,
+    "memory": 136056,
+    "params": 1828,
+    "nodes": 35,
+    "file_size": 17887,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 151324,
+      "BOOL": 2700,
+      "INT64": 32
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "x_shiftW",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "MatMul"
+      },
+      {
+        "bytes": 18000,
+        "name": "x_shiftHW",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "MatMul"
+      },
+      {
+        "bytes": 18000,
+        "name": "x_shiftH",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "MatMul"
+      },
+      {
+        "bytes": 18000,
+        "name": "tiled",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 18000,
+        "name": "_fp16_input",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 12600,
+        "name": "tiled_ch1_7",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          7,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 1800,
+        "name": "tiled_colored",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 1800,
+        "name": "tiled_ch9",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 1800,
+        "name": "tiled_ch8",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 1800,
+        "name": "tiled_ch0",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "diffs_rc",
+        "INT64",
+        [
+          30,
+          30
+        ]
+      ],
+      [
+        900,
+        "diffs",
+        "INT64",
+        [
+          30,
+          30
+        ]
+      ],
+      [
+        10,
+        "W_colored",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        9,
+        "W_diag",
+        "FLOAT16",
+        [
+          1,
+          1,
+          3,
+          3
+        ]
+      ],
+      [
+        2,
+        "shape_1_1",
+        "INT64",
+        [
+          2
+        ]
+      ],
+      [
+        1,
+        "sl_s0",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "sl_e9",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "sl_e8",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 204,
+    "points": 13.206009,
+    "cost": 132454,
+    "memory": 131200,
+    "params": 1254,
+    "nodes": 69,
+    "file_size": 9645,
+    "dtype_bytes": {
+      "FLOAT": 52000,
+      "BOOL": 22600,
+      "FLOAT16": 24800,
+      "INT64": 76800
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 16000,
+        "name": "input_crop",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 9000,
+        "name": "output",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 8000,
+        "name": "input_f16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 6400,
+        "name": "idx_TR",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          20,
+          20,
+          2
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 6400,
+        "name": "idx_TL",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          20,
+          20,
+          2
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 6400,
+        "name": "idx_BR",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          20,
+          20,
+          2
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 6400,
+        "name": "idx_BL",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          20,
+          20,
+          2
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 4000,
+        "name": "out_b",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          10,
+          20,
+          20
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 3200,
+        "name": "r_top_u",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          20,
+          20,
+          1
+        ],
+        "producer": "Unsqueeze"
+      },
+      {
+        "bytes": 3200,
+        "name": "r_top_i64",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 3200,
+        "name": "r_top_clip",
+        "dtype": "INT64",
+        "shape": [
+          1,
+          1,
+          20,
+          20
+        ],
+        "producer": "Min"
+      }
+    ],
+    "top_initializers": [
+      [
+        400,
+        "zero_b",
+        "BOOL",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "row_idx_full",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        400,
+        "col_idx_full",
+        "FLOAT16",
+        [
+          1,
+          1,
+          20,
+          20
+        ]
+      ],
+      [
+        8,
+        "task204_pads",
+        "INT64",
+        [
+          8
+        ]
+      ],
+      [
+        4,
+        "task204_crop_steps",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "task204_crop_starts",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "task204_crop_ends",
+        "INT64",
+        [
+          4
+        ]
+      ],
+      [
+        4,
+        "task204_crop_axes",
+        "INT64",
+        [
+          4
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 383,
+    "points": 13.224964,
+    "cost": 129967,
+    "memory": 129030,
+    "params": 937,
+    "nodes": 57,
+    "file_size": 6805,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 129852,
+      "BOOL": 17178
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 18000,
+        "name": "_fp16_input",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 16200,
+        "name": "v89",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 16200,
+        "name": "v44",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 16200,
+        "name": "v127",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 16200,
+        "name": "v126",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 1800,
+        "name": "v76",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "v68",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "v60",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "v52",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      },
+      {
+        "bytes": 1800,
+        "name": "v45",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Conv"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "v2",
+        "FLOAT16",
+        [
+          1,
+          1,
+          30,
+          30
+        ]
+      ],
+      [
+        10,
+        "v4",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        9,
+        "v5",
+        "FLOAT16",
+        [
+          1,
+          9,
+          1,
+          1
+        ]
+      ],
+      [
+        9,
+        "v3",
+        "FLOAT16",
+        [
+          1,
+          9,
+          1,
+          1
+        ]
+      ],
+      [
+        2,
+        "conv_sum_fuse_v68_w_red_11",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          2
+        ]
+      ],
+      [
+        2,
+        "conv_sum_fuse_v52_w_red_5",
+        "FLOAT16",
+        [
+          1,
+          1,
+          2,
+          1
+        ]
+      ],
+      [
+        1,
+        "v9",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "v7",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 71,
+    "points": 13.226404,
+    "cost": 129780,
+    "memory": 128850,
+    "params": 930,
+    "nodes": 49,
+    "file_size": 12082,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 144920,
+      "BOOL": 930,
+      "INT64": 1000
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "rem_per_ch",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "output_keep_part",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "output_bg_part",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Add"
+      },
+      {
+        "bytes": 18000,
+        "name": "keep_per_ch",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "input_masked",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 18000,
+        "name": "_fp16_input",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1800,
+        "name": "shape_mask_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Max"
+      },
+      {
+        "bytes": 1800,
+        "name": "shape_mask",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 1800,
+        "name": "safe_mask",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 1800,
+        "name": "rem_mask",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ReduceSum"
+      }
+    ],
+    "top_initializers": [
+      [
+        900,
+        "ipj",
+        "INT64",
+        [
+          30,
+          30
+        ]
+      ],
+      [
+        10,
+        "ch_mask",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        10,
+        "ch0_sel",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        2,
+        "shape_empty",
+        "INT64",
+        [
+          2
+        ]
+      ],
+      [
+        1,
+        "zero_f",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      [
+        1,
+        "rev_starts",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "rev_ends",
+        "INT64",
+        [
+          1
+        ]
+      ],
+      [
+        1,
+        "rev_axes_r",
+        "INT64",
+        [
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 5,
+    "points": 13.32815,
+    "cost": 117225,
+    "memory": 116889,
+    "params": 336,
+    "nodes": 106,
+    "file_size": 10910,
+    "dtype_bytes": {
+      "FLOAT": 53640,
+      "FLOAT16": 104452,
+      "INT32": 1764,
+      "BOOL": 11033
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Pad"
+      },
+      {
+        "bytes": 17640,
+        "name": "v117_pre_fp16",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          21,
+          21
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 8820,
+        "name": "v295",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          21,
+          21
+        ],
+        "producer": "Transpose"
+      },
+      {
+        "bytes": 8820,
+        "name": "v294",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          21,
+          21,
+          10
+        ],
+        "producer": "Squeeze"
+      },
+      {
+        "bytes": 8820,
+        "name": "v293",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          21,
+          21,
+          10
+        ],
+        "producer": "Gather"
+      },
+      {
+        "bytes": 8820,
+        "name": "v117",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          21,
+          21
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 1764,
+        "name": "v292",
+        "dtype": "INT32",
+        "shape": [
+          1,
+          1,
+          21,
+          21
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 882,
+        "name": "v291",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          21,
+          21
+        ],
+        "producer": "Sum"
+      },
+      {
+        "bytes": 882,
+        "name": "v290",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          21,
+          21
+        ],
+        "producer": "Mul"
+      },
+      {
+        "bytes": 882,
+        "name": "v289",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          21,
+          21
+        ],
+        "producer": "Sub"
+      },
+      {
+        "bytes": 882,
+        "name": "v288",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          21,
+          21
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        100,
+        "v4",
+        "FLOAT16",
+        [
+          10,
+          10
+        ]
+      ],
+      [
+        81,
+        "shift_sum_conv_w_83",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        81,
+        "shift_sum_conv_w_55",
+        "FLOAT16",
+        [
+          1,
+          1,
+          9,
+          9
+        ]
+      ],
+      [
+        10,
+        "v9",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        10,
+        "v8",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        10,
+        "v12",
+        "FLOAT16",
+        [
+          1,
+          10,
+          1,
+          1
+        ]
+      ],
+      [
+        9,
+        "v10",
+        "FLOAT16",
+        [
+          1,
+          1,
+          3,
+          3
+        ]
+      ],
+      [
+        9,
+        "shift_sum_conv_w_97",
+        "FLOAT16",
+        [
+          1,
+          1,
+          1,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "task": 13,
+    "points": 13.33108,
+    "cost": 116882,
+    "memory": 114625,
+    "params": 2257,
+    "nodes": 91,
+    "file_size": 18384,
+    "dtype_bytes": {
+      "FLOAT": 36000,
+      "FLOAT16": 102624,
+      "UINT8": 18660,
+      "BOOL": 11341
+    },
+    "top_tensors": [
+      {
+        "bytes": 36000,
+        "name": "input",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": null
+      },
+      {
+        "bytes": 18000,
+        "name": "output",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Concat"
+      },
+      {
+        "bytes": 16200,
+        "name": "row_canvas",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 16200,
+        "name": "new_nbg_sum",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 16200,
+        "name": "new_nbg",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 16200,
+        "name": "col_canvas",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Where"
+      },
+      {
+        "bytes": 9000,
+        "name": "_fp16_input",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          10,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      },
+      {
+        "bytes": 8100,
+        "name": "new_nbg_bool",
+        "dtype": "BOOL",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Greater"
+      },
+      {
+        "bytes": 8100,
+        "name": "nbg",
+        "dtype": "UINT8",
+        "shape": [
+          1,
+          9,
+          30,
+          30
+        ],
+        "producer": "Slice"
+      },
+      {
+        "bytes": 1800,
+        "name": "new_bg",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Sub"
+      },
+      {
+        "bytes": 1800,
+        "name": "any_color",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "ReduceMax"
+      },
+      {
+        "bytes": 1800,
+        "name": "active_u8_back_to_fp16",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          30,
+          30
+        ],
+        "producer": "Cast"
+      }
+    ],
+    "top_initializers": [
+      [
+        261,
+        "identity_conv_sum_group_row_stripes_d2_sum_7_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          29,
+          1
+        ]
+      ],
+      [
+        261,
+        "identity_conv_sum_group_col_stripes_d2_sum_7_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          1,
+          29
+        ]
+      ],
+      [
+        225,
+        "identity_conv_sum_group_row_stripes_d6_sum_2_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          25,
+          1
+        ]
+      ],
+      [
+        225,
+        "identity_conv_sum_group_row_stripes_d4_sum_3_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          25,
+          1
+        ]
+      ],
+      [
+        225,
+        "identity_conv_sum_group_row_stripes_d3_sum_4_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          25,
+          1
+        ]
+      ],
+      [
+        225,
+        "identity_conv_sum_group_col_stripes_d6_sum_2_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          1,
+          25
+        ]
+      ],
+      [
+        225,
+        "identity_conv_sum_group_col_stripes_d4_sum_3_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          1,
+          25
+        ]
+      ],
+      [
+        225,
+        "identity_conv_sum_group_col_stripes_d3_sum_4_w",
+        "FLOAT16",
+        [
+          9,
+          1,
+          1,
+          25
+        ]
+      ]
+    ]
+  }
+]

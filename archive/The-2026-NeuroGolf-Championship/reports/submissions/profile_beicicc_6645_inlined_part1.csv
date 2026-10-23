@@ -1,0 +1,101 @@
+task,status,arc_agi_right,arc_agi_wrong,arc_gen_right,arc_gen_wrong,memory,params,cost,points,filesize,nodes,seconds,error
+1,ok,6,0,262,0,4463,24,4487,16.591060,1156,16,0.374,
+2,ok,6,0,262,0,417600,918,418518,12.055525,12153,108,3.833,
+3,error,0,0,0,0,,,,,4302,41,0.032,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_62"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+4,ok,3,0,262,0,345096,938,346034,12.245708,5116,18,2.800,
+5,error,0,0,0,0,,,,,13572,180,0.024,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_79"", Pad, """", -1) : (""safe_name_64"": tensor(float),) -> (""safe_name_79"",) , Error Node(safe_name_79) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+6,ok,4,0,262,0,1872,48,1920,17.439920,1262,10,0.936,
+7,error,0,0,0,0,,,,,1739,13,0.020,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_29"", Unsqueeze, """", -1) : (""safe_name_28"": tensor(float),""safe_name_15"": tensor(int64),) -> (""safe_name_29"",) , Error Node(safe_name_29) with schema(::Unsqueeze:11) has input size 2 not in range [min=1, max=1]."
+8,error,0,0,0,0,,,,,97661,825,0.370,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_903"", Pad, """", -1) : (""safe_name_129"": tensor(float),) -> (""safe_name_903"",) , Error Node(safe_name_903) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+9,ok,4,0,261,0,111600,3842,115442,13.343476,31229,21,1.947,
+10,ok,3,0,262,0,52384,136,52520,14.131051,6032,67,2.906,
+11,ok,5,0,262,0,95766,2343,98109,13.506166,10404,91,3.675,
+12,ok,3,0,262,0,19392,117,19509,15.121369,1948,17,1.148,
+13,error,0,0,0,0,,,,,5199,67,0.009,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_73"", Pad, """", -1) : (""safe_name_72"": tensor(float),) -> (""safe_name_73"",) , Error Node(safe_name_73) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+14,error,0,0,0,0,,,,,3927,57,0.031,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_25"", Pad, """", -1) : (""input"": tensor(float),) -> (""safe_name_25"",) , Error Node(safe_name_25) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+15,ok,4,0,261,0,87544,40,87584,13.619646,2375,53,2.502,
+16,ok,5,0,262,0,0,11,11,22.602105,205,1,0.372,
+17,error,0,0,0,0,,,,,23865,268,0.114,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_70"", Pad, """", -1) : (""safe_name_69"": tensor(float),) -> (""safe_name_70"",) , Error Node(safe_name_70) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+18,ok,4,0,262,0,123384,6749,130133,13.223688,28739,23,1.624,
+19,error,0,0,0,0,,,,,4086,45,0.114,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_36"", ReduceSum, """", -1) : (""input"": tensor(float),""safe_name_0"": tensor(int64),) -> (""safe_name_36"",) , Error Node(safe_name_36) with schema(::ReduceSum:11) has input size 2 not in range [min=1, max=1]."
+20,unmeasurable,4,0,262,0,678692,,,,8150,53,4.812,
+21,ok,4,0,73,0,197280,7417,204697,12.770714,74891,253,3.941,
+22,error,0,0,0,0,,,,,49177,287,0.190,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_88"", Pad, """", -1) : (""safe_name_87"": tensor(float),) -> (""safe_name_88"",) , Error Node(safe_name_88) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+23,ok,4,0,262,0,21339,490,21829,15.009005,3157,15,1.269,
+24,ok,4,0,262,0,75960,981,76941,13.749206,5603,22,1.137,
+25,ok,4,0,262,0,74054,15233,89287,13.600389,61734,10,1.214,
+26,ok,6,0,262,0,5004,48,5052,16.472461,1551,23,0.333,
+27,error,0,0,0,0,,,,,31107,23,0.008,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_24"", Pad, """", -1) : (""safe_name_23"": tensor(float),) -> (""safe_name_24"",) , Error Node(safe_name_24) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+28,error,0,0,0,0,,,,,2833,25,0.014,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_26"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+29,error,0,0,0,0,,,,,10942,85,0.017,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_96"", Pad, """", -1) : (""input"": tensor(float),) -> (""safe_name_96"",) , Error Node(safe_name_96) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+30,error,0,0,0,0,,,,,5255,19,0.019,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_20"", Pad, """", -1) : (""safe_name_19"": tensor(float),) -> (""safe_name_20"",) , Error Node(safe_name_20) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+31,ok,4,0,262,0,113960,106,114066,13.355467,3657,34,0.774,
+32,error,0,0,0,0,,,,,2371,25,0.020,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_17"", Pad, """", -1) : (""safe_name_16"": tensor(float),) -> (""safe_name_17"",) , Error Node(safe_name_17) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+33,error,0,0,0,0,,,,,1334,15,0.007,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_13"", Pad, """", -1) : (""safe_name_12"": tensor(float),) -> (""safe_name_13"",) , Error Node(safe_name_13) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+34,ok,5,0,262,0,212937,157,213094,12.730511,7478,124,3.115,
+35,error,0,0,0,0,,,,,10744,117,0.101,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_140"", Pad, """", -1) : (""safe_name_96"": tensor(float),) -> (""safe_name_140"",) , Error Node(safe_name_140) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+36,ok,3,0,262,0,121862,153,122015,13.288101,5960,59,1.623,
+37,error,0,0,0,0,,,,,12157,54,0.006,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_55"", Pad, """", -1) : (""safe_name_54"": tensor(float16),) -> (""safe_name_55"",) , Error Node(safe_name_55) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+38,error,0,0,0,0,,,,,1727,19,0.008,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_22"", Resize, """", -1) : (""safe_name_21"": tensor(float),""safe_name_8"": tensor(float),) -> (""safe_name_22"",) , Error Node(safe_name_22) with schema(::Resize:11) has input size 2 not in range [min=3, max=4]."
+39,error,0,0,0,0,,,,,20777,25,0.039,InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. Type Error: Type 'tensor(int64)' of input parameter (safe_name_29) of operator (Clip) in node (safe_name_31) is invalid.
+40,error,0,0,0,0,,,,,5420,49,0.141,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_52"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+41,ok,4,0,262,0,482670,6517,489187,11.899500,57416,165,3.226,
+42,error,0,0,0,0,,,,,12297,79,0.289,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_75"", ReduceSum, """", -1) : (""safe_name_74"": tensor(float),""safe_name_6"": tensor(int64),) -> (""safe_name_75"",) , Error Node(safe_name_75) with schema(::ReduceSum:11) has input size 2 not in range [min=1, max=1]."
+43,ok,4,0,262,0,25544,13,25557,14.851333,1184,23,0.327,
+44,ok,4,0,262,0,20902,10904,31806,14.632590,25734,14,0.917,
+45,error,0,0,0,0,,,,,1416,13,0.129,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_21"", Clip, """", -1) : (""safe_name_20"": tensor(float),) -> (""safe_name_21"",) , Error Unrecognized attribute: max for operator Clip"
+46,error,0,0,0,0,,,,,8922,77,0.039,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_49"", Pad, """", -1) : (""safe_name_48"": tensor(float),) -> (""safe_name_49"",) , Error Node(safe_name_49) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+47,ok,3,0,262,0,116400,311,116711,13.332544,2106,9,0.676,
+48,ok,8,0,262,0,86222,18101,104323,13.444753,77013,64,2.609,
+49,ok,6,0,262,0,87445,155,87600,13.619464,3474,30,1.637,
+50,ok,9,0,262,0,111968,22,111990,13.373835,2033,41,1.133,
+51,error,0,0,0,0,,,,,7526,95,0.074,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_101"", Pad, """", -1) : (""safe_name_19"": tensor(float),) -> (""safe_name_101"",) , Error Node(safe_name_101) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+52,ok,5,0,262,0,1895,42,1937,17.431104,1251,22,0.708,
+53,ok,6,0,54,0,0,31,31,21.566013,225,1,0.068,
+54,ok,4,0,262,0,356595,151,356746,12.215221,8269,128,5.848,
+55,ok,3,0,260,0,47820,997,48817,14.204166,19336,175,8.081,
+56,ok,10,0,36,0,21648,1808,23456,14.937118,9205,25,0.098,
+57,error,0,0,0,0,,,,,1465,15,0.044,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_19"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+58,ok,6,0,16,0,10900,15319,26219,14.825760,62079,9,0.236,
+59,ok,4,0,262,0,192607,18235,210842,12.741136,75448,35,1.418,
+60,ok,3,0,262,0,131465,5435,136900,13.172994,30048,49,3.013,
+61,unmeasurable,5,0,262,0,,,,,61167,87,0.576,
+62,ok,5,0,262,0,50488,947,51435,14.151926,16462,238,9.222,
+63,ok,4,0,262,0,66824,12,66836,13.890003,2197,43,1.283,
+64,ok,5,0,262,0,304918,230,305148,12.371448,4263,48,1.501,
+65,error,0,0,0,0,,,,,2766,37,0.057,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_45"", Pad, """", -1) : (""safe_name_12"": tensor(float),) -> (""safe_name_45"",) , Error Node(safe_name_45) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+66,ok,4,0,262,0,96162,4449,100611,13.480983,22259,74,4.193,
+67,ok,4,0,262,0,402,33,435,18.924654,866,8,0.705,
+68,error,0,0,0,0,,,,,2716,35,0.009,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_35"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+69,error,0,0,0,0,,,,,34208,398,0.318,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_439"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+70,ok,4,0,262,0,98308,17,98325,13.503966,7235,89,1.871,
+71,unmeasurable,3,0,262,0,227480,,,,4841,51,1.048,
+72,ok,6,0,262,0,6024,78,6102,16.283628,1623,21,0.650,
+73,ok,4,0,11,0,71640,53,71693,13.819852,2339,49,0.041,
+74,error,0,0,0,0,,,,,1761,17,0.098,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_13"", Pad, """", -1) : (""safe_name_12"": tensor(float),) -> (""safe_name_13"",) , Error Node(safe_name_13) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+75,ok,4,0,261,0,74868,72,74940,13.775557,9237,136,1.937,
+76,ok,4,0,262,0,31154,5034,36188,14.503517,21250,22,0.802,
+77,error,0,0,0,0,,,,,8201,74,0.213,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_87"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+78,error,0,0,0,0,,,,,2584,33,0.068,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_33"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+79,error,0,0,0,0,,,,,2689,20,0.145,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_26"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+80,error,0,0,0,0,,,,,28024,167,0.047,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_107"", ReduceSum, """", -1) : (""safe_name_103"": tensor(float),""safe_name_2"": tensor(int64),) -> (""safe_name_107"",) , Error Node(safe_name_107) with schema(::ReduceSum:11) has input size 2 not in range [min=1, max=1]."
+81,ok,3,0,261,0,57600,445,58045,14.031026,2469,6,0.665,
+82,error,0,0,0,0,,,,,2772,29,0.006,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_17"", Pad, """", -1) : (""safe_name_14"": tensor(float),) -> (""safe_name_17"",) , Error Node(safe_name_17) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+83,ok,4,0,262,0,5864,13,5877,16.321198,923,13,0.141,
+84,ok,4,0,171,0,127940,1805,129745,13.226674,4076,38,0.513,
+85,ok,3,0,262,0,284400,114,284514,12.441462,1974,17,0.637,
+86,error,0,0,0,0,,,,,4408,43,0.007,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""output"", Pad, """", -1) : (""safe_name_61"": tensor(float),) -> (""output"": tensor(float),) , Error Node(output) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+87,ok,5,0,261,0,488,16,504,18.777424,611,7,0.158,
+88,ok,5,0,262,0,183714,1888,185602,12.868640,19325,56,2.279,
+89,ok,5,0,262,0,541857,1696,543553,11.794118,113191,1522,45.720,
+90,ok,5,0,262,0,90500,105,90605,13.585735,17621,245,3.266,
+91,ok,4,0,262,0,81756,109,81865,13.687173,4203,41,0.751,
+92,ok,3,0,262,0,668240,11,668251,11.587581,2049,42,1.362,
+93,error,0,0,0,0,,,,,4980,51,0.009,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_63"", Clip, """", -1) : (""safe_name_62"": tensor(float),) -> (""safe_name_63"",) , Error Unrecognized attribute: max for operator Clip"
+94,error,0,0,0,0,,,,,3010,36,0.009,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_23"", Pad, """", -1) : (""safe_name_22"": tensor(float),) -> (""safe_name_23"",) , Error Node(safe_name_23) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+95,ok,3,0,262,0,21648,6,21654,15.017055,729,13,0.520,
+96,ok,4,0,262,0,12725,16644,29369,14.712305,20073,23,1.042,
+97,error,0,0,0,0,,,,,2878,27,0.009,"InvalidGraph: [ONNXRuntimeError] : 10 : INVALID_GRAPH : This is an invalid model. In Node, (""safe_name_47"", Pad, """", -1) : (""safe_name_31"": tensor(float),) -> (""safe_name_47"",) , Error Node(safe_name_47) with schema(::Pad:11) has input size 1 not in range [min=2, max=3]."
+98,ok,4,0,262,0,130240,24,130264,13.222682,1253,19,0.429,
+99,ok,4,0,261,0,42256,851,43107,14.328559,6925,46,1.031,
+100,ok,4,0,262,0,39286,923,40209,14.398154,5697,36,0.591,

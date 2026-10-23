@@ -1,0 +1,4 @@
+task,status,arc_agi_right,arc_agi_wrong,arc_gen_right,arc_gen_wrong,memory,params,cost,points,filesize,nodes,seconds,error
+233,ok,4,0,262,0,4754696,142960,4897656,9.595733,938774,1372,64.701,
+255,ok,4,0,261,0,43340368,17900,43358268,7.414992,106804,851,32.776,
+319,ok,5,0,262,0,26456820,8943,26465763,7.908638,247340,2709,58.671,

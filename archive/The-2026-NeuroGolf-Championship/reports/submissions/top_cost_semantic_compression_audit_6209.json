@@ -1,0 +1,2375 @@
+[
+  {
+    "task": 219,
+    "cost": 12736775.0,
+    "memory": 12733327.0,
+    "params": 3448.0,
+    "points": 8.639996,
+    "nodes": 518,
+    "inits": 99,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Unsqueeze",
+        95
+      ],
+      [
+        "Gather",
+        55
+      ],
+      [
+        "Mul",
+        43
+      ],
+      [
+        "Slice",
+        37
+      ],
+      [
+        "Cast",
+        34
+      ],
+      [
+        "Sub",
+        30
+      ],
+      [
+        "Add",
+        29
+      ],
+      [
+        "Where",
+        26
+      ],
+      [
+        "Reshape",
+        26
+      ],
+      [
+        "Less",
+        18
+      ],
+      [
+        "And",
+        16
+      ],
+      [
+        "Greater",
+        13
+      ]
+    ]
+  },
+  {
+    "task": 157,
+    "cost": 2460871.0,
+    "memory": 2406658.0,
+    "params": 54213.0,
+    "points": 10.283974,
+    "nodes": 678,
+    "inits": 102,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 15,
+    "dup_init_waste_elems": 73,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 73,
+    "est_delta": 2.9664733652623454e-05,
+    "op_counts": [
+      [
+        "Gather",
+        124
+      ],
+      [
+        "Reshape",
+        121
+      ],
+      [
+        "Where",
+        70
+      ],
+      [
+        "Max",
+        48
+      ],
+      [
+        "Mul",
+        44
+      ],
+      [
+        "Sub",
+        31
+      ],
+      [
+        "Expand",
+        29
+      ],
+      [
+        "Concat",
+        29
+      ],
+      [
+        "Cast",
+        26
+      ],
+      [
+        "Transpose",
+        22
+      ],
+      [
+        "Tile",
+        20
+      ],
+      [
+        "And",
+        19
+      ]
+    ]
+  },
+  {
+    "task": 255,
+    "cost": 1683440.0,
+    "memory": 1539906.0,
+    "params": 143534.0,
+    "points": 10.66365,
+    "nodes": 175,
+    "inits": 36,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 6,
+    "dup_init_waste_elems": 906,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [
+      [
+        211250,
+        "score"
+      ],
+      [
+        189225,
+        "rect_obs"
+      ],
+      [
+        189225,
+        "all_bg_f"
+      ],
+      [
+        189225,
+        "all_bg"
+      ],
+      [
+        105625,
+        "all_bg_for_score"
+      ]
+    ],
+    "removable_est": 906,
+    "est_delta": 0.0005383285918902914,
+    "op_counts": [
+      [
+        "Reshape",
+        29
+      ],
+      [
+        "And",
+        23
+      ],
+      [
+        "Where",
+        14
+      ],
+      [
+        "GreaterOrEqual",
+        14
+      ],
+      [
+        "LessOrEqual",
+        14
+      ],
+      [
+        "Cast",
+        13
+      ],
+      [
+        "QLinearMatMul",
+        10
+      ],
+      [
+        "Greater",
+        9
+      ],
+      [
+        "Gather",
+        9
+      ],
+      [
+        "Expand",
+        7
+      ],
+      [
+        "Equal",
+        6
+      ],
+      [
+        "Less",
+        4
+      ]
+    ]
+  },
+  {
+    "task": 233,
+    "cost": 1659583.0,
+    "memory": 1647529.0,
+    "params": 12054.0,
+    "points": 10.677923,
+    "nodes": 2428,
+    "inits": 147,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 30,
+    "dup_init_waste_elems": 1903,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 1903,
+    "est_delta": 0.0011473315252690242,
+    "op_counts": [
+      [
+        "And",
+        568
+      ],
+      [
+        "Add",
+        327
+      ],
+      [
+        "Where",
+        315
+      ],
+      [
+        "Or",
+        241
+      ],
+      [
+        "Equal",
+        201
+      ],
+      [
+        "Slice",
+        174
+      ],
+      [
+        "Greater",
+        103
+      ],
+      [
+        "Reshape",
+        58
+      ],
+      [
+        "ReduceMin",
+        50
+      ],
+      [
+        "ReduceMax",
+        48
+      ],
+      [
+        "Not",
+        47
+      ],
+      [
+        "Cast",
+        45
+      ]
+    ]
+  },
+  {
+    "task": 366,
+    "cost": 1091804.0,
+    "memory": 1086269.0,
+    "params": 5535.0,
+    "points": 11.096658,
+    "nodes": 899,
+    "inits": 72,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 9,
+    "dup_init_waste_elems": 69,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 69,
+    "est_delta": 6.320015353367125e-05,
+    "op_counts": [
+      [
+        "Where",
+        145
+      ],
+      [
+        "And",
+        129
+      ],
+      [
+        "Equal",
+        95
+      ],
+      [
+        "Slice",
+        88
+      ],
+      [
+        "Cast",
+        61
+      ],
+      [
+        "ReduceSum",
+        44
+      ],
+      [
+        "Or",
+        38
+      ],
+      [
+        "Reshape",
+        27
+      ],
+      [
+        "Greater",
+        25
+      ],
+      [
+        "Tile",
+        25
+      ],
+      [
+        "Max",
+        25
+      ],
+      [
+        "Pad",
+        22
+      ]
+    ]
+  },
+  {
+    "task": 319,
+    "cost": 737934.0,
+    "memory": 728857.0,
+    "params": 9077.0,
+    "points": 11.48839,
+    "nodes": 2051,
+    "inits": 54,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 2,
+    "dup_init_waste_elems": 722,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 722,
+    "est_delta": 0.00097888623587572,
+    "op_counts": [
+      [
+        "Where",
+        235
+      ],
+      [
+        "And",
+        204
+      ],
+      [
+        "Sub",
+        150
+      ],
+      [
+        "Tile",
+        128
+      ],
+      [
+        "Add",
+        123
+      ],
+      [
+        "Mul",
+        123
+      ],
+      [
+        "Cast",
+        122
+      ],
+      [
+        "Div",
+        112
+      ],
+      [
+        "Max",
+        110
+      ],
+      [
+        "Gather",
+        101
+      ],
+      [
+        "ReduceSum",
+        93
+      ],
+      [
+        "Reshape",
+        91
+      ]
+    ]
+  },
+  {
+    "task": 133,
+    "cost": 713472.0,
+    "memory": 709806.0,
+    "params": 3666.0,
+    "points": 11.522102,
+    "nodes": 509,
+    "inits": 64,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 1,
+    "dup_init_waste_elems": 1,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 1,
+    "est_delta": 1.401597682360034e-06,
+    "op_counts": [
+      [
+        "And",
+        71
+      ],
+      [
+        "Cast",
+        70
+      ],
+      [
+        "Where",
+        60
+      ],
+      [
+        "Greater",
+        38
+      ],
+      [
+        "Reshape",
+        38
+      ],
+      [
+        "Add",
+        38
+      ],
+      [
+        "Less",
+        34
+      ],
+      [
+        "Mul",
+        30
+      ],
+      [
+        "Equal",
+        29
+      ],
+      [
+        "Gather",
+        21
+      ],
+      [
+        "ScatterElements",
+        18
+      ],
+      [
+        "ConstantOfShape",
+        16
+      ]
+    ]
+  },
+  {
+    "task": 285,
+    "cost": 487263.0,
+    "memory": 473648.0,
+    "params": 13615.0,
+    "points": 11.903441,
+    "nodes": 325,
+    "inits": 63,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 4,
+    "dup_init_waste_elems": 12,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 12,
+    "est_delta": 2.4627660557996478e-05,
+    "op_counts": [
+      [
+        "And",
+        53
+      ],
+      [
+        "Where",
+        46
+      ],
+      [
+        "Equal",
+        44
+      ],
+      [
+        "Or",
+        27
+      ],
+      [
+        "Cast",
+        26
+      ],
+      [
+        "Greater",
+        25
+      ],
+      [
+        "Not",
+        17
+      ],
+      [
+        "Add",
+        17
+      ],
+      [
+        "Reshape",
+        13
+      ],
+      [
+        "Slice",
+        9
+      ],
+      [
+        "Gather",
+        9
+      ],
+      [
+        "Sub",
+        7
+      ]
+    ]
+  },
+  {
+    "task": 18,
+    "cost": 476185.0,
+    "memory": 475190.0,
+    "params": 995.0,
+    "points": 11.926438,
+    "nodes": 192,
+    "inits": 33,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 1,
+    "dup_init_waste_elems": 1,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 1,
+    "est_delta": 2.100026355478235e-06,
+    "op_counts": [
+      [
+        "Mul",
+        31
+      ],
+      [
+        "Cast",
+        17
+      ],
+      [
+        "Slice",
+        17
+      ],
+      [
+        "Add",
+        14
+      ],
+      [
+        "MaxPool",
+        13
+      ],
+      [
+        "Greater",
+        11
+      ],
+      [
+        "ReduceSum",
+        9
+      ],
+      [
+        "Sub",
+        8
+      ],
+      [
+        "Gather",
+        8
+      ],
+      [
+        "ReduceMax",
+        7
+      ],
+      [
+        "And",
+        6
+      ],
+      [
+        "Equal",
+        4
+      ]
+    ]
+  },
+  {
+    "task": 158,
+    "cost": 466171.0,
+    "memory": 461005.0,
+    "params": 5166.0,
+    "points": 11.947692,
+    "nodes": 345,
+    "inits": 100,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 14,
+    "dup_init_waste_elems": 87,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 87,
+    "est_delta": 0.00018664421269498632,
+    "op_counts": [
+      [
+        "Where",
+        51
+      ],
+      [
+        "Greater",
+        46
+      ],
+      [
+        "And",
+        45
+      ],
+      [
+        "Slice",
+        40
+      ],
+      [
+        "Pad",
+        35
+      ],
+      [
+        "Equal",
+        20
+      ],
+      [
+        "ReduceSum",
+        13
+      ],
+      [
+        "ConvTranspose",
+        12
+      ],
+      [
+        "Sub",
+        10
+      ],
+      [
+        "Mul",
+        8
+      ],
+      [
+        "Expand",
+        8
+      ],
+      [
+        "Resize",
+        8
+      ]
+    ]
+  },
+  {
+    "task": 76,
+    "cost": 379344.0,
+    "memory": 378097.0,
+    "params": 1247.0,
+    "points": 12.153801,
+    "nodes": 465,
+    "inits": 42,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 2,
+    "dup_init_waste_elems": 40,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 40,
+    "est_delta": 0.00010545074932544196,
+    "op_counts": [
+      [
+        "Where",
+        54
+      ],
+      [
+        "Add",
+        43
+      ],
+      [
+        "Cast",
+        34
+      ],
+      [
+        "Slice",
+        33
+      ],
+      [
+        "Reshape",
+        32
+      ],
+      [
+        "Gather",
+        32
+      ],
+      [
+        "ConvTranspose",
+        28
+      ],
+      [
+        "And",
+        23
+      ],
+      [
+        "Conv",
+        21
+      ],
+      [
+        "Sub",
+        19
+      ],
+      [
+        "Greater",
+        17
+      ],
+      [
+        "Less",
+        16
+      ]
+    ]
+  },
+  {
+    "task": 101,
+    "cost": 374436.0,
+    "memory": 374325.0,
+    "params": 111.0,
+    "points": 12.166824,
+    "nodes": 125,
+    "inits": 32,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 2,
+    "dup_init_waste_elems": 5,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 5,
+    "est_delta": 1.3353506028934703e-05,
+    "op_counts": [
+      [
+        "Mul",
+        14
+      ],
+      [
+        "Cast",
+        13
+      ],
+      [
+        "Conv",
+        13
+      ],
+      [
+        "ConvTranspose",
+        11
+      ],
+      [
+        "Clip",
+        10
+      ],
+      [
+        "Slice",
+        9
+      ],
+      [
+        "Add",
+        7
+      ],
+      [
+        "Greater",
+        7
+      ],
+      [
+        "ReduceSum",
+        4
+      ],
+      [
+        "Gather",
+        4
+      ],
+      [
+        "Reshape",
+        4
+      ],
+      [
+        "And",
+        4
+      ]
+    ]
+  },
+  {
+    "task": 209,
+    "cost": 264110.0,
+    "memory": 262743.0,
+    "params": 1367.0,
+    "points": 12.515879,
+    "nodes": 829,
+    "inits": 167,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 20,
+    "dup_init_waste_elems": 113,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 113,
+    "est_delta": 0.00042794358614628436,
+    "op_counts": [
+      [
+        "And",
+        157
+      ],
+      [
+        "Equal",
+        86
+      ],
+      [
+        "Where",
+        50
+      ],
+      [
+        "Reshape",
+        42
+      ],
+      [
+        "Gather",
+        42
+      ],
+      [
+        "Tile",
+        40
+      ],
+      [
+        "Add",
+        40
+      ],
+      [
+        "Clip",
+        40
+      ],
+      [
+        "GreaterOrEqual",
+        38
+      ],
+      [
+        "Sub",
+        38
+      ],
+      [
+        "Expand",
+        37
+      ],
+      [
+        "Cast",
+        36
+      ]
+    ]
+  },
+  {
+    "task": 367,
+    "cost": 247578.0,
+    "memory": 244976.0,
+    "params": 2602.0,
+    "points": 12.580519,
+    "nodes": 194,
+    "inits": 63,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 13,
+    "dup_init_waste_elems": 27,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 27,
+    "est_delta": 0.00010906248685493836,
+    "op_counts": [
+      [
+        "Gather",
+        24
+      ],
+      [
+        "Add",
+        20
+      ],
+      [
+        "Cast",
+        17
+      ],
+      [
+        "Slice",
+        17
+      ],
+      [
+        "Where",
+        16
+      ],
+      [
+        "Squeeze",
+        13
+      ],
+      [
+        "Sub",
+        12
+      ],
+      [
+        "Greater",
+        10
+      ],
+      [
+        "Pad",
+        7
+      ],
+      [
+        "And",
+        7
+      ],
+      [
+        "Max",
+        6
+      ],
+      [
+        "Min",
+        6
+      ]
+    ]
+  },
+  {
+    "task": 66,
+    "cost": 207306.0,
+    "memory": 207195.0,
+    "params": 111.0,
+    "points": 12.758049,
+    "nodes": 1531,
+    "inits": 35,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 1,
+    "dup_init_waste_elems": 1,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 1,
+    "est_delta": 4.823798693820436e-06,
+    "op_counts": [
+      [
+        "Mul",
+        346
+      ],
+      [
+        "Add",
+        197
+      ],
+      [
+        "Sub",
+        169
+      ],
+      [
+        "Cast",
+        164
+      ],
+      [
+        "Less",
+        128
+      ],
+      [
+        "Clip",
+        100
+      ],
+      [
+        "Greater",
+        78
+      ],
+      [
+        "Abs",
+        76
+      ],
+      [
+        "And",
+        60
+      ],
+      [
+        "Einsum",
+        48
+      ],
+      [
+        "ReduceSum",
+        41
+      ],
+      [
+        "Unsqueeze",
+        35
+      ]
+    ]
+  },
+  {
+    "task": 182,
+    "cost": 203991.0,
+    "memory": 203398.0,
+    "params": 593.0,
+    "points": 12.774169,
+    "nodes": 289,
+    "inits": 80,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 11,
+    "dup_init_waste_elems": 71,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 71,
+    "est_delta": 0.00034811515608446086,
+    "op_counts": [
+      [
+        "Equal",
+        101
+      ],
+      [
+        "And",
+        84
+      ],
+      [
+        "Conv",
+        31
+      ],
+      [
+        "Or",
+        21
+      ],
+      [
+        "Cast",
+        15
+      ],
+      [
+        "Greater",
+        12
+      ],
+      [
+        "ConvTranspose",
+        11
+      ],
+      [
+        "ReduceSum",
+        7
+      ],
+      [
+        "ReduceMax",
+        4
+      ],
+      [
+        "ArgMax",
+        1
+      ],
+      [
+        "Not",
+        1
+      ],
+      [
+        "Concat",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 138,
+    "cost": 197844.0,
+    "memory": 197709.0,
+    "params": 135.0,
+    "points": 12.804766,
+    "nodes": 143,
+    "inits": 11,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "ReduceSum",
+        22
+      ],
+      [
+        "Greater",
+        18
+      ],
+      [
+        "Where",
+        16
+      ],
+      [
+        "Sub",
+        12
+      ],
+      [
+        "Cast",
+        10
+      ],
+      [
+        "Mul",
+        9
+      ],
+      [
+        "Equal",
+        8
+      ],
+      [
+        "Gather",
+        8
+      ],
+      [
+        "And",
+        6
+      ],
+      [
+        "Squeeze",
+        6
+      ],
+      [
+        "ArgMax",
+        4
+      ],
+      [
+        "Add",
+        4
+      ]
+    ]
+  },
+  {
+    "task": 205,
+    "cost": 195927.0,
+    "memory": 195705.0,
+    "params": 222.0,
+    "points": 12.814503,
+    "nodes": 672,
+    "inits": 58,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Mul",
+        205
+      ],
+      [
+        "Sub",
+        84
+      ],
+      [
+        "ReduceMax",
+        80
+      ],
+      [
+        "Sum",
+        58
+      ],
+      [
+        "ReduceMin",
+        50
+      ],
+      [
+        "Where",
+        34
+      ],
+      [
+        "Cast",
+        31
+      ],
+      [
+        "Less",
+        30
+      ],
+      [
+        "Conv",
+        30
+      ],
+      [
+        "Greater",
+        30
+      ],
+      [
+        "Max",
+        24
+      ],
+      [
+        "ReduceSum",
+        9
+      ]
+    ]
+  },
+  {
+    "task": 96,
+    "cost": 193837.0,
+    "memory": 192521.0,
+    "params": 1316.0,
+    "points": 12.825227,
+    "nodes": 457,
+    "inits": 48,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 1,
+    "dup_init_waste_elems": 1,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 1,
+    "est_delta": 5.158987084641353e-06,
+    "op_counts": [
+      [
+        "Mul",
+        99
+      ],
+      [
+        "Sub",
+        59
+      ],
+      [
+        "Cast",
+        51
+      ],
+      [
+        "ReduceSum",
+        33
+      ],
+      [
+        "ReduceMax",
+        24
+      ],
+      [
+        "Add",
+        23
+      ],
+      [
+        "GreaterOrEqual",
+        21
+      ],
+      [
+        "Less",
+        18
+      ],
+      [
+        "Greater",
+        18
+      ],
+      [
+        "CumSum",
+        13
+      ],
+      [
+        "Pad",
+        13
+      ],
+      [
+        "Reshape",
+        12
+      ]
+    ]
+  },
+  {
+    "task": 324,
+    "cost": 191591.0,
+    "memory": 189952.0,
+    "params": 1639.0,
+    "points": 12.836882,
+    "nodes": 263,
+    "inits": 40,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Mul",
+        73
+      ],
+      [
+        "Cast",
+        43
+      ],
+      [
+        "Greater",
+        35
+      ],
+      [
+        "ReduceSum",
+        29
+      ],
+      [
+        "Add",
+        27
+      ],
+      [
+        "Slice",
+        19
+      ],
+      [
+        "Pad",
+        9
+      ],
+      [
+        "Reshape",
+        7
+      ],
+      [
+        "Sub",
+        6
+      ],
+      [
+        "GreaterOrEqual",
+        6
+      ],
+      [
+        "ArgMax",
+        2
+      ],
+      [
+        "Equal",
+        2
+      ]
+    ]
+  },
+  {
+    "task": 173,
+    "cost": 175243.0,
+    "memory": 175026.0,
+    "params": 217.0,
+    "points": 12.926071,
+    "nodes": 68,
+    "inits": 24,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "QLinearMatMul",
+        15
+      ],
+      [
+        "Cast",
+        12
+      ],
+      [
+        "Reshape",
+        10
+      ],
+      [
+        "Transpose",
+        7
+      ],
+      [
+        "Conv",
+        7
+      ],
+      [
+        "Greater",
+        6
+      ],
+      [
+        "Where",
+        3
+      ],
+      [
+        "Slice",
+        2
+      ],
+      [
+        "Max",
+        1
+      ],
+      [
+        "Less",
+        1
+      ],
+      [
+        "And",
+        1
+      ],
+      [
+        "Equal",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 54,
+    "cost": 173056.0,
+    "memory": 172895.0,
+    "params": 161.0,
+    "points": 12.938629,
+    "nodes": 117,
+    "inits": 16,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Mul",
+        20
+      ],
+      [
+        "Where",
+        17
+      ],
+      [
+        "Gather",
+        14
+      ],
+      [
+        "Sub",
+        14
+      ],
+      [
+        "Cast",
+        9
+      ],
+      [
+        "Max",
+        9
+      ],
+      [
+        "Equal",
+        7
+      ],
+      [
+        "Greater",
+        7
+      ],
+      [
+        "Conv",
+        5
+      ],
+      [
+        "ReduceMax",
+        4
+      ],
+      [
+        "CumSum",
+        4
+      ],
+      [
+        "MaxPool",
+        4
+      ]
+    ]
+  },
+  {
+    "task": 396,
+    "cost": 168048.0,
+    "memory": 151392.0,
+    "params": 16656.0,
+    "points": 12.967995,
+    "nodes": 407,
+    "inits": 160,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Reshape",
+        64
+      ],
+      [
+        "Gather",
+        55
+      ],
+      [
+        "Conv",
+        48
+      ],
+      [
+        "And",
+        36
+      ],
+      [
+        "Equal",
+        33
+      ],
+      [
+        "Mul",
+        27
+      ],
+      [
+        "Add",
+        27
+      ],
+      [
+        "Greater",
+        25
+      ],
+      [
+        "ArgMax",
+        25
+      ],
+      [
+        "Where",
+        24
+      ],
+      [
+        "ReduceMax",
+        24
+      ],
+      [
+        "Cast",
+        4
+      ]
+    ]
+  },
+  {
+    "task": 286,
+    "cost": 162199.0,
+    "memory": 160895.0,
+    "params": 1304.0,
+    "points": 13.003421,
+    "nodes": 169,
+    "inits": 20,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "MaxPool",
+        59
+      ],
+      [
+        "Min",
+        59
+      ],
+      [
+        "Gather",
+        10
+      ],
+      [
+        "Or",
+        9
+      ],
+      [
+        "Mul",
+        8
+      ],
+      [
+        "Cast",
+        7
+      ],
+      [
+        "And",
+        3
+      ],
+      [
+        "Not",
+        2
+      ],
+      [
+        "ReduceMax",
+        2
+      ],
+      [
+        "Constant",
+        2
+      ],
+      [
+        "Slice",
+        1
+      ],
+      [
+        "Conv",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 118,
+    "cost": 161268.0,
+    "memory": 161124.0,
+    "params": 144.0,
+    "points": 13.009177,
+    "nodes": 71,
+    "inits": 15,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 1,
+    "dup_init_waste_elems": 2,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 2,
+    "est_delta": 1.2401793298977282e-05,
+    "op_counts": [
+      [
+        "And",
+        14
+      ],
+      [
+        "MaxPool",
+        10
+      ],
+      [
+        "Conv",
+        9
+      ],
+      [
+        "Greater",
+        8
+      ],
+      [
+        "Cast",
+        6
+      ],
+      [
+        "Equal",
+        6
+      ],
+      [
+        "GreaterOrEqual",
+        3
+      ],
+      [
+        "Max",
+        3
+      ],
+      [
+        "Gather",
+        2
+      ],
+      [
+        "ReduceSum",
+        2
+      ],
+      [
+        "Where",
+        2
+      ],
+      [
+        "Not",
+        2
+      ]
+    ]
+  },
+  {
+    "task": 370,
+    "cost": 158924.0,
+    "memory": 157554.0,
+    "params": 1370.0,
+    "points": 13.023819,
+    "nodes": 388,
+    "inits": 139,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "And",
+        118
+      ],
+      [
+        "Or",
+        67
+      ],
+      [
+        "Slice",
+        55
+      ],
+      [
+        "Pad",
+        45
+      ],
+      [
+        "Equal",
+        17
+      ],
+      [
+        "Cast",
+        15
+      ],
+      [
+        "Greater",
+        15
+      ],
+      [
+        "Where",
+        12
+      ],
+      [
+        "ReduceSum",
+        10
+      ],
+      [
+        "Sub",
+        8
+      ],
+      [
+        "Add",
+        8
+      ],
+      [
+        "Not",
+        7
+      ]
+    ]
+  },
+  {
+    "task": 77,
+    "cost": 157913.0,
+    "memory": 155700.0,
+    "params": 2213.0,
+    "points": 13.0302,
+    "nodes": 68,
+    "inits": 20,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Mul",
+        15
+      ],
+      [
+        "Sub",
+        9
+      ],
+      [
+        "MaxPool",
+        8
+      ],
+      [
+        "Cast",
+        7
+      ],
+      [
+        "Reshape",
+        6
+      ],
+      [
+        "And",
+        5
+      ],
+      [
+        "Gather",
+        4
+      ],
+      [
+        "Sum",
+        2
+      ],
+      [
+        "GreaterOrEqual",
+        2
+      ],
+      [
+        "LessOrEqual",
+        2
+      ],
+      [
+        "Greater",
+        2
+      ],
+      [
+        "Where",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 80,
+    "cost": 155125.0,
+    "memory": 153632.0,
+    "params": 1493.0,
+    "points": 13.048013,
+    "nodes": 93,
+    "inits": 31,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Equal",
+        13
+      ],
+      [
+        "Where",
+        13
+      ],
+      [
+        "Gather",
+        11
+      ],
+      [
+        "Cast",
+        8
+      ],
+      [
+        "Clip",
+        8
+      ],
+      [
+        "ReduceSum",
+        6
+      ],
+      [
+        "Conv",
+        6
+      ],
+      [
+        "Mul",
+        5
+      ],
+      [
+        "Greater",
+        4
+      ],
+      [
+        "Or",
+        4
+      ],
+      [
+        "ReduceMax",
+        3
+      ],
+      [
+        "ArgMax",
+        3
+      ]
+    ]
+  },
+  {
+    "task": 92,
+    "cost": 151526.0,
+    "memory": 151500.0,
+    "params": 26.0,
+    "points": 13.071487,
+    "nodes": 42,
+    "inits": 9,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Cast",
+        9
+      ],
+      [
+        "ReduceSum",
+        6
+      ],
+      [
+        "Where",
+        6
+      ],
+      [
+        "And",
+        5
+      ],
+      [
+        "Greater",
+        4
+      ],
+      [
+        "MaxPool",
+        4
+      ],
+      [
+        "Equal",
+        3
+      ],
+      [
+        "Mul",
+        2
+      ],
+      [
+        "Conv",
+        1
+      ],
+      [
+        "ReduceMax",
+        1
+      ],
+      [
+        "Slice",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 349,
+    "cost": 146782.0,
+    "memory": 146700.0,
+    "params": 82.0,
+    "points": 13.103296,
+    "nodes": 89,
+    "inits": 22,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "MaxPool",
+        20
+      ],
+      [
+        "Conv",
+        16
+      ],
+      [
+        "Less",
+        10
+      ],
+      [
+        "Sub",
+        9
+      ],
+      [
+        "Cast",
+        8
+      ],
+      [
+        "Where",
+        7
+      ],
+      [
+        "Mul",
+        6
+      ],
+      [
+        "And",
+        5
+      ],
+      [
+        "Sum",
+        3
+      ],
+      [
+        "Gather",
+        2
+      ],
+      [
+        "Greater",
+        2
+      ],
+      [
+        "Concat",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 25,
+    "cost": 140093.0,
+    "memory": 140028.0,
+    "params": 65.0,
+    "points": 13.149938,
+    "nodes": 127,
+    "inits": 28,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "And",
+        31
+      ],
+      [
+        "Equal",
+        24
+      ],
+      [
+        "Greater",
+        16
+      ],
+      [
+        "ReduceMax",
+        12
+      ],
+      [
+        "Cast",
+        10
+      ],
+      [
+        "Where",
+        5
+      ],
+      [
+        "Or",
+        5
+      ],
+      [
+        "CumSum",
+        4
+      ],
+      [
+        "Not",
+        4
+      ],
+      [
+        "Slice",
+        4
+      ],
+      [
+        "Pad",
+        4
+      ],
+      [
+        "Concat",
+        3
+      ]
+    ]
+  },
+  {
+    "task": 234,
+    "cost": 139938.0,
+    "memory": 138492.0,
+    "params": 1446.0,
+    "points": 13.151045,
+    "nodes": 96,
+    "inits": 9,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 1,
+    "dup_init_waste_elems": 1,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 1,
+    "est_delta": 7.1460473414219905e-06,
+    "op_counts": [
+      [
+        "Greater",
+        14
+      ],
+      [
+        "And",
+        14
+      ],
+      [
+        "Where",
+        14
+      ],
+      [
+        "ReduceSum",
+        12
+      ],
+      [
+        "Sub",
+        10
+      ],
+      [
+        "Less",
+        10
+      ],
+      [
+        "Cast",
+        7
+      ],
+      [
+        "Conv",
+        4
+      ],
+      [
+        "Add",
+        4
+      ],
+      [
+        "Sum",
+        4
+      ],
+      [
+        "Slice",
+        1
+      ],
+      [
+        "Mul",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 264,
+    "cost": 139436.0,
+    "memory": 138584.0,
+    "params": 852.0,
+    "points": 13.154639,
+    "nodes": 115,
+    "inits": 38,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Mul",
+        74
+      ],
+      [
+        "Slice",
+        24
+      ],
+      [
+        "ReduceSum",
+        10
+      ],
+      [
+        "Gather",
+        2
+      ],
+      [
+        "Sum",
+        2
+      ],
+      [
+        "Cast",
+        1
+      ],
+      [
+        "Sub",
+        1
+      ],
+      [
+        "Pad",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 280,
+    "cost": 139246.0,
+    "memory": 139200.0,
+    "params": 46.0,
+    "points": 13.156003,
+    "nodes": 138,
+    "inits": 11,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Conv",
+        60
+      ],
+      [
+        "Mul",
+        31
+      ],
+      [
+        "Sub",
+        14
+      ],
+      [
+        "Gather",
+        11
+      ],
+      [
+        "Sum",
+        10
+      ],
+      [
+        "MaxPool",
+        8
+      ],
+      [
+        "Slice",
+        1
+      ],
+      [
+        "Cast",
+        1
+      ],
+      [
+        "Concat",
+        1
+      ],
+      [
+        "Pad",
+        1
+      ]
+    ]
+  },
+  {
+    "task": 19,
+    "cost": 137884.0,
+    "memory": 136056.0,
+    "params": 1828.0,
+    "points": 13.165832,
+    "nodes": 35,
+    "inits": 12,
+    "unused_inits": 0,
+    "unused_elems": 0,
+    "dup_init_groups": 0,
+    "dup_init_waste_elems": 0,
+    "dead_nodes": 0,
+    "dead_mem_est": 0,
+    "big_tensors": [],
+    "removable_est": 0,
+    "est_delta": 0.0,
+    "op_counts": [
+      [
+        "Cast",
+        6
+      ],
+      [
+        "MatMul",
+        6
+      ],
+      [
+        "Slice",
+        4
+      ],
+      [
+        "ReduceMax",
+        3
+      ],
+      [
+        "Sum",
+        3
+      ],
+      [
+        "ReduceSum",
+        2
+      ],
+      [
+        "Reshape",
+        2
+      ],
+      [
+        "Equal",
+        2
+      ],
+      [
+        "Conv",
+        2
+      ],
+      [
+        "Mul",
+        2
+      ],
+      [
+        "Greater",
+        1
+      ],
+      [
+        "Sub",
+        1
+      ]
+    ]
+  }
+]

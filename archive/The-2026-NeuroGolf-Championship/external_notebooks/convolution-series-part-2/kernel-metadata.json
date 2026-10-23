@@ -1,0 +1,24 @@
+{
+  "id": "massimilianoghiotto/convolution-series-part-2",
+  "id_no": 120732129,
+  "title": "Convolution Series - Part 2",
+  "code_file": "convolution-series-part-2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "massimilianoghiotto/neurogolf-convseries-part2-supportvideo",
+    "massimilianoghiotto/neurogolf2026-6112"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "neurogolf-2026"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:e5452ce6268c2e8345cfe5141f31ca7ff47032aca46a7ea532bbb87481281d0c",
+  "machine_shape": "None"
+}

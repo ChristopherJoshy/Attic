@@ -1,0 +1,489 @@
+{
+  "generation_mode": "built-in image_gen",
+  "assets": [
+    {
+      "file": "journey-balloon-sprite.png",
+      "path": "/workspace/scratch/36912085690e/assets/generated/journey-balloon-sprite.png",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "size_bytes": 1211034,
+      "sha256": "071c86bc4dc1b93b8c1c0cc18ddde7bed6fe9d1ae1f0a4bdec46812d44d2c1df",
+      "frame_columns": 4,
+      "frame_rows": 3,
+      "frame_count": 12,
+      "frame_order": "row-major: left-to-right, top-to-bottom",
+      "frame_width": 362.0,
+      "frame_height": 362.0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 1099083,
+      "has_real_alpha": true,
+      "frame_alpha_bboxes_threshold_32": [
+        [
+          83,
+          59,
+          281,
+          326
+        ],
+        [
+          85,
+          59,
+          283,
+          325
+        ],
+        [
+          86,
+          58,
+          284,
+          325
+        ],
+        [
+          89,
+          58,
+          287,
+          325
+        ],
+        [
+          80,
+          58,
+          280,
+          324
+        ],
+        [
+          82,
+          59,
+          281,
+          326
+        ],
+        [
+          82,
+          59,
+          281,
+          326
+        ],
+        [
+          85,
+          58,
+          283,
+          324
+        ],
+        [
+          88,
+          59,
+          287,
+          326
+        ],
+        [
+          88,
+          58,
+          286,
+          326
+        ],
+        [
+          84,
+          59,
+          283,
+          325
+        ],
+        [
+          82,
+          59,
+          282,
+          327
+        ]
+      ]
+    },
+    {
+      "file": "maple-breeze-sprite.png",
+      "path": "/workspace/scratch/36912085690e/assets/generated/maple-breeze-sprite.png",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "size_bytes": 1477817,
+      "sha256": "3b728d362ea56d40c3ed86b51c58f788f2e4bae8add9daeaab150df7e9440012",
+      "frame_columns": 4,
+      "frame_rows": 3,
+      "frame_count": 12,
+      "frame_order": "row-major: left-to-right, top-to-bottom",
+      "frame_width": 362.0,
+      "frame_height": 362.0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 1016923,
+      "has_real_alpha": true,
+      "frame_alpha_bboxes_threshold_32": [
+        [
+          61,
+          18,
+          342,
+          341
+        ],
+        [
+          47,
+          34,
+          337,
+          341
+        ],
+        [
+          44,
+          37,
+          331,
+          341
+        ],
+        [
+          39,
+          40,
+          330,
+          341
+        ],
+        [
+          40,
+          16,
+          342,
+          341
+        ],
+        [
+          37,
+          16,
+          343,
+          341
+        ],
+        [
+          34,
+          39,
+          343,
+          341
+        ],
+        [
+          46,
+          23,
+          338,
+          341
+        ],
+        [
+          45,
+          15,
+          344,
+          340
+        ],
+        [
+          44,
+          15,
+          336,
+          340
+        ],
+        [
+          43,
+          15,
+          340,
+          340
+        ],
+        [
+          47,
+          17,
+          340,
+          340
+        ]
+      ]
+    },
+    {
+      "file": "hero-ink-landscape.png",
+      "path": "/workspace/scratch/36912085690e/assets/generated/hero-ink-landscape.png",
+      "width": 2170,
+      "height": 725,
+      "mode": "RGB",
+      "size_bytes": 1656871,
+      "sha256": "97552ce8d79c7095c755f00c92ad21b7db15368cd796aff1f73c0ec6114789af"
+    },
+    {
+      "file": "pine-breeze-sprite.png",
+      "path": "/workspace/scratch/36912085690e/assets/generated/pine-breeze-sprite.png",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "size_bytes": 1008336,
+      "sha256": "da829ad04bf9431fabe3ea1eff7a45af54b8d3c1ef84576b9f0050c1af77a7c1",
+      "frame_columns": 4,
+      "frame_rows": 3,
+      "frame_count": 12,
+      "frame_order": "row-major: left-to-right, top-to-bottom",
+      "frame_width": 362.0,
+      "frame_height": 362.0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 1190485,
+      "has_real_alpha": true,
+      "frame_alpha_bboxes_threshold_32": [
+        [
+          101,
+          33,
+          268,
+          339
+        ],
+        [
+          101,
+          32,
+          271,
+          339
+        ],
+        [
+          102,
+          38,
+          272,
+          339
+        ],
+        [
+          102,
+          29,
+          276,
+          339
+        ],
+        [
+          101,
+          38,
+          273,
+          338
+        ],
+        [
+          101,
+          38,
+          271,
+          339
+        ],
+        [
+          102,
+          33,
+          270,
+          339
+        ],
+        [
+          102,
+          34,
+          267,
+          338
+        ],
+        [
+          101,
+          32,
+          271,
+          339
+        ],
+        [
+          101,
+          32,
+          270,
+          339
+        ],
+        [
+          102,
+          28,
+          273,
+          339
+        ],
+        [
+          101,
+          32,
+          271,
+          339
+        ]
+      ]
+    },
+    {
+      "file": "sketch-compass-sprite.png",
+      "path": "/workspace/scratch/36912085690e/assets/generated/sketch-compass-sprite.png",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "size_bytes": 1816830,
+      "sha256": "3172b36e520d6ac6ec02162fe60084cadbabd7cd250426957df87b000791064f",
+      "frame_columns": 4,
+      "frame_rows": 3,
+      "frame_count": 12,
+      "frame_order": "row-major: left-to-right, top-to-bottom",
+      "frame_width": 362.0,
+      "frame_height": 362.0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 933248,
+      "has_real_alpha": true,
+      "frame_alpha_bboxes_threshold_32": [
+        [
+          49,
+          12,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ],
+        [
+          49,
+          12,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          345
+        ],
+        [
+          49,
+          11,
+          314,
+          345
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ],
+        [
+          49,
+          11,
+          314,
+          346
+        ]
+      ]
+    },
+    {
+      "file": "inquiry-hand-sprite.png",
+      "path": "/workspace/scratch/36912085690e/assets/generated/inquiry-hand-sprite.png",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "size_bytes": 1284052,
+      "sha256": "febdf178886f2aa5357a204cd948caa39a03d093efe6689bec4b28a3538d45d5",
+      "frame_columns": 4,
+      "frame_rows": 3,
+      "frame_count": 12,
+      "frame_order": "row-major: left-to-right, top-to-bottom",
+      "frame_width": 362.0,
+      "frame_height": 362.0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "fully_transparent_pixels": 1055502,
+      "has_real_alpha": true,
+      "frame_alpha_bboxes_threshold_32": [
+        [
+          112,
+          9,
+          338,
+          318
+        ],
+        [
+          112,
+          12,
+          339,
+          318
+        ],
+        [
+          112,
+          18,
+          339,
+          318
+        ],
+        [
+          112,
+          18,
+          339,
+          317
+        ],
+        [
+          112,
+          20,
+          339,
+          319
+        ],
+        [
+          112,
+          22,
+          339,
+          319
+        ],
+        [
+          112,
+          22,
+          339,
+          319
+        ],
+        [
+          112,
+          19,
+          339,
+          319
+        ],
+        [
+          112,
+          20,
+          338,
+          320
+        ],
+        [
+          112,
+          19,
+          339,
+          320
+        ],
+        [
+          112,
+          19,
+          339,
+          320
+        ],
+        [
+          112,
+          19,
+          339,
+          320
+        ]
+      ]
+    }
+  ]
+}

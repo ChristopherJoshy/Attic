@@ -1,0 +1,67 @@
+[
+  {
+    "file": "finn-robot.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "bytes": 1209225,
+    "sha256": "058a41952df3780319592cd900e11c988b8c444db8d1741c775a0514aa62decc",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 1078028
+  },
+  {
+    "file": "bldc-motor-cutaway.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "bytes": 2343225,
+    "sha256": "1cea2aaae39c34dccb6768255abd497b3bdcf22210aaf0005ae2c3b659d254e2",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_pixels": 635307
+  },
+  {
+    "file": "agriculture-mission.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "bytes": 2810858,
+    "sha256": "b733d5aaa0d4f101f443f6be81b95baf71c56f5f81cc3cdb7d7b414602367189"
+  },
+  {
+    "file": "mapping-mission.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "bytes": 3390424,
+    "sha256": "9c3e17a0136126d2061bd85c17f3cfe15ad8a5a514cb5be07b0493b629e47d5a"
+  },
+  {
+    "file": "drone-components-sheet.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "bytes": 1965690,
+    "sha256": "b4768d560c6ea34237ff8c4b79fec3195d519f8df1d61c982b8c166d0c5d6694",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixels": 1161948
+  }
+]
