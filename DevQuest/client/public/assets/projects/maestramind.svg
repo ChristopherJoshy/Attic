@@ -1,0 +1,47 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medieval parchment background -->
+  <defs>
+    <radialGradient id="parchment" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#f5e6c9" />
+      <stop offset="100%" stop-color="#d3b88c" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background with parchment texture -->
+  <rect width="400" height="300" fill="url(#parchment)" />
+  
+  <!-- Decorative border -->
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#8b4513" stroke-width="4" 
+        stroke-dasharray="10,5" />
+  
+  <!-- Scroll embellishments -->
+  <path d="M20,20 C50,10 80,30 110,20 S150,10 180,20 S220,30 250,20 S290,10 320,20 S350,30 380,20" 
+        fill="none" stroke="#5e3a15" stroke-width="2" />
+  <path d="M20,280 C50,270 80,290 110,280 S150,270 180,280 S220,290 250,280 S290,270 320,280 S350,290 380,280" 
+        fill="none" stroke="#5e3a15" stroke-width="2" />
+  
+  <!-- Medieval shield icon -->
+  <path d="M200,70 L230,70 L240,85 L230,100 L200,100 L190,85 Z" fill="#7a30e5" stroke="#4a1e87" stroke-width="2" />
+  <path d="M210,80 L220,80 L225,85 L220,90 L210,90 L205,85 Z" fill="#d3b88c" stroke="#8b4513" stroke-width="1" />
+  
+  <!-- Title in medieval style font -->
+  <text x="200" y="140" font-family="serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#5e3a15">
+    MaestraMind
+  </text>
+  <text x="200" y="165" font-family="serif" font-size="16" font-style="italic" text-anchor="middle" fill="#8b4513">
+    AI-Powered Learning App
+  </text>
+  
+  <!-- Decorative medieval flourish -->
+  <path d="M130,190 C150,170 170,200 200,190 S230,170 250,190 S280,210 300,190" 
+        fill="none" stroke="#8b4513" stroke-width="2" />
+  
+  <!-- Medieval quill icon -->
+  <path d="M180,220 L190,210 L200,220 L190,240 Z" fill="#f5e6c9" stroke="#5e3a15" stroke-width="1" />
+  <path d="M190,210 L200,200 L210,210" fill="none" stroke="#5e3a15" stroke-width="1" />
+  
+  <!-- Magic book icon -->
+  <path d="M220,210 L240,210 L240,240 L220,240 Z" fill="#f5e6c9" stroke="#5e3a15" stroke-width="1" />
+  <path d="M230,210 L230,240" fill="none" stroke="#5e3a15" stroke-width="1" />
+  <path d="M220,225 C225,220 235,220 240,225" fill="none" stroke="#7a30e5" stroke-width="1" />
+</svg> 

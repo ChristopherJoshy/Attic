@@ -1,0 +1,25 @@
+# --- Python Standard Ignored Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Keep local only) ---
+.venv/
+venv/
+env/
+
+# --- Security & Secrets (NEVER Track) ---
+.env
+
+# --- Local Databases (State should stay local) ---
+trades.db
+*.db
+*.sqlite3
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# Note: .github/ and other hidden config folders will stay tracked automatically.;
+.github/
+

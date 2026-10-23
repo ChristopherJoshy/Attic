@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+  <circle cx="1" cy="1" r="1.2" fill="#0000001A" />
+    </pattern>
+    <pattern id="diagonal" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+  <path d="M-10 10 L10 -10 M0 20 L20 0 M10 30 L30 10 M20 40 L40 20 M30 50 L50 30 M40 60 L60 40 M50 70 L70 50 M60 80 L80 60" stroke="#00000014" stroke-width="1" fill="none" />
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="url(#dots)" />
+  <rect width="400" height="400" fill="url(#diagonal)" />
+</svg>

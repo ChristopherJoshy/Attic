@@ -1,0 +1,27 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="platinum-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e5e4e2"/>
+      <stop offset="100%" stop-color="#c0c0c0"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="24" cy="24" r="22" stroke="url(#platinum-gradient)" stroke-width="2" fill="none"/>
+  <!-- Inner rings -->
+  <circle cx="24" cy="24" r="17" stroke="url(#platinum-gradient)" stroke-width="1.5" fill="none"/>
+  <circle cx="24" cy="24" r="12" stroke="url(#platinum-gradient)" stroke-width="1.5" fill="none"/>
+  <circle cx="24" cy="24" r="7" stroke="url(#platinum-gradient)" stroke-width="1.5" fill="none"/>
+  <!-- Center diamond -->
+  <polygon points="24,18 30,24 24,30 18,24" fill="url(#platinum-gradient)" opacity="0.8"/>
+  <!-- Platinum emblem marks -->
+  <g stroke="url(#platinum-gradient)" stroke-width="1.5" stroke-linecap="round">
+    <line x1="24" y1="6" x2="24" y2="11"/>
+    <line x1="24" y1="37" x2="24" y2="42"/>
+    <line x1="6" y1="24" x2="11" y2="24"/>
+    <line x1="37" y1="24" x2="42" y2="24"/>
+    <line x1="11" y1="11" x2="14.5" y2="14.5"/>
+    <line x1="33.5" y1="33.5" x2="37" y2="37"/>
+    <line x1="37" y1="11" x2="33.5" y2="14.5"/>
+    <line x1="14.5" y1="33.5" x2="11" y2="37"/>
+  </g>
+</svg>

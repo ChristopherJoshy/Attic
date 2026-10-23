@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- SEO & Social -->
+  <meta name="description"
+    content="typelo - The ultimate real-time competitive typing arena. Battle opponents, climb the ranks, and prove you're the fastest typist. Free multiplayer typing game with ELO rankings." />
+  <meta name="keywords"
+    content="typing game, competitive typing, typing speed test, multiplayer typing, typing race, WPM test, online typing game, keyboard game, typelo, typing battle" />
+  <meta name="author" content="typelo" />
+  <meta name="robots" content="index, follow" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="typelo" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.typelo.tech/" />
+  <meta property="og:site_name" content="typelo" />
+  <meta property="og:title" content="typelo - Competitive Typing Arena" />
+  <meta property="og:description"
+    content="Battle opponents in real-time typing matches. Climb the ranks, unlock rewards, and become the fastest typist. Free to play!" />
+  <meta property="og:image" content="https://www.typelo.tech/social-card.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="typelo - Competitive Typing Arena" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@typelo" />
+  <meta name="twitter:title" content="typelo - Competitive Typing Arena" />
+  <meta name="twitter:description"
+    content="Battle opponents in real-time typing matches. Climb the ranks and become the fastest typist!" />
+  <meta name="twitter:image" content="https://www.typelo.tech/social-card.png" />
+  <meta name="twitter:image:alt" content="typelo - Competitive Typing Arena" />
+  <title>Typelo – Competitive Typing Arena</title>
+  <link rel="canonical" href="https://www.typelo.tech/" />
+  <!-- Inter Font & Performance Hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://evotaion.onrender.com" crossorigin>
+  <link rel="dns-prefetch" href="//evotaion.onrender.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Typelo",
+    "url": "https://www.typelo.tech",
+    "logo": "https://www.typelo.tech/icon-512.png",
+    "description": "Typelo is a real-time 1v1 competitive typing game where players battle opponents, climb ELO rankings, and prove their typing skills.",
+    "foundingDate": "2024",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- WebSite Schema with SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Typelo",
+    "url": "https://www.typelo.tech",
+    "description": "Real-time 1v1 competitive typing game with ELO rankings",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.typelo.tech/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    // Register service worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('SW registered:', registration.scope);
+            // Check for updates every 60 seconds
+            setInterval(() => registration.update(), 60000);
+          })
+          .catch((error) => {
+            console.log('SW registration failed:', error);
+          });
+      });
+    }
+  </script>
+</body>
+
+</html>

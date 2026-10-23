@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic to the backend server -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">165.232.187.186</domain>
+    </domain-config>
+    
+    <!-- Default: block cleartext for all other domains -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

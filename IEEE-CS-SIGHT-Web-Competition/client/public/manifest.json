@@ -1,0 +1,11 @@
+{
+  "name": "IEEE SIGHT - CEK",
+  "short_name": "SIGHT",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "64x64", "type": "image/svg+xml" }
+  ]
+}

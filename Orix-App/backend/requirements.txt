@@ -1,0 +1,43 @@
+# ORIX Backend
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+email-validator>=2.0.0
+python-multipart>=0.0.9
+
+# Database
+motor>=3.6.0
+redis>=5.2.0
+
+# Firebase Admin SDK
+firebase-admin>=6.6.0
+
+# Authentication (via Firebase Admin SDK)
+
+# Telegram Bot
+python-telegram-bot>=21.7
+
+# HTTP Client
+httpx>=0.28.0
+
+# Geospatial calculations
+geopy>=2.4.0
+
+# Testing
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+pytest-cov>=6.0.0
+httpx>=0.28.0
+
+# Development
+python-dotenv>=1.0.0
+apscheduler>=3.10.0
+
+# System Metrics
+psutil>=5.9.0
+
+# AI (Orixy)
+groq>=1.0.0
+langdetect>=1.0.9

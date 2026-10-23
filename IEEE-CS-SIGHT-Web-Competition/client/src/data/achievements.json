@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "IEEE Region 10 Recognition",
+    "description": "Received the \"Outstanding SIGHT Group\" award for our innovative approach to community-driven technology solutions across South India.",
+    "year": "2024",
+    "icon": "award"
+  },
+  {
+    "id": "2",
+    "title": "Sustainable Development Goals Impact",
+    "description": "Successfully aligned all our projects with UN SDGs, directly contributing to Quality Education, Clean Energy, and Clean Water initiatives.",
+    "year": "2023",
+    "icon": "globe"
+  },
+  {
+    "id": "3",
+    "title": "Community Partnership Excellence",
+    "description": "Established partnerships with 8 local NGOs and government agencies, creating a sustainable ecosystem for technology-driven social change.",
+    "year": "2023",
+    "icon": "users"
+  },
+  {
+    "id": "4",
+    "title": "Chapter Establishment",
+    "description": "Successfully established IEEE SIGHT chapter at CEK, becoming the first SIGHT affiliate in the Kollam district with 25 founding members.",
+    "year": "2022",
+    "icon": "building"
+  },
+    {
+    "id": "5",
+    "title": "Neural Nomads",
+    "description": " Read Readme in github to learn how to edit . made by Chris ,neural_Nomads",
+    "year": "2025",
+    "icon": "building"
+  }
+  
+]

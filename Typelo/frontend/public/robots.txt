@@ -1,0 +1,10 @@
+# Typelo Robots.txt
+# https://www.typelo.tech
+
+User-agent: *
+Allow: /
+Allow: /faq
+Allow: /dashboard
+
+# Sitemap location
+Sitemap: https://www.typelo.tech/sitemap.xml

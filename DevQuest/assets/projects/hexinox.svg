@@ -1,0 +1,43 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medieval stone background -->
+  <defs>
+    <linearGradient id="stone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#555555" />
+      <stop offset="50%" stop-color="#777777" />
+      <stop offset="100%" stop-color="#444444" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with stone texture -->
+  <rect width="400" height="300" fill="url(#stone)" />
+  
+  <!-- Castle wall pattern -->
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#333333" stroke-width="6" />
+  <rect x="20" y="20" width="360" height="260" fill="none" stroke="#666666" stroke-width="2" />
+  
+  <!-- Castle battlements -->
+  <path d="M30,40 L50,40 L50,30 L70,30 L70,40 L90,40 L90,30 L110,30 L110,40 L130,40 L130,30 L150,30 L150,40" 
+        fill="none" stroke="#333333" stroke-width="3" />
+  
+  <!-- Hexagon shield with MakeIT emblem -->
+  <path d="M200,80 L230,95 L230,135 L200,150 L170,135 L170,95 Z" fill="#ff3c7d" stroke="#333333" stroke-width="3" />
+  <text x="200" y="125" font-family="serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">MAKE IT</text>
+  
+  <!-- Title in medieval gothic style -->
+  <text x="200" y="190" font-family="serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#e4f0ff">
+    HEXINOX
+  </text>
+  <text x="200" y="215" font-family="serif" font-size="16" font-style="italic" text-anchor="middle" fill="#cccccc">
+    Mobile Application
+  </text>
+  
+  <!-- Decorative crossed swords -->
+  <path d="M150,240 L175,255 L180,250 L155,235 Z" fill="#cccccc" stroke="#333333" stroke-width="1" />
+  <path d="M250,240 L225,255 L220,250 L245,235 Z" fill="#cccccc" stroke="#333333" stroke-width="1" />
+  <path d="M160,230 L240,260" fill="none" stroke="#cccccc" stroke-width="2" />
+  <path d="M240,230 L160,260" fill="none" stroke="#cccccc" stroke-width="2" />
+  
+  <!-- Mobile phone icon in medieval style -->
+  <rect x="185" y="240" width="30" height="40" rx="5" fill="none" stroke="#cccccc" stroke-width="2" />
+  <circle cx="200" cy="270" r="3" fill="#cccccc" />
+</svg> 

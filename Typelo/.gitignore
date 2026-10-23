@@ -1,0 +1,110 @@
+# ===========================
+# EVOTAION WEB - GITIGNORE
+# ===========================
+
+# Documentation & Config Files
+*.md
+PRD.md
+RENDER_VERCEL_DEPLOYMENT.md
+README.md
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+Backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+Backend/.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node.js / Frontend
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Build Outputs
+dist/
+build/
+frontend/dist/
+Backend/dist/
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing & Coverage
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nyc_output/
+.test-results/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# Misc
+.turbo/
+*.tsbuildinfo
+.firebase/
+.vercel/
+
+# Firebase
+firebase-debug.log
+.firebase/
+
+# Redis
+dump.rdb
+
+# Misc
+*.bak
+*.tmp
+.cache/

@@ -1,0 +1,60 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medieval library background -->
+  <defs>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513" />
+      <stop offset="50%" stop-color="#A0522D" />
+      <stop offset="100%" stop-color="#6B3E26" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with wood texture -->
+  <rect width="400" height="300" fill="url(#wood)" />
+  
+  <!-- Medieval bookshelf frame -->
+  <rect x="20" y="20" width="360" height="260" fill="#6B3E26" stroke="#3D2314" stroke-width="10" />
+  <rect x="30" y="30" width="340" height="240" fill="#8B5A2B" stroke="#3D2314" stroke-width="2" />
+  
+  <!-- Bookshelf dividers -->
+  <rect x="30" y="120" width="340" height="5" fill="#3D2314" />
+  <rect x="30" y="210" width="340" height="5" fill="#3D2314" />
+  
+  <!-- Books on shelves -->
+  <rect x="40" y="40" width="20" height="70" fill="#B22222" stroke="#3D2314" stroke-width="1" />
+  <rect x="65" y="45" width="25" height="65" fill="#228B22" stroke="#3D2314" stroke-width="1" />
+  <rect x="95" y="50" width="15" height="60" fill="#4682B4" stroke="#3D2314" stroke-width="1" />
+  <rect x="115" y="40" width="30" height="70" fill="#DAA520" stroke="#3D2314" stroke-width="1" />
+  <rect x="150" y="45" width="20" height="65" fill="#9370DB" stroke="#3D2314" stroke-width="1" />
+  
+  <rect x="200" y="50" width="25" height="60" fill="#CD5C5C" stroke="#3D2314" stroke-width="1" />
+  <rect x="230" y="40" width="15" height="70" fill="#20B2AA" stroke="#3D2314" stroke-width="1" />
+  <rect x="250" y="45" width="30" height="65" fill="#FF8C00" stroke="#3D2314" stroke-width="1" />
+  <rect x="285" y="50" width="20" height="60" fill="#6A5ACD" stroke="#3D2314" stroke-width="1" />
+  <rect x="310" y="40" width="25" height="70" fill="#556B2F" stroke="#3D2314" stroke-width="1" />
+  
+  <!-- Scrolls on middle shelf -->
+  <path d="M50,135 Q60,125 70,135 L70,185 Q60,195 50,185 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  <path d="M80,135 Q90,125 100,135 L100,185 Q90,195 80,185 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  <path d="M110,135 Q120,125 130,135 L130,185 Q120,195 110,185 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  
+  <!-- Open book in center -->
+  <path d="M150,150 Q170,135 190,140 L190,190 Q170,185 150,200 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  <path d="M190,140 Q210,135 230,150 L230,200 Q210,185 190,190 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  <path d="M190,140 L190,190" fill="none" stroke="#3D2314" stroke-width="1" />
+  <path d="M170,150 L190,150 L210,150" fill="none" stroke="#3D2314" stroke-width="1" />
+  <path d="M170,160 L190,160 L210,160" fill="none" stroke="#3D2314" stroke-width="1" />
+  <path d="M170,170 L190,170 L210,170" fill="none" stroke="#3D2314" stroke-width="1" />
+  
+  <!-- More scrolls -->
+  <path d="M240,135 Q250,125 260,135 L260,185 Q250,195 240,185 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  <path d="M270,135 Q280,125 290,135 L290,185 Q280,195 270,185 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  <path d="M300,135 Q310,125 320,135 L320,185 Q310,195 300,185 Z" fill="#F5DEB3" stroke="#3D2314" stroke-width="1" />
+  
+  <!-- Title in medieval Gothic style -->
+  <text x="200" y="250" font-family="serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#F5DEB3">
+    KKNotes
+  </text>
+  <text x="200" y="275" font-family="serif" font-size="16" font-style="italic" text-anchor="middle" fill="#F5DEB3">
+    Educational Resource
+  </text>
+</svg> 

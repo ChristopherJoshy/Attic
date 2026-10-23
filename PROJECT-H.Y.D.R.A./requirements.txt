@@ -1,0 +1,29 @@
+
+# PROJECT H.Y.D.R.A. Requirements
+# Python 3.11+
+
+# Core Web Framework
+streamlit==1.50.0
+streamlit-folium==0.25.3
+
+# Data Processing
+numpy==2.3.3
+pandas==2.3.3
+
+# Geospatial
+rasterio==1.4.3
+folium==0.20.0
+
+# HTTP & Networking
+requests==2.32.5
+urllib3==2.5.0
+
+# Database
+psycopg2-binary==2.9.10
+
+# Visualization
+matplotlib==3.10.6
+pillow==11.3.0
+
+# Testing (optional - for development)
+# pytest==8.4.2

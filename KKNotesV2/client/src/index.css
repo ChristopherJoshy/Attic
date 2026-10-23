@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Warm Beige/Cream Color Palette - matches screenshot */
+  --background: hsl(45 30% 94%);
+  --foreground: hsl(30 10% 15%);
+  
+  --card: hsl(45 40% 97%);
+  --card-foreground: hsl(30 10% 15%);
+  
+  --popover: hsl(45 40% 97%);
+  --popover-foreground: hsl(30 10% 15%);
+  
+  --primary: hsl(160 50% 40%);
+  --primary-foreground: hsl(0 0% 100%);
+  
+  --secondary: hsl(45 25% 90%);
+  --secondary-foreground: hsl(30 10% 20%);
+  
+  --muted: hsl(45 20% 90%);
+  --muted-foreground: hsl(30 10% 45%);
+  
+  --accent: hsl(45 30% 88%);
+  --accent-foreground: hsl(30 10% 15%);
+  
+  --destructive: hsl(0 72% 51%);
+  --destructive-foreground: hsl(0 0% 100%);
+  
+  --border: hsl(40 20% 85%);
+  --input: hsl(40 25% 88%);
+  --ring: hsl(160 50% 40%);
+  
+  --radius: 0.75rem;
+  
+  /* Chart Colors */
+  --chart-1: hsl(160 50% 40%);
+  --chart-2: hsl(199 89% 48%);
+  --chart-3: hsl(45 93% 47%);
+  --chart-4: hsl(262 83% 58%);
+  --chart-5: hsl(340 75% 55%);
+  
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.dark {
+  --background: hsl(30 15% 10%);
+  --foreground: hsl(45 30% 94%);
+  
+  --card: hsl(30 15% 14%);
+  --card-foreground: hsl(45 30% 94%);
+  
+  --popover: hsl(30 15% 14%);
+  --popover-foreground: hsl(45 30% 94%);
+  
+  --primary: hsl(160 50% 45%);
+  --primary-foreground: hsl(0 0% 100%);
+  
+  --secondary: hsl(30 15% 18%);
+  --secondary-foreground: hsl(45 30% 94%);
+  
+  --muted: hsl(30 15% 18%);
+  --muted-foreground: hsl(40 15% 60%);
+  
+  --accent: hsl(30 15% 22%);
+  --accent-foreground: hsl(45 30% 94%);
+  
+  --destructive: hsl(0 72% 51%);
+  --destructive-foreground: hsl(0 0% 100%);
+  
+  --border: hsl(30 15% 22%);
+  --input: hsl(30 15% 22%);
+  --ring: hsl(160 50% 45%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased bg-background text-foreground;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  /* Card styles */
+  .card-elevated {
+    @apply bg-card rounded-xl border border-border shadow-sm;
+  }
+  
+  /* Stat card */
+  .stat-card {
+    @apply text-center p-4 sm:p-6 rounded-lg bg-muted;
+  }
+  
+  .stat-value {
+    @apply text-2xl sm:text-3xl font-bold;
+  }
+  
+  .stat-label {
+    @apply text-xs sm:text-sm text-muted-foreground mt-1;
+  }
+}
+
+@layer utilities {
+  /* Remove animations per user request */
+  .fade-in {
+    opacity: 1;
+  }
+
+  .card-hover:hover {
+    box-shadow: var(--shadow-md);
+  }
+  
+  /* Responsive text utilities */
+  .text-responsive-sm {
+    @apply text-xs sm:text-sm;
+  }
+  
+  .text-responsive-base {
+    @apply text-sm sm:text-base;
+  }
+  
+  .text-responsive-lg {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+  
+  .text-responsive-xl {
+    @apply text-lg sm:text-xl md:text-2xl;
+  }
+  
+  .text-responsive-2xl {
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl;
+  }
+  
+  /* Grid responsive */
+  .grid-responsive {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6;
+  }
+  
+  /* Scrollbar styling */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background-color: hsl(var(--muted));
+    border-radius: 9999px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 9999px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(var(--muted-foreground) / 0.5);
+  }
+  
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Focus visible ring */
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+  }
+}

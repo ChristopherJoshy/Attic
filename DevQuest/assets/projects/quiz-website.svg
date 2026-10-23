@@ -1,0 +1,55 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medieval parchment background -->
+  <defs>
+    <linearGradient id="aged-parchment" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e7c1" />
+      <stop offset="50%" stop-color="#ebd8a8" />
+      <stop offset="100%" stop-color="#d3bc88" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with parchment texture -->
+  <rect width="400" height="300" fill="url(#aged-parchment)" />
+  
+  <!-- Aged edges -->
+  <rect x="10" y="10" width="380" height="280" fill="none" stroke="#a58d57" stroke-width="2" />
+  
+  <!-- Decorative corner flourishes -->
+  <path d="M20,20 C30,30 40,20 50,20 C50,40 30,40 20,50 C10,40 20,30 20,20" fill="none" stroke="#785c22" stroke-width="1" />
+  <path d="M350,20 C340,30 330,20 320,20 C320,40 340,40 350,50 C360,40 350,30 350,20" fill="none" stroke="#785c22" stroke-width="1" />
+  <path d="M20,250 C30,240 40,250 50,250 C50,230 30,230 20,220 C10,230 20,240 20,250" fill="none" stroke="#785c22" stroke-width="1" />
+  <path d="M350,250 C340,240 330,250 320,250 C320,230 340,230 350,220 C360,230 350,240 350,250" fill="none" stroke="#785c22" stroke-width="1" />
+  
+  <!-- Title banner -->
+  <path d="M80,30 L320,30 L310,60 L90,60 Z" fill="#5f4b28" />
+  <text x="200" y="50" font-family="serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#e6d5a8">
+    QUIZ OF KNOWLEDGE
+  </text>
+  
+  <!-- Medieval scroll with questions -->
+  <path d="M100,80 L300,80 L300,220 L100,220 Z" fill="#ebd8a8" stroke="#a58d57" stroke-width="1" />
+  <path d="M100,80 C80,100 80,200 100,220" fill="#e6d5a8" stroke="#a58d57" stroke-width="1" />
+  <path d="M300,80 C320,100 320,200 300,220" fill="#e6d5a8" stroke="#a58d57" stroke-width="1" />
+  
+  <!-- Question symbols -->
+  <circle cx="200" cy="120" r="25" fill="#00e4ff" stroke="#a58d57" stroke-width="1" />
+  <text x="200" y="130" font-family="serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#5f4b28">?</text>
+  
+  <!-- Answer options in medieval style -->
+  <rect x="130" y="160" width="140" height="20" rx="5" fill="#e6d5a8" stroke="#5f4b28" stroke-width="1" />
+  <rect x="130" y="190" width="140" height="20" rx="5" fill="#e6d5a8" stroke="#5f4b28" stroke-width="1" />
+  
+  <!-- Decorative medieval line separators -->
+  <path d="M120,240 L280,240" stroke="#a58d57" stroke-width="1" />
+  <path d="M130,245 L270,245" stroke="#a58d57" stroke-width="1" />
+  <path d="M140,250 L260,250" stroke="#a58d57" stroke-width="1" />
+  
+  <!-- Footer text -->
+  <text x="200" y="275" font-family="serif" font-size="18" font-style="italic" text-anchor="middle" fill="#5f4b28">
+    Test Thy Knowledge
+  </text>
+  
+  <!-- Decorative quill -->
+  <path d="M290,250 L310,220 L315,225 L300,260 Z" fill="#e6d5a8" stroke="#5f4b28" stroke-width="1" />
+  <path d="M300,260 L310,270" fill="none" stroke="#5f4b28" stroke-width="1" />
+</svg> 

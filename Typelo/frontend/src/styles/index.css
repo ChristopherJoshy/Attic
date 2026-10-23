@@ -1,0 +1,1145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+:root {
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
+  --bg-tertiary: #141414;
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1a1;
+  --text-muted: #525252;
+  --accent-correct: #22c55e;
+  --accent-error: #ef4444;
+  --accent-focus: #3b82f6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-primary);
+  background-image: radial-gradient(circle at 50% 50%, #111111 0%, #000000 100%);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* Mobile-specific fixes to prevent viewport shifting */
+@supports (-webkit-touch-callout: none) {
+
+  /* iOS Safari */
+  html,
+  body,
+  #root {
+    height: -webkit-fill-available;
+  }
+}
+
+/* Grid Background */
+.bg-grid-pattern {
+  background-size: 50px 50px;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  mask-image: radial-gradient(circle at 50% 50%, black, transparent 80%);
+  animation: grid-drift 60s linear infinite;
+}
+
+@keyframes grid-drift {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+/* Focus styles */
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-focus);
+  outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+/* Scrollbar - Minimal */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Scanline Effect */
+.scanlines::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 0.2) 50%,
+      rgba(0, 0, 0, 0.2));
+  background-size: 100% 4px;
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0.1;
+}
+
+/* Rank gradient for Ranker tier */
+.rank-ranker-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Button base styles */
+.btn {
+  @apply px-6 py-3 font-medium transition-all duration-200 ease-out;
+}
+
+.btn-primary {
+  @apply bg-white text-black hover:bg-opacity-90;
+}
+
+.btn-ghost {
+  @apply bg-transparent text-white border border-white/20 hover:border-white/40;
+}
+
+/* Slow spin animation for decorations */
+.animate-spin-slow {
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Profile Effect Animations - Enhanced Premium */
+@keyframes profile-glow {
+
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.03);
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes profile-pulse {
+
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(0.98);
+    filter: saturate(0.9);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.06);
+    filter: saturate(1.3);
+  }
+}
+
+@keyframes profile-sparkle {
+  0% {
+    opacity: 0.4;
+    filter: brightness(1) saturate(1);
+    background-position: 0% 50%;
+  }
+
+  25% {
+    opacity: 0.9;
+    filter: brightness(1.4) saturate(1.2);
+    background-position: 25% 50%;
+  }
+
+  50% {
+    opacity: 0.5;
+    filter: brightness(1.1) saturate(1);
+    background-position: 50% 50%;
+  }
+
+  75% {
+    opacity: 1;
+    filter: brightness(1.5) saturate(1.3);
+    background-position: 75% 50%;
+  }
+
+  100% {
+    opacity: 0.4;
+    filter: brightness(1) saturate(1);
+    background-position: 100% 50%;
+  }
+}
+
+/* Profile Border Effect Animations - Discord-Inspired Premium */
+@keyframes profile-border-glow {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    filter: blur(8px) brightness(1);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(14px) brightness(1.4);
+    transform: scale(1.02);
+  }
+}
+
+@keyframes profile-border-pulse {
+
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(0.98);
+    filter: blur(6px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+    filter: blur(10px);
+  }
+}
+
+@keyframes profile-border-sparkle {
+  0% {
+    opacity: 0.5;
+    background-position: 0% 50%;
+    filter: blur(6px) brightness(1);
+    transform: rotate(0deg);
+  }
+
+  25% {
+    opacity: 1;
+    filter: blur(10px) brightness(1.3);
+  }
+
+  50% {
+    opacity: 0.6;
+    background-position: 100% 50%;
+    filter: blur(8px) brightness(1.1);
+    transform: rotate(180deg);
+  }
+
+  75% {
+    opacity: 1;
+    filter: blur(12px) brightness(1.4);
+  }
+
+  100% {
+    opacity: 0.5;
+    background-position: 0% 50%;
+    filter: blur(6px) brightness(1);
+    transform: rotate(360deg);
+  }
+}
+
+/* Rainbow Border - Premium Discord-style rotating gradient */
+@keyframes profile-border-rainbow {
+  0% {
+    filter: blur(10px) brightness(1.2) hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  50% {
+    filter: blur(14px) brightness(1.5) hue-rotate(180deg);
+  }
+
+  100% {
+    filter: blur(10px) brightness(1.2) hue-rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Aurora Border - Northern lights wave effect */
+@keyframes profile-border-aurora {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    filter: blur(8px) brightness(1.1);
+    transform: scale(1) translateY(0);
+  }
+
+  25% {
+    opacity: 1;
+    filter: blur(12px) brightness(1.4);
+    transform: scale(1.02) translateY(-2px);
+  }
+
+  50% {
+    opacity: 0.8;
+    filter: blur(10px) brightness(1.2);
+    transform: scale(1.01) translateY(0);
+  }
+
+  75% {
+    opacity: 1;
+    filter: blur(14px) brightness(1.5);
+    transform: scale(1.03) translateY(2px);
+  }
+}
+
+/* Galaxy Border - Swirling cosmic effect */
+@keyframes profile-border-galaxy {
+  0% {
+    opacity: 0.6;
+    filter: blur(8px) brightness(1) saturate(1.2);
+    transform: rotate(0deg) scale(1);
+  }
+
+  33% {
+    opacity: 1;
+    filter: blur(12px) brightness(1.4) saturate(1.4);
+    transform: rotate(120deg) scale(1.02);
+  }
+
+  66% {
+    opacity: 0.8;
+    filter: blur(10px) brightness(1.2) saturate(1.3);
+    transform: rotate(240deg) scale(1.01);
+  }
+
+  100% {
+    opacity: 0.6;
+    filter: blur(8px) brightness(1) saturate(1.2);
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* Fire Border - Breathing flame effect */
+@keyframes profile-border-fire {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    filter: blur(8px) brightness(1.2);
+    transform: scale(1) scaleY(1);
+  }
+
+  25% {
+    opacity: 1;
+    filter: blur(12px) brightness(1.5);
+    transform: scale(1.02) scaleY(1.04);
+  }
+
+  50% {
+    opacity: 0.8;
+    filter: blur(10px) brightness(1.3);
+    transform: scale(1.01) scaleY(0.98);
+  }
+
+  75% {
+    opacity: 1;
+    filter: blur(14px) brightness(1.6);
+    transform: scale(1.03) scaleY(1.05);
+  }
+}
+
+/* Electric Border - Lightning flicker effect */
+@keyframes profile-border-electric {
+
+  0%,
+  8%,
+  12%,
+  100% {
+    opacity: 0.6;
+    filter: blur(8px) brightness(1);
+    transform: scale(1);
+  }
+
+  10% {
+    opacity: 1;
+    filter: blur(14px) brightness(2);
+    transform: scale(1.04);
+  }
+
+  40%,
+  44% {
+    opacity: 0.7;
+    filter: blur(10px) brightness(1.2);
+  }
+
+  42% {
+    opacity: 1;
+    filter: blur(16px) brightness(2.2);
+    transform: scale(1.05);
+  }
+
+  70%,
+  72%,
+  76% {
+    opacity: 0.8;
+    filter: blur(8px) brightness(1.1);
+  }
+
+  74% {
+    opacity: 1;
+    filter: blur(12px) brightness(1.8);
+    transform: scale(1.03);
+  }
+}
+
+/* Plasma Border - Flowing energy effect */
+@keyframes profile-border-plasma {
+  0% {
+    opacity: 0.7;
+    filter: blur(10px) brightness(1.2) hue-rotate(0deg);
+    transform: scale(1);
+  }
+
+  25% {
+    opacity: 1;
+    filter: blur(14px) brightness(1.5) hue-rotate(30deg);
+    transform: scale(1.02);
+  }
+
+  50% {
+    opacity: 0.8;
+    filter: blur(12px) brightness(1.3) hue-rotate(60deg);
+    transform: scale(1.01);
+  }
+
+  75% {
+    opacity: 1;
+    filter: blur(16px) brightness(1.6) hue-rotate(30deg);
+    transform: scale(1.03);
+  }
+
+  100% {
+    opacity: 0.7;
+    filter: blur(10px) brightness(1.2) hue-rotate(0deg);
+    transform: scale(1);
+  }
+}
+
+/* Crystal Border - Prismatic shimmer effect */
+@keyframes profile-border-crystal {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    filter: blur(8px) brightness(1.2) saturate(1.3);
+    transform: scale(1);
+  }
+
+  20% {
+    opacity: 1;
+    filter: blur(10px) brightness(1.8) saturate(1.5);
+    transform: scale(1.01);
+  }
+
+  40% {
+    opacity: 0.8;
+    filter: blur(12px) brightness(1.4) saturate(1.4);
+    transform: scale(1.02);
+  }
+
+  60% {
+    opacity: 1;
+    filter: blur(14px) brightness(2) saturate(1.6);
+    transform: scale(1.01);
+  }
+
+  80% {
+    opacity: 0.9;
+    filter: blur(10px) brightness(1.5) saturate(1.4);
+    transform: scale(1.02);
+  }
+}
+
+/* Void Border - Dark pulsing abyss effect */
+@keyframes profile-border-void {
+
+  0%,
+  100% {
+    opacity: 0.8;
+    filter: blur(10px) brightness(0.8) contrast(1.2);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(16px) brightness(0.6) contrast(1.5);
+    transform: scale(1.04);
+  }
+}
+
+/* Phoenix Border - Rising flame effect */
+@keyframes profile-border-phoenix {
+
+  0%,
+  100% {
+    opacity: 0.6;
+    filter: blur(8px) brightness(1.2);
+    transform: scale(1) translateY(0);
+  }
+
+  25% {
+    opacity: 0.9;
+    filter: blur(12px) brightness(1.6);
+    transform: scale(1.02) translateY(-3px);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(16px) brightness(1.8);
+    transform: scale(1.04) translateY(-5px);
+  }
+
+  75% {
+    opacity: 0.8;
+    filter: blur(10px) brightness(1.4);
+    transform: scale(1.01) translateY(-2px);
+  }
+}
+
+/* Supernova Border - Explosive burst effect */
+@keyframes profile-border-supernova {
+
+  0%,
+  100% {
+    opacity: 0.5;
+    filter: blur(8px) brightness(1);
+    transform: scale(1);
+  }
+
+  30% {
+    opacity: 0.7;
+    filter: blur(10px) brightness(1.3);
+    transform: scale(1.01);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(20px) brightness(2.5);
+    transform: scale(1.08);
+  }
+
+  70% {
+    opacity: 0.8;
+    filter: blur(12px) brightness(1.5);
+    transform: scale(1.02);
+  }
+}
+
+/* Divine Halo Border - Holy radiance effect */
+@keyframes profile-border-halo {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    filter: blur(12px) brightness(1.5);
+    transform: scale(1) rotate(0deg);
+  }
+
+  25% {
+    opacity: 1;
+    filter: blur(16px) brightness(2);
+    transform: scale(1.02) rotate(90deg);
+  }
+
+  50% {
+    opacity: 0.8;
+    filter: blur(14px) brightness(1.8);
+    transform: scale(1.01) rotate(180deg);
+  }
+
+  75% {
+    opacity: 1;
+    filter: blur(18px) brightness(2.2);
+    transform: scale(1.03) rotate(270deg);
+  }
+}
+
+/* Quantum Border - Reality-warping flicker */
+@keyframes profile-border-quantum {
+
+  0%,
+  15%,
+  30%,
+  45%,
+  60%,
+  75%,
+  90%,
+  100% {
+    opacity: 0.7;
+    filter: blur(10px) brightness(1.2);
+    transform: scale(1);
+  }
+
+  5%,
+  35%,
+  65%,
+  95% {
+    opacity: 1;
+    filter: blur(16px) brightness(1.8);
+    transform: scale(1.03);
+  }
+
+  20%,
+  50%,
+  80% {
+    opacity: 0.5;
+    filter: blur(8px) brightness(0.9);
+    transform: scale(0.99);
+  }
+}
+
+/* Neon Border - Classic neon sign flicker */
+@keyframes profile-border-neon {
+
+  0%,
+  18%,
+  22%,
+  25%,
+  55%,
+  59%,
+  100% {
+    opacity: 0.9;
+    filter: blur(10px) brightness(1.4);
+  }
+
+  20%,
+  24%,
+  57% {
+    opacity: 0.4;
+    filter: blur(6px) brightness(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(14px) brightness(1.8);
+  }
+}
+
+/* Dragon Border - Fierce breathing effect */
+@keyframes profile-border-dragon {
+
+  0%,
+  100% {
+    opacity: 0.6;
+    filter: blur(8px) brightness(1.1);
+    transform: scale(1);
+  }
+
+  20% {
+    opacity: 0.8;
+    filter: blur(10px) brightness(1.3);
+    transform: scale(1.01);
+  }
+
+  40% {
+    opacity: 1;
+    filter: blur(16px) brightness(1.8);
+    transform: scale(1.04);
+  }
+
+  60% {
+    opacity: 0.9;
+    filter: blur(12px) brightness(1.5);
+    transform: scale(1.02);
+  }
+
+  80% {
+    opacity: 0.7;
+    filter: blur(10px) brightness(1.2);
+    transform: scale(1.01);
+  }
+}
+
+/* Cosmic Rift Border - Interdimensional tear */
+@keyframes profile-border-rift {
+
+  0%,
+  100% {
+    opacity: 0.6;
+    filter: blur(10px) brightness(1.2) hue-rotate(0deg);
+    transform: scale(1) skewX(0deg);
+  }
+
+  25% {
+    opacity: 1;
+    filter: blur(14px) brightness(1.6) hue-rotate(45deg);
+    transform: scale(1.02) skewX(2deg);
+  }
+
+  50% {
+    opacity: 0.8;
+    filter: blur(12px) brightness(1.4) hue-rotate(90deg);
+    transform: scale(1.01) skewX(-2deg);
+  }
+
+  75% {
+    opacity: 1;
+    filter: blur(16px) brightness(1.8) hue-rotate(45deg);
+    transform: scale(1.03) skewX(1deg);
+  }
+}
+
+/* Ice Border - Frozen crystalline effect */
+@keyframes profile-border-ice {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    filter: blur(8px) brightness(1.3) saturate(1.2);
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    filter: blur(14px) brightness(1.8) saturate(1.5);
+    transform: scale(1.02);
+  }
+}
+
+/* Profile Inner Effect Animations - Enhanced */
+@keyframes profile-inner-glow {
+
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.01);
+  }
+}
+
+@keyframes profile-inner-pulse {
+
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(1.02);
+    filter: brightness(1.2);
+  }
+}
+
+@keyframes profile-inner-sparkle {
+
+  0%,
+  100% {
+    opacity: 0.3;
+    filter: brightness(1);
+  }
+
+  25% {
+    opacity: 0.7;
+    filter: brightness(1.3);
+  }
+
+  50% {
+    opacity: 0.4;
+    filter: brightness(1.1);
+  }
+
+  75% {
+    opacity: 0.8;
+    filter: brightness(1.4);
+  }
+}
+
+/* Particles overlay for effects */
+@keyframes profile-particles-float {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(180deg);
+    opacity: 1;
+  }
+}
+
+/* Shimmer sweep for premium feel */
+@keyframes profile-shimmer-sweep {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* ============================================== */
+/* PROFILE FRAME EFFECT ANIMATIONS               */
+/* ============================================== */
+
+/* Fire Frame - Breathing flames with flicker */
+@keyframes frame-fire {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px #FF4500) brightness(1);
+  }
+
+  25% {
+    filter: drop-shadow(0 0 8px #FF6B00) brightness(1.2);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 6px #FF4500) brightness(1.1);
+  }
+
+  75% {
+    filter: drop-shadow(0 0 10px #FFD700) brightness(1.3);
+  }
+}
+
+.animate-frame-fire {
+  animation: frame-fire 0.8s ease-in-out infinite;
+}
+
+/* Ice Frame - Crystalline shimmer */
+@keyframes frame-ice {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px #67e8f9) brightness(1);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 12px #22d3ee) brightness(1.3);
+  }
+}
+
+.animate-frame-ice {
+  animation: frame-ice 2s ease-in-out infinite;
+}
+
+/* Cosmic Frame - Galaxy swirl glow */
+@keyframes frame-cosmic {
+  0% {
+    filter: drop-shadow(0 0 6px #8b5cf6) hue-rotate(0deg);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 14px #d946ef) hue-rotate(30deg);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 6px #8b5cf6) hue-rotate(0deg);
+  }
+}
+
+.animate-frame-cosmic {
+  animation: frame-cosmic 4s ease-in-out infinite;
+}
+
+/* Neon Frame - Electric flicker */
+@keyframes frame-neon {
+
+  0%,
+  18%,
+  22%,
+  55%,
+  100% {
+    filter: drop-shadow(0 0 8px #FF00FF) brightness(1.2);
+  }
+
+  20%,
+  24%,
+  57% {
+    filter: drop-shadow(0 0 2px #FF00FF) brightness(0.8);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 16px #FF00FF) brightness(1.5);
+  }
+}
+
+.animate-frame-neon {
+  animation: frame-neon 2s linear infinite;
+}
+
+/* Nature Frame - Gentle breathing */
+@keyframes frame-nature {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px #22c55e) brightness(1);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 8px #4ade80) brightness(1.15);
+  }
+}
+
+.animate-frame-nature {
+  animation: frame-nature 3s ease-in-out infinite;
+}
+
+/* Divine Frame - Holy radiance rotation */
+@keyframes frame-divine {
+  0% {
+    filter: drop-shadow(0 0 8px #fef08a) brightness(1.2);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 20px #fcd34d) brightness(1.6);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 8px #fef08a) brightness(1.2);
+  }
+}
+
+.animate-frame-divine {
+  animation: frame-divine 2.5s ease-in-out infinite;
+}
+
+/* Shadow Frame - Dark pulse */
+@keyframes frame-shadow {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 8px #27272a) brightness(0.9);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 16px #18181b) brightness(0.7);
+  }
+}
+
+.animate-frame-shadow {
+  animation: frame-shadow 3s ease-in-out infinite;
+}
+
+/* Electric Frame - Lightning strikes */
+@keyframes frame-electric {
+
+  0%,
+  90%,
+  100% {
+    filter: drop-shadow(0 0 4px #facc15) brightness(1);
+  }
+
+  10%,
+  12% {
+    filter: drop-shadow(0 0 20px #fef08a) brightness(2);
+  }
+
+  45%,
+  47% {
+    filter: drop-shadow(0 0 18px #facc15) brightness(1.8);
+  }
+}
+
+.animate-frame-electric {
+  animation: frame-electric 2s linear infinite;
+}
+
+/* Water Frame - Flowing waves */
+@keyframes frame-water {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px #4FC3F7) brightness(1);
+    transform: scaleY(1);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 10px #38bdf8) brightness(1.2);
+    transform: scaleY(1.01);
+  }
+}
+
+.animate-frame-water {
+  animation: frame-water 2.5s ease-in-out infinite;
+}
+
+/* Aurora Frame - Northern lights color shift */
+@keyframes frame-aurora {
+  0% {
+    filter: drop-shadow(0 0 6px #22c55e) brightness(1.1);
+  }
+
+  33% {
+    filter: drop-shadow(0 0 10px #06b6d4) brightness(1.3);
+  }
+
+  66% {
+    filter: drop-shadow(0 0 8px #8b5cf6) brightness(1.2);
+  }
+
+  100% {
+    filter: drop-shadow(0 0 6px #22c55e) brightness(1.1);
+  }
+}
+
+.animate-frame-aurora {
+  animation: frame-aurora 4s ease-in-out infinite;
+}
+
+/* Glitch Frame - Digital distortion */
+@keyframes frame-glitch {
+
+  0%,
+  90%,
+  100% {
+    filter: drop-shadow(0 0 4px #00ff88) brightness(1);
+    transform: translate(0);
+  }
+
+  5% {
+    filter: drop-shadow(2px 0 #ff0080) brightness(1.5);
+    transform: translate(-2px, 1px);
+  }
+
+  10% {
+    filter: drop-shadow(-2px 0 #00ff88) brightness(1.3);
+    transform: translate(2px, -1px);
+  }
+
+  15% {
+    filter: drop-shadow(0 0 8px #00ff88) brightness(1);
+    transform: translate(0);
+  }
+
+  50% {
+    filter: drop-shadow(1px 0 #ff0080) brightness(1.4);
+    transform: translate(-1px);
+  }
+}
+
+.animate-frame-glitch {
+  animation: frame-glitch 3s linear infinite;
+}
+
+/* Love Frame - Heartbeat pulse */
+@keyframes frame-love {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px #f472b6) brightness(1);
+    transform: scale(1);
+  }
+
+  14% {
+    filter: drop-shadow(0 0 10px #ec4899) brightness(1.3);
+    transform: scale(1.02);
+  }
+
+  28% {
+    filter: drop-shadow(0 0 6px #f472b6) brightness(1.1);
+    transform: scale(1);
+  }
+
+  42% {
+    filter: drop-shadow(0 0 12px #ec4899) brightness(1.4);
+    transform: scale(1.03);
+  }
+}
+
+.animate-frame-love {
+  animation: frame-love 1.2s ease-in-out infinite;
+}
+
+/* Moon Frame - Soft lunar glow */
+@keyframes frame-moon {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 6px #f5f5dc) brightness(1);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 14px #fefce8) brightness(1.3);
+  }
+}
+
+.animate-frame-moon {
+  animation: frame-moon 4s ease-in-out infinite;
+}
+
+/* Sparkle Frame - Twinkling stars */
+@keyframes frame-sparkle {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 4px #fbbf24) brightness(1);
+  }
+
+  25% {
+    filter: drop-shadow(0 0 10px #fef08a) brightness(1.5);
+  }
+
+  50% {
+    filter: drop-shadow(0 0 6px #fbbf24) brightness(1.1);
+  }
+
+  75% {
+    filter: drop-shadow(0 0 12px #fde047) brightness(1.4);
+  }
+}
+
+.animate-frame-sparkle {
+  animation: frame-sparkle 1.5s ease-in-out infinite;
+}

@@ -1,0 +1,26 @@
+Alias name: orix-key
+Creation date: 27 Dec 2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=ORIX App, OU=Development, O=ORIX Rideshare, L=Kerala, ST=Kerala, C=IN
+Issuer: CN=ORIX App, OU=Development, O=ORIX Rideshare, L=Kerala, ST=Kerala, C=IN
+Serial number: bbddbfbb1fb64979
+Valid from: Sat Dec 27 10:46:32 IST 2025 until: Wed May 14 10:46:32 IST 2053
+Certificate fingerprints:
+	 SHA1: B0:FA:3C:F7:6F:52:DB:ED:08:BF:8E:37:C7:72:24:27:78:F7:28:9E
+	 SHA256: 04:E4:0B:5A:A9:52:6A:A0:BC:2B:4D:A0:4B:CE:96:C9:4F:4E:DC:05:FD:4D:98:DF:4C:6E:25:12:39:0B:3D:1C
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: CB 0D F9 D9 CB DB 9C D5   FE 24 DA 71 51 8D 6F 06  .........$.qQ.o.
+0010: 41 0C 13 45                                        A..E
+]
+]
+

@@ -1,0 +1,66 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Medieval treasure chest background -->
+  <defs>
+    <linearGradient id="wood-grain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513" />
+      <stop offset="50%" stop-color="#A0522D" />
+      <stop offset="100%" stop-color="#6B3E26" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#DAA520" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with wooden texture -->
+  <rect width="400" height="300" fill="#2d2017" />
+  
+  <!-- Treasure chest body -->
+  <rect x="100" y="100" width="200" height="150" rx="10" fill="url(#wood-grain)" stroke="#5e2c0c" stroke-width="4" />
+  
+  <!-- Chest lid (partial open) -->
+  <path d="M100,100 L300,100 L320,70 L80,70 Z" fill="url(#wood-grain)" stroke="#5e2c0c" stroke-width="4" />
+  
+  <!-- Metal reinforcements on chest -->
+  <rect x="95" y="130" width="210" height="10" fill="#5e2c0c" stroke="#5e2c0c" stroke-width="1" />
+  <rect x="95" y="170" width="210" height="10" fill="#5e2c0c" stroke="#5e2c0c" stroke-width="1" />
+  <rect x="95" y="210" width="210" height="10" fill="#5e2c0c" stroke="#5e2c0c" stroke-width="1" />
+  
+  <!-- Lock mechanism -->
+  <rect x="185" y="170" width="30" height="25" rx="5" fill="#5e2c0c" stroke="#3d1d08" stroke-width="2" />
+  <circle cx="200" cy="182" r="5" fill="#DAA520" stroke="#B8860B" stroke-width="1" />
+  
+  <!-- Title in medieval Gothic style -->
+  <text x="200" y="40" font-family="serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#DAA520">
+    Expense Tracker
+  </text>
+  <text x="200" y="60" font-family="serif" font-size="14" font-style="italic" text-anchor="middle" fill="#DAA520">
+    Royal Treasury Management
+  </text>
+  
+  <!-- Gold coins spilling from chest -->
+  <circle cx="130" cy="90" r="10" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="150" cy="85" r="8" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="165" cy="95" r="12" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="185" cy="85" r="9" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="200" cy="95" r="7" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="215" cy="90" r="11" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="235" cy="95" r="8" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="250" cy="85" r="10" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <circle cx="270" cy="90" r="9" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  
+  <!-- Visible gold inside chest -->
+  <ellipse cx="200" cy="140" rx="80" ry="20" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  
+  <!-- Decorative medieval coins -->
+  <circle cx="170" cy="230" r="15" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <text x="170" y="235" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#5e2c0c">$</text>
+  
+  <circle cx="230" cy="230" r="15" fill="url(#gold)" stroke="#B8860B" stroke-width="1" />
+  <text x="230" y="235" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#5e2c0c">€</text>
+  
+  <!-- Decorative medieval elements -->
+  <path d="M50,260 C100,250 150,270 200,260 S250,250 300,260 S350,270 370,260" 
+        fill="none" stroke="#DAA520" stroke-width="2" />
+</svg> 

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "name": "Christopher Joshy",
+    "position": "Creator",
+    "contact": "notanexample@example.com",
+    "initials": "Chris"
+  },
+  {
+    "id": "2",
+    "name": "Priya Nair",
+    "position": "Vice-Chairperson",
+    "contact": "priya.nair@ieee.org",
+    "initials": "PN"
+  },
+  {
+    "id": "3",
+    "name": "Rahul Kumar",
+    "position": "Secretary",
+    "contact": "+91 9876543210",
+    "initials": "RK"
+  },
+  {
+    "id": "4",
+    "name": "Sneha Menon",
+    "position": "Treasurer",
+    "contact": "sneha.menon@ieee.org",
+    "initials": "SM"
+  },
+  {
+    "id": "5",
+    "name": "Anil Varma",
+    "position": "Technical Lead",
+    "contact": "+91 9876543211",
+    "initials": "AV"
+  }
+]

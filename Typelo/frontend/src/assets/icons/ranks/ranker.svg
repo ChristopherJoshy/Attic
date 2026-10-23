@@ -1,0 +1,29 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ranker-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="24" cy="24" r="22" stroke="url(#ranker-gradient)" stroke-width="2.5" fill="none"/>
+  <!-- Inner rings -->
+  <circle cx="24" cy="24" r="17" stroke="url(#ranker-gradient)" stroke-width="1.5" fill="none"/>
+  <circle cx="24" cy="24" r="12" stroke="url(#ranker-gradient)" stroke-width="1.5" fill="none"/>
+  <!-- Crown points -->
+  <polygon points="24,8 27,16 24,14 21,16" fill="url(#ranker-gradient)"/>
+  <polygon points="16,12 19,18 16,16 13,18" fill="url(#ranker-gradient)"/>
+  <polygon points="32,12 35,18 32,16 29,18" fill="url(#ranker-gradient)"/>
+  <!-- Center star -->
+  <polygon points="24,17 26,22 31,22 27,26 28.5,31 24,28 19.5,31 21,26 17,22 22,22" 
+           fill="url(#ranker-gradient)" opacity="0.9"/>
+  <!-- Radiating lines -->
+  <g stroke="url(#ranker-gradient)" stroke-width="1.5" stroke-linecap="round">
+    <line x1="24" y1="36" x2="24" y2="42"/>
+    <line x1="6" y1="24" x2="10" y2="24"/>
+    <line x1="38" y1="24" x2="42" y2="24"/>
+    <line x1="10" y1="35" x2="13" y2="32"/>
+    <line x1="35" y1="32" x2="38" y2="35"/>
+  </g>
+</svg>

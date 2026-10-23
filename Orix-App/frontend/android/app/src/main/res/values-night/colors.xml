@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ORIX brand colors for night mode -->
+    <color name="splash_background">#010101</color>
+    <color name="orix_primary">#FB3B30</color>
+</resources>

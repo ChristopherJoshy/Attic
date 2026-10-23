@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Watch an AI navigate Wikipedia in real-time, finding paths between topics using intelligent link analysis">
+    <meta name="theme-color" content="#1e1e2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>WikiRun AI - AI-Powered Wikipedia Navigation</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"></script>
+    <script src="config.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>WikiRun AI</h1>
+            <p class="subtitle">Watch an AI navigate Wikipedia in real-time</p>
+        </header>
+
+        <main class="main-content">
+            <section class="controls-section" aria-label="Run controls">
+                <div class="input-group">
+                    <label for="start-topic">Start Topic</label>
+                    <input type="text" id="start-topic" placeholder="e.g., Albert Einstein" autocomplete="off" aria-describedby="start-hint">
+                </div>
+                <div class="input-group">
+                    <label for="target-topic">Target Topic</label>
+                    <input type="text" id="target-topic" placeholder="e.g., Pizza" autocomplete="off" aria-describedby="target-hint">
+                </div>
+                <div class="input-group">
+                    <label for="max-steps">Max Steps</label>
+                    <input type="number" id="max-steps" value="50" min="5" max="100" aria-describedby="steps-hint">
+                </div>
+                <div class="input-group checkbox-group">
+                    <label>
+                        <input type="checkbox" id="use-api" checked>
+                        <span>Use AI Mode</span>
+                    </label>
+                </div>
+                <div class="button-group">
+                    <button id="start-btn" class="btn btn-primary" aria-label="Start Wikipedia navigation">
+                        <span>▶</span> Start Run
+                    </button>
+                    <button id="stop-btn" class="btn btn-danger" disabled aria-label="Stop navigation">
+                        <span>■</span> Stop
+                    </button>
+                </div>
+            </section>
+
+            <section class="status-section" aria-label="Current status">
+                <div class="status-badge" id="status-badge" role="status" aria-live="polite">Ready</div>
+                <div class="model-badge" id="model-badge" title="Current AI model being used" aria-label="AI Model">--</div>
+                <div class="step-counter" id="step-counter" aria-label="Step progress">Step: 0/50</div>
+            </section>
+
+            <section class="visualization-section" aria-label="Graph visualization">
+                <div class="graph-container">
+                    <div id="graph" class="graph" role="img" aria-label="Wikipedia navigation graph"></div>
+                </div>
+                <div class="path-container">
+                    <h3>Navigation Path</h3>
+                    <nav id="breadcrumb" class="breadcrumb" aria-label="Current navigation path"></nav>
+                </div>
+            </section>
+
+            <section class="details-section" aria-label="Details">
+                <article class="preview-panel" id="preview-panel">
+                    <h3>Page Preview</h3>
+                    <div class="preview-content" id="preview-content">
+                        <p class="placeholder-text">Click a node to see page details</p>
+                    </div>
+                </article>
+                <article class="log-panel">
+                    <h3>Activity Log</h3>
+                    <div id="run-log" class="run-log" role="log" aria-live="polite" aria-label="Navigation activity log"></div>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>WikiRun AI — Made with <span class="heart" aria-label="love">❤</span> by <a href="https://github.com/christopherjoshy" target="blank" rel="noopener noreferrer">Chris</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+# Root ignore rules
+# Node modules (frontend has its own, but ensure at root too)
+node_modules/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env/
+.venv/
+venv/
+
+# Environment variable files
+*.env
+.env.*
+backend/.env
+frontend/.env.local
+
+# SQLite / local databases
+*.db
+*.sqlite3
+
+# Build outputs
+build/
+dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Next.js build (if run from root)
+.next/
+out/
+
+# Coverage
+coverage/
+
+# Misc
+*.tsbuildinfo

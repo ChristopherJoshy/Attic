@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 0%);
+  --foreground: hsl(0, 0%, 100%);
+  --muted: hsl(0, 0%, 15%);
+  --muted-foreground: hsl(0, 0%, 70%);
+  --popover: hsl(0, 0%, 0%);
+  --popover-foreground: hsl(0, 0%, 100%);
+  --card: hsl(0, 0%, 0%);
+  --card-foreground: hsl(0, 0%, 100%);
+  --border: hsl(0, 0%, 20%);
+  --input: hsl(0, 0%, 10%);
+  --primary: hsl(0, 0%, 100%);
+  --primary-foreground: hsl(0, 0%, 0%);
+  --secondary: hsl(0, 0%, 10%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --accent: hsl(0, 0%, 15%);
+  --accent-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --ring: hsl(0, 0%, 100%);
+  --radius: 0rem;
+  --link: hsl(210, 100%, 60%);
+  --link-hover: hsl(210, 100%, 70%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-black text-white font-mono antialiased;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.025em;
+    overflow: hidden;
+  }
+
+  /* Terminal specific styles */
+  .terminal-container {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.025em;
+  }
+
+  .terminal-cursor {
+    animation: blink 1s infinite;
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .typewriter-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    animation: typewriter 2s steps(40) 1s forwards;
+  }
+
+  .ascii-loading {
+    font-family: monospace;
+    white-space: pre;
+  }
+
+  .terminal-output {
+    user-select: text;
+  }
+
+  .loading-bar {
+    background: repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 4px,
+      white 4px,
+      white 8px
+    );
+    animation: loading 1s linear infinite;
+  }
+
+  /* Custom scrollbar for terminal */
+  .terminal-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .terminal-scrollbar::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  .terminal-scrollbar::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 0;
+  }
+  
+  .terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* Terminal prompt colors */
+  .prompt-user {
+    color: #00ff00;
+  }
+
+  .prompt-admin {
+    color: #ff0000;
+  }
+
+  .prompt-host {
+    color: #00ffff;
+  }
+
+  .prompt-path {
+    color: #0080ff;
+  }
+
+  .prompt-symbol {
+    color: #ffffff;
+  }
+
+  .terminal-line {
+    display: block;
+    white-space: pre-wrap;
+  }
+
+  .terminal-line a {
+    color: var(--link);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.1em 0.3em;
+    margin: -0.1em -0.3em;
+    border-radius: 0.2em;
+    transition: all 0.2s ease;
+  }
+
+  .terminal-line a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .terminal-line a:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+  }
+
+  .terminal-line a:active {
+    transform: translateY(1px);
+  }
+}
+
+@layer utilities {
+  /* Terminal animations */
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+
+  @keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes loading {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.3); }
+    50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
+  }
+
+  .animate-blink {
+    animation: blink 1s infinite;
+  }
+
+  .animate-typewriter {
+    animation: typewriter 2s steps(40) 1s forwards;
+  }
+
+  .animate-loading {
+    animation: loading 2s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200">
+  <defs>
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="url(#bannerGrad)" rx="10"/>
+  <text x="600" y="100" font-family="Arial, sans-serif" font-size="40" fill="white" text-anchor="middle" font-weight="bold">Welcome to My Project Archive</text>
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" opacity="0.9">17 Projects • 20+ Technologies • 5 Categories</text>
+  <circle cx="150" cy="50" r="20" fill="#f093fb" opacity="0.5"/>
+  <circle cx="1050" cy="50" r="30" fill="#667eea" opacity="0.5"/>
+  <circle cx="200" cy="150" r="15" fill="#764ba2" opacity="0.4"/>
+  <circle cx="1000" cy="160" r="25" fill="#f093fb" opacity="0.4"/>
+</svg>

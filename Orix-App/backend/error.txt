@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from app.main import app
+  File "C:\Users\chris\projects\orix-app\backend\app\__init__.py", line 3, in <module>
+    from app.main import app
+  File "C:\Users\chris\projects\orix-app\backend\app\main.py", line 16, in <module>
+    from app.routers import auth, users, rides, groups, reports, notifications, admin, websocket, support, logs, ratings
+  File "C:\Users\chris\projects\orix-app\backend\app\routers\__init__.py", line 3, in <module>
+    from app.routers import auth, users, rides, groups, reports, notifications, admin, websocket, support, logs
+  File "C:\Users\chris\projects\orix-app\backend\app\routers\rides.py", line 27, in <module>
+    class RideRequestResponse(BaseModel):
+    ...<12 lines>...
+        time_remaining_seconds: int
+  File "C:\Users\chris\projects\orix-app\backend\app\routers\rides.py", line 38, in RideRequestResponse
+    created_at: datetime
+                ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'?

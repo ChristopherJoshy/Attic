@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Digital Literacy Workshop",
+    "description": "Empowering rural communities in Kollam district with essential digital skills, covering smartphone usage, internet safety, and digital payment systems.",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    "status": "upcoming",
+    "date": "March 2024",
+    "tags": ["Education", "Community"]
+  },
+  {
+    "id": "2",
+    "title": "Solar Power Initiative",
+    "description": "Successfully installed solar power systems in 5 rural schools, providing clean energy access to over 200 students across Pathanamthitta district.",
+    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    "status": "past",
+    "date": "January 2024",
+    "tags": ["Sustainability", "Energy"]
+  },
+  {
+    "id": "3",
+    "title": "Healthcare Technology Summit",
+    "description": "Annual summit bringing together healthcare professionals and engineers to develop innovative solutions for rural healthcare challenges in Kerala.",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    "status": "upcoming",
+    "date": "April 2024",
+    "tags": ["Healthcare", "Innovation"]
+  },
+  {
+    "id": "4",
+    "title": "Clean Water Project",
+    "description": "Deployed low-cost water purification systems in 3 coastal villages, ensuring access to clean drinking water for 150+ families affected by salinity.",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    "status": "past",
+    "date": "December 2023",
+    "tags": ["Water", "Infrastructure"]
+  }
+]

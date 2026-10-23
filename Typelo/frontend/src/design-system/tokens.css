@@ -1,0 +1,245 @@
+/**
+ * Evotaion Design System - CSS Variables
+ * 
+ * These CSS custom properties provide a consistent design language
+ * for the Evotaion 1v1 typing competition platform.
+ * 
+ * Usage: Import this file in your main CSS entry point
+ */
+
+:root {
+  /* ========================================
+     COLORS - Background
+     ======================================== */
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #0A0A0A;
+  --color-bg-tertiary: #121212;
+  --color-bg-elevated: #1A1A1A;
+  --color-bg-overlay: rgba(0, 0, 0, 0.8);
+
+  /* ========================================
+     COLORS - Surface (for cards, panels)
+     ======================================== */
+  --color-surface-default: rgba(255, 255, 255, 0.02);
+  --color-surface-hover: rgba(255, 255, 255, 0.05);
+  --color-surface-active: rgba(255, 255, 255, 0.08);
+  --color-surface-border: rgba(255, 255, 255, 0.08);
+
+  /* ========================================
+     COLORS - Primary Accent (Rose)
+     ======================================== */
+  --color-primary-50: #FFF1F2;
+  --color-primary-100: #FFE4E6;
+  --color-primary-200: #FECDD3;
+  --color-primary-300: #FDA4AF;
+  --color-primary-400: #FB7185;
+  --color-primary-500: #F43F5E;
+  --color-primary-600: #E11D48;
+  --color-primary-700: #BE123C;
+  --color-primary-800: #9F1239;
+  --color-primary-900: #881337;
+  
+  --color-accent-primary: var(--color-primary-500);
+  --color-accent-primary-hover: var(--color-primary-400);
+  --color-on-primary: #000000;
+
+  /* ========================================
+     COLORS - Semantic
+     ======================================== */
+  /* Success (Green) */
+  --color-success: #22C55E;
+  --color-success-muted: rgba(34, 197, 94, 0.15);
+  --color-success-text: #4ADE80;
+
+  /* Danger (Red) */
+  --color-danger: #EF4444;
+  --color-danger-muted: rgba(239, 68, 68, 0.15);
+  --color-danger-text: #F87171;
+
+  /* Warning (Amber) */
+  --color-warning: #F59E0B;
+  --color-warning-muted: rgba(245, 158, 11, 0.15);
+  --color-warning-text: #FBBF24;
+
+  /* ========================================
+     COLORS - Text
+     ======================================== */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #A1A1A1;
+  --color-text-muted: #525252;
+  --color-text-disabled: #3F3F3F;
+
+  /* ========================================
+     COLORS - Rank System
+     ======================================== */
+  --color-rank-unranked: #71717A;
+  --color-rank-bronze: #CD7F32;
+  --color-rank-silver: #C0C0C0;
+  --color-rank-gold: #FFD700;
+  --color-rank-platinum: #E5E4E2;
+  --color-rank-diamond: #B9F2FF;
+  --color-rank-ranker: #A855F7;
+
+  /* ========================================
+     COLORS - Opponent
+     ======================================== */
+  --color-opponent-cursor: #8B5CF6;
+  --color-opponent-highlight: rgba(139, 92, 246, 0.2);
+
+  /* ========================================
+     TYPOGRAPHY - Font Families
+     ======================================== */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  /* ========================================
+     TYPOGRAPHY - Font Weights
+     ======================================== */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  /* ========================================
+     TYPOGRAPHY - Font Sizes
+     ======================================== */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+  --font-size-5xl: 3rem;      /* 48px */
+  --font-size-6xl: 3.75rem;   /* 60px */
+  --font-size-7xl: 4.5rem;    /* 72px */
+  --font-size-8xl: 6rem;      /* 96px */
+
+  /* ========================================
+     TYPOGRAPHY - Line Heights
+     ======================================== */
+  --line-height-tight: 1.1;
+  --line-height-snug: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+
+  /* ========================================
+     TYPOGRAPHY - Letter Spacing
+     ======================================== */
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+  --letter-spacing-ultrawide: 0.2em;
+
+  /* ========================================
+     SPACING (8px base system)
+     ======================================== */
+  --space-0: 0;
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+
+  /* ========================================
+     BORDER RADIUS
+     ======================================== */
+  --radius-none: 0;
+  --radius-sm: 0.25rem;   /* 4px */
+  --radius-md: 0.5rem;    /* 8px */
+  --radius-lg: 0.75rem;   /* 12px */
+  --radius-xl: 1rem;      /* 16px */
+  --radius-2xl: 1.5rem;   /* 24px */
+  --radius-3xl: 2rem;     /* 32px */
+  --radius-full: 9999px;
+
+  /* ========================================
+     SHADOWS
+     ======================================== */
+  --shadow-none: none;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.75);
+
+  /* Glow Effects */
+  --shadow-glow-primary: 0 0 20px rgba(244, 63, 94, 0.3);
+  --shadow-glow-success: 0 0 20px rgba(34, 197, 94, 0.3);
+  --shadow-glow-danger: 0 0 20px rgba(239, 68, 68, 0.3);
+
+  /* ========================================
+     ELEVATION SYSTEM
+     ======================================== */
+  --elevation-0-bg: #000000;
+  --elevation-0-border: transparent;
+  
+  --elevation-1-bg: #0A0A0A;
+  --elevation-1-border: rgba(255, 255, 255, 0.05);
+  
+  --elevation-2-bg: #121212;
+  --elevation-2-border: rgba(255, 255, 255, 0.08);
+  
+  --elevation-3-bg: #1A1A1A;
+  --elevation-3-border: rgba(255, 255, 255, 0.10);
+  
+  --elevation-4-bg: #242424;
+  --elevation-4-border: rgba(255, 255, 255, 0.12);
+
+  /* ========================================
+     ANIMATION
+     ======================================== */
+  --duration-instant: 50ms;
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+
+  --easing-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --easing-in: cubic-bezier(0.4, 0, 1, 1);
+  --easing-out: cubic-bezier(0, 0, 0.2, 1);
+  --easing-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --easing-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ========================================
+     Z-INDEX SCALE
+     ======================================== */
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 300;
+  --z-popover: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  /* ========================================
+     LAYOUT CONSTANTS
+     ======================================== */
+  --sidebar-width: 320px;
+  --header-height: 72px;
+  --max-typing-width: 900px;
+  --leaderboard-row-height: 56px;
+  --modal-row-height: 56px;
+}
+
+/* ========================================
+   BREAKPOINT MEDIA QUERIES
+   ======================================== */
+/* 
+  Mobile: < 768px
+  Tablet: 768px - 1279px  
+  Desktop: >= 1280px
+  Wide: >= 1536px
+*/

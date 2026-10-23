@@ -1,0 +1,52 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python / Backend
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/venv/
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.coverage
+
+# Flutter / Frontend
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+frontend/.pub/
+frontend/android/local.properties
+frontend/android/.gradle
+frontend/ios/.generated/
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/ios/Pods/
+frontend/macos/Flutter/ephemeral/
+frontend/windows/flutter/ephemeral/
+frontend/linux/flutter/ephemeral/
+
+# Secrets & Keys
+*.key
+*.pem
+google-services.json
+GoogleService-Info.plist
+firebase_service_account.json
+backend/firebase_credentials.json
+#python cache
+
+__pycache__/
+*.pyc
+*.pyo

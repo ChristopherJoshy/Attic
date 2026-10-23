@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <defs>
+    <linearGradient id="introGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="150" fill="url(#introGrad)" rx="10"/>
+  <text x="200" y="60" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">My Development Journey</text>
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Web Development • AI/ML • Mobile Apps</text>
+  <rect x="50" y="105" width="300" height="30" rx="5" fill="white" opacity="0.2"/>
+  <text x="200" y="125" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Full Stack Developer</text>
+  <circle cx="30" cy="30" r="8" fill="#f093fb" opacity="0.6"/>
+  <circle cx="370" cy="40" r="12" fill="#764ba2" opacity="0.6"/>
+  <circle cx="60" cy="120" r="6" fill="#667eea" opacity="0.5"/>
+  <circle cx="350" cy="110" r="10" fill="#10B981" opacity="0.5"/>
+</svg>

@@ -1,0 +1,152 @@
+# PROJECT H.Y.D.R.A. - .gitignore
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+.netrc
+_netrc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+hydra.db
+
+# Cache directories
+cache/
+.cache/
+*.cache
+
+# Downloaded satellite data
+data/
+satellite_data/
+granules/
+*.tif
+*.hdf
+*.nc
+*.he5
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Rasterio/GDAL
+.rasterio/
+
+# NASA Earthdata credentials (extra safety)
+*credentials*
+*password*
+.netrc
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation builds
+docs/_build/
+site/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# Backup files
+*.backup
