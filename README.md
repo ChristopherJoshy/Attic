@@ -1,3 +1,11 @@
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,35:1d4ed8,70:7c3aed,100:ec4899&height=190&section=header&text=Project%20Shelf&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Small%20experiments%2C%20built%20to%20learn%20something.&descAlignY=58&descSize=17" alt="Animated project shelf header" />
+  <p>
+    <img src="https://img.shields.io/badge/Projects-23-7C3AED?style=for-the-badge" alt="23 projects" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-EC4899?style=for-the-badge" alt="MIT License" /></a>
+  </p>
+</div>
+
 # Projects
 
 A working collection of things I've built over the years — web apps, bots, mobile apps,
@@ -13,11 +21,6 @@ Where a project has a live deployment, it's linked in its section.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [Typelo](#typelo) | Competitive typing platform with ranked play and anti-cheat | React, TypeScript, FastAPI, Postgres |
-| [Orix-App](#orix-app) | Campus ride coordination with route matching and group chat | FastAPI, MongoDB, Redis, Flutter |
-| [Orito-The-Linux-Helper](#orito-the-linux-helper) | Multi-agent Linux assistant with a tool registry | TypeScript, Fastify, MongoDB, LangChain |
-| [WikiRunAi](#wikirunai) | An AI that plays the Wikipedia race game | Python, FastAPI, WebSockets |
-| [PROJECT-H.Y.D.R.A.](#project-hydra) | Satellite water-quality monitoring through NASA CMR | Python, Streamlit, rasterio |
 | [Sahayi-IIIT](#sahayi-iiit) | Voice-first health companion for Malayalam speakers | FastAPI, Twilio, Sarvam, Gemini |
 | [CiCaWa-HashITup](#cicawa-hashitup) | Circular-waste marketplace with AI waste classification | Next.js, FastAPI, Gemini |
 | [Untangle](#untangle) | Shared-expense tracker with natural-language entry | Next.js, Prisma, Groq |
@@ -151,17 +154,7 @@ search, categories and product detail views without a backend.
 
 ---
 
-## Products and platforms
-
-### Typelo
-
-Competitive typing platform: ranked matchmaking, ELO ratings, quests, friends and a
-server-side anti-cheat pass that looks at keystroke timing rather than trusting the client.
-
-- React + TypeScript + Vite frontend, FastAPI backend
-- Postgres, Redis (matchmaking queue and locks), WebSockets
-- PWA with offline support, SEO comparison pages
-- Live at [typelo.tech](https://www.typelo.tech/)
+## Learning and community platforms
 
 ### KKNotesV2
 
@@ -175,39 +168,6 @@ panel with roles and stats, and a PWA with push notifications.
 ---
 
 ## AI and agents
-
-### Orito-The-Linux-Helper
-
-A Linux assistant built as a multi-agent system. An orchestrator breaks a request into
-steps, routes each step to a specialist agent, and executes it against the local system
-using a tool registry, a vector store and web search.
-
-- TypeScript + Fastify + MongoDB + Firebase Auth + WebSockets
-- OpenRouter and Gemini for models, Tavily for search, Pinecone/Qdrant for retrieval
-- Tool registry covers manpages, package search and command-safety validation
-- Tiered access plans and audit logging; backend only — no client in this copy
-
-### WikiRunAi
-
-An AI that plays the Wikipedia race game — it has to get from one article to another using
-only links. Each hop is chosen by an LLM with embeddings, with a TF-IDF fallback when
-embeddings aren't available, and the route streams live over WebSockets.
-
-- Python + FastAPI + WebSockets
-- MongoDB with TTL caching, LRU cache in front
-- Groq / Moonshot models, FastEmbed, scikit-learn
-- vis-network frontend renders the path as a graph
-
-### PROJECT-H.Y.D.R.A.
-
-Satellite water-quality monitoring. Pulls Harmonized Landsat-Sentinel imagery through
-NASA's CMR API, caches tiles, masks clouds, computes a normalized band index per water
-body, averages across time and classifies bloom severity.
-
-- Python + Streamlit, rasterio, folium, SQLite
-- NASA CMR/HLS and GIBS; pytest suite
-- The index is a single-band normalized difference — not true NDCI, which needs a
-  red-edge band
 
 ### Sahayi-IIIT
 
@@ -298,23 +258,9 @@ set of process and evidence notes from the competition.
 
 A small GitHub Actions security experiment: two workflows testing whether a PR-controlled
 `.claude/settings.json` is picked up by `anthropics/claude-code-action` during a
-`workflow_run` job.
+`workflow_run` event.
 
 - GitHub Actions YAML only
-
----
-
-## Mobile
-
-### Orix-App
-
-Campus ride coordination. Riders post a route, the matcher scores pairings by route overlap
-using Haversine geometry with a weighted rubric, forms groups and settles the split. Chat
-runs over WebSockets, and a Telegram bot handles admin operations.
-
-- Python + FastAPI backend, MongoDB, Redis, Firebase
-- Flutter/Dart app for Android, iOS, web and desktop
-- Six pytest files, including the matchmaking tests
 
 ---
 
