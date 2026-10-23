@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PLANEAT restocafe — Charcoal, Mandhi &amp; Shawarma</title>
+<meta name="description" content="PLANEAT restocafe — Container-style cafe near Vattolikadavu bridge, Bharanganam, Pala. Charcoal-grilled specials, mandhi, shawarma, and classic combos.">
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --bg-raised: #111111;
+  --bg-card: #161616;
+  --bg-card-hover: #1c1c1c;
+  --accent: #e85d04;
+  --accent-warm: #f0792a;
+  --accent-glow: rgba(232, 93, 4, 0.2);
+  --text: #f0ebe3;
+  --text-dim: #a09688;
+  --text-muted: #605850;
+  --border: rgba(255, 255, 255, 0.07);
+  --border-hover: rgba(255, 255, 255, 0.14);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --radius: 10px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --max-w: 1120px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+::selection { background: var(--accent); color: #fff; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+ul { list-style: none; }
+
+/* ── Layout ── */
+.wrap {
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 40px);
+}
+
+/* ── Typography ── */
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.body-text {
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 13px 28px;
+  border-radius: 100px;
+  transition: all 0.3s var(--ease);
+  white-space: nowrap;
+}
+.btn svg, .btn i { width: 16px; height: 16px; flex-shrink: 0; }
+
+.btn-fill {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-fill:hover { background: var(--accent-warm); box-shadow: 0 4px 20px var(--accent-glow); }
+
+.btn-outline {
+  color: var(--text);
+  border: 1px solid var(--border-hover);
+}
+.btn-outline:hover { border-color: var(--text-dim); background: rgba(255,255,255,0.04); }
+
+/* ── Nav ── */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  height: 64px;
+  transition: background 0.4s, box-shadow 0.4s;
+}
+.nav.is-scrolled {
+  background: rgba(10,10,10,0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 1px 0 var(--border);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+}
+.nav-logo-img {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s var(--ease);
+}
+.nav-brand:hover .nav-logo-img {
+  transform: scale(1.05);
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.nav-links a {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--text-dim);
+  transition: color 0.25s;
+}
+.nav-links a:hover { color: var(--text); }
+.nav-order {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  padding: 8px 20px;
+  border-radius: 100px;
+  transition: background 0.3s;
+}
+.nav-order:hover { background: var(--accent-warm); }
+.nav-burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 6px;
+}
+.nav-burger span {
+  display: block;
+  width: 22px;
+  height: 1.5px;
+  background: var(--text);
+  border-radius: 1px;
+  transition: 0.3s;
+}
+.nav-burger.active span:nth-child(1) { transform: rotate(45deg) translate(4.5px, 4.5px); }
+.nav-burger.active span:nth-child(2) { opacity: 0; }
+.nav-burger.active span:nth-child(3) { transform: rotate(-45deg) translate(4.5px, -4.5px); }
+
+/* Mobile overlay */
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  background: rgba(10,10,10,0.97);
+  backdrop-filter: blur(24px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.mobile-menu.open { opacity: 1; pointer-events: all; }
+.mobile-menu a {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.mobile-menu a:hover { color: var(--accent); }
+
+/* Floating CTA */
+.float-cta {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 90;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.float-cta.visible { opacity: 1; pointer-events: all; }
+
+/* ── Hero ── */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+}
+.hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  filter: brightness(0.55) contrast(1.1);
+}
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(10,10,10,0.3) 0%, rgba(10,10,10,0.15) 40%, rgba(10,10,10,0.6) 75%, var(--bg) 100%);
+}
+.hero-glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232,93,4,0.1) 0%, transparent 70%);
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.hero-embers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.ember {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent-warm);
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 680px;
+  padding: 0 clamp(20px, 5vw, 40px);
+}
+.hero-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--accent-warm);
+  margin-bottom: 20px;
+  opacity: 0;
+}
+.hero-name {
+  font-family: var(--font-display);
+  font-size: clamp(3.2rem, 9vw, 6rem);
+  font-weight: 900;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  opacity: 0;
+}
+.hero-name small {
+  display: block;
+  font-family: var(--font-body);
+  font-size: clamp(0.65rem, 1.2vw, 0.75rem);
+  font-weight: 500;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 10px;
+  line-height: 1;
+}
+.hero-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-weight: 600;
+  color: var(--accent);
+  margin: 20px 0 12px;
+  opacity: 0;
+}
+.hero-desc {
+  font-size: clamp(0.875rem, 1.3vw, 1rem);
+  color: var(--text-dim);
+  max-width: 460px;
+  margin: 0 auto 36px;
+  line-height: 1.7;
+  opacity: 0;
+}
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+}
+.hero-pin {
+  margin-top: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  opacity: 0;
+}
+.hero-pin svg { width: 13px; height: 13px; color: var(--accent); }
+
+/* ── Sections (shared) ── */
+.section {
+  padding: clamp(64px, 10vw, 112px) 0;
+}
+.section-head {
+  margin-bottom: clamp(32px, 5vw, 56px);
+}
+.section-head .eyebrow { margin-bottom: 12px; }
+.section-head .heading {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  margin-bottom: 14px;
+}
+.section-head .body-text {
+  font-size: clamp(0.875rem, 1.3vw, 1rem);
+  max-width: 520px;
+}
+.section-head--center { text-align: center; }
+.section-head--center .body-text { margin: 0 auto; }
+
+/* ── Story ── */
+.story-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+}
+.story-img {
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 4/5;
+  border: 1px solid var(--border);
+}
+.story-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease);
+}
+.story-img:hover img { transform: scale(1.03); }
+.story-body .heading {
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  margin-bottom: 20px;
+}
+.story-body p {
+  color: var(--text-dim);
+  font-size: clamp(0.875rem, 1.2vw, 0.9375rem);
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+.story-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.story-stat-num {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.story-stat-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ── Signatures ── */
+.sig-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.sig-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s var(--ease);
+}
+.sig-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-3px);
+}
+.sig-card-img {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.sig-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s var(--ease);
+}
+.sig-card:hover .sig-card-img img { transform: scale(1.04); }
+.sig-card-body {
+  padding: 20px;
+}
+.sig-card-name {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.sig-card-desc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+.sig-card-price {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* ── Menu ── */
+.menu-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+.menu-tab {
+  padding: 9px 20px;
+  border-radius: 100px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  background: transparent;
+  transition: all 0.25s;
+}
+.menu-tab:hover { color: var(--text); border-color: var(--border-hover); }
+.menu-tab.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.menu-panel { display: none; }
+.menu-panel.active { display: block; }
+
+.menu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.25s, background 0.25s;
+}
+.menu-item:hover { border-color: var(--border-hover); background: var(--bg-card-hover); }
+.menu-item > div { flex: 1; min-width: 0; padding-right: 16px; }
+.menu-item-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text);
+  display: block;
+  line-height: 1.3;
+}
+.menu-item-desc {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+  display: block;
+}
+.menu-item-price {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+  margin-left: 16px;
+}
+
+/* ── Experience ── */
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.exp-card {
+  padding: 28px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.3s;
+}
+.exp-card:hover { border-color: var(--border-hover); }
+.exp-card svg {
+  width: 24px;
+  height: 24px;
+  color: var(--accent);
+  stroke-width: 1.5;
+  margin-bottom: 14px;
+}
+.exp-card h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.exp-card p {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ── Gallery ── */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.gallery-card {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  border: 1px solid var(--border);
+  transition: border-color 0.3s, transform 0.3s var(--ease);
+}
+.gallery-card:hover { border-color: var(--border-hover); transform: translateY(-3px); }
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s var(--ease);
+}
+.gallery-card:hover img { transform: scale(1.04); }
+.gallery-card-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 16px 16px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* ── Location ── */
+.location-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: start;
+}
+.location-map {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  aspect-ratio: 4/3;
+}
+.location-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: invert(0.9) hue-rotate(180deg) contrast(1.1);
+}
+.location-info h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.loc-detail {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.loc-detail svg {
+  width: 18px;
+  height: 18px;
+  color: var(--accent);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.loc-detail p {
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+.loc-detail strong {
+  display: block;
+  color: var(--text);
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 2px;
+}
+.loc-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+/* ── Footer ── */
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 48px 0 32px;
+}
+.footer-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.footer-brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.footer-brand small {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-left: 3px;
+}
+.footer-desc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 300px;
+}
+.footer-heading {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+.footer-links { display: flex; flex-direction: column; gap: 10px; }
+.footer-links a {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  transition: color 0.25s;
+}
+.footer-links a:hover { color: var(--text); }
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.footer-social { display: flex; gap: 12px; }
+.footer-social a {
+  color: var(--text-muted);
+  transition: color 0.25s;
+}
+.footer-social a:hover { color: var(--accent); }
+.footer-social svg { width: 16px; height: 16px; }
+
+/* ── Scroll reveal ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+}
+.reveal.visible { opacity: 1; transform: none; }
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .sig-grid { grid-template-columns: repeat(2, 1fr); }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .nav-links, .nav-order { display: none; }
+  .nav-burger { display: flex; }
+  .float-cta { display: block; }
+  .story-row { grid-template-columns: 1fr; }
+  .story-img { aspect-ratio: 16/9; max-height: 320px; }
+  .story-stats { gap: 28px; }
+  .sig-grid { grid-template-columns: 1fr; }
+  .exp-grid { grid-template-columns: 1fr 1fr; }
+  .menu-list { grid-template-columns: 1fr; }
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
+  .location-row { grid-template-columns: 1fr; }
+  .footer-row { grid-template-columns: 1fr; gap: 28px; }
+  .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+  .hero-actions { flex-direction: column; }
+  .hero-actions .btn { width: 100%; }
+  .loc-buttons { flex-direction: column; }
+  .loc-buttons .btn { width: 100%; justify-content: center; }
+}
+
+@media (max-width: 480px) {
+  .exp-grid { grid-template-columns: 1fr; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-card { aspect-ratio: 16/10; }
+  .wrap { padding: 0 16px; }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#" class="nav-brand" aria-label="PLANEAT restocafe homepage">
+      <img src="logo.svg" alt="PLANEAT restocafe logo" class="nav-logo-img">
+    </a>
+    <div class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#story">Story</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#location">Find Us</a>
+    </div>
+    <a href="tel:+917012788401" class="nav-order">Order Now</a>
+    <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#menu" data-close>Menu</a>
+  <a href="#story" data-close>Story</a>
+  <a href="#gallery" data-close>Gallery</a>
+  <a href="#location" data-close>Find Us</a>
+  <a href="tel:+917012788401" class="btn btn-fill" style="margin-top:8px">Call to Order</a>
+</div>
+
+<!-- Floating mobile CTA -->
+<div class="float-cta" id="floatCta">
+  <a href="tel:+917012788401" class="btn btn-fill">
+    <i data-lucide="phone" style="width:16px;height:16px"></i> Call to Order
+  </a>
+</div>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="images/evening_ambience.jpg" alt="PLANEAT restocafe at evening" loading="eager">
+  </div>
+  <div class="hero-glow"></div>
+  <div class="hero-embers" id="embers"></div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow" id="hEyebrow">Charcoal &middot; Mandhi &middot; Shawarma</p>
+    <h1 class="hero-name" id="hName">PLANEAT<small>restocafe</small></h1>
+    <p class="hero-line" id="hLine">Fire. Flavor. Fresh.</p>
+    <p class="hero-desc" id="hDesc">Charcoal-grilled specials, fragrant mandhi rice, and hand-rolled shawarma — made fresh, served with pride.</p>
+    <div class="hero-actions" id="hActions">
+      <a href="#menu" class="btn btn-fill">Explore Menu</a>
+      <a href="tel:+917012788401" class="btn btn-outline">
+        <i data-lucide="phone" style="width:16px;height:16px"></i> Order Now
+      </a>
+    </div>
+    <p class="hero-pin" id="hPin">
+      <i data-lucide="map-pin"></i> Near Vattolikadavu Bridge, Bharanganam, Pala
+    </p>
+  </div>
+</section>
+
+<!-- Story -->
+<section class="section" id="story">
+  <div class="wrap">
+    <div class="story-row">
+      <div class="story-img reveal">
+        <img src="images/story_container_cafe.jpg" alt="PLANEAT container restocafe exterior" loading="lazy">
+      </div>
+      <div class="story-body reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="heading">Built from the Ground Up</h2>
+        <p>What started as an empty patch of land near the Vattolikadavu bridge became a shared dream. Through sleepless nights, setbacks, and relentless passion, PLANEAT rose — a restocafe built from containers, fueled by fire, and made for people who love real food.</p>
+        <p>Every dish carries the warmth of charcoal, the richness of slow-cooked spices, and the pride of a team that refused to give up.</p>
+        <div class="story-stats">
+          <div>
+            <div class="story-stat-num">100%</div>
+            <div class="story-stat-label">Charcoal Grilled</div>
+          </div>
+          <div>
+            <div class="story-stat-num">Daily</div>
+            <div class="story-stat-label">Fresh Prep</div>
+          </div>
+          <div>
+            <div class="story-stat-num">4.8</div>
+            <div class="story-stat-label">Customer Rating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Signatures -->
+<section class="section" id="signatures" style="background:var(--bg-raised)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Signature Dishes</p>
+      <h2 class="heading">What We're Known For</h2>
+      <p class="body-text">Crafted over open coals. Every plate is made to feel special.</p>
+    </div>
+    <div class="sig-grid">
+      <div class="sig-card reveal">
+        <div class="sig-card-img">
+          <img src="images/alfaham_chicken.jpg" alt="Al-Faham charcoal grilled chicken" loading="lazy">
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-name">Al-Faham</h3>
+          <p class="sig-card-desc">Classic charcoal-grilled chicken, marinated in aromatic spices and slow-cooked over open flame.</p>
+          <span class="sig-card-price">₹189</span>
+        </div>
+      </div>
+      <div class="sig-card reveal">
+        <div class="sig-card-img">
+          <img src="images/chicken_mandhi.jpg" alt="Chicken Mandhi rice platter" loading="lazy">
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-name">Chicken Mandhi</h3>
+          <p class="sig-card-desc">Fragrant mandhi rice layered with slow-cooked, spice-infused chicken. Smoky and satisfying.</p>
+          <span class="sig-card-price">₹219</span>
+        </div>
+      </div>
+      <div class="sig-card reveal">
+        <div class="sig-card-img">
+          <img src="images/shawarma_plate.jpg" alt="Chicken shawarma plate" loading="lazy">
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-name">Shawarma Plate</h3>
+          <p class="sig-card-desc">Hand-stacked, slow-roasted chicken shawarma served with toum, pickles, and fresh pita.</p>
+          <span class="sig-card-price">₹149</span>
+        </div>
+      </div>
+      <div class="sig-card reveal">
+        <div class="sig-card-img">
+          <img src="images/paal_kappa_beef.jpg" alt="Paal kappa with beef roast" loading="lazy">
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-name">Paal Kappa &amp; Beef</h3>
+          <p class="sig-card-desc">Silky tapioca in coconut milk paired with rich, slow-cooked beef roast. A local classic.</p>
+          <span class="sig-card-price">₹229</span>
+        </div>
+      </div>
+      <div class="sig-card reveal">
+        <div class="sig-card-img">
+          <img src="images/chicken_shawaya.jpg" alt="Whole chicken shawaya" loading="lazy">
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-name">Chicken Shawaya</h3>
+          <p class="sig-card-desc">Whole charcoal-grilled chicken, marinated and roasted to perfection. Served with rice or romali.</p>
+          <span class="sig-card-price">₹249</span>
+        </div>
+      </div>
+      <div class="sig-card reveal">
+        <div class="sig-card-img">
+          <img src="images/alfaham_mandhi_combo.jpg" alt="Alfaham mandhi combo" loading="lazy">
+        </div>
+        <div class="sig-card-body">
+          <h3 class="sig-card-name">Alfaham Mandhi</h3>
+          <p class="sig-card-desc">Our signature alfaham paired with aromatic mandhi rice. The best of both worlds.</p>
+          <span class="sig-card-price">₹239</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menu -->
+<section class="section" id="menu">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Full Menu</p>
+      <h2 class="heading">Everything We Serve</h2>
+    </div>
+    <div class="menu-tabs reveal" id="menuTabs">
+      <button class="menu-tab active" data-cat="charcoal">Charcoal &amp; Mandhi</button>
+      <button class="menu-tab" data-cat="combos">Classic Combos</button>
+      <button class="menu-tab" data-cat="shawarma">Shawarma</button>
+      <button class="menu-tab" data-cat="shawaya">Shawaya</button>
+    </div>
+    <div id="menuPanels">
+      <div class="menu-panel active" data-cat="charcoal">
+        <div class="menu-list">
+          <div class="menu-item"><div><span class="menu-item-name">Al-Faham</span><span class="menu-item-desc">Classic charcoal-grilled chicken</span></div><span class="menu-item-price">₹189</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Peri Peri Alfaham</span><span class="menu-item-desc">Spicy peri peri marinated</span></div><span class="menu-item-price">₹199</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Pepper Alfaham</span><span class="menu-item-desc">Cracked pepper crust</span></div><span class="menu-item-price">₹199</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">BBQ</span><span class="menu-item-desc">Smoky barbecue glaze</span></div><span class="menu-item-price">₹199</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Chicken Mandhi</span><span class="menu-item-desc">Aromatic rice with spiced chicken</span></div><span class="menu-item-price">₹219</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Alfaham Mandhi</span><span class="menu-item-desc">Alfaham + mandhi rice combo</span></div><span class="menu-item-price">₹239</span></div>
+        </div>
+      </div>
+      <div class="menu-panel" data-cat="combos">
+        <div class="menu-list">
+          <div class="menu-item"><div><span class="menu-item-name">Paal Kappa with Beef Roast</span><span class="menu-item-desc">Coconut milk tapioca &amp; slow-cooked beef</span></div><span class="menu-item-price">₹229</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Pidi &amp; Kozhi Curry</span><span class="menu-item-desc">Rice dumplings with chicken curry</span></div><span class="menu-item-price">₹229</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Pathiri with Beef Roast</span><span class="menu-item-desc">Rice flatbread with rich beef roast</span></div><span class="menu-item-price">₹219</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Bread &amp; Chicken Stew</span><span class="menu-item-desc">Soft bread with creamy chicken stew</span></div><span class="menu-item-price">₹199</span></div>
+        </div>
+      </div>
+      <div class="menu-panel" data-cat="shawarma">
+        <div class="menu-list">
+          <div class="menu-item"><div><span class="menu-item-name">Chicken Shawarma Plate</span><span class="menu-item-desc">Served with toum, pickles &amp; pita</span></div><span class="menu-item-price">₹149</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Chicken Shawarma Roll</span><span class="menu-item-desc">Hand-rolled in fresh pita</span></div><span class="menu-item-price">₹99</span></div>
+        </div>
+      </div>
+      <div class="menu-panel" data-cat="shawaya">
+        <div class="menu-list">
+          <div class="menu-item"><div><span class="menu-item-name">Chicken Shawaya with Rice</span><span class="menu-item-desc">Whole charcoal chicken + fragrant rice</span></div><span class="menu-item-price">₹249</span></div>
+          <div class="menu-item"><div><span class="menu-item-name">Chicken Shawaya with Romali</span><span class="menu-item-desc">Whole charcoal chicken + romali roti</span></div><span class="menu-item-price">₹209</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section class="section" id="experience" style="background:var(--bg-raised)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Why PLANEAT</p>
+      <h2 class="heading">The Experience</h2>
+    </div>
+    <div class="exp-grid">
+      <div class="exp-card reveal">
+        <i data-lucide="flame"></i>
+        <h3>Charcoal Grilled</h3>
+        <p>Every protein hits real charcoal. No shortcuts, no compromises — just fire and flavor.</p>
+      </div>
+      <div class="exp-card reveal">
+        <i data-lucide="chef-hat"></i>
+        <h3>Freshly Made</h3>
+        <p>Daily prep, fresh marinades, and made-to-order dishes. Nothing sits under a heat lamp.</p>
+      </div>
+      <div class="exp-card reveal">
+        <i data-lucide="users"></i>
+        <h3>Family Friendly</h3>
+        <p>Spacious seating, warm atmosphere, and a menu that brings everyone to the table.</p>
+      </div>
+      <div class="exp-card reveal">
+        <i data-lucide="smartphone"></i>
+        <h3>Easy to Order</h3>
+        <p>Call us, walk in, or message us. We make ordering effortless.</p>
+      </div>
+      <div class="exp-card reveal">
+        <i data-lucide="utensils-crossed"></i>
+        <h3>Great for Dine-In</h3>
+        <p>Our container space is built for good conversations and relaxed meals.</p>
+      </div>
+      <div class="exp-card reveal">
+        <i data-lucide="package"></i>
+        <h3>Takeaway Ready</h3>
+        <p>Premium packaging keeps food hot. Grab it on your way — it travels well.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">The Vibe</p>
+      <h2 class="heading">Inside PLANEAT</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-card reveal">
+        <img src="images/evening_ambience.jpg" alt="Evening ambience with warm lights" loading="lazy">
+        <span class="gallery-card-label">Evening Ambience</span>
+      </div>
+      <div class="gallery-card reveal">
+        <img src="images/container_architecture.jpg" alt="Container architecture" loading="lazy">
+        <span class="gallery-card-label">Container Architecture</span>
+      </div>
+      <div class="gallery-card reveal">
+        <img src="images/charcoal_grill_live.jpg" alt="Live charcoal grill" loading="lazy">
+        <span class="gallery-card-label">Charcoal Grill</span>
+      </div>
+      <div class="gallery-card reveal">
+        <img src="images/warm_interiors.jpg" alt="Warm interiors" loading="lazy">
+        <span class="gallery-card-label">Warm Interiors</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Location -->
+<section class="section" id="location" style="background:var(--bg-raised)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Find Us</p>
+      <h2 class="heading">Come Through</h2>
+    </div>
+    <div class="location-row">
+      <div class="location-map reveal">
+        <iframe
+          title="PLANEAT restocafe location map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.5!2d76.71!3d9.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07ce46c4f0b2f1%3A0x8e820c74fb9c9c3e!2sBharananganam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="location-info reveal">
+        <h3>We're easy to find</h3>
+        <div class="loc-detail">
+          <i data-lucide="map-pin"></i>
+          <div>
+            <strong>Address</strong>
+            <p>Near Vattolikadavu Bridge,<br>Bharanganam, Pala,<br>Kottayam, Kerala</p>
+          </div>
+        </div>
+        <div class="loc-detail">
+          <i data-lucide="phone"></i>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:+917012788401" style="color:var(--accent)">+91 7012788401</a></p>
+          </div>
+        </div>
+        <div class="loc-detail">
+          <i data-lucide="clock"></i>
+          <div>
+            <strong>Hours</strong>
+            <p>Open Daily &middot; 11:30 AM – 10:30 PM</p>
+          </div>
+        </div>
+        <div class="loc-buttons">
+          <a href="tel:+917012788401" class="btn btn-fill">
+            <i data-lucide="phone" style="width:16px;height:16px"></i> Call Now
+          </a>
+          <a href="https://maps.google.com/?q=PLANEAT+restocafe+Bharanganam+Pala+Kottayam" target="_blank" rel="noopener" class="btn btn-outline">
+            <i data-lucide="map" style="width:16px;height:16px"></i> Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-row">
+      <div>
+        <div class="footer-brand"><img src="logo.svg" alt="PLANEAT restocafe logo" style="height:48px;width:auto;display:block;"></div>
+        <p class="footer-desc">A container-style restocafe built from passion, fueled by charcoal, and made for people who love real food.</p>
+      </div>
+      <div>
+        <h4 class="footer-heading">Navigate</h4>
+        <div class="footer-links">
+          <a href="#menu">Menu</a>
+          <a href="#story">Our Story</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#location">Find Us</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-heading">Contact</h4>
+        <div class="footer-links">
+          <a href="tel:+917012788401">+91 7012788401</a>
+          <a href="https://maps.google.com/?q=PLANEAT+restocafe+Bharanganam+Pala+Kottayam" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 PLANEAT restocafe</span>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  var motion = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  lucide.createIcons();
+
+  /* ── Embers ── */
+  function spawnEmbers() {
+    if (!motion) return;
+    var box = document.getElementById('embers');
+    if (!box) return;
+    for (var i = 0; i < 14; i++) {
+      var e = document.createElement('div');
+      e.className = 'ember';
+      var s = Math.random() * 3 + 2;
+      e.style.width = s + 'px';
+      e.style.height = s + 'px';
+      e.style.left = Math.random() * 100 + '%';
+      e.style.bottom = '-10px';
+      box.appendChild(e);
+      loopEmber(e);
+    }
+  }
+
+  function loopEmber(e) {
+    var dur = Math.random() * 4000 + 4000;
+    anime({
+      targets: e,
+      translateY: [0, -(window.innerHeight * 0.8)],
+      translateX: [0, (Math.random() - 0.5) * 100],
+      opacity: [
+        { value: 0, duration: 0 },
+        { value: 0.6, duration: 500 },
+        { value: 0, duration: dur - 500 }
+      ],
+      scale: [{ value: 0, duration: 0 }, { value: 1, duration: 500 }, { value: 0.3, duration: dur - 500 }],
+      duration: dur,
+      delay: Math.random() * 3000,
+      easing: 'easeOutQuad',
+      complete: function() {
+        e.style.left = Math.random() * 100 + '%';
+        e.style.bottom = '-10px';
+        loopEmber(e);
+      }
+    });
+  }
+
+  /* ── Hero entrance ── */
+  function heroIn() {
+    if (!motion) {
+      ['#hEyebrow','#hName','#hLine','#hDesc','#hActions','#hPin'].forEach(function(s) {
+        var el = document.querySelector(s);
+        if (el) el.style.opacity = '1';
+      });
+      return;
+    }
+    anime.timeline({ easing: 'easeOutExpo' })
+      .add({ targets: '#hEyebrow', opacity: [0,1], translateY: [16,0], duration: 700 })
+      .add({ targets: '#hName', opacity: [0,1], translateY: [30,0], duration: 900 }, '-=400')
+      .add({ targets: '#hLine', opacity: [0,1], translateY: [12,0], duration: 600 }, '-=350')
+      .add({ targets: '#hDesc', opacity: [0,1], translateY: [12,0], duration: 600 }, '-=250')
+      .add({ targets: '#hActions', opacity: [0,1], translateY: [12,0], duration: 500 }, '-=250')
+      .add({ targets: '#hPin', opacity: [0,1], translateY: [8,0], duration: 400 }, '-=200');
+  }
+
+  /* ── Scroll reveal ── */
+  function initReveal() {
+    var els = document.querySelectorAll('.reveal');
+    if (!motion) { els.forEach(function(e) { e.classList.add('visible'); }); return; }
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+    els.forEach(function(e) { obs.observe(e); });
+  }
+
+  /* ── Nav scroll ── */
+  function initNav() {
+    var nav = document.getElementById('nav');
+    var tick = false;
+    window.addEventListener('scroll', function() {
+      if (!tick) {
+        requestAnimationFrame(function() {
+          nav.classList.toggle('is-scrolled', window.scrollY > 50);
+          tick = false;
+        });
+        tick = true;
+      }
+    }, { passive: true });
+  }
+
+  /* ── Mobile menu ── */
+  function initMobile() {
+    var btn = document.getElementById('navBurger');
+    var menu = document.getElementById('mobileMenu');
+    function open() { menu.classList.add('open'); btn.classList.add('active'); btn.setAttribute('aria-expanded','true'); document.body.style.overflow = 'hidden'; }
+    function close() { menu.classList.remove('open'); btn.classList.remove('active'); btn.setAttribute('aria-expanded','false'); document.body.style.overflow = ''; }
+    btn.addEventListener('click', function() { menu.classList.contains('open') ? close() : open(); });
+    menu.querySelectorAll('[data-close]').forEach(function(a) { a.addEventListener('click', close); });
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && menu.classList.contains('open')) close(); });
+  }
+
+  /* ── Menu tabs ── */
+  function initTabs() {
+    var tabs = document.querySelectorAll('.menu-tab');
+    var panels = document.querySelectorAll('.menu-panel');
+    tabs.forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        var cat = this.dataset.cat;
+        tabs.forEach(function(t) { t.classList.remove('active'); });
+        this.classList.add('active');
+        panels.forEach(function(p) { p.classList.remove('active'); });
+        var target = document.querySelector('.menu-panel[data-cat="' + cat + '"]');
+        if (target) {
+          target.classList.add('active');
+          if (motion) {
+            anime({
+              targets: target.querySelectorAll('.menu-item'),
+              opacity: [0,1],
+              translateY: [8,0],
+              delay: anime.stagger(40),
+              duration: 350,
+              easing: 'easeOutCubic'
+            });
+          }
+        }
+      });
+    });
+  }
+
+  /* ── Floating CTA ── */
+  function initFloat() {
+    var cta = document.getElementById('floatCta');
+    if (!cta) return;
+    var hero = document.getElementById('hero');
+    var tick = false;
+    window.addEventListener('scroll', function() {
+      if (!tick) {
+        requestAnimationFrame(function() {
+          cta.classList.toggle('visible', hero.getBoundingClientRect().bottom < 0);
+          tick = false;
+        });
+        tick = true;
+      }
+    }, { passive: true });
+  }
+
+  /* ── Smooth scroll ── */
+  function initScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+      a.addEventListener('click', function(e) {
+        var id = this.getAttribute('href');
+        if (id === '#') return;
+        var t = document.querySelector(id);
+        if (!t) return;
+        e.preventDefault();
+        var top = t.getBoundingClientRect().top + window.scrollY - 72;
+        window.scrollTo({ top: top, behavior: motion ? 'smooth' : 'auto' });
+      });
+    });
+  }
+
+  /* ── Init ── */
+  spawnEmbers();
+  heroIn();
+  initReveal();
+  initNav();
+  initMobile();
+  initTabs();
+  initFloat();
+  initScroll();
+})();
+</script>
+</body>
+</html>

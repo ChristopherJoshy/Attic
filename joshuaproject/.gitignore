@@ -1,0 +1,44 @@
+# ============================================================
+#  .gitignore — Explicitly ignore non-web files
+#  Web app files are at repo root and tracked by default
+# ============================================================
+
+# Python scripts & bytecode
+scripts/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Raw data extraction output
+extracted_raw_data/
+extracted_products.json
+
+# Old dist folder (web/ is now at root)
+dist/
+web/
+
+# PDF source catalogues
+*.pdf
+
+# Design / scratch images (not part of web app)
+cover_corel.png
+cover_new1.png
+desgn-idea.jpg
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+frontend/backup-of-old-html/

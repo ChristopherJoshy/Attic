@@ -1,0 +1,3953 @@
+[
+  {
+    "id": "me_prod_001",
+    "name": "Ss Hand Dryer Machine",
+    "category": "DISPENSER",
+    "brand": "Dolphy",
+    "description": "Automatic high-speed hand dryer machine by Dolphy. Dries hands in less than 15 seconds. Designed for commercial washrooms and corporate office restrooms.",
+    "specs": {
+      "Material": "Stainless Steel 304",
+      "Power Rating": "1800W",
+      "Operation": "Automatic Infrared Sensor",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_3_img_2_xref_1333.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_002",
+    "name": "Abs Hand Dryer Machine",
+    "category": "DISPENSER",
+    "brand": "Pentolex",
+    "description": "Automatic high-speed hand dryer machine by Pentolex. Dries hands in less than 15 seconds. Designed for commercial washrooms and corporate office restrooms.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Power Rating": "1500W",
+      "Operation": "Automatic Infrared Sensor",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_3_img_3_xref_1335.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_003",
+    "name": "Jet Hand Dryer",
+    "category": "DISPENSER",
+    "brand": "Pentolex",
+    "description": "Automatic high-speed hand dryer machine by Pentolex. Dries hands in less than 15 seconds. Designed for commercial washrooms and corporate office restrooms.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Power Rating": "1500W",
+      "Operation": "Automatic Infrared Sensor",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_3_img_4_xref_1336.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_004",
+    "name": "Shoe Cover Dispenser",
+    "category": "DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Shoe Cover Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Installation": "Wall Mounted",
+      "Pack Content": "1 Unit"
+    },
+    "image_file": "page_3_img_5_xref_1337.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_005",
+    "name": "Touch Free Soap Dispenser",
+    "category": "DISPENSER",
+    "brand": "Euronics",
+    "description": "Standard Touch Free Soap Dispenser manufactured by Euronics. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Capacity": "500 ml",
+      "Material": "ABS Plastic",
+      "Operation": "Touch-Free Sensor",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_3_img_6_xref_1339.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_006",
+    "name": "Abs Soap Dispenser",
+    "category": "DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Abs Soap Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Capacity": "1000 ml",
+      "Material": "ABS Plastic",
+      "Operation": "Manual Push",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_3_img_7_xref_1341.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_007",
+    "name": "Abs Soap Dispenser",
+    "category": "DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Abs Soap Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Capacity": "1000 ml",
+      "Material": "ABS Plastic",
+      "Operation": "Manual Push",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_3_img_8_xref_1342.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_008",
+    "name": "Shoe Polish Machine",
+    "category": "DISPENSER",
+    "brand": "Dolphy",
+    "description": "Standard Shoe Polish Machine manufactured by Dolphy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Frame",
+      "Operation": "Auto Sensor",
+      "Brushes": "Dual (Black & Brown)",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_3_img_9_xref_1343.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_009",
+    "name": "Paper Cup Dispenser",
+    "category": "DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Paper Cup Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Installation": "Wall Mounted",
+      "Pack Content": "1 Unit"
+    },
+    "image_file": "page_3_img_10_xref_1344.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_010",
+    "name": "Hand Wash Dispenser",
+    "category": "DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Hand Wash Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Installation": "Wall Mounted",
+      "Pack Content": "1 Unit"
+    },
+    "image_file": "page_3_img_11_xref_1345.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_011",
+    "name": "Dish Wash Dispenser",
+    "category": "DISPENSER",
+    "brand": "Pentolex",
+    "description": "Standard Dish Wash Dispenser manufactured by Pentolex. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Installation": "Wall Mounted",
+      "Pack Content": "1 Unit"
+    },
+    "image_file": "page_3_img_13_xref_1347.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_012",
+    "name": "Water Dispenser",
+    "category": "DISPENSER",
+    "brand": "Euronics",
+    "description": "Standard Water Dispenser manufactured by Euronics. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Hot, Cold & Normal Dispenser",
+      "Capacity": "20 Litres/Hour",
+      "Body": "Metal Frame",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_3_img_12_xref_1346.png",
+    "page": 3
+  },
+  {
+    "id": "me_prod_013",
+    "name": "Hrt Roll Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Dolphy",
+    "description": "Standard Hrt Roll Dispenser manufactured by Dolphy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_2_xref_1364.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_014",
+    "name": "Abs Tissue Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Dolphy",
+    "description": "Standard Abs Tissue Dispenser manufactured by Dolphy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_3_xref_1365.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_015",
+    "name": "Abs Tissue Roll Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Dolphy",
+    "description": "Standard Abs Tissue Roll Dispenser manufactured by Dolphy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_4_xref_1366.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_016",
+    "name": "Htr Roll Dispenser Automatic",
+    "category": "TISSUE DISPENSER",
+    "brand": "Pentolex",
+    "description": "Standard Htr Roll Dispenser Automatic manufactured by Pentolex. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Automatic Autocut Sensor",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted",
+      "Power Source": "D-Cell Batteries"
+    },
+    "image_file": "page_4_img_5_xref_1367.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_017",
+    "name": "Ss Toilet Roll Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Ss Toilet Roll Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_6_xref_1368.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_018",
+    "name": "Mini Toilet Roll Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Euronics",
+    "description": "Standard Mini Toilet Roll Dispenser manufactured by Euronics. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_7_xref_1369.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_019",
+    "name": "Hrt Roll Dispenser Autocut",
+    "category": "TISSUE DISPENSER",
+    "brand": "Dolphy",
+    "description": "Standard Hrt Roll Dispenser Autocut manufactured by Dolphy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Automatic Autocut Sensor",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted",
+      "Power Source": "D-Cell Batteries"
+    },
+    "image_file": "page_4_img_8_xref_1370.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_020",
+    "name": "Kitchen Roll Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Euronics",
+    "description": "Standard Kitchen Roll Dispenser manufactured by Euronics. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_9_xref_1371.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_021",
+    "name": "Leather Facial Tissue Box",
+    "category": "TISSUE DISPENSER",
+    "brand": "Euronics",
+    "description": "Soft tissue paper by Euronics, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_12_xref_1384.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_022",
+    "name": "Tissue Stand",
+    "category": "TISSUE DISPENSER",
+    "brand": "Dolphy",
+    "description": "Soft tissue paper by Dolphy, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_13_xref_1385.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_023",
+    "name": "Plastic Table Tissue Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Plastic Table Tissue Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_10_xref_1372.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_024",
+    "name": "Paper Towel Dispenser",
+    "category": "TISSUE DISPENSER",
+    "brand": "Orchids International",
+    "description": "Standard Paper Towel Dispenser manufactured by Orchids International. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS Plastic",
+      "Dispenser Type": "Manual Pull",
+      "Lock Key": "Provided",
+      "Installation": "Wall Mounted"
+    },
+    "image_file": "page_4_img_11_xref_1373.png",
+    "page": 4
+  },
+  {
+    "id": "me_prod_025",
+    "name": "Soft Tissue Roll",
+    "category": "TISSUE PAPER",
+    "brand": "Origami",
+    "description": "Soft tissue paper by Origami, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_2_xref_1396.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_026",
+    "name": "Soft Tissue Napkin",
+    "category": "TISSUE PAPER",
+    "brand": "Kimberly-Clark",
+    "description": "Soft tissue paper by Kimberly-Clark, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "100 Pulls"
+    },
+    "image_file": "page_5_img_3_xref_1397.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_027",
+    "name": "Fabric Tissue (100 Pulls)",
+    "category": "TISSUE PAPER",
+    "brand": "Premier",
+    "description": "Soft tissue paper by Premier, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "100 Pulls"
+    },
+    "image_file": "page_5_img_4_xref_1398.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_028",
+    "name": "C Fold Tissue",
+    "category": "TISSUE PAPER",
+    "brand": "Greenlime",
+    "description": "Soft tissue paper by Greenlime, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_5_xref_1399.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_029",
+    "name": "M Fold Tissue",
+    "category": "TISSUE PAPER",
+    "brand": "Origami",
+    "description": "Soft tissue paper by Origami, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_6_xref_1400.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_030",
+    "name": "Jumbo Tissue Roll",
+    "category": "TISSUE PAPER",
+    "brand": "Origami",
+    "description": "Soft tissue paper by Origami, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_7_xref_1401.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_031",
+    "name": "Kitchen Tissue Roll",
+    "category": "TISSUE PAPER",
+    "brand": "Origami",
+    "description": "Soft tissue paper by Origami, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_8_xref_1402.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_032",
+    "name": "Hrt Tissue Roll",
+    "category": "TISSUE PAPER",
+    "brand": "Premier",
+    "description": "Soft tissue paper by Premier, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_9_xref_1403.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_033",
+    "name": "Wet Wipes Tissue",
+    "category": "TISSUE PAPER",
+    "brand": "Kimberly-Clark",
+    "description": "Soft tissue paper by Kimberly-Clark, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_10_xref_1404.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_034",
+    "name": "Premier Tissue",
+    "category": "TISSUE PAPER",
+    "brand": "Premier",
+    "description": "Soft tissue paper by Premier, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_11_xref_1405.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_035",
+    "name": "Z Fold Tissue",
+    "category": "TISSUE PAPER",
+    "brand": "Kimberly-Clark",
+    "description": "Soft tissue paper by Kimberly-Clark, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_12_xref_1406.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_036",
+    "name": "Greenlime M Fold Tissue",
+    "category": "TISSUE PAPER",
+    "brand": "Premier",
+    "description": "Soft tissue paper by Premier, made from virgin pulp. High absorbency, suitable for office pantries, restrooms, and corporate dining areas.",
+    "specs": {
+      "Material": "Virgin Pulp Paper",
+      "Ply": "2-Ply",
+      "Eco Friendly": "Yes",
+      "Quantity": "1 Roll"
+    },
+    "image_file": "page_5_img_13_xref_1407.png",
+    "page": 5
+  },
+  {
+    "id": "me_prod_037",
+    "name": "Check Cloth",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Gala",
+    "description": "Standard Check Cloth manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Cotton",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "Pack of 3"
+    },
+    "image_file": "page_6_img_16_xref_1452.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_038",
+    "name": "Micro Fiber Cloth All Size",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Gala",
+    "description": "Standard Micro Fiber Cloth All Size manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Microfiber",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "Pack of 3"
+    },
+    "image_file": "page_6_img_2_xref_1427.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_039",
+    "name": "Yeloow Cloth Small Big",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Yeloow Cloth Small Big manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "Pack of 3"
+    },
+    "image_file": "page_6_img_4_xref_1429.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_040",
+    "name": "Glass Cloth",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Chakaachak",
+    "description": "Standard Glass Cloth manufactured by Chakaachak. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "Pack of 3"
+    },
+    "image_file": "page_6_img_6_xref_1431.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_041",
+    "name": "Foam Duster",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Gala",
+    "description": "Standard Foam Duster manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_7_xref_1432.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_042",
+    "name": "Scrub Pad With Sponge",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Scrub Pad With Sponge manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_8_xref_1433.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_043",
+    "name": "Steel Scrubber",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Steel Scrubber manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_10_xref_1435.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_044",
+    "name": "Scrub Pad Green",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Scrub Pad Green manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_11_xref_1436.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_045",
+    "name": "Sponge Wipes",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Sponge Wipes manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_12_xref_1437.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_046",
+    "name": "Steel Scrubber With Handle",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Gala",
+    "description": "Standard Steel Scrubber With Handle manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_13_xref_1438.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_047",
+    "name": "Steel Scrubber With Handle",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Gala",
+    "description": "Standard Steel Scrubber With Handle manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_14_xref_1439.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_048",
+    "name": "Plastic Dish Wash Scrubber",
+    "category": "DUSTER CLOTH & SCRUBBER",
+    "brand": "Gala",
+    "description": "Standard Plastic Dish Wash Scrubber manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Synthetic",
+      "Washable": "Yes",
+      "Use Case": "Cleaning & Dusting",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_6_img_15_xref_1440.png",
+    "page": 6
+  },
+  {
+    "id": "me_prod_049",
+    "name": "Pvc Hard Broom(kharata)",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "CleanMate",
+    "description": "Standard Pvc Hard Broom(kharata) manufactured by CleanMate. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "PVC Kharata",
+      "Handle": "Plastic Pipe",
+      "Length": "Standard"
+    },
+    "image_file": "page_7_img_2_xref_1461.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_050",
+    "name": "Hard Broom - Big/small",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Gala",
+    "description": "Standard Hard Broom - Big/small manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "PVC Kharata",
+      "Handle": "Plastic Pipe",
+      "Length": "Standard"
+    },
+    "image_file": "page_7_img_3_xref_1462.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_051",
+    "name": "Pvc Broom",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Monkey 555",
+    "description": "Standard Pvc Broom manufactured by Monkey 555. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "PVC Kharata",
+      "Handle": "Plastic Pipe",
+      "Length": "Standard"
+    },
+    "image_file": "page_7_img_4_xref_1463.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_052",
+    "name": "Soft Broom - Big/small",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Monkey 555",
+    "description": "Standard Soft Broom - Big/small manufactured by Monkey 555. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Natural Grass",
+      "Handle": "Plastic Pipe",
+      "Length": "Standard"
+    },
+    "image_file": "page_7_img_5_xref_1464.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_053",
+    "name": "Door Mat",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Gala",
+    "description": "Standard Door Mat manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Coir",
+      "Non-Slip": "Yes",
+      "Washable": "Yes"
+    },
+    "image_file": "page_7_img_7_xref_1466.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_054",
+    "name": "Welcome Mat Rubber",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Shalimar Bags",
+    "description": "Standard Welcome Mat Rubber manufactured by Shalimar Bags. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Natural Rubber",
+      "Non-Slip": "Yes",
+      "Washable": "Yes"
+    },
+    "image_file": "page_7_img_8_xref_1467.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_055",
+    "name": "Hole Mat Rubber",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Monkey 555",
+    "description": "Standard Hole Mat Rubber manufactured by Monkey 555. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Natural Rubber",
+      "Non-Slip": "Yes",
+      "Washable": "Yes"
+    },
+    "image_file": "page_7_img_9_xref_1468.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_056",
+    "name": "Modi Broom",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Shalimar Bags",
+    "description": "Standard Modi Broom manufactured by Shalimar Bags. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "PVC Kharata",
+      "Handle": "Plastic Pipe",
+      "Length": "Standard"
+    },
+    "image_file": "page_7_img_14_xref_1473.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_057",
+    "name": "Rubber Mat",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Shalimar Bags",
+    "description": "Standard Rubber Mat manufactured by Shalimar Bags. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Natural Rubber",
+      "Non-Slip": "Yes",
+      "Washable": "Yes"
+    },
+    "image_file": "page_7_img_6_xref_1465.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_058",
+    "name": "Plastic Garbage Bag All Size",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "CleanMate",
+    "description": "Standard Plastic Garbage Bag All Size manufactured by CleanMate. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polyethylene",
+      "Type": "Standard",
+      "Pack Size": "30 Bags per Roll",
+      "Color": "Black"
+    },
+    "image_file": "page_7_img_10_xref_1469.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_059",
+    "name": "Biodegradable Garbage Bag All Size",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Shalimar Bags",
+    "description": "Standard Biodegradable Garbage Bag All Size manufactured by Shalimar Bags. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polyethylene",
+      "Type": "Biodegradable",
+      "Pack Size": "30 Bags per Roll",
+      "Color": "Black"
+    },
+    "image_file": "page_7_img_12_xref_1471.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_060",
+    "name": "Compostable Garbage Bag All Size",
+    "category": "BROOM,DOOR MAT & GARBAGE BAG",
+    "brand": "Monkey 555",
+    "description": "Standard Compostable Garbage Bag All Size manufactured by Monkey 555. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polyethylene",
+      "Type": "Compostable",
+      "Pack Size": "30 Bags per Roll",
+      "Color": "Black"
+    },
+    "image_file": "page_7_img_13_xref_1472.png",
+    "page": 7
+  },
+  {
+    "id": "me_prod_061",
+    "name": "Toilet Brush Round",
+    "category": "CLEANING BRUSH",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Toilet Brush Round manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_4_xref_1497.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_062",
+    "name": "Washbasin Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Washbasin Brush manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_5_xref_1499.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_063",
+    "name": "Toilet Brush Double Hockey",
+    "category": "CLEANING BRUSH",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Toilet Brush Double Hockey manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_2_xref_1493.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_064",
+    "name": "Toilet Brush Single Hockey",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Toilet Brush Single Hockey manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_3_xref_1495.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_065",
+    "name": "Carpet Brush Hard/soft",
+    "category": "CLEANING BRUSH",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Carpet Brush Hard/soft manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_9_xref_1507.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_066",
+    "name": "Washbasin Brush Round",
+    "category": "CLEANING BRUSH",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Washbasin Brush Round manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_6_xref_1501.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_067",
+    "name": "Cloth Washing Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Cloth Washing Brush manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_7_xref_1503.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_068",
+    "name": "Cloth Washing Brush With Handle",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Cloth Washing Brush With Handle manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_8_xref_1505.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_069",
+    "name": "Road Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Road Brush manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_10_xref_1509.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_070",
+    "name": "Cobweb Stick Sunflower",
+    "category": "CLEANING BRUSH",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Cobweb Stick Sunflower manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_11_xref_1511.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_071",
+    "name": "Wheel Cleaning Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Wheel Cleaning Brush manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_13_xref_1515.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_072",
+    "name": "Ringed (fan) Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Ringed (fan) Brush manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_8_img_12_xref_1513.png",
+    "page": 8
+  },
+  {
+    "id": "me_prod_073",
+    "name": "Father Duster",
+    "category": "CLEANING BRUSH",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Father Duster manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_2_xref_1524.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_074",
+    "name": "Kettle Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Kettle Brush manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_3_xref_1525.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_075",
+    "name": "Microfiber Sand Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Microfiber Sand Brush manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_4_xref_1526.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_076",
+    "name": "Bottle Cleaning Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Bottle Cleaning Brush manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_6_xref_1528.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_077",
+    "name": "Woden Carpet Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Woden Carpet Brush manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_5_xref_1527.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_078",
+    "name": "Diamond Jala Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Diamond Jala Brush manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_7_xref_1529.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_079",
+    "name": "Soft Cleaning Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Soft Cleaning Brush manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_8_xref_1530.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_080",
+    "name": "Tooth Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Tooth Brush manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_9_xref_1531.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_081",
+    "name": "Plunger",
+    "category": "CLEANING BRUSH",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Plunger manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_10_xref_1532.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_082",
+    "name": "Keyboard Brush",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Keyboard Brush manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_11_xref_1533.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_083",
+    "name": "Bottle Brush Big",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Bottle Brush Big manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_12_xref_1534.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_084",
+    "name": "Lobby Dust Pan",
+    "category": "CLEANING BRUSH",
+    "brand": "Gala",
+    "description": "Standard Lobby Dust Pan manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Nylon Bristles",
+      "Handle": "Plastic Grip",
+      "Use Case": "Bathroom / Washbasin / Floor Cleaning"
+    },
+    "image_file": "page_9_img_13_xref_1535.png",
+    "page": 9
+  },
+  {
+    "id": "me_prod_085",
+    "name": "Plastic Dustbin",
+    "category": "DUSTBIN",
+    "brand": "Supreme",
+    "description": "Standard Plastic Dustbin manufactured by Supreme. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Virgin Plastic",
+      "Lid Type": "Open",
+      "Capacity": "10 Litres - 25 Litres"
+    },
+    "image_file": "page_10_img_2_xref_1555.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_086",
+    "name": "Plastic Pedal Bin",
+    "category": "DUSTBIN",
+    "brand": "Sintex",
+    "description": "Standard Plastic Pedal Bin manufactured by Sintex. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Virgin Plastic",
+      "Lid Type": "Pedal Press",
+      "Capacity": "10 Litres - 25 Litres"
+    },
+    "image_file": "page_10_img_4_xref_1557.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_087",
+    "name": "Swing Dustbin",
+    "category": "DUSTBIN",
+    "brand": "Nilkamal",
+    "description": "Standard Swing Dustbin manufactured by Nilkamal. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Virgin Plastic",
+      "Lid Type": "Swing Lid",
+      "Capacity": "10 Litres - 25 Litres"
+    },
+    "image_file": "page_10_img_6_xref_1559.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_088",
+    "name": "Plastic Dustbin With Handling",
+    "category": "DUSTBIN",
+    "brand": "Sintex",
+    "description": "Standard Plastic Dustbin With Handling manufactured by Sintex. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Virgin Plastic",
+      "Lid Type": "Open",
+      "Capacity": "10 Litres - 25 Litres"
+    },
+    "image_file": "page_10_img_7_xref_1560.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_089",
+    "name": "Ss Pedal Bin",
+    "category": "DUSTBIN",
+    "brand": "Aristo",
+    "description": "Standard Ss Pedal Bin manufactured by Aristo. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Stainless Steel 202 Grade",
+      "Finish": "Chrome Polish",
+      "Lid Type": "Pedal Press",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_10_img_8_xref_1561.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_090",
+    "name": "Ss Perforted Bin",
+    "category": "DUSTBIN",
+    "brand": "Aristo",
+    "description": "Standard Ss Perforted Bin manufactured by Aristo. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Stainless Steel 202 Grade",
+      "Finish": "Chrome Polish",
+      "Lid Type": "Open",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_10_img_9_xref_1562.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_091",
+    "name": "Ss Push Bin",
+    "category": "DUSTBIN",
+    "brand": "Sintex",
+    "description": "Standard Ss Push Bin manufactured by Sintex. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Stainless Steel 202 Grade",
+      "Finish": "Chrome Polish",
+      "Lid Type": "Open",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_10_img_10_xref_1563.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_092",
+    "name": "Ss Swing Bin",
+    "category": "DUSTBIN",
+    "brand": "Cello",
+    "description": "Standard Ss Swing Bin manufactured by Cello. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Stainless Steel 202 Grade",
+      "Finish": "Chrome Polish",
+      "Lid Type": "Swing Lid",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_10_img_12_xref_1565.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_093",
+    "name": "Commercial Dustbin",
+    "category": "DUSTBIN",
+    "brand": "Sintex",
+    "description": "Standard Commercial Dustbin manufactured by Sintex. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Capacity": "120 Litres",
+      "Material": "HDPE Polyethylene",
+      "Wheels": "Included",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_10_img_14_xref_1567.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_094",
+    "name": "Mesh Dustbin",
+    "category": "DUSTBIN",
+    "brand": "Nilkamal",
+    "description": "Standard Mesh Dustbin manufactured by Nilkamal. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Virgin Plastic",
+      "Lid Type": "Open",
+      "Capacity": "10 Litres - 25 Litres"
+    },
+    "image_file": "page_10_img_15_xref_1568.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_095",
+    "name": "Commercial Dustbin",
+    "category": "DUSTBIN",
+    "brand": "Sintex",
+    "description": "Standard Commercial Dustbin manufactured by Sintex. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Capacity": "120 Litres",
+      "Material": "HDPE Polyethylene",
+      "Wheels": "Included",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_10_img_16_xref_1569.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_096",
+    "name": "Commercial Pedal Dustbin",
+    "category": "DUSTBIN",
+    "brand": "Cello",
+    "description": "Standard Commercial Pedal Dustbin manufactured by Cello. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Capacity": "120 Litres",
+      "Material": "HDPE Polyethylene",
+      "Wheels": "Included",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_10_img_17_xref_1570.png",
+    "page": 10
+  },
+  {
+    "id": "me_prod_097",
+    "name": "Glass Cleaner Combi",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Gala",
+    "description": "Standard Glass Cleaner Combi manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_2_xref_1590.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_098",
+    "name": "Kitchen Wiper",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Kitchen Wiper manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_3_xref_1591.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_099",
+    "name": "Table Wiper",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Table Wiper manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_4_xref_1592.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_100",
+    "name": "Wiper With Stick",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Gala",
+    "description": "Standard Wiper With Stick manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_7_xref_1595.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_101",
+    "name": "Dry Mop Set/refill",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Dry Mop Set/refill manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_6_xref_1594.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_102",
+    "name": "Cammy Mop Buket",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Cammy Mop Buket manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_9_xref_1597.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_103",
+    "name": "Twist Mop",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Gala",
+    "description": "Standard Twist Mop manufactured by Gala. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_10_xref_1598.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_104",
+    "name": "Mop Refil",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Mop Refil manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_11_xref_1599.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_105",
+    "name": "Telescopic Pole",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Telescopic Pole manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_12_xref_1600.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_106",
+    "name": "Mop Stick Metal",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Mop Stick Metal manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_13_xref_1601.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_107",
+    "name": "Mop Stick Wodden",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Freudenberg (Vileda)",
+    "description": "Standard Mop Stick Wodden manufactured by Freudenberg (Vileda). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_14_xref_1602.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_108",
+    "name": "Mop Extendable Handle",
+    "category": "WIPERS / MOPS & MOP STICKS",
+    "brand": "Scotch-Brite (3M)",
+    "description": "Standard Mop Extendable Handle manufactured by Scotch-Brite (3M). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Metal Stick & Rubber Wiper",
+      "Wiper Blade": "EPDM Double Rubber",
+      "Stick Length": "3 Feet - 5 Feet Extendable"
+    },
+    "image_file": "page_11_img_15_xref_1603.png",
+    "page": 11
+  },
+  {
+    "id": "me_prod_109",
+    "name": "Air Revitalizer",
+    "category": "CLEANING TOOLS",
+    "brand": "Clear Rock",
+    "description": "Standard Air Revitalizer manufactured by Clear Rock. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS & Steel Frame",
+      "Type": "Janitorial Trolley",
+      "Includes": "Wringer Bucket, Bag, Shelf Storage"
+    },
+    "image_file": "page_12_img_2_xref_1637.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_110",
+    "name": "Winger Single Bucket Trolley",
+    "category": "CLEANING TOOLS",
+    "brand": "Roots Multiclean",
+    "description": "Standard Winger Single Bucket Trolley manufactured by Roots Multiclean. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS & Steel Frame",
+      "Type": "Janitorial Trolley",
+      "Includes": "Wringer Bucket, Bag, Shelf Storage"
+    },
+    "image_file": "page_12_img_3_xref_1638.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_111",
+    "name": "Winger Double Bucket Trolley",
+    "category": "CLEANING TOOLS",
+    "brand": "Roots Multiclean",
+    "description": "Standard Winger Double Bucket Trolley manufactured by Roots Multiclean. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS & Steel Frame",
+      "Type": "Janitorial Trolley",
+      "Includes": "Wringer Bucket, Bag, Shelf Storage"
+    },
+    "image_file": "page_12_img_4_xref_1639.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_112",
+    "name": "Multy Purpose Trolley",
+    "category": "CLEANING TOOLS",
+    "brand": "Roots Multiclean",
+    "description": "Standard Multy Purpose Trolley manufactured by Roots Multiclean. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS & Steel Frame",
+      "Type": "Janitorial Trolley",
+      "Includes": "Wringer Bucket, Bag, Shelf Storage"
+    },
+    "image_file": "page_12_img_10_xref_1647.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_113",
+    "name": "Multi Funcctional Floor Cleaner",
+    "category": "CLEANING TOOLS",
+    "brand": "Clear Rock",
+    "description": "Standard Multi Funcctional Floor Cleaner manufactured by Clear Rock. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS & Steel Frame",
+      "Type": "Janitorial Trolley",
+      "Includes": "Wringer Bucket, Bag, Shelf Storage"
+    },
+    "image_file": "page_12_img_6_xref_1641.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_114",
+    "name": "High Pressure Washer",
+    "category": "CLEANING TOOLS",
+    "brand": "Clear Rock",
+    "description": "Standard High Pressure Washer manufactured by Clear Rock. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "High Pressure Washer",
+      "Max Pressure": "120 Bar - 140 Bar",
+      "Flow Rate": "380 L/Hr",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_12_img_8_xref_1643.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_115",
+    "name": "Wet & Dry Vacuum Cleaner",
+    "category": "CLEANING TOOLS",
+    "brand": "Kärcher",
+    "description": "Wet & dry vacuum cleaner with heavy-duty motor. Suitable for office, shopfloor, and warehouse cleanup. Complete accessory nozzles included.",
+    "specs": {
+      "Type": "Wet & Dry Vacuum Cleaner",
+      "Capacity": "30 Litres",
+      "Motor Power": "1200W - 1400W",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_12_img_7_xref_1642.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_116",
+    "name": "Clear Rock Vacuum Cleaner",
+    "category": "CLEANING TOOLS",
+    "brand": "Roots Multiclean",
+    "description": "Wet & dry vacuum cleaner with heavy-duty motor. Suitable for office, shopfloor, and warehouse cleanup. Complete accessory nozzles included.",
+    "specs": {
+      "Type": "Wet & Dry Vacuum Cleaner",
+      "Capacity": "30 Litres",
+      "Motor Power": "1200W - 1400W",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_12_img_9_xref_1646.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_117",
+    "name": "Floor Scrubber Machin",
+    "category": "CLEANING TOOLS",
+    "brand": "Roots Multiclean",
+    "description": "Standard Floor Scrubber Machin manufactured by Roots Multiclean. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Floor Scrubber Machine",
+      "Brush Width": "430 mm - 510 mm",
+      "Power Source": "AC Cable",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_12_img_11_xref_1648.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_118",
+    "name": "Push Along Scrubber Dryer",
+    "category": "CLEANING TOOLS",
+    "brand": "Cammy",
+    "description": "Automatic high-speed hand dryer machine by Cammy. Dries hands in less than 15 seconds. Designed for commercial washrooms and corporate office restrooms.",
+    "specs": {
+      "Type": "Floor Scrubber Machine",
+      "Brush Width": "430 mm - 510 mm",
+      "Power Source": "AC Cable",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_12_img_12_xref_1649.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_119",
+    "name": "Floor Cleaning Machin",
+    "category": "CLEANING TOOLS",
+    "brand": "Kärcher",
+    "description": "Standard Floor Cleaning Machin manufactured by Kärcher. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "ABS & Steel Frame",
+      "Type": "Janitorial Trolley",
+      "Includes": "Wringer Bucket, Bag, Shelf Storage"
+    },
+    "image_file": "page_12_img_13_xref_1650.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_120",
+    "name": "Lazzo Fly Killer",
+    "category": "CLEANING TOOLS",
+    "brand": "Cammy",
+    "description": "Standard Lazzo Fly Killer manufactured by Cammy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Electric Fly Killer",
+      "UV Tubes": "2x 15W Tubes",
+      "Body": "ABS and Aluminium Frame",
+      "Warranty": "6 Months"
+    },
+    "image_file": "page_12_img_5_xref_1640.png",
+    "page": 12
+  },
+  {
+    "id": "me_prod_121",
+    "name": "Safety Helmet",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Ceasefire",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "High-Density Polyethylene",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_2_xref_1670.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_122",
+    "name": "Traffic Cones",
+    "category": "SAFETY PRODUCTS",
+    "brand": "3M India",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_15_xref_1683.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_123",
+    "name": "Neon Jacket",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Liberty (Warrior)",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_4_xref_1672.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_124",
+    "name": "Safety Harness And Rope",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Ceasefire",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Type": "Full Body Safety Harness",
+      "Material": "Polyester Webbing",
+      "Attachment": "1 Dorsal D-Ring",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_5_xref_1673.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_125",
+    "name": "Safety Gum Boots",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Ceasefire",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Type": "Steel Toe Safety Shoes",
+      "Sole": "Double Density PU Sole",
+      "Material": "Genuine Leather Upper",
+      "Standards": "IS:15298 Certified"
+    },
+    "image_file": "page_13_img_6_xref_1674.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_126",
+    "name": "Safety Shoes",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Liberty (Warrior)",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Type": "Steel Toe Safety Shoes",
+      "Sole": "Double Density PU Sole",
+      "Material": "Genuine Leather Upper",
+      "Standards": "IS:15298 Certified"
+    },
+    "image_file": "page_13_img_7_xref_1675.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_127",
+    "name": "Fire Safety Extingusher",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Ceasefire",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_8_xref_1676.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_128",
+    "name": "Leather Safety Hand Gloves",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Karam",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_13_xref_1681.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_129",
+    "name": "Queue Manager With Velvet Rope",
+    "category": "SAFETY PRODUCTS",
+    "brand": "3M India",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_9_xref_1677.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_130",
+    "name": "Marker Tape",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Liberty (Warrior)",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_11_xref_1679.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_131",
+    "name": "First Aid Kit",
+    "category": "SAFETY PRODUCTS",
+    "brand": "3M India",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_12_xref_1680.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_132",
+    "name": "Safety Eye Glasses",
+    "category": "SAFETY PRODUCTS",
+    "brand": "Ceasefire",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Reflective Polyester",
+      "Type": "Safety Equipment",
+      "Standards": "ISI Approved"
+    },
+    "image_file": "page_13_img_14_xref_1682.png",
+    "page": 13
+  },
+  {
+    "id": "me_prod_133",
+    "name": "3 Ply Mask",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Honeywell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Type": "3-Ply Disposable Surgical Mask",
+      "Filtration": "BFE > 95%",
+      "Pack Quantity": "50 Pcs per Box",
+      "Certification": "ISO Certified"
+    },
+    "image_file": "page_14_img_2_xref_1703.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_134",
+    "name": "3 Ply Black Mask",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Maskwell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Type": "3-Ply Disposable Surgical Mask",
+      "Filtration": "BFE > 95%",
+      "Pack Quantity": "50 Pcs per Box",
+      "Certification": "ISO Certified"
+    },
+    "image_file": "page_14_img_3_xref_1704.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_135",
+    "name": "N95 With Headloop",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Maskwell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Type": "N95 Mask",
+      "Filtration": "BFE > 95%",
+      "Pack Quantity": "10 Pcs per Pack",
+      "Certification": "ISO Certified"
+    },
+    "image_file": "page_14_img_4_xref_1705.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_136",
+    "name": "Cotton Mask",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Venus",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Cotton",
+      "Type": "Face Mask",
+      "Washable": "Yes"
+    },
+    "image_file": "page_14_img_5_xref_1706.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_137",
+    "name": "Kids Mask",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Maskwell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Cotton",
+      "Type": "Face Mask",
+      "Washable": "No"
+    },
+    "image_file": "page_14_img_10_xref_1711.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_138",
+    "name": "Maskwell 3 D Mask",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "3M",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Cotton",
+      "Type": "Face Mask",
+      "Washable": "No"
+    },
+    "image_file": "page_14_img_11_xref_1712.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_139",
+    "name": "Pp Hand Gloves",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Maskwell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Cotton",
+      "Type": "Safety Gloves",
+      "Washable": "No"
+    },
+    "image_file": "page_14_img_7_xref_1708.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_140",
+    "name": "Cotton Hand Gloves",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "3M",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Cotton",
+      "Type": "Safety Gloves",
+      "Washable": "Yes"
+    },
+    "image_file": "page_14_img_8_xref_1709.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_141",
+    "name": "Rubber Hand Gloves Heavy",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Honeywell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Latex",
+      "Type": "Safety Gloves",
+      "Washable": "No"
+    },
+    "image_file": "page_14_img_9_xref_1710.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_142",
+    "name": "Rubber Hand Gloves",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Honeywell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Latex",
+      "Type": "Safety Gloves",
+      "Washable": "No"
+    },
+    "image_file": "page_14_img_6_xref_1707.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_143",
+    "name": "Electrical Hand Gloves",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Maskwell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Cotton",
+      "Type": "Safety Gloves",
+      "Washable": "No"
+    },
+    "image_file": "page_14_img_12_xref_1715.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_144",
+    "name": "Dishwashing Hand Gloves",
+    "category": "MASKS & HANDS GLOVES",
+    "brand": "Honeywell",
+    "description": "Safety protective equipment for work zones and manufacturing units. Compliant with standard industrial safety certifications.",
+    "specs": {
+      "Material": "Cotton",
+      "Type": "Safety Gloves",
+      "Washable": "No"
+    },
+    "image_file": "page_14_img_13_xref_1716.png",
+    "page": 14
+  },
+  {
+    "id": "me_prod_145",
+    "name": "Non Woven Surgical Gown",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Surgicare",
+    "description": "Standard Non Woven Surgical Gown manufactured by Surgicare. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_2_xref_1735.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_146",
+    "name": "Ppe Kit",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Romsons",
+    "description": "Standard Ppe Kit manufactured by Romsons. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_3_xref_1736.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_147",
+    "name": "Sms Apron",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Dynamic Techno Medicals",
+    "description": "Standard Sms Apron manufactured by Dynamic Techno Medicals. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_4_xref_1737.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_148",
+    "name": "Pvc Apron",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Romsons",
+    "description": "Standard Pvc Apron manufactured by Romsons. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_5_xref_1738.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_149",
+    "name": "Disposable Bed Sheet",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Dynamic Techno Medicals",
+    "description": "Standard Disposable Bed Sheet manufactured by Dynamic Techno Medicals. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_6_xref_1739.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_150",
+    "name": "Lamonated Dis. Bed Sheet",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Dynamic Techno Medicals",
+    "description": "Standard Lamonated Dis. Bed Sheet manufactured by Dynamic Techno Medicals. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_7_xref_1740.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_151",
+    "name": "Non Woven Bouffant Cap",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Surgicare",
+    "description": "Standard Non Woven Bouffant Cap manufactured by Surgicare. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Box of 100"
+    },
+    "image_file": "page_15_img_8_xref_1741.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_152",
+    "name": "Ld Shoe Cover",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Romsons",
+    "description": "Standard Ld Shoe Cover manufactured by Romsons. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Box of 100"
+    },
+    "image_file": "page_15_img_9_xref_1742.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_153",
+    "name": "Surgical Cotton Mask",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Surgicare",
+    "description": "Standard Surgical Cotton Mask manufactured by Surgicare. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_10_xref_1743.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_154",
+    "name": "Surgical Hnad Gloves",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Dynamic Techno Medicals",
+    "description": "Standard Surgical Hnad Gloves manufactured by Dynamic Techno Medicals. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_11_xref_1744.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_155",
+    "name": "Infrared Thermometer",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Romsons",
+    "description": "Standard Infrared Thermometer manufactured by Romsons. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_12_xref_1745.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_156",
+    "name": "Partition Box",
+    "category": "HOSPITAL DISPOSABLE",
+    "brand": "Surgicare",
+    "description": "Standard Partition Box manufactured by Surgicare. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Non-Woven Medical Grade Fabric",
+      "Type": "Sterile & Disposable",
+      "Pack Size": "Pack of 10"
+    },
+    "image_file": "page_15_img_13_xref_1746.png",
+    "page": 15
+  },
+  {
+    "id": "me_prod_157",
+    "name": "Harpic Blue Toitet Cleaner",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Domex",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_2_xref_1766.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_158",
+    "name": "Harpic Bathroom Cleaner",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Dettol",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_3_xref_1767.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_159",
+    "name": "Lifebuy Handwash",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Lizol",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_5_xref_1769.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_160",
+    "name": "Harpic Hygienic",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Lifebuoy",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_15_xref_1779.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_161",
+    "name": "Dettol Antiseptic Liquid",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Vim",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_6_xref_1770.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_162",
+    "name": "Dettol Handwash",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Vim",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_7_xref_1771.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_163",
+    "name": "Himalaya Handwash",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Domex",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_9_xref_1773.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_164",
+    "name": "Vim All Products",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Lifebuoy",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_10_xref_1774.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_165",
+    "name": "Good Knight Combi Machine",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Vim",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_8_xref_1772.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_166",
+    "name": "Domex Toilet & Floor",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Domex",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_13_xref_1777.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_167",
+    "name": "Glass Cleaner & Spray Gun",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Lifebuoy",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_16_xref_1780.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_168",
+    "name": "Lizel Floor Cleaner",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Dettol",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_4_xref_1768.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_169",
+    "name": "Cleaner",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Dettol",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_13_xref_1777.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_170",
+    "name": "With Refill",
+    "category": "BRANDED CLEANING CHEMICAL",
+    "brand": "Lifebuoy",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Capacity": "500 ml / 1 Litre",
+      "Type": "Liquid Cleanser",
+      "Fragrance": "Lemon / Pine / Rose"
+    },
+    "image_file": "page_16_img_8_xref_1772.png",
+    "page": 16
+  },
+  {
+    "id": "me_prod_171",
+    "name": "Diversey Taski R-1",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_2_xref_1798.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_172",
+    "name": "Diversey Taski R-2",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_3_xref_1799.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_173",
+    "name": "Diversey Taski R-3",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_4_xref_1800.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_174",
+    "name": "Diversey Taski R-4",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_5_xref_1801.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_175",
+    "name": "Diversey Taski R-8",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_10_xref_1806.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_176",
+    "name": "Diversey Taski R-5",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_6_xref_1802.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_177",
+    "name": "Diversey Taski R-6",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_7_xref_1803.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_178",
+    "name": "Diversey Taski R-7",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_8_xref_1804.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_179",
+    "name": "Diversey Taski R-9",
+    "category": "TASKI CLEANING CHEMICAL",
+    "brand": "Diversey Taski",
+    "description": "Professional concentrated cleaning chemical for commercial floor maintenance. Dilutes easily, removes stubborn stains, and leaves a fresh clean fragrance.",
+    "specs": {
+      "Brand": "Diversey Taski",
+      "Type": "Concentrate Floor Cleaner",
+      "Capacity": "5 Litres",
+      "Use Ratio": "20ml per Litre of Water"
+    },
+    "image_file": "page_17_img_9_xref_1805.png",
+    "page": 17
+  },
+  {
+    "id": "me_prod_180",
+    "name": "Primox Air Freshener",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Godrej Aer",
+    "description": "Standard Primox Air Freshener manufactured by Godrej Aer. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Aerosol Spray",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_2_xref_1823.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_181",
+    "name": "Godrej Room Freshener",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Airwick",
+    "description": "Standard Godrej Room Freshener manufactured by Airwick. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Aerosol Spray",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_3_xref_1824.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_182",
+    "name": "Premium Room Freshener",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Godrej Aer",
+    "description": "Standard Premium Room Freshener manufactured by Godrej Aer. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Aerosol Spray",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_4_xref_1825.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_183",
+    "name": "Odonil Room Freshener",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Primox",
+    "description": "Standard Odonil Room Freshener manufactured by Primox. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Aerosol Spray",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_5_xref_1826.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_184",
+    "name": "Airwick Room Freshener",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Godrej Aer",
+    "description": "Standard Airwick Room Freshener manufactured by Godrej Aer. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Aerosol Spray",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_6_xref_1827.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_185",
+    "name": "Naphthalene Color Ball",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Airwick",
+    "description": "Standard Naphthalene Color Ball manufactured by Airwick. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Solid Gel Block",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_11_xref_1832.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_186",
+    "name": "White Color Ball",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Airwick",
+    "description": "Standard White Color Ball manufactured by Airwick. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Solid Gel Block",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_12_xref_1833.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_187",
+    "name": "Godrej Air Pocket",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Primox",
+    "description": "Standard Godrej Air Pocket manufactured by Primox. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Solid Gel Block",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_13_xref_1834.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_188",
+    "name": "Plastic Dust Pan",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Airwick",
+    "description": "Standard Plastic Dust Pan manufactured by Airwick. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Solid Gel Block",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_7_xref_1828.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_189",
+    "name": "Plastic Bathing Mug",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Primox",
+    "description": "Standard Plastic Bathing Mug manufactured by Primox. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Solid Gel Block",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_8_xref_1829.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_190",
+    "name": "Plastic Bucket",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Godrej Aer",
+    "description": "Standard Plastic Bucket manufactured by Godrej Aer. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Solid Gel Block",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_9_xref_1830.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_191",
+    "name": "Uniral Screen",
+    "category": "ROOM FRESHENER & OTHER",
+    "brand": "Primox",
+    "description": "Standard Uniral Screen manufactured by Primox. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Solid Gel Block",
+      "Fragrance": "Lavender / Sandalwood / Rose / Jasmine",
+      "Capacity": "240 ml Spray / 75g Pocket"
+    },
+    "image_file": "page_18_img_10_xref_1831.png",
+    "page": 18
+  },
+  {
+    "id": "me_prod_192",
+    "name": "Jk Max -67gsm A/4",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "Solo Files",
+    "description": "Standard Jk Max -67gsm A/4 manufactured by Solo Files. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "A4 (210 x 297 mm)",
+      "Weight": "67 GSM",
+      "Quantity": "500 Sheets per Ream",
+      "Print Mode": "Duplex Copier Compatible"
+    },
+    "image_file": "page_19_img_2_xref_1854.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_193",
+    "name": "Jk Easy Copier -70gsm A/4",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "LM",
+    "description": "Standard Jk Easy Copier -70gsm A/4 manufactured by LM. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "A4 (210 x 297 mm)",
+      "Weight": "70 GSM",
+      "Quantity": "500 Sheets per Ream",
+      "Print Mode": "Duplex Copier Compatible"
+    },
+    "image_file": "page_19_img_4_xref_1856.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_194",
+    "name": "Jk Sparkle -70/75/80gsm A/4",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "Oddy",
+    "description": "Standard Jk Sparkle -70/75/80gsm A/4 manufactured by Oddy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "A4 (210 x 297 mm)",
+      "Weight": "70 GSM",
+      "Quantity": "500 Sheets per Ream",
+      "Print Mode": "Duplex Copier Compatible"
+    },
+    "image_file": "page_19_img_5_xref_1857.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_195",
+    "name": "Jk Copier -75/80gsm A/4",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "JK Paper",
+    "description": "Standard Jk Copier -75/80gsm A/4 manufactured by JK Paper. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "A4 (210 x 297 mm)",
+      "Weight": "75 GSM",
+      "Quantity": "500 Sheets per Ream",
+      "Print Mode": "Duplex Copier Compatible"
+    },
+    "image_file": "page_19_img_3_xref_1855.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_196",
+    "name": "Lm Plastic Folder",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "JK Paper",
+    "description": "Standard Lm Plastic Folder manufactured by JK Paper. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polypropylene Plastic / Cardboard",
+      "Capacity": "Fits up to 100 A4 Sheets",
+      "Type": "Report File / Button Folder / Box File",
+      "Pack Quantity": "Pack of 10"
+    },
+    "image_file": "page_19_img_7_xref_1859.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_197",
+    "name": "Protectir Sheet",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "Oddy",
+    "description": "Standard Protectir Sheet manufactured by Oddy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polypropylene Plastic / Cardboard",
+      "Capacity": "Fits up to 100 A4 Sheets",
+      "Type": "Report File / Button Folder / Box File",
+      "Pack Quantity": "Pack of 10"
+    },
+    "image_file": "page_19_img_9_xref_1861.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_198",
+    "name": "Eco Rise Paper -70gsm A/4",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "JK Paper",
+    "description": "Standard Eco Rise Paper -70gsm A/4 manufactured by JK Paper. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "A4 (210 x 297 mm)",
+      "Weight": "70 GSM",
+      "Quantity": "500 Sheets per Ream",
+      "Print Mode": "Duplex Copier Compatible"
+    },
+    "image_file": "page_19_img_10_xref_1862.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_199",
+    "name": "Button Folder",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "Eco Rise",
+    "description": "Standard Button Folder manufactured by Eco Rise. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polypropylene Plastic / Cardboard",
+      "Capacity": "Fits up to 100 A4 Sheets",
+      "Type": "Report File / Button Folder / Box File",
+      "Pack Quantity": "Pack of 10"
+    },
+    "image_file": "page_19_img_12_xref_1864.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_200",
+    "name": "A-4 Report File",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "Solo Files",
+    "description": "Standard A-4 Report File manufactured by Solo Files. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polypropylene Plastic / Cardboard",
+      "Capacity": "Fits up to 100 A4 Sheets",
+      "Type": "Report File / Button Folder / Box File",
+      "Pack Quantity": "Pack of 10"
+    },
+    "image_file": "page_19_img_6_xref_1858.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_201",
+    "name": "A-4 Stick File",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "Eco Rise",
+    "description": "Standard A-4 Stick File manufactured by Eco Rise. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polypropylene Plastic / Cardboard",
+      "Capacity": "Fits up to 100 A4 Sheets",
+      "Type": "Report File / Button Folder / Box File",
+      "Pack Quantity": "Pack of 10"
+    },
+    "image_file": "page_19_img_8_xref_1860.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_202",
+    "name": "Box File",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "Eco Rise",
+    "description": "Standard Box File manufactured by Eco Rise. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polypropylene Plastic / Cardboard",
+      "Capacity": "Fits up to 100 A4 Sheets",
+      "Type": "Report File / Button Folder / Box File",
+      "Pack Quantity": "Pack of 10"
+    },
+    "image_file": "page_19_img_11_xref_1863.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_203",
+    "name": "Spring File",
+    "category": "COPIER PAPERS & FILES/FOLDER",
+    "brand": "JK Paper",
+    "description": "Standard Spring File manufactured by JK Paper. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Polypropylene Plastic / Cardboard",
+      "Capacity": "Fits up to 100 A4 Sheets",
+      "Type": "Report File / Button Folder / Box File",
+      "Pack Quantity": "Pack of 10"
+    },
+    "image_file": "page_19_img_13_xref_1877.png",
+    "page": 19
+  },
+  {
+    "id": "me_prod_204",
+    "name": "Use And Throw Pen",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Reynolds",
+    "description": "Standard Use And Throw Pen manufactured by Reynolds. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_20_img_2_xref_1885.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_205",
+    "name": "Reynolds 045 Pen",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Reynolds 045 Pen manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Ballpoint Pen",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_20_img_4_xref_1887.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_206",
+    "name": "Hauser Xo Pen",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Luxor",
+    "description": "Standard Hauser Xo Pen manufactured by Luxor. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Ballpoint Pen",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_20_img_5_xref_1888.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_207",
+    "name": "Sketch Pen",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Doms",
+    "description": "Standard Sketch Pen manufactured by Doms. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_20_img_13_xref_1896.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_208",
+    "name": "Permanent Marker",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Doms",
+    "description": "Standard Permanent Marker manufactured by Doms. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_20_img_6_xref_1889.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_209",
+    "name": "White Board Marker",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Pidilite (Fevicol)",
+    "description": "Standard White Board Marker manufactured by Pidilite (Fevicol). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_20_img_8_xref_1891.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_210",
+    "name": "Ohp /cd/ Dvd Marker",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Reynolds",
+    "description": "Standard Ohp /cd/ Dvd Marker manufactured by Reynolds. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_20_img_11_xref_1894.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_211",
+    "name": "Highligter",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Casio",
+    "description": "Standard Highligter manufactured by Casio. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_20_img_12_xref_1895.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_212",
+    "name": "Pencils",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Reynolds",
+    "description": "Standard Pencils manufactured by Reynolds. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_20_img_15_xref_1898.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_213",
+    "name": "Eraser",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Eraser manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_20_img_10_xref_1893.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_214",
+    "name": "Sharpener",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Casio",
+    "description": "Standard Sharpener manufactured by Casio. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_20_img_10_xref_1893.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_215",
+    "name": "Correction Pen",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Post-it",
+    "description": "Standard Correction Pen manufactured by Post-it. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_20_img_10_xref_1893.png",
+    "page": 20
+  },
+  {
+    "id": "me_prod_216",
+    "name": "Stapler",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Post-it",
+    "description": "Standard Stapler manufactured by Post-it. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Steel Body",
+      "Capacity": "Staples up to 25 Sheets",
+      "Staple Pin Size": "No. 10 / 24-6"
+    },
+    "image_file": "page_21_img_4_xref_1928.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_217",
+    "name": "Stapler Pin",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Post-it",
+    "description": "Standard Stapler Pin manufactured by Post-it. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Steel Body",
+      "Capacity": "Staples up to 25 Sheets",
+      "Staple Pin Size": "No. 10 / 24-6"
+    },
+    "image_file": "page_21_img_1_xref_1924.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_218",
+    "name": "Punching Machine",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Luxor",
+    "description": "Standard Punching Machine manufactured by Luxor. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Steel Body",
+      "Capacity": "Staples up to 25 Sheets",
+      "Staple Pin Size": "No. 10 / 24-6"
+    },
+    "image_file": "page_21_img_10_xref_1934.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_219",
+    "name": "Pin Remover",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Reynolds",
+    "description": "Standard Pin Remover manufactured by Reynolds. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_12_xref_1936.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_220",
+    "name": "Paper Cutter",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Pidilite (Fevicol)",
+    "description": "Standard Paper Cutter manufactured by Pidilite (Fevicol). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_13_xref_1937.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_221",
+    "name": "All Size Scissors",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Pidilite (Fevicol)",
+    "description": "Standard All Size Scissors manufactured by Pidilite (Fevicol). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_14_xref_1938.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_222",
+    "name": "Steel / Plastic Scall",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Steel / Plastic Scall manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_16_xref_1940.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_223",
+    "name": "Binder Clip All Size",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Casio",
+    "description": "Standard Binder Clip All Size manufactured by Casio. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_17_xref_1941.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_224",
+    "name": "Paper Clip Plastic",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Doms",
+    "description": "Standard Paper Clip Plastic manufactured by Doms. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_18_xref_1942.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_225",
+    "name": "Board Pin",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Reynolds",
+    "description": "Standard Board Pin manufactured by Reynolds. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_19_xref_1943.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_226",
+    "name": "Gem Clip",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Post-it",
+    "description": "Standard Gem Clip manufactured by Post-it. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_20_xref_1944.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_227",
+    "name": "Paper Pin",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Casio",
+    "description": "Standard Paper Pin manufactured by Casio. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_21_img_21_xref_1945.png",
+    "page": 21
+  },
+  {
+    "id": "me_prod_228",
+    "name": "Calculator",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Calculator manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Display": "12-Digit Display",
+      "Power Source": "Dual Power (Solar & Battery)",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_22_img_2_xref_1965.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_229",
+    "name": "Post It Pad",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Camlin",
+    "description": "Standard Post It Pad manufactured by Camlin. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_3_xref_1966.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_230",
+    "name": "Carbon Paper",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Post-it",
+    "description": "Standard Carbon Paper manufactured by Post-it. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_4_xref_1967.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_231",
+    "name": "Rubber Band",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Rubber Band manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_14_xref_1977.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_232",
+    "name": "Whiteboard Duster",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Pidilite (Fevicol)",
+    "description": "Standard Whiteboard Duster manufactured by Pidilite (Fevicol). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_5_xref_1968.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_233",
+    "name": "Plastic Stamp Pad",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Casio",
+    "description": "Standard Plastic Stamp Pad manufactured by Casio. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_6_xref_1969.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_234",
+    "name": "Stamp Pad Ink Bottle",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Hauser",
+    "description": "Standard Stamp Pad Ink Bottle manufactured by Hauser. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_8_xref_1971.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_235",
+    "name": "Metal Stamp Pad",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Casio",
+    "description": "Standard Metal Stamp Pad manufactured by Casio. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_13_xref_1976.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_236",
+    "name": "Permanent Marker Ink",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Pidilite (Fevicol)",
+    "description": "Standard Permanent Marker Ink manufactured by Pidilite (Fevicol). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_9_xref_1972.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_237",
+    "name": "Whiteboard Marker Ink",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Doms",
+    "description": "Standard Whiteboard Marker Ink manufactured by Doms. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_10_xref_1973.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_238",
+    "name": "Synthetic Gum",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Casio",
+    "description": "Standard Synthetic Gum manufactured by Casio. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_11_xref_1974.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_239",
+    "name": "White Adhesive",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Hauser",
+    "description": "Standard White Adhesive manufactured by Hauser. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_22_img_12_xref_1975.png",
+    "page": 22
+  },
+  {
+    "id": "me_prod_240",
+    "name": "Glue Stick",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Pidilite (Fevicol)",
+    "description": "Standard Glue Stick manufactured by Pidilite (Fevicol). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_2_xref_1997.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_241",
+    "name": "Gum Paste",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Pidilite (Fevicol)",
+    "description": "Standard Gum Paste manufactured by Pidilite (Fevicol). Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_3_xref_1998.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_242",
+    "name": "Fevicol Tube",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Hauser",
+    "description": "Standard Fevicol Tube manufactured by Hauser. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_4_xref_1999.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_243",
+    "name": "Fevi Kwik",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Fevi Kwik manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_5_xref_2000.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_244",
+    "name": "Sponge Damper",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Post-it",
+    "description": "Standard Sponge Damper manufactured by Post-it. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_7_xref_2006.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_245",
+    "name": "Magnetic Pin Dispenser",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Doms",
+    "description": "Standard Magnetic Pin Dispenser manufactured by Doms. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_23_img_8_xref_2007.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_246",
+    "name": "Pen Stand",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Pen Stand manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_23_img_10_xref_2009.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_247",
+    "name": "Key Chains",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Hauser",
+    "description": "Standard Key Chains manufactured by Hauser. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_11_xref_2010.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_248",
+    "name": "Exam Pad Big / Small",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Kangaro",
+    "description": "Standard Exam Pad Big / Small manufactured by Kangaro. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_13_xref_2017.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_249",
+    "name": "Tape Dispenseer",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Camlin",
+    "description": "Standard Tape Dispenseer manufactured by Camlin. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_23_img_14_xref_2018.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_250",
+    "name": "Tape Dispenseer 2\" 3\"",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Doms",
+    "description": "Standard Tape Dispenseer 2\" 3\" manufactured by Doms. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Highlighter",
+      "Ink Color": "Blue / Black / Red",
+      "Pack Size": "Pack of 20"
+    },
+    "image_file": "page_23_img_15_xref_2019.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_251",
+    "name": "Office Tray",
+    "category": "STATIONERY & OFFICE PRODUCTS",
+    "brand": "Camlin",
+    "description": "Standard Office Tray manufactured by Camlin. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Quality Office Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_23_img_12_xref_2015.png",
+    "page": 23
+  },
+  {
+    "id": "me_prod_252",
+    "name": "White Envelope",
+    "category": "OTHER PRODUCTS",
+    "brand": "Mount Premium",
+    "description": "Standard White Envelope manufactured by Mount Premium. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_2_xref_2030.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_253",
+    "name": "Brown Envelope",
+    "category": "OTHER PRODUCTS",
+    "brand": "Classmate",
+    "description": "Standard Brown Envelope manufactured by Classmate. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_3_xref_2031.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_254",
+    "name": "Cloth Cover Envelope",
+    "category": "OTHER PRODUCTS",
+    "brand": "Mount Premium",
+    "description": "Standard Cloth Cover Envelope manufactured by Mount Premium. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_4_xref_2032.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_255",
+    "name": "Register",
+    "category": "OTHER PRODUCTS",
+    "brand": "Supreme",
+    "description": "Standard Register manufactured by Supreme. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_5_xref_2033.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_256",
+    "name": "Diary",
+    "category": "OTHER PRODUCTS",
+    "brand": "Supreme",
+    "description": "Standard Diary manufactured by Supreme. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_6_xref_2034.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_257",
+    "name": "Spiral Pad",
+    "category": "OTHER PRODUCTS",
+    "brand": "Supreme",
+    "description": "Standard Spiral Pad manufactured by Supreme. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_7_xref_2035.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_258",
+    "name": "Notebook",
+    "category": "OTHER PRODUCTS",
+    "brand": "Cello",
+    "description": "Standard Notebook manufactured by Cello. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_8_xref_2036.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_259",
+    "name": "Visiting Card Holder",
+    "category": "OTHER PRODUCTS",
+    "brand": "Supreme",
+    "description": "Standard Visiting Card Holder manufactured by Supreme. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_9_xref_2037.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_260",
+    "name": "Id Card Holder",
+    "category": "OTHER PRODUCTS",
+    "brand": "Classmate",
+    "description": "Standard Id Card Holder manufactured by Classmate. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_10_xref_2046.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_261",
+    "name": "Double Sided Tape",
+    "category": "OTHER PRODUCTS",
+    "brand": "Classmate",
+    "description": "Standard Double Sided Tape manufactured by Classmate. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_11_xref_2048.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_262",
+    "name": "Transparent Double Sided Tape",
+    "category": "OTHER PRODUCTS",
+    "brand": "Cello",
+    "description": "Standard Transparent Double Sided Tape manufactured by Cello. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_12_xref_2049.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_263",
+    "name": "Cello/brown Tape 1\"2\"3\"",
+    "category": "OTHER PRODUCTS",
+    "brand": "Supreme",
+    "description": "Standard Cello/brown Tape 1\"2\"3\" manufactured by Supreme. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Material": "Standard Grade",
+      "Origin": "India",
+      "Pack Size": "1 Unit"
+    },
+    "image_file": "page_24_img_13_xref_2050.png",
+    "page": 24
+  },
+  {
+    "id": "me_prod_264",
+    "name": "White Board",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Oddy",
+    "description": "Standard White Board manufactured by Oddy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "3x4 Feet",
+      "Surface": "Scratch-Resistant Melamine Surface",
+      "Frame": "Aluminium Anodized Frame",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_25_img_2_xref_2061.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_265",
+    "name": "Black Board",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Oddy",
+    "description": "Standard Black Board manufactured by Oddy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "3x4 Feet",
+      "Surface": "Scratch-Resistant Melamine Surface",
+      "Frame": "Aluminium Anodized Frame",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_25_img_3_xref_2062.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_266",
+    "name": "Green Board",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Oddy",
+    "description": "Standard Green Board manufactured by Oddy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "3x4 Feet",
+      "Surface": "Scratch-Resistant Melamine Surface",
+      "Frame": "Aluminium Anodized Frame",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_25_img_4_xref_2063.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_267",
+    "name": "Notice Pin-up Board",
+    "category": "BOARD/STAND OTHER",
+    "brand": "3M",
+    "description": "Standard Notice Pin-up Board manufactured by 3M. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "3x4 Feet",
+      "Surface": "Scratch-Resistant Melamine Surface",
+      "Frame": "Aluminium Anodized Frame",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_25_img_8_xref_2067.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_268",
+    "name": "Welcome Board With Stand",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Oddy",
+    "description": "Standard Welcome Board With Stand manufactured by Oddy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Size": "2x3 Feet",
+      "Surface": "Scratch-Resistant Melamine Surface",
+      "Frame": "Aluminium Anodized Frame",
+      "Warranty": "1 Year"
+    },
+    "image_file": "page_25_img_5_xref_2064.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_269",
+    "name": "Tripod Stand",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Pragati Systems",
+    "description": "Standard Tripod Stand manufactured by Pragati Systems. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Tripod Stand / Wooden Easel Stand",
+      "Material": "Powder Coated Steel / Pine Wood",
+      "Height": "Adjustable up to 5 Feet",
+      "Load Capacity": "Holds up to 10 kg Boards"
+    },
+    "image_file": "page_25_img_6_xref_2065.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_270",
+    "name": "Wooden Easel Stand",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Pragati Systems",
+    "description": "Standard Wooden Easel Stand manufactured by Pragati Systems. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Tripod Stand / Wooden Easel Stand",
+      "Material": "Powder Coated Steel / Pine Wood",
+      "Height": "Adjustable up to 5 Feet",
+      "Load Capacity": "Holds up to 10 kg Boards"
+    },
+    "image_file": "page_25_img_7_xref_2066.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_271",
+    "name": "Masking Tape",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Pragati Systems",
+    "description": "Standard Masking Tape manufactured by Pragati Systems. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Tripod Stand / Wooden Easel Stand",
+      "Material": "Powder Coated Steel / Pine Wood",
+      "Height": "Adjustable up to 5 Feet",
+      "Load Capacity": "Holds up to 10 kg Boards"
+    },
+    "image_file": "page_25_img_9_xref_2075.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_272",
+    "name": "Bubble Roll",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Pragati Systems",
+    "description": "Standard Bubble Roll manufactured by Pragati Systems. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Tripod Stand / Wooden Easel Stand",
+      "Material": "Powder Coated Steel / Pine Wood",
+      "Height": "Adjustable up to 5 Feet",
+      "Load Capacity": "Holds up to 10 kg Boards"
+    },
+    "image_file": "page_25_img_10_xref_2076.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_273",
+    "name": "Rafing Roll",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Oddy",
+    "description": "Standard Rafing Roll manufactured by Oddy. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Tripod Stand / Wooden Easel Stand",
+      "Material": "Powder Coated Steel / Pine Wood",
+      "Height": "Adjustable up to 5 Feet",
+      "Load Capacity": "Holds up to 10 kg Boards"
+    },
+    "image_file": "page_25_img_11_xref_2077.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_274",
+    "name": "Strapping Roll",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Pragati Systems",
+    "description": "Standard Strapping Roll manufactured by Pragati Systems. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Tripod Stand / Wooden Easel Stand",
+      "Material": "Powder Coated Steel / Pine Wood",
+      "Height": "Adjustable up to 5 Feet",
+      "Load Capacity": "Holds up to 10 kg Boards"
+    },
+    "image_file": "page_25_img_12_xref_2078.png",
+    "page": 25
+  },
+  {
+    "id": "me_prod_275",
+    "name": "Insulation Tape",
+    "category": "BOARD/STAND OTHER",
+    "brand": "Pragati Systems",
+    "description": "Standard Insulation Tape manufactured by Pragati Systems. Suitable for commercial complexes, corporate offices, and institutional use. Durable construction designed for high-frequency daily operation.",
+    "specs": {
+      "Type": "Tripod Stand / Wooden Easel Stand",
+      "Material": "Powder Coated Steel / Pine Wood",
+      "Height": "Adjustable up to 5 Feet",
+      "Load Capacity": "Holds up to 10 kg Boards"
+    },
+    "image_file": "page_25_img_13_xref_2079.png",
+    "page": 25
+  }
+]

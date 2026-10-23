@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/virtual-office", {data:[{}],fetch:{},mutations:[]});
