@@ -1,0 +1,430 @@
+[{"stream_name":"stderr","time":8.659887548,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.659978668,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.659988298,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.659993268000001,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.242216177,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.242252937,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.242257447,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.242260897,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.004886262,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 52.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":14.207019377,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 52.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.172096347,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.5/44.5 kB 641.8 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.37452595,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.5/44.5 kB 641.8 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.932909225,"data":"Environment ready.  Canvas: C=10, H=30, W=30  |  HW=900, CHW=9000  |  SAFE_PAD_IDX=899\n"}
+,{"stream_name":"stdout","time":19.967307133,"data":"Data utilities and cost estimator loaded.\n"}
+,{"stream_name":"stdout","time":20.146835032,"data":"ONNX builders and pattern detectors loaded.\n"}
+,{"stream_name":"stdout","time":23.245275139,"data":"Neural Waterfall solvers loaded.\n"}
+,{"stream_name":"stdout","time":23.449072174,"data":"NeuroGolf 2026 | Found 400 task(s) in: /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":39.167639416,"data":"  task001: no solution (15.6s)\n"}
+,{"stream_name":"stdout","time":55.818454445,"data":"  task002: no solution (16.6s)\n"}
+,{"stream_name":"stdout","time":69.193085948,"data":"  task003: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":85.217652673,"data":"  task004: no solution (16.0s)\n"}
+,{"stream_name":"stdout","time":98.871893187,"data":"  task005: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":112.503538322,"data":"  task006: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":126.186947764,"data":"  task007: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":139.784909705,"data":"  task008: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":153.431294294,"data":"  task009: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":169.339550913,"data":"  task010: no solution (15.9s)\n"}
+,{"stream_name":"stdout","time":184.755299526,"data":"  task011: no solution (15.4s)\n"}
+,{"stream_name":"stdout","time":198.142079468,"data":"  task012: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":211.98604577,"data":"  task013: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":225.681737272,"data":"  task014: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":228.696348418,"data":"  task015  cost=   846,000  score=11.35  time=3.0s\n"}
+,{"stream_name":"stdout","time":228.696388428,"data":"  task016  cost=    36,000  score=14.51  time=0.1s\n"}
+,{"stream_name":"stdout","time":242.478062131,"data":"  task017: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":256.102274427,"data":"  task018: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":271.382143308,"data":"  task019: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":284.823924942,"data":"  task020: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":298.098588379,"data":"  task021: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":311.619335267,"data":"  task022: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":325.186309966,"data":"  task023: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":338.821922412,"data":"  task024: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":352.521415602,"data":"  task025: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":370.111514886,"data":"  task026: no solution (17.6s)\n"}
+,{"stream_name":"stdout","time":383.658837008,"data":"  task027: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":395.972535397,"data":"  task028: no solution (12.3s)\n"}
+,{"stream_name":"stdout","time":409.831943385,"data":"  task029: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":423.493520338,"data":"  task030: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":437.14727202,"data":"  task031: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":452.077873879,"data":"  task032: no solution (14.9s)\n"}
+,{"stream_name":"stdout","time":465.607130425,"data":"  task033: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":481.257008589,"data":"  task034: no solution (15.6s)\n"}
+,{"stream_name":"stdout","time":494.742194019,"data":"  task035: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":506.965689782,"data":"  task036: no solution (12.2s)\n"}
+,{"stream_name":"stdout","time":520.666413379,"data":"  task037: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":534.304246412,"data":"  task038: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":546.331339795,"data":"  task039: no solution (12.0s)\n"}
+,{"stream_name":"stdout","time":559.765439091,"data":"  task040: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":573.203879406,"data":"  task041: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":586.351503221,"data":"  task042: no solution (13.1s)\n"}
+,{"stream_name":"stdout","time":599.526514317,"data":"  task043: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":612.682682222,"data":"  task044: no solution (13.1s)\n"}
+,{"stream_name":"stdout","time":626.018453144,"data":"  task045: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":641.543900999,"data":"  task046: no solution (15.5s)\n"}
+,{"stream_name":"stdout","time":657.515197332,"data":"  task047: no solution (16.0s)\n"}
+,{"stream_name":"stdout","time":670.289189316,"data":"  task048: no solution (12.8s)\n"}
+,{"stream_name":"stdout","time":687.065678746,"data":"  task049: no solution (16.8s)\n"}
+,{"stream_name":"stdout","time":701.805708215,"data":"  task050: no solution (14.7s)\n"}
+,{"stream_name":"stdout","time":715.310158506,"data":"  task051: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":729.170339723,"data":"  task052: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":729.170382143,"data":"  task053  cost=    36,240  score=14.50  time=0.0s\n"}
+,{"stream_name":"stdout","time":745.267945863,"data":"  task054: no solution (16.0s)\n"}
+,{"stream_name":"stdout","time":759.935401364,"data":"  task055: no solution (14.7s)\n"}
+,{"stream_name":"stdout","time":773.286845091,"data":"  task056: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":786.601125039,"data":"  task057: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":803.239184139,"data":"  task058: no solution (16.6s)\n"}
+,{"stream_name":"stdout","time":816.766730971,"data":"  task059: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":832.919101382,"data":"  task060: no solution (16.2s)\n"}
+,{"stream_name":"stdout","time":847.887437114,"data":"  task061: no solution (14.9s)\n"}
+,{"stream_name":"stdout","time":863.06338753,"data":"  task062: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":876.577099139,"data":"  task063: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":891.357661311,"data":"  task064: no solution (14.8s)\n"}
+,{"stream_name":"stdout","time":904.948241672,"data":"  task065: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":918.337832998,"data":"  task066: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":931.698462401,"data":"  task067: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":945.458144954,"data":"  task068: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":957.554121769,"data":"  task069: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":971.339876505,"data":"  task070: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":983.616627749,"data":"  task071: no solution (12.3s)\n"}
+,{"stream_name":"stdout","time":998.8498514,"data":"  task072: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":1002.561231163,"data":"  task073  cost=   846,000  score=11.35  time=3.7s\n"}
+,{"stream_name":"stdout","time":1017.998799775,"data":"  task074: no solution (15.4s)\n"}
+,{"stream_name":"stdout","time":1031.655547373,"data":"  task075: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1045.253219584,"data":"  task076: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1058.916861415,"data":"  task077: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":1072.734032957,"data":"  task078: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":1086.406459818,"data":"  task079: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1098.652639066,"data":"  task080: no solution (12.2s)\n"}
+,{"stream_name":"stdout","time":1110.763059324,"data":"  task081: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":1123.201172264,"data":"  task082: no solution (12.4s)\n"}
+,{"stream_name":"stdout","time":1123.201205354,"data":"  task083  cost=    37,840  score=14.46  time=0.1s\n"}
+,{"stream_name":"stdout","time":1137.232416828,"data":"  task084: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":1149.455917157,"data":"  task085: no solution (12.2s)\n"}
+,{"stream_name":"stdout","time":1166.02913252,"data":"  task086: no solution (16.6s)\n"}
+,{"stream_name":"stdout","time":1166.240948675,"data":"  task087  cost=    34,160  score=14.56  time=0.2s\n"}
+,{"stream_name":"stdout","time":1181.49323711,"data":"  task088: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":1196.601616578,"data":"  task089: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":1211.639277731,"data":"  task090: no solution (15.0s)\n"}
+,{"stream_name":"stdout","time":1225.184829161,"data":"  task091: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1241.364274722,"data":"  task092: no solution (16.1s)\n"}
+,{"stream_name":"stdout","time":1254.94461276,"data":"  task093: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1267.027913985,"data":"  task094: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":1269.584155502,"data":"  task095  cost=   846,000  score=11.35  time=2.5s\n"}
+,{"stream_name":"stdout","time":1283.453197659,"data":"  task096: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":1298.305353655,"data":"  task097: no solution (14.8s)\n"}
+,{"stream_name":"stdout","time":1311.805848728,"data":"  task098: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1325.435367342,"data":"  task099: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1338.927687606,"data":"  task100: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1352.584651675,"data":"  task101: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1367.63247725,"data":"  task102: no solution (15.0s)\n"}
+,{"stream_name":"stdout","time":1379.699365497,"data":"  task103: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":1395.679449246,"data":"  task104: no solution (16.0s)\n"}
+,{"stream_name":"stdout","time":1408.904787695,"data":"  task105: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":1422.420883057,"data":"  task106: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1434.533015357,"data":"  task107: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":1434.533057147,"data":"  task108  cost=   108,000  score=13.41  time=0.1s\n"}
+,{"stream_name":"stdout","time":1448.349048561,"data":"  task109: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":1462.019440653,"data":"  task110: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1475.547528902,"data":"  task111: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1488.776084158,"data":"  task112: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":1504.919358575,"data":"  task113: no solution (16.1s)\n"}
+,{"stream_name":"stdout","time":1518.09303858,"data":"  task114: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":1531.397760286,"data":"  task115: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":1531.397792166,"data":"  task116  cost=   108,000  score=13.41  time=0.1s\n"}
+,{"stream_name":"stdout","time":1545.004522457,"data":"  task117: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1560.076422189,"data":"  task118: no solution (15.0s)\n"}
+,{"stream_name":"stdout","time":1573.478331177,"data":"  task119: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":1577.437708893,"data":"  task120  cost=   846,000  score=11.35  time=3.9s\n"}
+,{"stream_name":"stdout","time":1591.097920285,"data":"  task121: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1604.558473264,"data":"  task122: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":1618.122705224,"data":"  task123: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1631.685230114,"data":"  task124: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1646.891002248,"data":"  task125: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":1660.238671835,"data":"  task126: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":1663.811344515,"data":"  task127  cost=   846,000  score=11.35  time=3.6s\n"}
+,{"stream_name":"stdout","time":1677.490383867,"data":"  task128: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1693.530072872,"data":"  task129: no solution (16.0s)\n"}
+,{"stream_name":"stdout","time":1705.597279653,"data":"  task130: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":1719.290346297,"data":"  task131: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":1734.436464429,"data":"  task132: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":1749.854219092,"data":"  task133: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":1763.642006012,"data":"  task134: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":1763.642063202,"data":"  task135  cost=    36,360  score=14.50  time=0.1s\n"}
+,{"stream_name":"stdout","time":1777.380014894,"data":"  task136: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":1789.658640978,"data":"  task137: no solution (12.2s)\n"}
+,{"stream_name":"stdout","time":1803.552523855,"data":"  task138: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":1819.527729548,"data":"  task139: no solution (15.9s)\n"}
+,{"stream_name":"stdout","time":1819.527766437,"data":"  task140  cost=    34,160  score=14.56  time=0.2s\n"}
+,{"stream_name":"stdout","time":1833.456424593,"data":"  task141: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":1833.456470953,"data":"  task142  cost=    36,640  score=14.49  time=0.1s\n"}
+,{"stream_name":"stdout","time":1846.892009716,"data":"  task143: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":1861.98042801,"data":"  task144: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":1877.149098472,"data":"  task145: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":1892.419972439,"data":"  task146: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":1907.597551521,"data":"  task147: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":1921.076122182,"data":"  task148: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":1936.35183317,"data":"  task149: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":1949.545791326,"data":"  task150: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":1962.805670283,"data":"  task151: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":1962.805717643,"data":"  task152  cost=    36,640  score=14.49  time=0.1s\n"}
+,{"stream_name":"stdout","time":1976.340585966,"data":"  task153: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":1989.61635429,"data":"  task154: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":2002.940365497,"data":"  task155: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":2018.825976721,"data":"  task156: no solution (15.9s)\n"}
+,{"stream_name":"stdout","time":2030.887983245,"data":"  task157: no solution (12.0s)\n"}
+,{"stream_name":"stdout","time":2044.092481301,"data":"  task158: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":2057.694947323,"data":"  task159: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2073.361447612,"data":"  task160: no solution (15.6s)\n"}
+,{"stream_name":"stdout","time":2086.748784168,"data":"  task161: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2100.132833865,"data":"  task162: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2115.18820193,"data":"  task163: no solution (15.0s)\n"}
+,{"stream_name":"stdout","time":2115.18823395,"data":"  task164  cost=    36,000  score=14.51  time=0.1s\n"}
+,{"stream_name":"stdout","time":2128.389139966,"data":"  task165: no solution (13.1s)\n"}
+,{"stream_name":"stdout","time":2141.626117836,"data":"  task166: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":2158.391587202,"data":"  task167: no solution (16.7s)\n"}
+,{"stream_name":"stdout","time":2174.094675585,"data":"  task168: no solution (15.7s)\n"}
+,{"stream_name":"stdout","time":2187.459924179,"data":"  task169: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2201.076342205,"data":"  task170: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2205.16282185,"data":"  task171  cost=   846,000  score=11.35  time=4.1s\n"}
+,{"stream_name":"stdout","time":2205.16286404,"data":"  task172  cost=    36,000  score=14.51  time=0.1s\n"}
+,{"stream_name":"stdout","time":2218.721868066,"data":"  task173: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2232.330599292,"data":"  task174: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2245.840302966,"data":"  task175: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":2258.980995076,"data":"  task176: no solution (13.1s)\n"}
+,{"stream_name":"stdout","time":2272.566794347,"data":"  task177: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2288.980812236,"data":"  task178: no solution (16.4s)\n"}
+,{"stream_name":"stdout","time":2288.980856696,"data":"  task179  cost=    36,720  score=14.49  time=0.2s\n"}
+,{"stream_name":"stdout","time":2305.909826964,"data":"  task180: no solution (16.8s)\n"}
+,{"stream_name":"stdout","time":2319.160073464,"data":"  task181: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":2334.235715391,"data":"  task182: no solution (15.0s)\n"}
+,{"stream_name":"stdout","time":2347.571577885,"data":"  task183: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":2360.891197153,"data":"  task184: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":2376.370232638,"data":"  task185: no solution (15.5s)\n"}
+,{"stream_name":"stdout","time":2393.823761303,"data":"  task186: no solution (17.4s)\n"}
+,{"stream_name":"stdout","time":2406.307412547,"data":"  task187: no solution (12.5s)\n"}
+,{"stream_name":"stdout","time":2406.307464577,"data":"  task188  cost=    36,640  score=14.49  time=0.1s\n"}
+,{"stream_name":"stdout","time":2419.992238643,"data":"  task189: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2433.71298781,"data":"  task190: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":2448.865688032,"data":"  task191: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":2460.991208822,"data":"  task192: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":2474.441455627,"data":"  task193: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2474.441506597,"data":"  task194  cost=   108,000  score=13.41  time=0.1s\n"}
+,{"stream_name":"stdout","time":2488.326211485,"data":"  task195: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":2501.82497625,"data":"  task196: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":2517.257064983,"data":"  task197: no solution (15.4s)\n"}
+,{"stream_name":"stdout","time":2529.967843536,"data":"  task198: no solution (12.7s)\n"}
+,{"stream_name":"stdout","time":2543.596213862,"data":"  task199: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2557.300586309,"data":"  task200: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":2572.717735102,"data":"  task201: no solution (15.4s)\n"}
+,{"stream_name":"stdout","time":2587.842285394,"data":"  task202: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":2603.013941307,"data":"  task203: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":2619.642151575,"data":"  task204: no solution (16.6s)\n"}
+,{"stream_name":"stdout","time":2633.222813661,"data":"  task205: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2646.634060907,"data":"  task206: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2660.346336117,"data":"  task207: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":2673.959935343,"data":"  task208: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2687.80040966,"data":"  task209: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":2687.80045176,"data":"  task210  cost=    36,000  score=14.51  time=0.1s\n"}
+,{"stream_name":"stdout","time":2688.021597991,"data":"  task211  cost=   108,000  score=13.41  time=0.1s\n"}
+,{"stream_name":"stdout","time":2700.113722311,"data":"  task212: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":2713.867622889,"data":"  task213: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":2713.867668309,"data":"  task214  cost=   108,000  score=13.41  time=0.2s\n"}
+,{"stream_name":"stdout","time":2728.941974607,"data":"  task215: no solution (14.9s)\n"}
+,{"stream_name":"stdout","time":2742.826485309,"data":"  task216: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":2756.42040955,"data":"  task217: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2770.299493032,"data":"  task218: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":2783.715828531,"data":"  task219: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2786.526646927,"data":"  task220  cost=   846,000  score=11.35  time=2.8s\n"}
+,{"stream_name":"stdout","time":2804.00433502,"data":"  task221: no solution (17.5s)\n"}
+,{"stream_name":"stdout","time":2818.025395353,"data":"  task222: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":2818.025429043,"data":"  task223  cost=    39,600  score=14.41  time=0.1s\n"}
+,{"stream_name":"stdout","time":2832.083833996,"data":"  task224: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":2847.366305637,"data":"  task225: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":2861.165145708,"data":"  task226: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":2876.504405539,"data":"  task227: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":2889.919400878,"data":"  task228: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":2907.004479638,"data":"  task229: no solution (17.1s)\n"}
+,{"stream_name":"stdout","time":2911.044151953,"data":"  task230  cost=   846,000  score=11.35  time=4.0s\n"}
+,{"stream_name":"stdout","time":2924.578098952,"data":"  task231: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":2938.177935262,"data":"  task232: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":2951.975763464,"data":"  task233: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":2965.653388235,"data":"  task234: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":2980.915754295,"data":"  task235: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":2996.424145016,"data":"  task236: no solution (15.5s)\n"}
+,{"stream_name":"stdout","time":3012.077064299,"data":"  task237: no solution (15.6s)\n"}
+,{"stream_name":"stdout","time":3025.85035477,"data":"  task238: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":3040.99583552,"data":"  task239: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":3054.735591521,"data":"  task240: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3068.326339481,"data":"  task241: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":3081.81427095,"data":"  task242: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":3095.37963967,"data":"  task243: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":3109.048297961,"data":"  task244: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3124.216479101,"data":"  task245: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":3137.772706591,"data":"  task246: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":3149.971469653,"data":"  task247: no solution (12.2s)\n"}
+,{"stream_name":"stdout","time":3163.410648442,"data":"  task248: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":3176.717946201,"data":"  task249: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":3192.606220485,"data":"  task250: no solution (15.9s)\n"}
+,{"stream_name":"stdout","time":3206.295831825,"data":"  task251: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3220.008726706,"data":"  task252: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3232.106384094,"data":"  task253: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":3248.250078714,"data":"  task254: no solution (16.1s)\n"}
+,{"stream_name":"stdout","time":3260.395261464,"data":"  task255: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":3274.107255147,"data":"  task256: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3286.414750358,"data":"  task257: no solution (12.3s)\n"}
+,{"stream_name":"stdout","time":3290.554886428,"data":"  task258  cost=   846,000  score=11.35  time=4.0s\n"}
+,{"stream_name":"stdout","time":3304.097459221,"data":"  task259: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":3317.769236555,"data":"  task260: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3320.710721592,"data":"  task261  cost=   846,000  score=11.35  time=2.9s\n"}
+,{"stream_name":"stdout","time":3335.536783709,"data":"  task262: no solution (14.8s)\n"}
+,{"stream_name":"stdout","time":3350.892747767,"data":"  task263: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":3363.023732427,"data":"  task264: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":3376.39734972,"data":"  task265: no solution (13.3s)\n"}
+,{"stream_name":"stdout","time":3380.36776022,"data":"  task266  cost=   846,000  score=11.35  time=4.0s\n"}
+,{"stream_name":"stdout","time":3395.329216197,"data":"  task267: no solution (14.9s)\n"}
+,{"stream_name":"stdout","time":3409.079728841,"data":"  task268: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":3421.300586091,"data":"  task269: no solution (12.2s)\n"}
+,{"stream_name":"stdout","time":3435.152301885,"data":"  task270: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":3450.618554823,"data":"  task271: no solution (15.5s)\n"}
+,{"stream_name":"stdout","time":3465.890412231,"data":"  task272: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":3479.401198405,"data":"  task273: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":3491.542726035,"data":"  task274: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":3503.618623595,"data":"  task275: no solution (12.0s)\n"}
+,{"stream_name":"stdout","time":3503.618653575,"data":"  task276  cost=   126,000  score=13.26  time=0.1s\n"}
+,{"stream_name":"stdout","time":3517.708982599,"data":"  task277: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":3533.527200338,"data":"  task278: no solution (15.8s)\n"}
+,{"stream_name":"stdout","time":3548.639644886,"data":"  task279: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":3562.60363364,"data":"  task280: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":3576.346207224,"data":"  task281: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3579.301021641,"data":"  task282  cost=   846,000  score=11.35  time=2.9s\n"}
+,{"stream_name":"stdout","time":3595.449647531,"data":"  task283: no solution (16.2s)\n"}
+,{"stream_name":"stdout","time":3609.283101496,"data":"  task284: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":3623.32024036,"data":"  task285: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":3635.605897491,"data":"  task286: no solution (12.3s)\n"}
+,{"stream_name":"stdout","time":3650.879009388,"data":"  task287: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":3666.146801266,"data":"  task288: no solution (15.2s)\n"}
+,{"stream_name":"stdout","time":3683.055991708,"data":"  task289: no solution (16.9s)\n"}
+,{"stream_name":"stdout","time":3696.978216952,"data":"  task290: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":3710.479904306,"data":"  task291: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":3727.211022987,"data":"  task292: no solution (16.7s)\n"}
+,{"stream_name":"stdout","time":3742.295499564,"data":"  task293: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":3745.911982853,"data":"  task294  cost=   846,000  score=11.35  time=3.6s\n"}
+,{"stream_name":"stdout","time":3762.722254289,"data":"  task295: no solution (16.8s)\n"}
+,{"stream_name":"stdout","time":3779.553585417,"data":"  task296: no solution (16.8s)\n"}
+,{"stream_name":"stdout","time":3793.560852278,"data":"  task297: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":3807.441312029,"data":"  task298: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":3823.281994613,"data":"  task299: no solution (15.8s)\n"}
+,{"stream_name":"stdout","time":3838.157850939,"data":"  task300: no solution (14.8s)\n"}
+,{"stream_name":"stdout","time":3854.030104202,"data":"  task301: no solution (15.9s)\n"}
+,{"stream_name":"stdout","time":3867.794150314,"data":"  task302: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":3881.564218636,"data":"  task303: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":3895.366707237,"data":"  task304: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":3908.783735951,"data":"  task305: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":3920.96510699,"data":"  task306: no solution (12.1s)\n"}
+,{"stream_name":"stdout","time":3920.965133779,"data":"  task307  cost=   108,000  score=13.41  time=0.1s\n"}
+,{"stream_name":"stdout","time":3934.900828671,"data":"  task308: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":3934.900872331,"data":"  task309  cost=   126,000  score=13.26  time=0.1s\n"}
+,{"stream_name":"stdout","time":3948.566378713,"data":"  task310: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":3948.566429803,"data":"  task311  cost=    36,000  score=14.51  time=0.1s\n"}
+,{"stream_name":"stdout","time":3960.880725021,"data":"  task312: no solution (12.2s)\n"}
+,{"stream_name":"stdout","time":3975.23855816,"data":"  task313: no solution (14.4s)\n"}
+,{"stream_name":"stdout","time":3989.186536971,"data":"  task314: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":4003.340094611,"data":"  task315: no solution (14.1s)\n"}
+,{"stream_name":"stdout","time":4017.423572772,"data":"  task316: no solution (14.1s)\n"}
+,{"stream_name":"stdout","time":4020.13362552,"data":"  task317  cost=   846,000  score=11.35  time=2.7s\n"}
+,{"stream_name":"stdout","time":4035.700272704,"data":"  task318: no solution (15.5s)\n"}
+,{"stream_name":"stdout","time":4051.179418589,"data":"  task319: no solution (15.5s)\n"}
+,{"stream_name":"stdout","time":4064.602537992,"data":"  task320: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":4081.252402932,"data":"  task321: no solution (16.6s)\n"}
+,{"stream_name":"stdout","time":4093.60563703,"data":"  task322: no solution (12.4s)\n"}
+,{"stream_name":"stdout","time":4109.752679561,"data":"  task323: no solution (16.1s)\n"}
+,{"stream_name":"stdout","time":4123.470915443,"data":"  task324: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":4137.226357655,"data":"  task325: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4137.226401905,"data":"  task326  cost=    36,160  score=14.50  time=0.1s\n"}
+,{"stream_name":"stdout","time":4151.007236367,"data":"  task327: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":4166.302798082,"data":"  task328: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":4181.431611579,"data":"  task329: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":4195.419950071,"data":"  task330: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":4199.060351568,"data":"  task331  cost=   846,000  score=11.35  time=3.6s\n"}
+,{"stream_name":"stdout","time":4214.142567644,"data":"  task332: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":4227.852938196,"data":"  task333: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":4241.250328789,"data":"  task334: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":4255.016889081,"data":"  task335: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4270.907624034,"data":"  task336: no solution (15.9s)\n"}
+,{"stream_name":"stdout","time":4270.907668624,"data":"  task337  cost=    36,000  score=14.51  time=0.1s\n"}
+,{"stream_name":"stdout","time":4285.130365564,"data":"  task338: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":4301.891518473,"data":"  task339: no solution (16.8s)\n"}
+,{"stream_name":"stdout","time":4316.164878713,"data":"  task340: no solution (14.2s)\n"}
+,{"stream_name":"stdout","time":4329.889087994,"data":"  task341: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":4343.526332317,"data":"  task342: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":4357.573282797,"data":"  task343: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":4371.355864589,"data":"  task344: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4387.397889211,"data":"  task345: no solution (16.0s)\n"}
+,{"stream_name":"stdout","time":4402.695555297,"data":"  task346: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":4419.405562146,"data":"  task347: no solution (16.7s)\n"}
+,{"stream_name":"stdout","time":4435.646681207,"data":"  task348: no solution (16.2s)\n"}
+,{"stream_name":"stdout","time":4449.518550038,"data":"  task349: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":4464.115743137,"data":"  task350: no solution (14.6s)\n"}
+,{"stream_name":"stdout","time":4477.933685699,"data":"  task351: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4482.027470381,"data":"  task352  cost=   846,000  score=11.35  time=4.1s\n"}
+,{"stream_name":"stdout","time":4495.491101664,"data":"  task353: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":4509.446781125,"data":"  task354: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":4524.244641423,"data":"  task355: no solution (14.8s)\n"}
+,{"stream_name":"stdout","time":4537.321060647,"data":"  task356: no solution (13.1s)\n"}
+,{"stream_name":"stdout","time":4551.122901139,"data":"  task357: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4566.863271202,"data":"  task358: no solution (15.7s)\n"}
+,{"stream_name":"stdout","time":4580.394017215,"data":"  task359: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":4594.379159426,"data":"  task360: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":4607.832490439,"data":"  task361: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":4622.504514837,"data":"  task362: no solution (14.7s)\n"}
+,{"stream_name":"stdout","time":4636.252229449,"data":"  task363: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":4649.404769703,"data":"  task364: no solution (13.2s)\n"}
+,{"stream_name":"stdout","time":4663.172790725,"data":"  task365: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4676.743199748,"data":"  task366: no solution (13.5s)\n"}
+,{"stream_name":"stdout","time":4690.128774291,"data":"  task367: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":4706.194465844,"data":"  task368: no solution (16.1s)\n"}
+,{"stream_name":"stdout","time":4719.945437065,"data":"  task369: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":4733.624190827,"data":"  task370: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":4749.55335716,"data":"  task371: no solution (15.9s)\n"}
+,{"stream_name":"stdout","time":4763.596082241,"data":"  task372: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":4763.596114791,"data":"  task373  cost=   108,000  score=13.41  time=0.1s\n"}
+,{"stream_name":"stdout","time":4778.763650057,"data":"  task374: no solution (15.1s)\n"}
+,{"stream_name":"stdout","time":4792.883101497,"data":"  task375: no solution (14.1s)\n"}
+,{"stream_name":"stdout","time":4806.517783121,"data":"  task376: no solution (13.6s)\n"}
+,{"stream_name":"stdout","time":4820.841688539,"data":"  task377: no solution (14.3s)\n"}
+,{"stream_name":"stdout","time":4836.140559163,"data":"  task378: no solution (15.3s)\n"}
+,{"stream_name":"stdout","time":4849.998304648,"data":"  task379: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4849.998338928,"data":"  task380  cost=    35,760  score=14.52  time=0.2s\n"}
+,{"stream_name":"stdout","time":4863.925579991,"data":"  task381: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4877.775269156,"data":"  task382: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4891.71351486,"data":"  task383: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":4905.062084572,"data":"  task384: no solution (13.4s)\n"}
+,{"stream_name":"stdout","time":4905.062131521,"data":"  task385  cost=   108,000  score=13.41  time=0.2s\n"}
+,{"stream_name":"stdout","time":4921.861932104,"data":"  task386: no solution (16.6s)\n"}
+,{"stream_name":"stdout","time":4936.848456643,"data":"  task387: no solution (15.0s)\n"}
+,{"stream_name":"stdout","time":4950.635436679,"data":"  task388: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":4964.688684881,"data":"  task389: no solution (14.0s)\n"}
+,{"stream_name":"stdout","time":4978.593463197,"data":"  task390: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":4994.167831417,"data":"  task391: no solution (15.6s)\n"}
+,{"stream_name":"stdout","time":5008.013038942,"data":"  task392: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":5021.917847126,"data":"  task393: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":5035.835656339,"data":"  task394: no solution (13.9s)\n"}
+,{"stream_name":"stdout","time":5052.733876711,"data":"  task395: no solution (16.9s)\n"}
+,{"stream_name":"stdout","time":5067.071027439,"data":"  task396: no solution (14.2s)\n"}
+,{"stream_name":"stdout","time":5080.875283354,"data":"  task397: no solution (13.8s)\n"}
+,{"stream_name":"stdout","time":5093.98069995,"data":"  task398: no solution (13.1s)\n"}
+,{"stream_name":"stdout","time":5108.986859698,"data":"  task399: no solution (15.0s)\n"}
+,{"stream_name":"stdout","time":5122.521174217,"data":"  task400: no solution (13.7s)\n"}
+,{"stream_name":"stdout","time":5122.521223847,"data":"\n"}
+,{"stream_name":"stdout","time":5122.521230467,"data":"Solved 44/400 tasks  |  Total score = 576.5  |  Wall time = 5099s\n"}
+,{"stream_name":"stdout","time":5122.521235327,"data":"\n"}
+,{"stream_name":"stdout","time":5122.521239547,"data":"Created submission.zip  (17.7 KB)  containing 44 ONNX file(s).\n"}
+,{"stream_name":"stderr","time":5126.098093296,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":5126.098146856,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":5126.265685874,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":5126.265712194,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":5127.430434177,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":5127.743032123,"data":"[NbConvertApp] Writing 156571 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":5130.166366849,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":5131.285288873,"data":"[NbConvertApp] Writing 821697 bytes to __results__.html\n"}
+]

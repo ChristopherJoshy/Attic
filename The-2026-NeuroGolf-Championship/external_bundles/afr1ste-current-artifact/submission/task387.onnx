@@ -1,0 +1,715 @@
+:¥M
+.
+input	input_h16	input_h16"Cast*	
+to
+ 
+)
+	input_h16
+s1
+e1
+s1
+s1ch1_1"Slice
+
+ch1_1
+halfmask1_2"Greater
+)
+	input_h16
+e1
+e2
+s1
+s1ch2_3"Slice
+
+ch2_3
+halfmask2_4"Greater
+)
+	input_h16
+e2
+e3
+s1
+s1ch3_5"Slice
+
+ch3_5
+halfmask3_6"Greater
+)
+	input_h16
+e3
+e4
+s1
+s1ch4_7"Slice
+
+ch4_7
+halfmask4_8"Greater
+)
+	input_h16
+s6
+e6
+s1
+s1ch6_9"Slice
+ 
+ch6_9
+halfmask6_10"Greater
+*
+	input_h16
+e6
+e7
+s1
+s1ch7_11"Slice
+!
+ch7_11
+halfmask7_12"Greater
+*
+	input_h16
+e7
+e8
+s1
+s1ch8_13"Slice
+!
+ch8_13
+halfmask8_14"Greater
+*
+	input_h16
+e8
+e9
+s1
+s1ch9_15"Slice
+!
+ch9_15
+halfmask9_16"Greater
+"
+ch1_1
+ch2_3marker_sum_17"Add
+*
+marker_sum_17
+ch3_5marker_sum_18"Add
+*
+marker_sum_18
+ch4_7marker_sum_19"Add
+*
+marker_sum_19
+ch6_9marker_sum_20"Add
++
+marker_sum_20
+ch7_11marker_sum_21"Add
++
+marker_sum_21
+ch8_13marker_sum_22"Add
++
+marker_sum_22
+ch9_15marker_sum_23"Add
+)
+marker_sum_23
+half	marker_24"Greater
+C
+	input_h16active_sum_25"	ReduceSum*
+axes@ *
+keepdims 
+)
+active_sum_25
+half	active_26"Greater
+(
+	marker_24
+row
+big
+r0_vals_28"Where
+>
+
+r0_vals_28r0_29"	ReduceMin*
+axes@@ *
+keepdims 
+L
+	marker_24
+row
+_boolmask_where_zero
+r1_vals_30boolmask_where_29"Where
+>
+
+r1_vals_30r1_31"	ReduceMax*
+axes@@ *
+keepdims 
+(
+	marker_24
+col
+big
+c0_vals_32"Where
+>
+
+c0_vals_32c0_33"	ReduceMin*
+axes@@ *
+keepdims 
+L
+	marker_24
+col
+_boolmask_where_zero
+c1_vals_34boolmask_where_33"Where
+>
+
+c1_vals_34c1_35"	ReduceMax*
+axes@@ *
+keepdims 
+!
+row
+r0_29row_eq_r0_36"Equal
+!
+row
+r1_31row_eq_r1_37"Equal
+-
+row_eq_r0_36
+row_eq_r1_37r0_or_r1_38"Or
+!
+col
+c0_33col_eq_c0_39"Equal
+!
+col
+c1_35col_eq_c1_40"Equal
+-
+col_eq_c0_39
+col_eq_c1_40c0_or_c1_41"Or
+
+c0_33
+two
+h_start_42"Add
+
+c1_35
+twoh_end_43"Sub
+ 
+c0_33
+threec0_plus3_44"Add
+!
+c1_35
+c0_plus3_44h_n_45"Sub
+#
+col
+
+h_start_42h_offset_46"Sub
+'
+h_end_43
+colh_right_offset_47"Sub
+
+h_n_45
+twoh_half_n_48"Div
+0
+h_offset_46
+h_half_n_48h_left_half_49"Less
+7
+h_offset_46
+h_half_n_48h_right_half_gt_51"Greater
+5
+h_offset_46
+h_half_n_48h_right_half_eq_52"Equal
+=
+h_right_half_gt_51
+h_right_half_eq_52h_right_half_53"Or
+8
+h_offset_46
+twoh_even_left_mod_54"Mod*
+fmod 
+0
+h_even_left_mod_54
+halfh_even_left_55"Less
+5
+h_even_left_55
+h_left_half_49h_dash_left_56"And
+?
+h_right_offset_47
+twoh_even_right_mod_57"Mod*
+fmod 
+2
+h_even_right_mod_57
+halfh_even_right_58"Less
+8
+h_even_right_58
+h_right_half_53h_dash_right_59"And
+4
+h_dash_left_56
+h_dash_right_59h_dash_pos_60"Or
+
+c0_33
+onec0_plus1_61"Add
+)
+col
+c0_plus1_61h_gt_left_62"Greater
+
+c1_35
+onec1_minus1_63"Sub
+(
+col
+c1_minus1_63h_lt_right_64"Less
+,
+h_gt_left_62
+h_lt_right_64h_gap_65"And
+,
+r0_or_r1_38
+h_gap_65h_dash_band_66"And
+/
+h_dash_band_66
+h_dash_pos_60	h_dash_67"And
+
+r0_29
+two
+v_start_68"Add
+
+r1_31
+twov_end_69"Sub
+ 
+r0_29
+threer0_plus3_70"Add
+!
+r1_31
+r0_plus3_70v_n_71"Sub
+#
+row
+
+v_start_68v_offset_72"Sub
+'
+v_end_69
+rowv_right_offset_73"Sub
+
+v_n_71
+twov_half_n_74"Div
+0
+v_offset_72
+v_half_n_74v_left_half_75"Less
+7
+v_offset_72
+v_half_n_74v_right_half_gt_77"Greater
+5
+v_offset_72
+v_half_n_74v_right_half_eq_78"Equal
+=
+v_right_half_gt_77
+v_right_half_eq_78v_right_half_79"Or
+8
+v_offset_72
+twov_even_left_mod_80"Mod*
+fmod 
+0
+v_even_left_mod_80
+halfv_even_left_81"Less
+5
+v_even_left_81
+v_left_half_75v_dash_left_82"And
+?
+v_right_offset_73
+twov_even_right_mod_83"Mod*
+fmod 
+2
+v_even_right_mod_83
+halfv_even_right_84"Less
+8
+v_even_right_84
+v_right_half_79v_dash_right_85"And
+4
+v_dash_left_82
+v_dash_right_85v_dash_pos_86"Or
+
+r0_29
+oner0_plus1_87"Add
+(
+row
+r0_plus1_87v_gt_top_88"Greater
+
+r1_31
+oner1_minus1_89"Sub
+)
+row
+r1_minus1_89v_lt_bottom_90"Less
+,
+v_gt_top_88
+v_lt_bottom_90v_gap_91"And
+,
+c0_or_c1_41
+v_gap_91v_dash_band_92"And
+/
+v_dash_band_92
+v_dash_pos_86	v_dash_93"And
+'
+	h_dash_67
+	v_dash_93gray_raw_94"Or
+&
+gray_raw_94
+	active_26gray_95"And
+
+	marker_24not_marker_96"Not
+B
+ch1_1exists_sum1_97"	ReduceSum*
+axes@@ *
+keepdims 
++
+exists_sum1_97
+half
+exists1_98"Greater
+
+mask1_2not_marker1_99"Not
+,
+	marker_24
+not_marker1_99
+other1_100"And
++
+
+other1_100other1_f_101"Cast*	
+to
+ 
+5
+other1_f_101
+k3dil1_102"Conv*
+pads@@@@ 
+(
+dil1_102
+halfdil_bool1_103"Greater
+2
+dil_bool1_103
+not_marker_96ring_raw1_104"And
++
+ring_raw1_104
+
+exists1_98	ring1_105"And
+(
+mask1_2
+	ring1_105out_color1_106"Or
+3
+out_color1_106out_color1_f_107"Cast*	
+to
+ 
+C
+ch2_3exists_sum2_108"	ReduceSum*
+axes@@ *
+keepdims 
+-
+exists_sum2_108
+halfexists2_109"Greater
+
+mask2_4not_marker2_110"Not
+-
+	marker_24
+not_marker2_110
+other2_111"And
++
+
+other2_111other2_f_112"Cast*	
+to
+ 
+5
+other2_f_112
+k3dil2_113"Conv*
+pads@@@@ 
+(
+dil2_113
+halfdil_bool2_114"Greater
+2
+dil_bool2_114
+not_marker_96ring_raw2_115"And
+,
+ring_raw2_115
+exists2_109	ring2_116"And
+(
+mask2_4
+	ring2_116out_color2_117"Or
+3
+out_color2_117out_color2_f_118"Cast*	
+to
+ 
+C
+ch3_5exists_sum3_119"	ReduceSum*
+axes@@ *
+keepdims 
+-
+exists_sum3_119
+halfexists3_120"Greater
+
+mask3_6not_marker3_121"Not
+-
+	marker_24
+not_marker3_121
+other3_122"And
++
+
+other3_122other3_f_123"Cast*	
+to
+ 
+5
+other3_f_123
+k3dil3_124"Conv*
+pads@@@@ 
+(
+dil3_124
+halfdil_bool3_125"Greater
+2
+dil_bool3_125
+not_marker_96ring_raw3_126"And
+,
+ring_raw3_126
+exists3_120	ring3_127"And
+(
+mask3_6
+	ring3_127out_color3_128"Or
+3
+out_color3_128out_color3_f_129"Cast*	
+to
+ 
+C
+ch4_7exists_sum4_130"	ReduceSum*
+axes@@ *
+keepdims 
+-
+exists_sum4_130
+halfexists4_131"Greater
+
+mask4_8not_marker4_132"Not
+-
+	marker_24
+not_marker4_132
+other4_133"And
++
+
+other4_133other4_f_134"Cast*	
+to
+ 
+5
+other4_f_134
+k3dil4_135"Conv*
+pads@@@@ 
+(
+dil4_135
+halfdil_bool4_136"Greater
+2
+dil_bool4_136
+not_marker_96ring_raw4_137"And
+,
+ring_raw4_137
+exists4_131	ring4_138"And
+(
+mask4_8
+	ring4_138out_color4_139"Or
+3
+out_color4_139out_color4_f_140"Cast*	
+to
+ 
+&
+gray_95
+gray_f_141"Cast*	
+to
+ 
+C
+ch6_9exists_sum6_142"	ReduceSum*
+axes@@ *
+keepdims 
+-
+exists_sum6_142
+halfexists6_143"Greater
+ 
+mask6_10not_marker6_144"Not
+-
+	marker_24
+not_marker6_144
+other6_145"And
++
+
+other6_145other6_f_146"Cast*	
+to
+ 
+5
+other6_f_146
+k3dil6_147"Conv*
+pads@@@@ 
+(
+dil6_147
+halfdil_bool6_148"Greater
+2
+dil_bool6_148
+not_marker_96ring_raw6_149"And
+,
+ring_raw6_149
+exists6_143	ring6_150"And
+)
+mask6_10
+	ring6_150out_color6_151"Or
+3
+out_color6_151out_color6_f_152"Cast*	
+to
+ 
+D
+ch7_11exists_sum7_153"	ReduceSum*
+axes@@ *
+keepdims 
+-
+exists_sum7_153
+halfexists7_154"Greater
+ 
+mask7_12not_marker7_155"Not
+-
+	marker_24
+not_marker7_155
+other7_156"And
++
+
+other7_156other7_f_157"Cast*	
+to
+ 
+5
+other7_f_157
+k3dil7_158"Conv*
+pads@@@@ 
+(
+dil7_158
+halfdil_bool7_159"Greater
+2
+dil_bool7_159
+not_marker_96ring_raw7_160"And
+,
+ring_raw7_160
+exists7_154	ring7_161"And
+)
+mask7_12
+	ring7_161out_color7_162"Or
+3
+out_color7_162out_color7_f_163"Cast*	
+to
+ 
+D
+ch8_13exists_sum8_164"	ReduceSum*
+axes@@ *
+keepdims 
+-
+exists_sum8_164
+halfexists8_165"Greater
+ 
+mask8_14not_marker8_166"Not
+-
+	marker_24
+not_marker8_166
+other8_167"And
++
+
+other8_167other8_f_168"Cast*	
+to
+ 
+5
+other8_f_168
+k3dil8_169"Conv*
+pads@@@@ 
+(
+dil8_169
+halfdil_bool8_170"Greater
+2
+dil_bool8_170
+not_marker_96ring_raw8_171"And
+,
+ring_raw8_171
+exists8_165	ring8_172"And
+)
+mask8_14
+	ring8_172out_color8_173"Or
+3
+out_color8_173out_color8_f_174"Cast*	
+to
+ 
+D
+ch9_15exists_sum9_175"	ReduceSum*
+axes@@ *
+keepdims 
+-
+exists_sum9_175
+halfexists9_176"Greater
+ 
+mask9_16not_marker9_177"Not
+-
+	marker_24
+not_marker9_177
+other9_178"And
++
+
+other9_178other9_f_179"Cast*	
+to
+ 
+5
+other9_f_179
+k3dil9_180"Conv*
+pads@@@@ 
+(
+dil9_180
+halfdil_bool9_181"Greater
+2
+dil_bool9_181
+not_marker_96ring_raw9_182"And
+,
+ring_raw9_182
+exists9_176	ring9_183"And
+)
+mask9_16
+	ring9_183out_color9_184"Or
+3
+out_color9_184out_color9_f_185"Cast*	
+to
+ 
+5
+out_color1_106
+out_color2_117colored_any_186"Or
+6
+colored_any_186
+out_color3_128colored_any_187"Or
+6
+colored_any_187
+out_color4_139colored_any_188"Or
+/
+colored_any_188
+gray_95colored_any_189"Or
+6
+colored_any_189
+out_color6_151colored_any_190"Or
+6
+colored_any_190
+out_color7_162colored_any_191"Or
+6
+colored_any_191
+out_color8_173colored_any_192"Or
+6
+colored_any_192
+out_color9_184colored_any_193"Or
+'
+colored_any_193not_colored_194"Not
+0
+	active_26
+not_colored_194black_out_195"And
+1
+black_out_195black_out_f_196"Cast*	
+to
+ 
+Ê
+black_out_f_196
+out_color1_f_107
+out_color2_f_118
+out_color3_f_129
+out_color4_f_140
+
+gray_f_141
+out_color6_f_152
+out_color7_f_163
+out_color8_f_174
+out_color9_f_185output"Concat*
+axis task387_corner_box*
+BhalfJ 8*
+BoneJ <*
+BtwoJ @*
+BthreeJ B*
+BbigJ0V*M
+BrowJ<   < @ B D E F G H€H I€I J€J K€K L@L€LÀL M@M€MÀM N@N€NÀN O@O*M
+BcolJ<   < @ B D E F G H€H I€I J€J K€K L@L€LÀL M@M€MÀM N@N€NÀN O@O*"
+Bk3J < < < < < < < < <*:Bs1*:Be1*:Be2*:Be3*:Be4*:Bs6*:Be6*:Be7*:	Be8*:
+Be9*
+B_boolmask_where_zeroJ  Z
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+
+B
+ 

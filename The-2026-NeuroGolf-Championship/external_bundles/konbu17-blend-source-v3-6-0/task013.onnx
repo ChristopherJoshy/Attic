@@ -1,0 +1,1639 @@
+
+neurogolf-v2-task013-stripes:±
+=
+input
+nonbg_start
+	nonbg_end
+nonbg_startnbg272"Slice
+=
+inputactive273"	ReduceMax*
+axes@ *
+keepdims 
+>
+nbg	col_color274"	ReduceMax*
+axes@ *
+keepdims 
+>
+nbg	row_color275"	ReduceMax*
+axes@ *
+keepdims 
+B
+	col_colorcol_any276"	ReduceMax*
+axes@ *
+keepdims 
+B
+	row_colorrow_any277"	ReduceMax*
+axes@ *
+keepdims 
+B
+active
+row_active278"	ReduceMax*
+axes@ *
+keepdims 
+B
+active
+col_active279"	ReduceMax*
+axes@ *
+keepdims 
+D
+
+row_active
+axes_hwheight_count280"	ReduceSum*
+keepdims 
+C
+
+col_active
+axes_hwwidth_count281"	ReduceSum*
+keepdims 
+4
+height_count
+width_count	tall_bool282"Greater
+`
+col_any
+col_gate_d2_starts
+col_gate_d2_ends
+col_gate_d2_axescol_gate_d2_slice285"Slice
+H
+col_gate_d2_slice
+col_gate_d2_pads
+zerocol_gate_d2_shift286"Pad
+6
+col_any
+col_gate_d2_shiftcol_overlap_d2287"Mul
+R
+col_overlap_d2col_gate_bool_d2288"	ReduceMax*
+axes@@ *
+keepdims 
+^
+	col_color
+col_gate_d2_starts
+col_d2_s1_ends
+col_gate_d2_axescol_d2_s1_slice290"Slice
+B
+col_d2_s1_slice
+col_d2_s1_pads
+zerocol_d2_s1_shift291"Pad
+^
+	col_color
+col_gate_d2_starts
+col_d2_s2_ends
+col_gate_d2_axescol_d2_s2_slice292"Slice
+B
+col_d2_s2_slice
+col_d2_s2_pads
+zerocol_d2_s2_shift293"Pad
+^
+	col_color
+col_gate_d2_starts
+col_d2_s3_ends
+col_gate_d2_axescol_d2_s3_slice294"Slice
+B
+col_d2_s3_slice
+col_d2_s3_pads
+zerocol_d2_s3_shift295"Pad
+^
+	col_color
+col_gate_d2_starts
+col_d2_s4_ends
+col_gate_d2_axescol_d2_s4_slice296"Slice
+B
+col_d2_s4_slice
+col_d2_s4_pads
+zerocol_d2_s4_shift297"Pad
+Y
+	col_color
+col_gate_d2_starts
+	nonbg_end
+col_gate_d2_axescol_d2_s5_slice298"Slice
+B
+col_d2_s5_slice
+col_d2_s5_pads
+zerocol_d2_s5_shift299"Pad
+^
+	col_color
+col_gate_d2_starts
+col_d2_s6_ends
+col_gate_d2_axescol_d2_s6_slice300"Slice
+B
+col_d2_s6_slice
+col_d2_s6_pads
+zerocol_d2_s6_shift301"Pad
+^
+	col_color
+col_gate_d2_starts
+col_d2_s7_ends
+col_gate_d2_axescol_d2_s7_slice302"Slice
+B
+col_d2_s7_slice
+col_d2_s7_pads
+zerocol_d2_s7_shift303"Pad
+<
+	col_color
+col_d2_s1_shiftcol_stripes_d2_sum_1304"Add
+G
+col_stripes_d2_sum_1
+col_d2_s2_shiftcol_stripes_d2_sum_2305"Add
+G
+col_stripes_d2_sum_2
+col_d2_s3_shiftcol_stripes_d2_sum_3306"Add
+G
+col_stripes_d2_sum_3
+col_d2_s4_shiftcol_stripes_d2_sum_4307"Add
+G
+col_stripes_d2_sum_4
+col_d2_s5_shiftcol_stripes_d2_sum_5308"Add
+G
+col_stripes_d2_sum_5
+col_d2_s6_shiftcol_stripes_d2_sum_6309"Add
+G
+col_stripes_d2_sum_6
+col_d2_s7_shiftcol_stripes_d2_sum_7310"Add
+=
+col_stripes_d2_sum_7
+zerocol_stripes_d2_gt311"Greater
+]
+col_stripes_d2_gt
+col_gate_bool_d2
+_boolmask_where_zerocol_stripes_d2_gated313"Where
+^
+row_any
+col_gate_d2_starts
+col_gate_d2_ends
+col_d2_s7_endsrow_gate_d2_slice314"Slice
+H
+row_gate_d2_slice
+row_gate_d2_pads
+zerorow_gate_d2_shift315"Pad
+6
+row_any
+row_gate_d2_shiftrow_overlap_d2316"Mul
+R
+row_overlap_d2row_gate_bool_d2317"	ReduceMax*
+axes@@ *
+keepdims 
+\
+	row_color
+col_gate_d2_starts
+col_d2_s1_ends
+col_d2_s7_endsrow_d2_s1_slice319"Slice
+B
+row_d2_s1_slice
+row_d2_s1_pads
+zerorow_d2_s1_shift320"Pad
+\
+	row_color
+col_gate_d2_starts
+col_d2_s2_ends
+col_d2_s7_endsrow_d2_s2_slice321"Slice
+B
+row_d2_s2_slice
+row_d2_s2_pads
+zerorow_d2_s2_shift322"Pad
+\
+	row_color
+col_gate_d2_starts
+col_d2_s3_ends
+col_d2_s7_endsrow_d2_s3_slice323"Slice
+B
+row_d2_s3_slice
+row_d2_s3_pads
+zerorow_d2_s3_shift324"Pad
+\
+	row_color
+col_gate_d2_starts
+col_d2_s4_ends
+col_d2_s7_endsrow_d2_s4_slice325"Slice
+B
+row_d2_s4_slice
+row_d2_s4_pads
+zerorow_d2_s4_shift326"Pad
+W
+	row_color
+col_gate_d2_starts
+	nonbg_end
+col_d2_s7_endsrow_d2_s5_slice327"Slice
+B
+row_d2_s5_slice
+row_d2_s5_pads
+zerorow_d2_s5_shift328"Pad
+\
+	row_color
+col_gate_d2_starts
+col_d2_s6_ends
+col_d2_s7_endsrow_d2_s6_slice329"Slice
+B
+row_d2_s6_slice
+row_d2_s6_pads
+zerorow_d2_s6_shift330"Pad
+\
+	row_color
+col_gate_d2_starts
+col_d2_s7_ends
+col_d2_s7_endsrow_d2_s7_slice331"Slice
+B
+row_d2_s7_slice
+row_d2_s7_pads
+zerorow_d2_s7_shift332"Pad
+<
+	row_color
+row_d2_s1_shiftrow_stripes_d2_sum_1333"Add
+G
+row_stripes_d2_sum_1
+row_d2_s2_shiftrow_stripes_d2_sum_2334"Add
+G
+row_stripes_d2_sum_2
+row_d2_s3_shiftrow_stripes_d2_sum_3335"Add
+G
+row_stripes_d2_sum_3
+row_d2_s4_shiftrow_stripes_d2_sum_4336"Add
+G
+row_stripes_d2_sum_4
+row_d2_s5_shiftrow_stripes_d2_sum_5337"Add
+G
+row_stripes_d2_sum_5
+row_d2_s6_shiftrow_stripes_d2_sum_6338"Add
+G
+row_stripes_d2_sum_6
+row_d2_s7_shiftrow_stripes_d2_sum_7339"Add
+=
+row_stripes_d2_sum_7
+zerorow_stripes_d2_gt340"Greater
+]
+row_stripes_d2_gt
+row_gate_bool_d2
+_boolmask_where_zerorow_stripes_d2_gated342"Where
+`
+col_any
+col_gate_d2_starts
+col_gate_d3_ends
+col_gate_d2_axescol_gate_d3_slice343"Slice
+H
+col_gate_d3_slice
+col_gate_d3_pads
+zerocol_gate_d3_shift344"Pad
+6
+col_any
+col_gate_d3_shiftcol_overlap_d3345"Mul
+R
+col_overlap_d3col_gate_bool_d3346"	ReduceMax*
+axes@@ *
+keepdims 
+^
+	col_color
+col_gate_d2_starts
+col_d3_s1_ends
+col_gate_d2_axescol_d3_s1_slice348"Slice
+B
+col_d3_s1_slice
+col_d3_s1_pads
+zerocol_d3_s1_shift349"Pad
+^
+	col_color
+col_gate_d2_starts
+col_d3_s3_ends
+col_gate_d2_axescol_d3_s3_slice352"Slice
+B
+col_d3_s3_slice
+col_d3_s3_pads
+zerocol_d3_s3_shift353"Pad
+<
+	col_color
+col_d3_s1_shiftcol_stripes_d3_sum_1356"Add
+G
+col_stripes_d3_sum_1
+col_d2_s3_shiftcol_stripes_d3_sum_2357"Add
+G
+col_stripes_d3_sum_2
+col_d3_s3_shiftcol_stripes_d3_sum_3358"Add
+G
+col_stripes_d3_sum_3
+col_d2_s6_shiftcol_stripes_d3_sum_4359"Add
+=
+col_stripes_d3_sum_4
+zerocol_stripes_d3_gt360"Greater
+]
+col_stripes_d3_gt
+col_gate_bool_d3
+_boolmask_where_zerocol_stripes_d3_gated362"Where
+^
+row_any
+col_gate_d2_starts
+col_gate_d3_ends
+col_d2_s7_endsrow_gate_d3_slice363"Slice
+H
+row_gate_d3_slice
+row_gate_d3_pads
+zerorow_gate_d3_shift364"Pad
+6
+row_any
+row_gate_d3_shiftrow_overlap_d3365"Mul
+R
+row_overlap_d3row_gate_bool_d3366"	ReduceMax*
+axes@@ *
+keepdims 
+\
+	row_color
+col_gate_d2_starts
+col_d3_s1_ends
+col_d2_s7_endsrow_d3_s1_slice368"Slice
+B
+row_d3_s1_slice
+row_d3_s1_pads
+zerorow_d3_s1_shift369"Pad
+\
+	row_color
+col_gate_d2_starts
+col_d3_s3_ends
+col_d2_s7_endsrow_d3_s3_slice372"Slice
+B
+row_d3_s3_slice
+row_d3_s3_pads
+zerorow_d3_s3_shift373"Pad
+<
+	row_color
+row_d3_s1_shiftrow_stripes_d3_sum_1376"Add
+G
+row_stripes_d3_sum_1
+row_d2_s3_shiftrow_stripes_d3_sum_2377"Add
+G
+row_stripes_d3_sum_2
+row_d3_s3_shiftrow_stripes_d3_sum_3378"Add
+G
+row_stripes_d3_sum_3
+row_d2_s6_shiftrow_stripes_d3_sum_4379"Add
+=
+row_stripes_d3_sum_4
+zerorow_stripes_d3_gt380"Greater
+]
+row_stripes_d3_gt
+row_gate_bool_d3
+_boolmask_where_zerorow_stripes_d3_gated382"Where
+^
+col_any
+col_gate_d2_starts
+col_d2_s1_ends
+col_gate_d2_axescol_gate_d4_slice383"Slice
+F
+col_gate_d4_slice
+col_d2_s1_pads
+zerocol_gate_d4_shift384"Pad
+6
+col_any
+col_gate_d4_shiftcol_overlap_d4385"Mul
+R
+col_overlap_d4col_gate_bool_d4386"	ReduceMax*
+axes@@ *
+keepdims 
+<
+	col_color
+col_d2_s2_shiftcol_stripes_d4_sum_1394"Add
+G
+col_stripes_d4_sum_1
+col_d2_s4_shiftcol_stripes_d4_sum_2395"Add
+G
+col_stripes_d4_sum_2
+col_d2_s6_shiftcol_stripes_d4_sum_3396"Add
+=
+col_stripes_d4_sum_3
+zerocol_stripes_d4_gt397"Greater
+]
+col_stripes_d4_gt
+col_gate_bool_d4
+_boolmask_where_zerocol_stripes_d4_gated399"Where
+\
+row_any
+col_gate_d2_starts
+col_d2_s1_ends
+col_d2_s7_endsrow_gate_d4_slice400"Slice
+F
+row_gate_d4_slice
+row_d2_s1_pads
+zerorow_gate_d4_shift401"Pad
+6
+row_any
+row_gate_d4_shiftrow_overlap_d4402"Mul
+R
+row_overlap_d4row_gate_bool_d4403"	ReduceMax*
+axes@@ *
+keepdims 
+<
+	row_color
+row_d2_s2_shiftrow_stripes_d4_sum_1411"Add
+G
+row_stripes_d4_sum_1
+row_d2_s4_shiftrow_stripes_d4_sum_2412"Add
+G
+row_stripes_d4_sum_2
+row_d2_s6_shiftrow_stripes_d4_sum_3413"Add
+=
+row_stripes_d4_sum_3
+zerorow_stripes_d4_gt414"Greater
+]
+row_stripes_d4_gt
+row_gate_bool_d4
+_boolmask_where_zerorow_stripes_d4_gated416"Where
+`
+col_any
+col_gate_d2_starts
+col_gate_d5_ends
+col_gate_d2_axescol_gate_d5_slice417"Slice
+H
+col_gate_d5_slice
+col_gate_d5_pads
+zerocol_gate_d5_shift418"Pad
+6
+col_any
+col_gate_d5_shiftcol_overlap_d5419"Mul
+R
+col_overlap_d5col_gate_bool_d5420"	ReduceMax*
+axes@@ *
+keepdims 
+^
+	col_color
+col_gate_d2_starts
+col_d5_s1_ends
+col_gate_d2_axescol_d5_s1_slice422"Slice
+B
+col_d5_s1_slice
+col_d5_s1_pads
+zerocol_d5_s1_shift423"Pad
+<
+	col_color
+col_d5_s1_shiftcol_stripes_d5_sum_1426"Add
+G
+col_stripes_d5_sum_1
+col_d2_s5_shiftcol_stripes_d5_sum_2427"Add
+=
+col_stripes_d5_sum_2
+zerocol_stripes_d5_gt428"Greater
+]
+col_stripes_d5_gt
+col_gate_bool_d5
+_boolmask_where_zerocol_stripes_d5_gated430"Where
+^
+row_any
+col_gate_d2_starts
+col_gate_d5_ends
+col_d2_s7_endsrow_gate_d5_slice431"Slice
+H
+row_gate_d5_slice
+row_gate_d5_pads
+zerorow_gate_d5_shift432"Pad
+6
+row_any
+row_gate_d5_shiftrow_overlap_d5433"Mul
+R
+row_overlap_d5row_gate_bool_d5434"	ReduceMax*
+axes@@ *
+keepdims 
+\
+	row_color
+col_gate_d2_starts
+col_d5_s1_ends
+col_d2_s7_endsrow_d5_s1_slice436"Slice
+B
+row_d5_s1_slice
+row_d5_s1_pads
+zerorow_d5_s1_shift437"Pad
+<
+	row_color
+row_d5_s1_shiftrow_stripes_d5_sum_1440"Add
+G
+row_stripes_d5_sum_1
+row_d2_s5_shiftrow_stripes_d5_sum_2441"Add
+=
+row_stripes_d5_sum_2
+zerorow_stripes_d5_gt442"Greater
+]
+row_stripes_d5_gt
+row_gate_bool_d5
+_boolmask_where_zerorow_stripes_d5_gated444"Where
+^
+col_any
+col_gate_d2_starts
+col_d3_s1_ends
+col_gate_d2_axescol_gate_d6_slice445"Slice
+F
+col_gate_d6_slice
+col_d3_s1_pads
+zerocol_gate_d6_shift446"Pad
+6
+col_any
+col_gate_d6_shiftcol_overlap_d6447"Mul
+R
+col_overlap_d6col_gate_bool_d6448"	ReduceMax*
+axes@@ *
+keepdims 
+<
+	col_color
+col_d2_s3_shiftcol_stripes_d6_sum_1454"Add
+G
+col_stripes_d6_sum_1
+col_d2_s6_shiftcol_stripes_d6_sum_2455"Add
+=
+col_stripes_d6_sum_2
+zerocol_stripes_d6_gt456"Greater
+]
+col_stripes_d6_gt
+col_gate_bool_d6
+_boolmask_where_zerocol_stripes_d6_gated458"Where
+\
+row_any
+col_gate_d2_starts
+col_d3_s1_ends
+col_d2_s7_endsrow_gate_d6_slice459"Slice
+F
+row_gate_d6_slice
+row_d3_s1_pads
+zerorow_gate_d6_shift460"Pad
+6
+row_any
+row_gate_d6_shiftrow_overlap_d6461"Mul
+R
+row_overlap_d6row_gate_bool_d6462"	ReduceMax*
+axes@@ *
+keepdims 
+<
+	row_color
+row_d2_s3_shiftrow_stripes_d6_sum_1468"Add
+G
+row_stripes_d6_sum_1
+row_d2_s6_shiftrow_stripes_d6_sum_2469"Add
+=
+row_stripes_d6_sum_2
+zerorow_stripes_d6_gt470"Greater
+]
+row_stripes_d6_gt
+row_gate_bool_d6
+_boolmask_where_zerorow_stripes_d6_gated472"Where
+M
+col_stripes_d2_gated
+col_stripes_d3_gatedcol_stripes_all_sum_1473"Add
+N
+col_stripes_all_sum_1
+col_stripes_d4_gatedcol_stripes_all_sum_2474"Add
+N
+col_stripes_all_sum_2
+col_stripes_d5_gatedcol_stripes_all_sum_3475"Add
+N
+col_stripes_all_sum_3
+col_stripes_d6_gatedcol_stripes_all_sum_4476"Add
+?
+col_stripes_all_sum_4
+zerocol_stripes_all_gt477"Greater
+M
+row_stripes_d2_gated
+row_stripes_d3_gatedrow_stripes_all_sum_1479"Add
+N
+row_stripes_all_sum_1
+row_stripes_d4_gatedrow_stripes_all_sum_2480"Add
+N
+row_stripes_all_sum_2
+row_stripes_d5_gatedrow_stripes_all_sum_3481"Add
+N
+row_stripes_all_sum_3
+row_stripes_d6_gatedrow_stripes_all_sum_4482"Add
+?
+row_stripes_all_sum_4
+zerorow_stripes_all_gt483"Greater
+J
+col_stripes_all_gt
+active
+_boolmask_where_zero
+col_canvas485"Where
+J
+row_stripes_all_gt
+active
+_boolmask_where_zero
+row_canvas486"Where
+<
+	tall_bool
+
+row_canvas
+
+col_canvasnew_nbg_sum489"Where
+/
+new_nbg_sum
+zeronew_nbg_bool490"Greater
+-
+new_nbg_boolnew_nbg491"Cast*	
+to 
+B
+new_nbg	any_color492"	ReduceMax*
+axes@ *
+keepdims 
+%
+active
+	any_colornew_bg493"Sub
+3
+new_bg
+new_nbgoutput494"Concat*
+axis "task013_two_point_periodic_stripes*Bnonbg_startJ       *B	nonbg_endJ
+       *Baxes_hwJ              *BzeroJ    *"Bcol_gate_d2_startsJ        * Bcol_gate_d2_endsJ       * Bcol_gate_d2_axesJ       *XBcol_gate_d2_padsJ@                                                               *Bcol_d2_s1_endsJ       *VBcol_d2_s1_padsJ@                                                               *Bcol_d2_s2_endsJ       *VBcol_d2_s2_padsJ@                                                               *Bcol_d2_s3_endsJ       *VBcol_d2_s3_padsJ@                                                               *Bcol_d2_s4_endsJ       *VBcol_d2_s4_padsJ@                                                               *VBcol_d2_s5_padsJ@                                                               *Bcol_d2_s6_endsJ       *VBcol_d2_s6_padsJ@                                                               *Bcol_d2_s7_endsJ       *VBcol_d2_s7_padsJ@                                                               *XBrow_gate_d2_padsJ@                                                               *VBrow_d2_s1_padsJ@                                                               *VBrow_d2_s2_padsJ@                                                               *VBrow_d2_s3_padsJ@                                                               *VBrow_d2_s4_padsJ@                                                               *VBrow_d2_s5_padsJ@                                                               *VBrow_d2_s6_padsJ@                                                               *VBrow_d2_s7_padsJ@                                                               * Bcol_gate_d3_endsJ       *XBcol_gate_d3_padsJ@                                                               *Bcol_d3_s1_endsJ       *VBcol_d3_s1_padsJ@                                                               *Bcol_d3_s3_endsJ       *VBcol_d3_s3_padsJ@                                                               *XBrow_gate_d3_padsJ@                                                               *VBrow_d3_s1_padsJ@                                                               *VBrow_d3_s3_padsJ@                                                               * Bcol_gate_d5_endsJ       *XBcol_gate_d5_padsJ@                                                               *Bcol_d5_s1_endsJ       *VBcol_d5_s1_padsJ@                        
+                                       *XBrow_gate_d5_padsJ@                                                               *VBrow_d5_s1_padsJ@                
+                                               *B_boolmask_where_zeroJ    Z
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+j
+nbg
+
+
+	
+
+j 
+active
+
+
+
+
+j#
+	col_color
+
+
+	
+
+j#
+	row_color
+
+
+	
+
+j!
+col_any
+
+
+
+
+j!
+row_any
+
+
+
+
+j$
+
+row_active
+
+
+
+
+j$
+
+col_active
+
+
+
+
+j&
+height_count
+
+
+
+
+j%
+width_count
+
+
+
+
+j#
+	tall_bool
+	
+
+
+
+j+
+col_gate_d2_slice
+
+
+
+
+j+
+col_gate_d2_shift
+
+
+
+
+j(
+col_overlap_d2
+
+
+
+
+j*
+col_gate_bool_d2
+
+
+
+
+j)
+col_d2_s1_slice
+
+
+	
+
+j)
+col_d2_s1_shift
+
+
+	
+
+j)
+col_d2_s2_slice
+
+
+	
+
+j)
+col_d2_s2_shift
+
+
+	
+
+j)
+col_d2_s3_slice
+
+
+	
+
+j)
+col_d2_s3_shift
+
+
+	
+
+j)
+col_d2_s4_slice
+
+
+	
+
+j)
+col_d2_s4_shift
+
+
+	
+
+j)
+col_d2_s5_slice
+
+
+	
+
+
+j)
+col_d2_s5_shift
+
+
+	
+
+j)
+col_d2_s6_slice
+
+
+	
+
+j)
+col_d2_s6_shift
+
+
+	
+
+j)
+col_d2_s7_slice
+
+
+	
+
+j)
+col_d2_s7_shift
+
+
+	
+
+j.
+col_stripes_d2_sum_1
+
+
+	
+
+j.
+col_stripes_d2_sum_2
+
+
+	
+
+j.
+col_stripes_d2_sum_3
+
+
+	
+
+j.
+col_stripes_d2_sum_4
+
+
+	
+
+j.
+col_stripes_d2_sum_5
+
+
+	
+
+j.
+col_stripes_d2_sum_6
+
+
+	
+
+j.
+col_stripes_d2_sum_7
+
+
+	
+
+j+
+col_stripes_d2_gt
+	
+
+	
+
+j.
+col_stripes_d2_gated
+
+
+	
+
+j+
+row_gate_d2_slice
+
+
+
+
+j+
+row_gate_d2_shift
+
+
+
+
+j(
+row_overlap_d2
+
+
+
+
+j*
+row_gate_bool_d2
+
+
+
+
+j)
+row_d2_s1_slice
+
+
+	
+
+j)
+row_d2_s1_shift
+
+
+	
+
+j)
+row_d2_s2_slice
+
+
+	
+
+j)
+row_d2_s2_shift
+
+
+	
+
+j)
+row_d2_s3_slice
+
+
+	
+
+j)
+row_d2_s3_shift
+
+
+	
+
+j)
+row_d2_s4_slice
+
+
+	
+
+j)
+row_d2_s4_shift
+
+
+	
+
+j)
+row_d2_s5_slice
+
+
+	
+
+
+j)
+row_d2_s5_shift
+
+
+	
+
+j)
+row_d2_s6_slice
+
+
+	
+
+j)
+row_d2_s6_shift
+
+
+	
+
+j)
+row_d2_s7_slice
+
+
+	
+
+j)
+row_d2_s7_shift
+
+
+	
+
+j.
+row_stripes_d2_sum_1
+
+
+	
+
+j.
+row_stripes_d2_sum_2
+
+
+	
+
+j.
+row_stripes_d2_sum_3
+
+
+	
+
+j.
+row_stripes_d2_sum_4
+
+
+	
+
+j.
+row_stripes_d2_sum_5
+
+
+	
+
+j.
+row_stripes_d2_sum_6
+
+
+	
+
+j.
+row_stripes_d2_sum_7
+
+
+	
+
+j+
+row_stripes_d2_gt
+	
+
+	
+
+j.
+row_stripes_d2_gated
+
+
+	
+
+j+
+col_gate_d3_slice
+
+
+
+
+j+
+col_gate_d3_shift
+
+
+
+
+j(
+col_overlap_d3
+
+
+
+
+j*
+col_gate_bool_d3
+
+
+
+
+j)
+col_d3_s1_slice
+
+
+	
+
+j)
+col_d3_s1_shift
+
+
+	
+
+j)
+col_d3_s3_slice
+
+
+	
+
+j)
+col_d3_s3_shift
+
+
+	
+
+j.
+col_stripes_d3_sum_1
+
+
+	
+
+j.
+col_stripes_d3_sum_2
+
+
+	
+
+j.
+col_stripes_d3_sum_3
+
+
+	
+
+j.
+col_stripes_d3_sum_4
+
+
+	
+
+j+
+col_stripes_d3_gt
+	
+
+	
+
+j.
+col_stripes_d3_gated
+
+
+	
+
+j+
+row_gate_d3_slice
+
+
+
+
+j+
+row_gate_d3_shift
+
+
+
+
+j(
+row_overlap_d3
+
+
+
+
+j*
+row_gate_bool_d3
+
+
+
+
+j)
+row_d3_s1_slice
+
+
+	
+
+j)
+row_d3_s1_shift
+
+
+	
+
+j)
+row_d3_s3_slice
+
+
+	
+
+j)
+row_d3_s3_shift
+
+
+	
+
+j.
+row_stripes_d3_sum_1
+
+
+	
+
+j.
+row_stripes_d3_sum_2
+
+
+	
+
+j.
+row_stripes_d3_sum_3
+
+
+	
+
+j.
+row_stripes_d3_sum_4
+
+
+	
+
+j+
+row_stripes_d3_gt
+	
+
+	
+
+j.
+row_stripes_d3_gated
+
+
+	
+
+j+
+col_gate_d4_slice
+
+
+
+
+j+
+col_gate_d4_shift
+
+
+
+
+j(
+col_overlap_d4
+
+
+
+
+j*
+col_gate_bool_d4
+
+
+
+
+j.
+col_stripes_d4_sum_1
+
+
+	
+
+j.
+col_stripes_d4_sum_2
+
+
+	
+
+j.
+col_stripes_d4_sum_3
+
+
+	
+
+j+
+col_stripes_d4_gt
+	
+
+	
+
+j.
+col_stripes_d4_gated
+
+
+	
+
+j+
+row_gate_d4_slice
+
+
+
+
+j+
+row_gate_d4_shift
+
+
+
+
+j(
+row_overlap_d4
+
+
+
+
+j*
+row_gate_bool_d4
+
+
+
+
+j.
+row_stripes_d4_sum_1
+
+
+	
+
+j.
+row_stripes_d4_sum_2
+
+
+	
+
+j.
+row_stripes_d4_sum_3
+
+
+	
+
+j+
+row_stripes_d4_gt
+	
+
+	
+
+j.
+row_stripes_d4_gated
+
+
+	
+
+j+
+col_gate_d5_slice
+
+
+
+
+j+
+col_gate_d5_shift
+
+
+
+
+j(
+col_overlap_d5
+
+
+
+
+j*
+col_gate_bool_d5
+
+
+
+
+j)
+col_d5_s1_slice
+
+
+	
+
+j)
+col_d5_s1_shift
+
+
+	
+
+j.
+col_stripes_d5_sum_1
+
+
+	
+
+j.
+col_stripes_d5_sum_2
+
+
+	
+
+j+
+col_stripes_d5_gt
+	
+
+	
+
+j.
+col_stripes_d5_gated
+
+
+	
+
+j+
+row_gate_d5_slice
+
+
+
+
+j+
+row_gate_d5_shift
+
+
+
+
+j(
+row_overlap_d5
+
+
+
+
+j*
+row_gate_bool_d5
+
+
+
+
+j)
+row_d5_s1_slice
+
+
+	
+
+j)
+row_d5_s1_shift
+
+
+	
+
+j.
+row_stripes_d5_sum_1
+
+
+	
+
+j.
+row_stripes_d5_sum_2
+
+
+	
+
+j+
+row_stripes_d5_gt
+	
+
+	
+
+j.
+row_stripes_d5_gated
+
+
+	
+
+j+
+col_gate_d6_slice
+
+
+
+
+j+
+col_gate_d6_shift
+
+
+
+
+j(
+col_overlap_d6
+
+
+
+
+j*
+col_gate_bool_d6
+
+
+
+
+j.
+col_stripes_d6_sum_1
+
+
+	
+
+j.
+col_stripes_d6_sum_2
+
+
+	
+
+j+
+col_stripes_d6_gt
+	
+
+	
+
+j.
+col_stripes_d6_gated
+
+
+	
+
+j+
+row_gate_d6_slice
+
+
+
+
+j+
+row_gate_d6_shift
+
+
+
+
+j(
+row_overlap_d6
+
+
+
+
+j*
+row_gate_bool_d6
+
+
+
+
+j.
+row_stripes_d6_sum_1
+
+
+	
+
+j.
+row_stripes_d6_sum_2
+
+
+	
+
+j+
+row_stripes_d6_gt
+	
+
+	
+
+j.
+row_stripes_d6_gated
+
+
+	
+
+j/
+col_stripes_all_sum_1
+
+
+	
+
+j/
+col_stripes_all_sum_2
+
+
+	
+
+j/
+col_stripes_all_sum_3
+
+
+	
+
+j/
+col_stripes_all_sum_4
+
+
+	
+
+j,
+col_stripes_all_gt
+	
+
+	
+
+j/
+row_stripes_all_sum_1
+
+
+	
+
+j/
+row_stripes_all_sum_2
+
+
+	
+
+j/
+row_stripes_all_sum_3
+
+
+	
+
+j/
+row_stripes_all_sum_4
+
+
+	
+
+j,
+row_stripes_all_gt
+	
+
+	
+
+j$
+
+col_canvas
+
+
+	
+
+j$
+
+row_canvas
+
+
+	
+
+j%
+new_nbg_sum
+
+
+	
+
+j&
+new_nbg_bool
+	
+
+	
+
+j!
+new_nbg
+
+
+	
+
+j#
+	any_color
+
+
+
+
+j 
+new_bg
+
+
+
+
+B
+ 

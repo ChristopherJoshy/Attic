@@ -1,0 +1,401 @@
+Task_ID,All_Used_Transformations,Total_Transformations,Spatial_Count,Object_Count,Color_Count,Pattern_Count,Primary_Category,Grid_Size_Changed,Estimated_Complexity
+task001,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,3
+task002,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task003,Tiling | Color Mapping,2,1,0,1,0,Spatial_and_Geometric,True,4
+task004,Translation,1,1,0,0,0,Spatial_and_Geometric,False,2
+task005,Tiling | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,7
+task006,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,True,6
+task007,Tiling | Color Mapping | Filling Regions,3,1,0,1,1,Pattern_Recognition,False,5
+task008,Translation | Gravity,2,1,1,0,0,Object_Based,False,5
+task009,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task010,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,4
+task011,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,7
+task012,Translation | Object Detection | Color Mapping | Symmetry Completion,4,1,1,1,1,Pattern_Recognition,False,6
+task013,Tiling | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,4
+task014,Cropping | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,True,4
+task015,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,7
+task016,Color Mapping,1,0,0,1,0,Color_and_Logical,False,2
+task017,Filling Regions,1,0,0,0,1,Pattern_Recognition,False,4
+task018,Translation | Shifting | Object Detection | Gravity,4,2,2,0,0,Object_Based,False,7
+task019,Tiling | Cropping | Object Detection | Color Mapping | Filling Regions,5,2,1,1,1,Spatial_and_Geometric,True,5
+task020,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,False,4
+task021,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task022,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task023,Object Detection | Shape Matching | Color Mapping,3,0,2,1,0,Object_Based,False,7
+task024,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,6
+task025,Translation | Shifting | Object Detection | Gravity | Filling Regions,5,2,2,0,1,Object_Based,False,7
+task026,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,4
+task027,Object Detection | Gravity | Color Mapping | Flood Fill,4,0,2,1,1,Pattern_Recognition,False,6
+task028,Translation | Shifting | Object Detection | Color Mapping | Filling Regions,5,2,1,1,1,Pattern_Recognition,False,7
+task029,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task030,Translation | Gravity,2,1,1,0,0,Object_Based,False,6
+task031,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,3
+task032,Gravity | Object Detection | Sorting,3,1,2,0,0,Object_Based,False,7
+task033,Object Detection | Shape Matching | Color Mapping | Symmetry Completion | Filling Regions,5,0,2,1,2,Pattern_Recognition,False,7
+task034,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,7
+task035,Object Detection | Collision Detection | Color Swapping | Color Mapping,4,0,2,2,0,Color_and_Logical,False,5
+task036,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task037,Translation | Gravity,2,1,1,0,0,Object_Based,False,7
+task038,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Object_Based,True,7
+task039,Cropping | Object Detection,2,1,1,0,0,Spatial_and_Geometric,True,3
+task040,Color Mapping,1,0,0,1,0,Color_and_Logical,False,2
+task041,Object Detection | Flood Fill | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task042,Object Detection | Gravity | Color Mapping,3,0,2,1,0,Object_Based,False,6
+task043,Translation | Color Mapping,2,1,0,1,0,Color_and_Logical,False,3
+task044,Translation | Object Detection | Sorting | Color Swapping,4,1,2,1,0,Object_Based,False,6
+task045,Sorting | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task046,Cropping | Object Detection | Gravity | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,True,7
+task047,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,7
+task048,Object Detection | Outlier Detection | Color Mapping,3,0,2,1,0,Object_Based,True,6
+task049,Cropping | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,True,6
+task050,Object Detection | Flood Fill | Color Mapping | Filling Regions,4,0,1,2,1,Pattern_Recognition,False,4
+task051,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,7
+task052,Sorting | Color Mapping,2,0,1,1,0,Object_Based,False,4
+task053,Translation | Gravity,2,1,1,0,0,Object_Based,False,4
+task054,Translation | Shifting | Object Detection | Shape Matching | Color Mapping | Symmetry Completion | Filling Regions,7,2,2,1,2,Pattern_Recognition,False,7
+task055,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task056,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,True,3
+task057,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,5
+task058,Color Mapping | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,6
+task059,Translation | Gravity,2,1,1,0,0,Object_Based,False,6
+task060,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,4
+task061,Color Mapping | In-painting,2,0,0,1,1,Pattern_Recognition,False,4
+task062,Translation | Object Detection | Background Separation | Color Mapping | Filling Regions,5,1,1,2,1,Pattern_Recognition,False,5
+task063,Gravity | Flood Fill,2,0,1,1,0,Color_and_Logical,False,5
+task064,Translation | Gravity,2,1,1,0,0,Object_Based,False,5
+task065,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task066,Flood Fill | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,4
+task067,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task068,Translation | Object Detection | Gravity | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,False,7
+task069,Translation | Object Detection | Color Swapping,3,1,1,1,0,Object_Based,False,5
+task070,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task071,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,5
+task072,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,7
+task073,Gravity | Object Detection | Color Swapping,3,1,1,1,0,Object_Based,False,4
+task074,Translation | Shifting | Object Detection | Sorting | Color Mapping | Filling Regions | In-painting,7,2,2,1,2,Pattern_Recognition,False,7
+task075,Translation | Tiling | Object Detection,3,2,1,0,0,Spatial_and_Geometric,False,4
+task076,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,6
+task077,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task078,Gravity | Object Detection | Collision Detection | Color Mapping,4,1,2,1,0,Object_Based,False,6
+task079,Cropping | Object Detection | Symmetry Completion,3,1,1,0,1,Pattern_Recognition,True,6
+task080,Translation | Color Mapping | Filling Regions,3,1,0,1,1,Pattern_Recognition,False,4
+task081,Object Detection | Color Mapping,2,0,1,1,0,Color_and_Logical,False,2
+task082,Tiling,1,1,0,0,0,Spatial_and_Geometric,False,3
+task083,Tiling | Symmetry Completion,2,1,0,0,1,Spatial_and_Geometric,True,4
+task084,Shifting | Color Mapping | Line Extrapolation,3,1,0,1,1,Pattern_Recognition,False,4
+task085,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,3
+task086,Magnification | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,7
+task087,Rotation | Sorting | Color Swapping,3,1,1,1,0,Object_Based,False,5
+task088,Cropping | Object Detection | Filling Regions,3,1,1,0,1,Object_Based,True,6
+task089,Translation | Object Detection | Gravity | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,False,6
+task090,Outlier Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task091,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task092,Object Detection | Gravity | Flood Fill | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,5
+task093,Gravity | Object Detection | Collision Detection | Color Mapping,4,1,2,1,0,Object_Based,False,7
+task094,Translation | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,6
+task095,Translation | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,5
+task096,Cropping | Object Detection | Color Mapping | Symmetry Completion,4,1,1,1,1,Pattern_Recognition,True,7
+task097,Gravity,1,0,1,0,0,Object_Based,False,6
+task098,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task099,Object Detection | Shape Matching | Flood Fill | Color Mapping | Filling Regions,5,0,2,2,1,Color_and_Logical,False,5
+task100,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Object_Based,True,4
+task101,Translation | Object Detection | Gravity | Filling Regions,4,1,2,0,1,Object_Based,False,6
+task102,Object Detection | Flood Fill,2,0,1,1,0,Color_and_Logical,False,4
+task103,Object Detection | Bitwise Logic,2,0,1,1,0,Color_and_Logical,True,2
+task104,Tiling | Cropping | Object Detection | Color Mapping | Filling Regions,5,2,1,1,1,Spatial_and_Geometric,True,5
+task105,Color Mapping | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,4
+task106,Reflection | Tiling | Symmetry Completion,3,2,0,0,1,Pattern_Recognition,True,4
+task107,Tiling | Cropping | Object Detection | Color Mapping | Symmetry Completion,5,2,1,1,1,Spatial_and_Geometric,True,7
+task108,Magnification | Object Detection | Sorting | Filling Regions,4,1,2,0,1,Object_Based,True,8
+task109,Reflection | Object Detection | Color Mapping | Symmetry Completion,4,1,1,1,1,Pattern_Recognition,True,5
+task110,Filling Regions | Filling Regions,2,1,0,0,1,Pattern_Recognition,False,3
+task111,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task112,Translation | Object Detection | Symmetry Completion,3,1,1,0,1,Pattern_Recognition,False,4
+task113,Reflection,1,1,0,0,0,Spatial_and_Geometric,False,3
+task114,Magnification | Tiling | Color Mapping | Filling Regions,4,2,0,1,1,Spatial_and_Geometric,True,5
+task115,Sorting | Color Mapping,2,0,1,1,0,Object_Based,True,6
+task116,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,True,3
+task117,Reflection | Object Detection | Symmetry Completion,3,1,1,0,1,Pattern_Recognition,False,4
+task118,Object Detection | Outlier Detection | Color Mapping | Filling Regions,4,0,2,1,1,Color_and_Logical,False,4
+task119,Reflection | Color Mapping | Symmetry Completion,3,1,0,1,1,Pattern_Recognition,False,4
+task120,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,5
+task121,Cropping | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,True,4
+task122,Shifting | Object Detection | Gravity,3,1,2,0,0,Object_Based,False,5
+task123,Tiling | Cropping | Color Mapping | Filling Regions,4,2,0,1,1,Spatial_and_Geometric,True,6
+task124,Translation | Shifting | Filling Regions | Line Extrapolation,4,2,0,0,2,Pattern_Recognition,True,4
+task125,Translation | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,5
+task126,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,6
+task127,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Color_and_Logical,False,4
+task128,Shifting | Gravity,2,1,1,0,0,Object_Based,False,4
+task129,Outlier Detection | Color Mapping,2,0,1,1,0,Object_Based,False,3
+task130,Cropping | Object Detection,2,1,1,0,0,Spatial_and_Geometric,True,3
+task131,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,6
+task132,Object Detection | Filling Regions,2,0,1,0,1,Pattern_Recognition,False,4
+task133,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,6
+task134,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,7
+task135,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task136,Translation | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,False,5
+task137,Translation | Shifting | Object Detection | Color Mapping | Filling Regions,5,2,1,1,1,Pattern_Recognition,False,7
+task138,Cropping | Object Detection | Sorting | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,True,7
+task139,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task140,Rotation,1,1,0,0,0,Spatial_and_Geometric,False,2
+task141,Reflection | Object Detection | Color Mapping | Symmetry Completion,4,1,1,1,1,Pattern_Recognition,False,5
+task142,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,True,3
+task143,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,6
+task144,Translation | Object Detection | Gravity | Color Mapping,4,1,2,1,0,Object_Based,False,6
+task145,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task146,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,True,6
+task147,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Color_and_Logical,False,3
+task148,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task149,Cropping | Object Detection | Sorting | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,True,7
+task150,Rotation,1,1,0,0,0,Spatial_and_Geometric,False,2
+task151,Object Detection | Collision Detection | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task152,Reflection | Tiling | Symmetry Completion,3,2,0,0,1,Pattern_Recognition,True,3
+task153,Cropping | Object Detection | Sorting,3,1,2,0,0,Object_Based,True,7
+task154,Translation | Shifting | Gravity,3,2,1,0,0,Object_Based,False,4
+task155,Reflection,1,1,0,0,0,Spatial_and_Geometric,False,2
+task156,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,5
+task157,Gravity | Color Mapping,2,0,1,1,0,Object_Based,False,5
+task158,Translation | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,5
+task159,Cropping | Shifting | Object Detection | Shape Matching | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,True,7
+task160,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task161,Outlier Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,7
+task162,Outlier Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task163,Gravity | Object Detection | Sorting | Color Mapping,4,1,2,1,0,Object_Based,False,7
+task164,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,True,3
+task165,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,6
+task166,Flood Fill,1,0,0,1,0,Color_and_Logical,False,3
+task167,Rotation | Sorting | Color Mapping,3,1,1,1,0,Object_Based,False,5
+task168,Rotation | Reflection | Object Detection | Symmetry Completion,4,2,1,0,1,Pattern_Recognition,False,6
+task169,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,6
+task170,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task171,Color Mapping | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,3
+task172,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,True,3
+task173,Translation | Object Detection | Filling Regions,3,1,1,0,1,Pattern_Recognition,False,5
+task174,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task175,Flood Fill | In-painting,2,0,0,1,1,Pattern_Recognition,False,5
+task176,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task177,Cropping | Object Detection | Background Separation,3,1,1,1,0,Object_Based,True,3
+task178,Cropping | Sorting,2,1,1,0,0,Object_Based,True,4
+task179,Rotation,1,1,0,0,0,Spatial_and_Geometric,False,3
+task180,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,7
+task181,Translation | Object Detection | Gravity,3,1,2,0,0,Object_Based,False,4
+task182,Object Detection | Color Mapping,2,0,1,1,0,Color_and_Logical,False,2
+task183,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Object_Based,True,6
+task184,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,True,6
+task185,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,True,7
+task186,Translation | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,False,4
+task187,Color Mapping | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,5
+task188,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task189,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task190,Translation | Object Detection | Line Extrapolation,3,1,1,0,1,Pattern_Recognition,False,5
+task191,Translation | Object Detection | Filling Regions,3,1,1,0,1,Pattern_Recognition,False,5
+task192,Outlier Detection | Color Mapping,2,0,1,1,0,Color_and_Logical,False,2
+task193,Gravity | Object Detection,2,1,1,0,0,Object_Based,False,6
+task194,Reflection | Tiling | Symmetry Completion,3,2,0,0,1,Spatial_and_Geometric,True,4
+task195,Cropping | Object Detection | Color Mapping | Symmetry Completion,4,1,1,1,1,Pattern_Recognition,True,6
+task196,Object Detection | Color Mapping,2,0,1,1,0,Color_and_Logical,False,2
+task197,Tiling | Filling Regions,2,1,0,0,1,Pattern_Recognition,False,4
+task198,Color Mapping | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,4
+task199,Translation | Shifting | Gravity | Color Mapping | Filling Regions,5,2,1,1,1,Object_Based,False,6
+task200,Translation | Shifting | Object Detection | Sorting | Color Mapping | Filling Regions | Line Extrapolation,7,2,2,1,2,Pattern_Recognition,False,7
+task201,Cropping | Object Detection | Filling Regions,3,1,1,0,1,Object_Based,True,5
+task202,Gravity,1,0,1,0,0,Object_Based,False,7
+task203,Color Mapping,1,0,0,1,0,Color_and_Logical,False,2
+task204,Object Detection | Flood Fill | Color Mapping | Filling Regions,4,0,1,2,1,Color_and_Logical,False,4
+task205,Cropping | Outlier Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,7
+task206,Translation | Object Detection,2,1,1,0,0,Object_Based,False,4
+task207,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task208,Translation | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,5
+task209,Cropping | Object Detection | Sorting | Color Mapping | Filling Regions,5,1,2,1,1,Pattern_Recognition,True,7
+task210,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,True,4
+task211,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,2
+task212,Gravity | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,False,6
+task213,Cropping | Object Detection | Sorting | Background Separation,4,1,2,1,0,Object_Based,True,5
+task214,Translation | Shifting | Object Detection | Color Mapping | Filling Regions,5,2,1,1,1,Pattern_Recognition,False,4
+task215,Tiling,1,1,0,0,0,Spatial_and_Geometric,False,3
+task216,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task217,Translation | Tiling | Object Detection,3,2,1,0,0,Spatial_and_Geometric,False,4
+task218,Cropping | Object Detection | Background Separation | Filling Regions,4,1,1,1,1,Object_Based,True,4
+task219,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task220,Translation | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,5
+task221,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,2
+task222,Object Detection | Sorting | Background Separation | Filling Regions,4,0,2,1,1,Object_Based,False,6
+task223,Tiling | Magnification,2,2,0,0,0,Spatial_and_Geometric,True,4
+task224,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task225,Reflection | Tiling | Object Detection | Sorting | Color Mapping | Symmetry Completion,6,2,2,1,1,Pattern_Recognition,False,6
+task226,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task227,Translation | Gravity | Collision Detection | Color Mapping,4,1,2,1,0,Object_Based,False,7
+task228,Reflection | Object Detection | Sorting | Color Mapping | Symmetry Completion,5,1,2,1,1,Object_Based,False,6
+task229,Sorting | Color Mapping,2,0,1,1,0,Color_and_Logical,False,3
+task230,Translation | Object Detection | Color Mapping | Intersection Finding,4,1,1,1,1,Pattern_Recognition,False,7
+task231,Tiling | Filling Regions,2,1,0,0,1,Pattern_Recognition,True,4
+task232,Object Detection | Color Mapping | Line Extrapolation,3,0,1,1,1,Pattern_Recognition,False,4
+task233,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task234,Translation | Gravity,2,1,1,0,0,Object_Based,False,5
+task235,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,True,6
+task236,Cropping | Object Detection | Sorting | Color Mapping,4,1,2,1,0,Object_Based,True,6
+task237,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,5
+task238,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,7
+task239,Translation | Sorting | Color Mapping | Filling Regions,4,1,1,1,1,Object_Based,True,6
+task240,Reflection | Symmetry Completion | Filling Regions,3,1,0,0,2,Pattern_Recognition,False,5
+task241,Translation | Sorting,2,1,1,0,0,Object_Based,False,6
+task242,Cropping | Object Detection | Symmetry Completion | Filling Regions,4,1,1,0,2,Pattern_Recognition,True,6
+task243,Flood Fill,1,0,0,1,0,Color_and_Logical,False,3
+task244,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,7
+task245,Translation | Shifting | Object Detection | Gravity | Color Mapping,5,2,2,1,0,Object_Based,False,6
+task246,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task247,Object Detection | Sorting,2,0,2,0,0,Object_Based,True,4
+task248,Translation | Color Swapping | Line Extrapolation,3,1,0,1,1,Pattern_Recognition,False,4
+task249,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,2
+task250,Translation | Gravity,2,1,1,0,0,Object_Based,False,5
+task251,Object Detection | Flood Fill | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task252,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,5
+task253,Cropping | Object Detection | Sorting,3,1,2,0,0,Object_Based,True,6
+task254,Object Detection | Gravity | Color Mapping,3,0,2,1,0,Object_Based,False,6
+task255,Flood Fill | Color Mapping | Filling Regions,3,0,0,2,1,Pattern_Recognition,False,4
+task256,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,6
+task257,Cropping | Object Detection | Sorting | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,True,6
+task258,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,4
+task259,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task260,Translation | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,False,4
+task261,Translation | Gravity | Color Mapping,3,1,1,1,0,Object_Based,False,4
+task262,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,4
+task263,Cropping | Object Detection | Outlier Detection | Color Mapping | Symmetry Completion,5,1,2,1,1,Object_Based,True,6
+task264,Cropping | Object Detection | Sorting | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,True,7
+task265,Color Mapping | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,4
+task266,Translation | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,False,4
+task267,Object Detection | Color Swapping,2,0,1,1,0,Color_and_Logical,False,2
+task268,Object Detection | Flood Fill | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task269,Tiling | Magnification | Object Detection | Sorting | Color Mapping | Filling Regions,6,2,2,1,1,Spatial_and_Geometric,True,6
+task270,Translation | Shifting | Gravity,3,2,1,0,0,Object_Based,False,6
+task271,Cropping | Object Detection | Filling Regions,3,1,1,0,1,Pattern_Recognition,True,5
+task272,Outlier Detection | Color Mapping,2,0,1,1,0,Object_Based,False,4
+task273,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,5
+task274,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,4
+task275,Tiling | Magnification | Object Detection | Sorting | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,True,7
+task276,Color Swapping,1,0,0,1,0,Color_and_Logical,False,1
+task277,Object Detection | Color Mapping,2,0,1,1,0,Color_and_Logical,False,2
+task278,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task279,Object Detection | Color Mapping,2,0,1,1,0,Color_and_Logical,False,2
+task280,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,7
+task281,Magnification | Filling Regions,2,1,0,0,1,Pattern_Recognition,False,5
+task282,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,7
+task283,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,6
+task284,Translation | Object Detection | Shape Matching | Color Mapping | Filling Regions,5,1,2,1,1,Pattern_Recognition,False,7
+task285,Translation | Shifting | Object Detection | Color Mapping | Filling Regions | Line Extrapolation,6,2,1,1,2,Pattern_Recognition,False,6
+task286,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,7
+task287,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,False,4
+task288,Translation | Object Detection | Gravity | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,False,7
+task289,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,4
+task290,Cropping | Color Mapping,2,1,0,1,0,Spatial_and_Geometric,True,3
+task291,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,True,6
+task292,Object Detection | Sorting | Color Mapping | Symmetry Completion,4,0,2,1,1,Color_and_Logical,False,5
+task293,Object Detection | Color Swapping,2,0,1,1,0,Color_and_Logical,False,2
+task294,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task295,Translation | Filling Regions,2,1,0,0,1,Pattern_Recognition,False,4
+task296,Cropping | Object Detection,2,1,1,0,0,Spatial_and_Geometric,True,3
+task297,Tiling | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,4
+task298,Color Swapping | Background Separation | Filling Regions,3,0,0,2,1,Color_and_Logical,False,2
+task299,Translation | Shifting | Gravity | Color Mapping | Filling Regions,5,2,1,1,1,Object_Based,False,5
+task300,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task301,Translation | Gravity,2,1,1,0,0,Object_Based,False,4
+task302,Object Detection | Shape Matching | Color Mapping | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task303,Color Mapping | Filling Regions,2,0,0,1,1,Color_and_Logical,False,2
+task304,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,4
+task305,Translation | Filling Regions,2,1,0,0,1,Pattern_Recognition,False,4
+task306,Reflection | Symmetry Completion,2,1,0,0,1,Pattern_Recognition,False,4
+task307,Magnification,1,1,0,0,0,Spatial_and_Geometric,True,2
+task308,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,7
+task309,Color Mapping,1,0,0,1,0,Color_and_Logical,False,2
+task310,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task311,Tiling | Filling Regions,2,1,0,0,1,Pattern_Recognition,True,4
+task312,Object Detection | Color Mapping,2,0,1,1,0,Color_and_Logical,False,3
+task313,Translation | Shifting | Color Swapping,3,2,0,1,0,Color_and_Logical,False,2
+task314,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,5
+task315,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,3
+task316,Cropping | Object Detection | Sorting,3,1,2,0,0,Object_Based,True,6
+task317,Tiling | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,6
+task318,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,7
+task319,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task320,Gravity | Color Mapping | Filling Regions,3,0,1,1,1,Object_Based,False,7
+task321,Cropping | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,True,6
+task322,Translation | Gravity,2,1,1,0,0,Object_Based,False,5
+task323,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,7
+task324,Translation | Shifting | Object Detection | Sorting | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,7
+task325,Cropping | Object Detection | Filling Regions,3,1,1,0,1,Object_Based,True,4
+task326,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task327,Translation | Shifting | Line Extrapolation,3,2,0,0,1,Pattern_Recognition,True,4
+task328,Tiling | Object Detection | Gravity | Color Mapping | Filling Regions,5,1,2,1,1,Pattern_Recognition,False,7
+task329,Outlier Detection | Color Mapping,2,0,1,1,0,Object_Based,False,3
+task330,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,6
+task331,Translation | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,False,4
+task332,Color Mapping,1,0,0,1,0,Color_and_Logical,False,2
+task333,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,6
+task334,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,6
+task335,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,6
+task336,Flood Fill | Filling Regions,2,0,0,1,1,Pattern_Recognition,False,4
+task337,Translation | Sorting | Color Swapping,3,1,1,1,0,Object_Based,False,4
+task338,Translation | Cropping | Object Detection | Shape Matching | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,6
+task339,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,4
+task340,Translation | Shifting | Gravity | Sorting,4,2,2,0,0,Object_Based,False,7
+task341,Translation | Object Detection | Gravity | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,False,6
+task342,Translation | Object Detection | Gravity | Sorting,4,1,3,0,0,Object_Based,False,6
+task343,Tiling,1,1,0,0,0,Spatial_and_Geometric,False,3
+task344,Object Detection | Collision Detection | Color Mapping,3,0,2,1,0,Object_Based,False,4
+task345,Translation | Shifting | Gravity,3,2,1,0,0,Object_Based,False,5
+task346,Cropping | Object Detection | Outlier Detection | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,True,6
+task347,Cropping | Object Detection | Sorting | Color Mapping,4,1,2,1,0,Object_Based,True,6
+task348,Translation | Shifting | Object Detection | Sorting | Color Mapping | Symmetry Completion | Filling Regions,7,2,2,1,2,Pattern_Recognition,False,7
+task349,Translation | Shifting | Object Detection | Gravity | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,7
+task350,Object Detection | Gravity | Flood Fill | Filling Regions,4,0,2,1,1,Pattern_Recognition,False,6
+task351,Cropping | Object Detection,2,1,1,0,0,Object_Based,True,4
+task352,Translation | Object Detection | Gravity | Color Mapping | Filling Regions,5,1,2,1,1,Pattern_Recognition,False,6
+task353,Translation | Gravity,2,1,1,0,0,Object_Based,False,5
+task354,Object Detection | Shape Matching | Color Mapping,3,0,2,1,0,Object_Based,False,6
+task355,Object Detection | Outlier Detection | Color Mapping,3,0,2,1,0,Object_Based,True,6
+task356,Object Detection | Flood Fill | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,6
+task357,Shifting | Color Mapping | Filling Regions,3,1,0,1,1,Pattern_Recognition,False,3
+task358,Translation | Tiling | Object Detection | Filling Regions,4,2,1,0,1,Spatial_and_Geometric,False,6
+task359,Outlier Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task360,Cropping | Object Detection | Background Separation,3,1,1,1,0,Object_Based,True,4
+task361,Reflection | Translation | Object Detection | Color Mapping | Symmetry Completion,5,2,1,1,1,Pattern_Recognition,False,5
+task362,Shifting | Object Detection | Gravity,3,1,2,0,0,Object_Based,False,5
+task363,Outlier Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,4
+task364,Object Detection | Shape Matching | Color Mapping,3,0,2,1,0,Color_and_Logical,False,3
+task365,Cropping,1,1,0,0,0,Spatial_and_Geometric,True,2
+task366,Cropping | Translation | Object Detection | Background Separation | Filling Regions,5,2,1,1,1,Spatial_and_Geometric,True,4
+task367,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task368,Translation | Object Detection | Color Mapping,3,1,1,1,0,Object_Based,False,4
+task369,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Color_and_Logical,False,3
+task370,Translation | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,False,5
+task371,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task372,Translation | Gravity,2,1,1,0,0,Object_Based,False,6
+task373,Color Swapping,1,0,0,1,0,Color_and_Logical,False,2
+task374,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,6
+task375,Reflection | Cropping | Object Detection | Color Mapping | Symmetry Completion,5,2,1,1,1,Pattern_Recognition,False,4
+task376,Tiling,1,1,0,0,0,Spatial_and_Geometric,True,4
+task377,Cropping | Object Detection | Filling Regions,3,1,1,0,1,Pattern_Recognition,True,5
+task378,Translation | Shifting | Object Detection | Gravity | Filling Regions,5,2,2,0,1,Object_Based,False,6
+task379,Translation | Shifting | Gravity | Object Detection | Color Mapping | Filling Regions,6,2,2,1,1,Object_Based,False,6
+task380,Rotation | Reflection | Symmetry Completion,3,2,0,0,1,Spatial_and_Geometric,False,4
+task381,Object Detection | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,5
+task382,Translation | Shifting | Object Detection | Gravity | Filling Regions,5,2,2,0,1,Object_Based,False,6
+task383,Translation | Shifting | Object Detection | Outlier Detection | Color Mapping | Symmetry Completion | Filling Regions,7,2,2,1,2,Pattern_Recognition,False,7
+task384,Translation | Tiling | Object Detection | Symmetry Completion,4,2,1,0,1,Spatial_and_Geometric,True,5
+task385,Translation | Gravity,2,1,1,0,0,Object_Based,False,4
+task386,Cropping | Object Detection | Sorting | Color Mapping | Filling Regions,5,1,2,1,1,Object_Based,True,7
+task387,Reflection | Object Detection | Shape Matching | Color Mapping | Symmetry Completion | Filling Regions,6,1,2,1,2,Pattern_Recognition,False,6
+task388,Tiling | Cropping | Color Mapping | Symmetry Completion,4,2,0,1,1,Spatial_and_Geometric,True,4
+task389,Object Detection | Sorting | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,4
+task390,Translation | Object Detection,2,1,1,0,0,Object_Based,False,4
+task391,Object Detection | Outlier Detection | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,True,4
+task392,Gravity | Color Mapping | Filling Regions,3,0,1,1,1,Pattern_Recognition,False,6
+task393,Object Detection | Sorting,2,0,2,0,0,Object_Based,True,4
+task394,Cropping | Outlier Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,4
+task395,Object Detection | Sorting | Color Mapping,3,0,2,1,0,Object_Based,False,4
+task396,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,5
+task397,Object Detection | Gravity | Color Mapping | Filling Regions,4,0,2,1,1,Object_Based,False,6
+task398,Shifting | Line Extrapolation,2,1,0,0,1,Pattern_Recognition,True,3
+task399,Cropping | Object Detection | Color Mapping | Filling Regions,4,1,1,1,1,Pattern_Recognition,True,7
+task400,Cropping | Color Mapping | Filling Regions,3,1,0,1,1,Pattern_Recognition,True,7

@@ -1,0 +1,128 @@
+[{"stream_name":"stderr","time":8.155451942,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.155525044000001,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.155530514,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.15553308,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.771302053,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.77132818,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.77133179,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.771334374,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.05098335,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/18.0 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.3/18.0 MB\u001b[0m \u001b[31m9.2 MB/s\u001b[0m eta \u001b[36m0:00:02\u001b[0m\r\u001b[2K   \u001b[91m━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.6/18.0 MB\u001b[0m \u001b[31m37.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m8.2/18.0 MB\u001b[0m \u001b[31m79.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━\u001b[0m \u001b[32m14.9/18.0 MB\u001b[0m \u001b[31m181.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m18.0/18.0 MB\u001b[0m \u001b[31m201.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m18.0/18.0 MB\u001b[0m \u001b[31m201.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m18.0/18.0 MB\u001b[0m \u001b[31m201.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m18.0/18.0 MB\u001b[0m \u001b[31m68.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":13.101500001,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/56.2 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m56.2/56.2 kB\u001b[0m \u001b[31m3.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":13.101538882,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/142.3 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m142.3/142.3 kB\u001b[0m \u001b[31m11.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":16.611874681,"data":"\u001b[?25hDeps installed\n"}
+,{"stream_name":"stdout","time":18.224654453,"data":"NEUROGOLF LLM SYNTHESIS v1.0\n"}
+,{"stream_name":"stdout","time":18.22467951,"data":"WARNING: No Groq key found. LLM synthesis will be skipped.\n"}
+,{"stream_name":"stdout","time":18.224684541,"data":"LLM synthesis: DISABLED\n"}
+,{"stream_name":"stdout","time":18.224703616,"data":"Config done\n"}
+,{"stream_name":"stdout","time":18.318628264,"data":"NEUROGOLF LLM SYNTHESIS v1.0\n"}
+,{"stream_name":"stdout","time":18.318658322,"data":"WARNING: No Groq key found. LLM synthesis will be skipped.\n"}
+,{"stream_name":"stdout","time":18.318661622,"data":"LLM synthesis: DISABLED\n"}
+,{"stream_name":"stdout","time":18.318664074,"data":"Config done\n"}
+,{"stream_name":"stdout","time":18.318666492,"data":"Loading all sources...\n"}
+,{"stream_name":"stdout","time":18.451907774,"data":" [submission] 401 tasks\n"}
+,{"stream_name":"stdout","time":18.5870745,"data":" [submission] 349 tasks\n"}
+,{"stream_name":"stdout","time":21.127721519,"data":" [golf-solve-agent] 206 tasks\n"}
+,{"stream_name":"stdout","time":25.805035208,"data":" [neurogolf-2026-blended-341] 396 tasks\n"}
+,{"stream_name":"stdout","time":28.184720153,"data":" [neurogolf-2026-blended-401-v117] 401 tasks\n"}
+,{"stream_name":"stdout","time":28.184754477,"data":"\n"}
+,{"stream_name":"stdout","time":28.184759385,"data":"Total: 1352 models from 4 sources\n"}
+,{"stream_name":"stdout","time":28.386668171,"data":"Validator ready\n"}
+,{"stream_name":"stdout","time":28.386722334,"data":"=== PHASE 1: ENSEMBLE VALIDATION (PARALLEL) ===\n"}
+,{"stream_name":"stdout","time":66.170687143,"data":" [ 50/400] Solved: 50 | Est. Score: 1165.80\n"}
+,{"stream_name":"stdout","time":121.392794522,"data":" [100/400] Solved: 100 | Est. Score: 1941.01\n"}
+,{"stream_name":"stdout","time":169.563787753,"data":" [150/400] Solved: 150 | Est. Score: 2698.74\n"}
+,{"stream_name":"stdout","time":207.326675722,"data":" [200/400] Solved: 199 | Est. Score: 3466.58\n"}
+,{"stream_name":"stdout","time":234.98417144,"data":" [250/400] Solved: 248 | Est. Score: 4197.75\n"}
+,{"stream_name":"stdout","time":256.865950826,"data":" [300/400] Solved: 298 | Est. Score: 4984.07\n"}
+,{"stream_name":"stdout","time":281.293469228,"data":" [350/400] Solved: 348 | Est. Score: 5765.96\n"}
+,{"stream_name":"stdout","time":345.767799449,"data":" [400/400] Solved: 398 | Est. Score: 6483.24\n"}
+,{"stream_name":"stdout","time":345.767844152,"data":"\n"}
+,{"stream_name":"stdout","time":345.767848494,"data":"=== PHASE 1 COMPLETE ===\n"}
+,{"stream_name":"stdout","time":345.767851774,"data":"Solved: 398/400\n"}
+,{"stream_name":"stdout","time":345.767854846,"data":"Final Phase 1 Score: 6483.24\n"}
+,{"stream_name":"stdout","time":345.767857979,"data":"\n"}
+,{"stream_name":"stdout","time":345.767860963,"data":"Score distribution:\n"}
+,{"stream_name":"stdout","time":345.767864039,"data":" \u003e=22 (cost\u003c20) : 30 tasks\n"}
+,{"stream_name":"stdout","time":345.767867544,"data":" 18-22          : 60 tasks\n"}
+,{"stream_name":"stdout","time":345.767878206,"data":" 13-18          : 266 tasks\n"}
+,{"stream_name":"stdout","time":345.767880689,"data":" 8-13           : 42 tasks\n"}
+,{"stream_name":"stdout","time":345.767882936,"data":" \u003c8             : 0 tasks\n"}
+,{"stream_name":"stdout","time":345.955674157,"data":"=== PHASE 1: ENSEMBLE VALIDATION ===\n"}
+,{"stream_name":"stdout","time":383.179193389,"data":" [ 50/400] solved=50 running_score≈815.80\n"}
+,{"stream_name":"stdout","time":436.479011414,"data":" [100/400] solved=100 running_score≈1641.01\n"}
+,{"stream_name":"stdout","time":483.560451347,"data":" [150/400] solved=150 running_score≈2448.74\n"}
+,{"stream_name":"stdout","time":520.778047603,"data":" [200/400] solved=200 running_score≈3277.01\n"}
+,{"stream_name":"stdout","time":548.581875787,"data":" [250/400] solved=250 running_score≈4070.13\n"}
+,{"stream_name":"stdout","time":569.891626694,"data":" [300/400] solved=300 running_score≈4906.45\n"}
+,{"stream_name":"stdout","time":593.844037582,"data":" [350/400] solved=350 running_score≈5738.34\n"}
+,{"stream_name":"stdout","time":656.044470712,"data":" [400/400] solved=400 running_score≈6505.62\n"}
+,{"stream_name":"stdout","time":656.044515068,"data":"\n"}
+,{"stream_name":"stdout","time":656.044522641,"data":"=== PHASE 1 COMPLETE ===\n"}
+,{"stream_name":"stdout","time":656.044528392,"data":"Solved: 400/400\n"}
+,{"stream_name":"stdout","time":656.044534437,"data":"Phase 1 score: 6505.62\n"}
+,{"stream_name":"stdout","time":656.044539626,"data":"Gap to 6500: 0.00\n"}
+,{"stream_name":"stdout","time":656.044544296,"data":"\n"}
+,{"stream_name":"stdout","time":656.044548744,"data":"Top Contributing Sources:\n"}
+,{"stream_name":"stdout","time":656.044553462,"data":"source\n"}
+,{"stream_name":"stdout","time":656.044558007,"data":"neurogolf-2026-blended-341         131\n"}
+,{"stream_name":"stdout","time":656.044568156,"data":"neurogolf-2026-blended-401-v117    116\n"}
+,{"stream_name":"stdout","time":656.044571764,"data":"submission                         111\n"}
+,{"stream_name":"stdout","time":656.044575091,"data":"golf-solve-agent                    42\n"}
+,{"stream_name":"stdout","time":656.044578258,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":656.044581432,"data":"\n"}
+,{"stream_name":"stdout","time":656.04458451,"data":"Score distribution:\n"}
+,{"stream_name":"stdout","time":656.044587712,"data":" \u003e=22 (cost\u003c20) : 30 tasks\n"}
+,{"stream_name":"stdout","time":656.044591398,"data":" 18-22          : 60 tasks\n"}
+,{"stream_name":"stdout","time":656.044594907,"data":" 13-18          : 266 tasks\n"}
+,{"stream_name":"stdout","time":656.044598092,"data":" 8-13           : 44 tasks\n"}
+,{"stream_name":"stdout","time":656.04460219,"data":" \u003c8             : 0 tasks\n"}
+,{"stream_name":"stdout","time":656.069945065,"data":"ONNX builders and validators ready with dynamic shapes\n"}
+,{"stream_name":"stdout","time":656.092857974,"data":"Rendering functions ready for NeuroGolf 2026\n"}
+,{"stream_name":"stdout","time":656.191129927,"data":"Groq LLM solver and Robust DSL executor ready\n"}
+,{"stream_name":"stdout","time":656.215916677,"data":"Compiler ready (Dynamic \u0026 Data-Driven)\n"}
+,{"stream_name":"stdout","time":656.2375287,"data":"LLM synthesizer ready with Iterative Refinement\n"}
+,{"stream_name":"stdout","time":656.259887057,"data":"Phase 2 skipped (Groq disabled). Proceeding with Phase 1 baseline.\n"}
+,{"stream_name":"stdout","time":656.259922608,"data":"\n"}
+,{"stream_name":"stdout","time":656.259929527,"data":"Final Expected Score: 6505.62\n"}
+,{"stream_name":"stdout","time":656.275728248,"data":"=== PHASE 3: ZERO-COST OP SUBSTITUTION ===\n"}
+,{"stream_name":"stdout","time":656.275745725,"data":"Phase 3 skipped: repairing public notebook output after Phase 1 baseline.\n"}
+,{"stream_name":"stdout","time":656.29575591,"data":"=== FINAL ASSEMBLY ===\n"}
+,{"stream_name":"stdout","time":656.524880368,"data":"Solved: 400/400\n"}
+,{"stream_name":"stdout","time":656.524906777,"data":"Unsolved (fallback): 0\n"}
+,{"stream_name":"stdout","time":656.524911687,"data":"FINAL PROJECTED SCORE: 6505.62\n"}
+,{"stream_name":"stdout","time":656.52491718,"data":"Submission file created: 1859.7 KB\n"}
+,{"stream_name":"stdout","time":656.524920778,"data":"\n"}
+,{"stream_name":"stdout","time":656.524924778,"data":"6000 threshold: ACHIEVED\n"}
+,{"stream_name":"stdout","time":656.524928556,"data":"6500 threshold: ACHIEVED\n"}
+,{"stream_name":"stdout","time":656.524932519,"data":"7000 threshold: gap: 494.4\n"}
+,{"stream_name":"stdout","time":656.524936256,"data":"\n"}
+,{"stream_name":"stdout","time":656.524939545,"data":"Score distribution:\n"}
+,{"stream_name":"stdout","time":656.524943718,"data":" \u003e=22 (cost \u003c 20)    :  30 tasks (662.8 pts)\n"}
+,{"stream_name":"stdout","time":656.52494829,"data":" 18-22               :  60 tasks (1214.5 pts)\n"}
+,{"stream_name":"stdout","time":656.524951841,"data":" 13-18               : 266 tasks (4094.3 pts)\n"}
+,{"stream_name":"stdout","time":656.524955385,"data":" 8-13                :  44 tasks (534.0 pts)\n"}
+,{"stream_name":"stdout","time":656.524959146,"data":" \u003c8                  :   0 tasks (0.0 pts)\n"}
+,{"stream_name":"stdout","time":656.524962833,"data":"\n"}
+,{"stream_name":"stdout","time":656.524971143,"data":"Top sources (Winners):\n"}
+,{"stream_name":"stdout","time":656.524974123,"data":"source\n"}
+,{"stream_name":"stdout","time":656.524976297,"data":"neurogolf-2026-blended-341         131\n"}
+,{"stream_name":"stdout","time":656.524978637,"data":"neurogolf-2026-blended-401-v117    116\n"}
+,{"stream_name":"stdout","time":656.524980866,"data":"submission                         111\n"}
+,{"stream_name":"stdout","time":656.524983163,"data":"golf-solve-agent                    42\n"}
+,{"stream_name":"stdout","time":656.524985521,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stdout","time":656.721600491,"data":"Writing submission files...\n"}
+,{"stream_name":"stdout","time":656.82728744,"data":"\n"}
+,{"stream_name":"stdout","time":656.827320981,"data":"=== SUBMISSION COMPLETE ===\n"}
+,{"stream_name":"stdout","time":656.827324846,"data":"Files: 400/400\n"}
+,{"stream_name":"stdout","time":656.827327335,"data":"Solved: 400, Fallback: 0\n"}
+,{"stream_name":"stdout","time":656.82732976,"data":"Final Zip Size: 1.82 MB\n"}
+,{"stream_name":"stdout","time":656.827332282,"data":"Projected score: 6505.62\n"}
+,{"stream_name":"stderr","time":659.397752903,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":659.397774426,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":659.55284126,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":659.552876719,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":660.536553692,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":660.875073715,"data":"[NbConvertApp] Writing 71251 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":663.441144746,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":664.476027468,"data":"[NbConvertApp] Writing 478539 bytes to __results__.html\n"}
+]

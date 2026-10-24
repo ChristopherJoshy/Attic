@@ -1,0 +1,51 @@
+[{"stream_name":"stderr","time":11.521107167,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.521266975,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.521277562,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.521284696,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.538624081,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.538705069,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.538715302,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.538719355,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.820071557,"data":"Path to dataset files: /kaggle/input/datasets/jsrdcht/neurogolf-6029-submission-bundle\n"}
+,{"stream_name":"stdout","time":16.248639561,"data":"Path to dataset files: /kaggle/input/datasets/afr1ste/neurogolf-5689-51-current-rules-open-artifact\n"}
+,{"stream_name":"stdout","time":16.67482526,"data":"Path to dataset files: /kaggle/input/datasets/konbu17/neurogolf-2026-blend-source-v3-6-0\n"}
+,{"stream_name":"stdout","time":20.970643454,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 65.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.173498898,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 65.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.968078815,"data":"jsrdcht 6029 bundle : /kaggle/input/datasets/jsrdcht/neurogolf-6029-submission-bundle\n"}
+,{"stream_name":"stdout","time":28.968144158,"data":"competition data    : /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":29.089908929,"data":"task277 built: 7325 bytes, 56 nodes\n"}
+,{"stream_name":"stdout","time":29.266304595,"data":"task277: verify 266/266, cost 120462, predicted score 13.301\n"}
+,{"stream_name":"stdout","time":29.30827828,"data":"task330 built: 7543 bytes, 22 nodes\n"}
+,{"stream_name":"stderr","time":29.344597437,"data":"\u001b[0;93m2026-05-31 02:53:02.027282840 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.344643638,"data":"\u001b[0;93m2026-05-31 02:53:02.027338700 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.344649126,"data":"\u001b[0;93m2026-05-31 02:53:02.027345126 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.344653607,"data":"\u001b[0;93m2026-05-31 02:53:02.027349958 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":29.448222827,"data":"task330: verify 266/266, cost 62036, predicted score 13.965\n"}
+,{"stream_name":"stderr","time":29.450293961,"data":"\u001b[0;93m2026-05-31 02:53:02.027282840 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.450497274,"data":"\u001b[0;93m2026-05-31 02:53:02.027338700 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.450523505,"data":"\u001b[0;93m2026-05-31 02:53:02.027345126 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.450530019,"data":"\u001b[0;93m2026-05-31 02:53:02.027349958 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.450534796,"data":"\n"}
+,{"stream_name":"stderr","time":29.450539348,"data":"\u001b[0;93m2026-05-31 02:53:02.027282840 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.450543809,"data":"\u001b[0;93m2026-05-31 02:53:02.027338700 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.450548101,"data":"\u001b[0;93m2026-05-31 02:53:02.027345126 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.450552227,"data":"\u001b[0;93m2026-05-31 02:53:02.027349958 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":29.592692798,"data":"task364 built: 10890 bytes, 63 nodes\n"}
+,{"stream_name":"stderr","time":29.650839958,"data":"\u001b[0;93m2026-05-31 02:53:02.331466322 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":29.826023785,"data":"task364: verify 266/266, cost 153871, predicted score 13.056\n"}
+,{"stream_name":"stderr","time":29.827592268,"data":"\u001b[0;93m2026-05-31 02:53:02.331466322 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":29.827642232,"data":"\n"}
+,{"stream_name":"stderr","time":29.8276481,"data":"\u001b[0;93m2026-05-31 02:53:02.331466322 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":33.366534636,"data":"submission built\n"}
+,{"stream_name":"stdout","time":33.366592898,"data":"  hand-built tasks : [277, 330, 364]\n"}
+,{"stream_name":"stdout","time":33.366600356,"data":"  total ONNX       : 400\n"}
+,{"stream_name":"stdout","time":33.366604426,"data":"  zip size (bytes) : 1461548\n"}
+,{"stream_name":"stderr","time":36.977898916,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":36.977945422,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":37.217528007,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":37.217608191,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":38.49988547,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":38.926993631,"data":"[NbConvertApp] Writing 60946 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":42.611031536,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":43.948048183,"data":"[NbConvertApp] Writing 478361 bytes to __results__.html\n"}
+]

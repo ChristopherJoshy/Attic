@@ -1,0 +1,425 @@
+[{"stream_name":"stderr","time":9.848973117,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.849059797,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.849065387,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.849069047,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.554774799,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.554825669,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.554829549,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.554831859,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":19.126559299,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 70.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.329264991,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 70.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":22.120644152,"data":"Found 400 task files\n"}
+,{"stream_name":"stdout","time":25.642258625,"data":"Processing task001... No solution (3.5s)\n"}
+,{"stream_name":"stdout","time":50.938904106,"data":"Processing task002... No solution (25.3s)\n"}
+,{"stream_name":"stdout","time":50.977475654,"data":"Processing task003... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":534.249588921,"data":"Processing task004... No solution (483.2s)\n"}
+,{"stream_name":"stdout","time":562.570771782,"data":"Processing task005... No solution (28.3s)\n"}
+,{"stream_name":"stdout","time":562.59332836,"data":"Processing task006... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":590.457852237,"data":"Processing task007... No solution (27.8s)\n"}
+,{"stream_name":"stdout","time":619.348694615,"data":"Processing task008... No solution (28.9s)\n"}
+,{"stream_name":"stdout","time":644.708119814,"data":"Processing task009... No solution (25.3s)\n"}
+,{"stream_name":"stdout","time":669.811632675,"data":"Processing task010... No solution (25.1s)\n"}
+,{"stream_name":"stdout","time":700.946483097,"data":"Processing task011... No solution (31.1s)\n"}
+,{"stream_name":"stdout","time":1143.032893915,"data":"Processing task012... No solution (442.1s)\n"}
+,{"stream_name":"stdout","time":1173.76108792,"data":"Processing task013... No solution (30.7s)\n"}
+,{"stream_name":"stdout","time":1173.77800065,"data":"Processing task014... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":1177.577285415,"data":"Processing task015... Solved cost=814500 score=11.4 (3.8s)\n"}
+,{"stream_name":"stdout","time":1177.744996085,"data":"Processing task016... Solved cost=50 score=21.1 (0.1s)\n"}
+,{"stream_name":"stdout","time":1205.822775714,"data":"Processing task017... No solution (28.0s)\n"}
+,{"stream_name":"stdout","time":1233.440735734,"data":"Processing task018... No solution (27.6s)\n"}
+,{"stream_name":"stdout","time":1233.461457224,"data":"Processing task019... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":1677.109723433,"data":"Processing task020... No solution (443.6s)\n"}
+,{"stream_name":"stdout","time":1677.117955383,"data":"Processing task021... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":1677.143773894,"data":"Processing task022... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":1703.094451744,"data":"Processing task023... No solution (25.9s)\n"}
+,{"stream_name":"stdout","time":1730.802037093,"data":"Processing task024... No solution (27.7s)\n"}
+,{"stream_name":"stdout","time":1759.279342981,"data":"Processing task025... No solution (28.5s)\n"}
+,{"stream_name":"stdout","time":1759.306411592,"data":"Processing task026... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":1787.889108461,"data":"Processing task027... No solution (28.5s)\n"}
+,{"stream_name":"stdout","time":1812.34234462,"data":"Processing task028... No solution (24.4s)\n"}
+,{"stream_name":"stdout","time":1812.368763721,"data":"Processing task029... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":1840.900169369,"data":"Processing task030... No solution (28.5s)\n"}
+,{"stream_name":"stdout","time":1840.912099929,"data":"Processing task031... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2296.560795799,"data":"Processing task032... No solution (455.6s)\n"}
+,{"stream_name":"stdout","time":2324.315030261,"data":"Processing task033... No solution (27.8s)\n"}
+,{"stream_name":"stdout","time":2355.550864393,"data":"Processing task034... No solution (31.2s)\n"}
+,{"stream_name":"stdout","time":2384.975751998,"data":"Processing task035... No solution (29.4s)\n"}
+,{"stream_name":"stdout","time":2385.053550839,"data":"Processing task036... No solution (0.1s)\n"}
+,{"stream_name":"stdout","time":2414.30793533,"data":"Processing task037... No solution (29.2s)\n"}
+,{"stream_name":"stdout","time":2414.33061162,"data":"Processing task038... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2414.35478784,"data":"Processing task039... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2443.29813161,"data":"Processing task040... No solution (28.9s)\n"}
+,{"stream_name":"stdout","time":2470.944965072,"data":"Processing task041... No solution (27.6s)\n"}
+,{"stream_name":"stdout","time":2499.962018493,"data":"Processing task042... No solution (29.0s)\n"}
+,{"stream_name":"stdout","time":2526.519824289,"data":"Processing task043... No solution (26.5s)\n"}
+,{"stream_name":"stdout","time":2554.271716312,"data":"Processing task044... No solution (27.7s)\n"}
+,{"stream_name":"stdout","time":2583.747966055,"data":"Processing task045... No solution (29.5s)\n"}
+,{"stream_name":"stdout","time":2583.764273405,"data":"Processing task046... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2608.529620432,"data":"Processing task047... No solution (24.8s)\n"}
+,{"stream_name":"stdout","time":2608.569371832,"data":"Processing task048... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2608.591199422,"data":"Processing task049... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2634.918835718,"data":"Processing task050... No solution (26.3s)\n"}
+,{"stream_name":"stdout","time":2664.955045103,"data":"Processing task051... No solution (30.0s)\n"}
+,{"stream_name":"stdout","time":2739.627830335,"data":"Processing task052... No solution (74.7s)\n"}
+,{"stream_name":"stdout","time":2740.836136032,"data":"Processing task053... Solved cost=126 score=20.2 (1.2s)\n"}
+,{"stream_name":"stdout","time":2765.366596987,"data":"Processing task054... No solution (24.5s)\n"}
+,{"stream_name":"stdout","time":2789.209967409,"data":"Processing task055... No solution (23.8s)\n"}
+,{"stream_name":"stdout","time":2789.233597179,"data":"Processing task056... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2789.262096999,"data":"Processing task057... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":2820.725015133,"data":"Processing task058... No solution (31.4s)\n"}
+,{"stream_name":"stdout","time":2846.170396253,"data":"Processing task059... No solution (25.4s)\n"}
+,{"stream_name":"stdout","time":3269.226592872,"data":"Processing task060... No solution (423.0s)\n"}
+,{"stream_name":"stdout","time":3299.008734608,"data":"Processing task061... No solution (29.8s)\n"}
+,{"stream_name":"stdout","time":3326.463524256,"data":"Processing task062... No solution (27.4s)\n"}
+,{"stream_name":"stdout","time":3350.978132845,"data":"Processing task063... No solution (24.5s)\n"}
+,{"stream_name":"stdout","time":3381.136621668,"data":"Processing task064... No solution (30.1s)\n"}
+,{"stream_name":"stdout","time":3381.194360949,"data":"Processing task065... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":3407.243449444,"data":"Processing task066... No solution (26.1s)\n"}
+,{"stream_name":"stdout","time":3407.267924234,"data":"Processing task067... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":3436.802463408,"data":"Processing task068... No solution (29.5s)\n"}
+,{"stream_name":"stdout","time":3460.786201653,"data":"Processing task069... No solution (24.0s)\n"}
+,{"stream_name":"stdout","time":3887.129780979,"data":"Processing task070... No solution (426.3s)\n"}
+,{"stream_name":"stdout","time":4306.328662584,"data":"Processing task071... No solution (419.2s)\n"}
+,{"stream_name":"stdout","time":4306.341645304,"data":"Processing task072... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":4312.976932057,"data":"Processing task073... Solved cost=814500 score=11.4 (6.6s)\n"}
+,{"stream_name":"stdout","time":4342.74852173,"data":"Processing task074... No solution (29.7s)\n"}
+,{"stream_name":"stdout","time":4368.880333062,"data":"Processing task075... No solution (26.1s)\n"}
+,{"stream_name":"stdout","time":4397.172459962,"data":"Processing task076... No solution (28.1s)\n"}
+,{"stream_name":"stdout","time":4424.387663674,"data":"Processing task077... No solution (27.2s)\n"}
+,{"stream_name":"stdout","time":4451.391011089,"data":"Processing task078... No solution (27.0s)\n"}
+,{"stream_name":"stdout","time":4451.453107508,"data":"Processing task079... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":4476.585219582,"data":"Processing task080... No solution (25.1s)\n"}
+,{"stream_name":"stdout","time":4510.603168095,"data":"Processing task081... Solved cost=1457080 score=10.8 (34.0s)\n"}
+,{"stream_name":"stdout","time":4941.113489344,"data":"Processing task082... No solution (430.5s)\n"}
+,{"stream_name":"stdout","time":4941.180086584,"data":"Processing task083... Solved cost=270 score=19.4 (0.1s)\n"}
+,{"stream_name":"stdout","time":4968.46913621,"data":"Processing task084... No solution (27.3s)\n"}
+,{"stream_name":"stdout","time":5401.101338562,"data":"Processing task085... No solution (432.6s)\n"}
+,{"stream_name":"stdout","time":5834.022521469,"data":"Processing task086... No solution (432.9s)\n"}
+,{"stream_name":"stdout","time":5835.197935167,"data":"Processing task087... Solved cost=198 score=19.7 (1.2s)\n"}
+,{"stream_name":"stdout","time":5835.222074407,"data":"Processing task088... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":5864.657919501,"data":"Processing task089... No solution (29.4s)\n"}
+,{"stream_name":"stdout","time":5891.552561347,"data":"Processing task090... No solution (26.9s)\n"}
+,{"stream_name":"stdout","time":5891.591870827,"data":"Processing task091... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":6307.842627982,"data":"Processing task092... No solution (416.2s)\n"}
+,{"stream_name":"stdout","time":6335.501635861,"data":"Processing task093... No solution (27.6s)\n"}
+,{"stream_name":"stdout","time":6749.794196676,"data":"Processing task094... No solution (414.3s)\n"}
+,{"stream_name":"stdout","time":6751.936218625,"data":"Processing task095... Solved cost=814500 score=11.4 (2.1s)\n"}
+,{"stream_name":"stdout","time":6751.967046725,"data":"Processing task096... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":6777.042613716,"data":"Processing task097... No solution (25.1s)\n"}
+,{"stream_name":"stdout","time":6803.117380646,"data":"Processing task098... Solved cost=1457080 score=10.8 (26.0s)\n"}
+,{"stream_name":"stdout","time":6827.904065414,"data":"Processing task099... No solution (24.8s)\n"}
+,{"stream_name":"stdout","time":6827.946286064,"data":"Processing task100... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7251.939494071,"data":"Processing task101... No solution (424.0s)\n"}
+,{"stream_name":"stdout","time":7281.646329463,"data":"Processing task102... No solution (29.7s)\n"}
+,{"stream_name":"stdout","time":7281.670038783,"data":"Processing task103... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7281.704191463,"data":"Processing task104... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7309.080433764,"data":"Processing task105... No solution (27.4s)\n"}
+,{"stream_name":"stdout","time":7309.098241765,"data":"Processing task106... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7309.133521605,"data":"Processing task107... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7309.186632416,"data":"Processing task108... Solved cost=4563 score=16.6 (0.0s)\n"}
+,{"stream_name":"stdout","time":7309.239052466,"data":"Processing task109... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7336.639895198,"data":"Processing task110... No solution (27.4s)\n"}
+,{"stream_name":"stdout","time":7336.677754558,"data":"Processing task111... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7761.094441401,"data":"Processing task112... No solution (424.4s)\n"}
+,{"stream_name":"stdout","time":7785.010758475,"data":"Processing task113... No solution (23.9s)\n"}
+,{"stream_name":"stdout","time":7785.035093875,"data":"Processing task114... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7785.064142915,"data":"Processing task115... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7785.104108195,"data":"Processing task116... Solved cost=4563 score=16.6 (0.0s)\n"}
+,{"stream_name":"stdout","time":7811.584999029,"data":"Processing task117... No solution (26.4s)\n"}
+,{"stream_name":"stdout","time":7836.924930298,"data":"Processing task118... No solution (25.3s)\n"}
+,{"stream_name":"stdout","time":7864.721089596,"data":"Processing task119... No solution (27.8s)\n"}
+,{"stream_name":"stdout","time":7872.394125542,"data":"Processing task120... Solved cost=814500 score=11.4 (7.7s)\n"}
+,{"stream_name":"stdout","time":7872.429225433,"data":"Processing task121... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7949.141966876,"data":"Processing task122... Solved cost=2615480 score=10.2 (76.7s)\n"}
+,{"stream_name":"stdout","time":7949.161752546,"data":"Processing task123... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7949.199246716,"data":"Processing task124... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":7973.000831601,"data":"Processing task125... No solution (23.8s)\n"}
+,{"stream_name":"stdout","time":8000.58378545,"data":"Processing task126... No solution (27.6s)\n"}
+,{"stream_name":"stdout","time":8006.134727056,"data":"Processing task127... Solved cost=814500 score=11.4 (5.5s)\n"}
+,{"stream_name":"stdout","time":8033.457926736,"data":"Processing task128... No solution (27.3s)\n"}
+,{"stream_name":"stdout","time":8233.31901156,"data":"Processing task129... No solution (199.8s)\n"}
+,{"stream_name":"stdout","time":8233.36848089,"data":"Processing task130... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":8259.749460444,"data":"Processing task131... No solution (26.4s)\n"}
+,{"stream_name":"stdout","time":8288.299787929,"data":"Processing task132... No solution (28.5s)\n"}
+,{"stream_name":"stdout","time":8313.873728027,"data":"Processing task133... No solution (25.5s)\n"}
+,{"stream_name":"stdout","time":8313.903848296,"data":"Processing task134... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":8313.977976806,"data":"Processing task135... Solved cost=126 score=20.2 (0.1s)\n"}
+,{"stream_name":"stdout","time":8341.565686015,"data":"Processing task136... No solution (27.5s)\n"}
+,{"stream_name":"stdout","time":8367.511955151,"data":"Processing task137... No solution (25.9s)\n"}
+,{"stream_name":"stdout","time":8367.577457301,"data":"Processing task138... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":8392.154629273,"data":"Processing task139... No solution (24.6s)\n"}
+,{"stream_name":"stdout","time":8393.232764879,"data":"Processing task140... Solved cost=198 score=19.7 (1.1s)\n"}
+,{"stream_name":"stdout","time":8420.072000331,"data":"Processing task141... No solution (26.8s)\n"}
+,{"stream_name":"stdout","time":8420.152379711,"data":"Processing task142... Solved cost=270 score=19.4 (0.0s)\n"}
+,{"stream_name":"stdout","time":8447.68773545,"data":"Processing task143... No solution (27.5s)\n"}
+,{"stream_name":"stdout","time":8447.7444679,"data":"Processing task144... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":8476.433235965,"data":"Processing task145... No solution (28.6s)\n"}
+,{"stream_name":"stdout","time":8476.535477045,"data":"Processing task146... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":8485.800628313,"data":"Processing task147... Solved cost=1457080 score=10.8 (9.2s)\n"}
+,{"stream_name":"stdout","time":8512.043027909,"data":"Processing task148... No solution (26.2s)\n"}
+,{"stream_name":"stdout","time":8512.099695188,"data":"Processing task149... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":8930.899031912,"data":"Processing task150... No solution (418.7s)\n"}
+,{"stream_name":"stdout","time":8964.885635464,"data":"Processing task151... Solved cost=1457080 score=10.8 (34.0s)\n"}
+,{"stream_name":"stdout","time":8964.942027994,"data":"Processing task152... Solved cost=270 score=19.4 (0.0s)\n"}
+,{"stream_name":"stdout","time":8964.968412194,"data":"Processing task153... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":8992.282443387,"data":"Processing task154... No solution (27.3s)\n"}
+,{"stream_name":"stdout","time":9416.419857043,"data":"Processing task155... No solution (424.1s)\n"}
+,{"stream_name":"stdout","time":9441.225236106,"data":"Processing task156... No solution (24.8s)\n"}
+,{"stream_name":"stdout","time":9465.198797958,"data":"Processing task157... No solution (23.9s)\n"}
+,{"stream_name":"stdout","time":9489.483648645,"data":"Processing task158... No solution (24.3s)\n"}
+,{"stream_name":"stdout","time":9489.528944306,"data":"Processing task159... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":9514.211498747,"data":"Processing task160... No solution (24.7s)\n"}
+,{"stream_name":"stdout","time":9541.164079575,"data":"Processing task161... No solution (26.9s)\n"}
+,{"stream_name":"stdout","time":9978.597383353,"data":"Processing task162... No solution (437.4s)\n"}
+,{"stream_name":"stdout","time":10003.921539015,"data":"Processing task163... No solution (25.3s)\n"}
+,{"stream_name":"stdout","time":10003.994990135,"data":"Processing task164... Solved cost=162 score=19.9 (0.0s)\n"}
+,{"stream_name":"stdout","time":10030.208203265,"data":"Processing task165... No solution (26.2s)\n"}
+,{"stream_name":"stdout","time":10056.889837335,"data":"Processing task166... No solution (26.7s)\n"}
+,{"stream_name":"stdout","time":10216.751443012,"data":"Processing task167... No solution (159.8s)\n"}
+,{"stream_name":"stdout","time":10241.238687805,"data":"Processing task168... No solution (24.5s)\n"}
+,{"stream_name":"stdout","time":10267.555896645,"data":"Processing task169... No solution (26.3s)\n"}
+,{"stream_name":"stdout","time":10267.586570195,"data":"Processing task170... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10276.094981102,"data":"Processing task171... Solved cost=814500 score=11.4 (8.5s)\n"}
+,{"stream_name":"stdout","time":10276.165973652,"data":"Processing task172... Solved cost=162 score=19.9 (0.0s)\n"}
+,{"stream_name":"stdout","time":10302.578950932,"data":"Processing task173... No solution (26.4s)\n"}
+,{"stream_name":"stdout","time":10302.616976502,"data":"Processing task174... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10328.076155674,"data":"Processing task175... No solution (25.4s)\n"}
+,{"stream_name":"stdout","time":10352.499355627,"data":"Processing task176... No solution (24.4s)\n"}
+,{"stream_name":"stdout","time":10352.514210716,"data":"Processing task177... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10352.529488307,"data":"Processing task178... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10353.708837785,"data":"Processing task179... Solved cost=126 score=20.2 (1.2s)\n"}
+,{"stream_name":"stdout","time":10353.732029095,"data":"Processing task180... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10379.309212176,"data":"Processing task181... No solution (25.5s)\n"}
+,{"stream_name":"stdout","time":10407.193849283,"data":"Processing task182... No solution (27.9s)\n"}
+,{"stream_name":"stdout","time":10407.239337803,"data":"Processing task183... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10407.303948694,"data":"Processing task184... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10407.326069934,"data":"Processing task185... No solution (0.1s)\n"}
+,{"stream_name":"stdout","time":10432.839977444,"data":"Processing task186... No solution (25.5s)\n"}
+,{"stream_name":"stdout","time":10457.112982018,"data":"Processing task187... No solution (24.3s)\n"}
+,{"stream_name":"stdout","time":10457.142484268,"data":"Processing task188... Solved cost=126 score=20.2 (0.0s)\n"}
+,{"stream_name":"stdout","time":10457.189801068,"data":"Processing task189... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10483.184111488,"data":"Processing task190... No solution (26.0s)\n"}
+,{"stream_name":"stdout","time":10507.424860741,"data":"Processing task191... No solution (24.2s)\n"}
+,{"stream_name":"stdout","time":10903.115140474,"data":"Processing task192... No solution (395.7s)\n"}
+,{"stream_name":"stdout","time":10927.365885527,"data":"Processing task193... No solution (24.2s)\n"}
+,{"stream_name":"stdout","time":10927.413991575,"data":"Processing task194... Solved cost=4563 score=16.6 (0.0s)\n"}
+,{"stream_name":"stdout","time":10927.446478263,"data":"Processing task195... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":10953.133089005,"data":"Processing task196... No solution (25.7s)\n"}
+,{"stream_name":"stdout","time":10978.176661315,"data":"Processing task197... No solution (25.0s)\n"}
+,{"stream_name":"stdout","time":11002.094031561,"data":"Processing task198... No solution (23.9s)\n"}
+,{"stream_name":"stdout","time":11408.410193507,"data":"Processing task199... No solution (406.3s)\n"}
+,{"stream_name":"stdout","time":11813.993732949,"data":"Processing task200... No solution (405.6s)\n"}
+,{"stream_name":"stdout","time":11814.014149948,"data":"Processing task201... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":11838.897167122,"data":"Processing task202... No solution (24.9s)\n"}
+,{"stream_name":"stdout","time":12246.870904333,"data":"Processing task203... No solution (407.9s)\n"}
+,{"stream_name":"stdout","time":12275.402391193,"data":"Processing task204... No solution (28.5s)\n"}
+,{"stream_name":"stdout","time":12275.425149502,"data":"Processing task205... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":12301.846621475,"data":"Processing task206... No solution (26.4s)\n"}
+,{"stream_name":"stdout","time":12302.049851107,"data":"Processing task207... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":12715.876379443,"data":"Processing task208... No solution (413.8s)\n"}
+,{"stream_name":"stdout","time":12715.890246333,"data":"Processing task209... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":12715.945990871,"data":"Processing task210... Solved cost=162 score=19.9 (0.0s)\n"}
+,{"stream_name":"stdout","time":12715.988025479,"data":"Processing task211... Solved cost=4563 score=16.6 (0.0s)\n"}
+,{"stream_name":"stdout","time":13122.983741389,"data":"Processing task212... No solution (407.0s)\n"}
+,{"stream_name":"stdout","time":13123.000086609,"data":"Processing task213... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":13148.905202198,"data":"Processing task214... No solution (25.9s)\n"}
+,{"stream_name":"stdout","time":13545.115822404,"data":"Processing task215... No solution (396.2s)\n"}
+,{"stream_name":"stdout","time":13545.144293654,"data":"Processing task216... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":13569.900059576,"data":"Processing task217... No solution (24.7s)\n"}
+,{"stream_name":"stdout","time":13569.926446976,"data":"Processing task218... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":13594.100702495,"data":"Processing task219... No solution (24.1s)\n"}
+,{"stream_name":"stdout","time":13596.23001301,"data":"Processing task220... Solved cost=814500 score=11.4 (2.1s)\n"}
+,{"stream_name":"stdout","time":13596.26406477,"data":"Processing task221... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":13621.107382701,"data":"Processing task222... No solution (24.8s)\n"}
+,{"stream_name":"stdout","time":13621.165388931,"data":"Processing task223... Solved cost=162 score=19.9 (0.0s)\n"}
+,{"stream_name":"stdout","time":13645.288051101,"data":"Processing task224... No solution (24.1s)\n"}
+,{"stream_name":"stdout","time":14052.193956804,"data":"Processing task225... No solution (406.9s)\n"}
+,{"stream_name":"stdout","time":14076.956952207,"data":"Processing task226... No solution (24.8s)\n"}
+,{"stream_name":"stdout","time":14076.990063686,"data":"Processing task227... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":14102.748709552,"data":"Processing task228... No solution (25.7s)\n"}
+,{"stream_name":"stdout","time":14394.896083473,"data":"Processing task229... No solution (292.1s)\n"}
+,{"stream_name":"stdout","time":14402.041016296,"data":"Processing task230... Solved cost=814500 score=11.4 (7.1s)\n"}
+,{"stream_name":"stdout","time":14402.064931336,"data":"Processing task231... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":14426.171476002,"data":"Processing task232... No solution (24.1s)\n"}
+,{"stream_name":"stdout","time":14426.204901451,"data":"Processing task233... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":14450.285812828,"data":"Processing task234... No solution (24.1s)\n"}
+,{"stream_name":"stdout","time":14450.306829957,"data":"Processing task235... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":14450.340608947,"data":"Processing task236... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":14478.766475216,"data":"Processing task237... No solution (28.4s)\n"}
+,{"stream_name":"stdout","time":14478.785256636,"data":"Processing task238... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":14478.814366895,"data":"Processing task239... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":14892.443551991,"data":"Processing task240... No solution (413.6s)\n"}
+,{"stream_name":"stdout","time":15299.200470164,"data":"Processing task241... No solution (406.7s)\n"}
+,{"stream_name":"stdout","time":15299.223668884,"data":"Processing task242... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15326.773647726,"data":"Processing task243... No solution (27.5s)\n"}
+,{"stream_name":"stdout","time":15326.803713286,"data":"Processing task244... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15356.969043774,"data":"Processing task245... No solution (30.1s)\n"}
+,{"stream_name":"stdout","time":15383.570287161,"data":"Processing task246... No solution (26.6s)\n"}
+,{"stream_name":"stdout","time":15383.590210561,"data":"Processing task247... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15408.527855527,"data":"Processing task248... No solution (24.9s)\n"}
+,{"stream_name":"stdout","time":15408.548814206,"data":"Processing task249... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15433.184453434,"data":"Processing task250... No solution (24.6s)\n"}
+,{"stream_name":"stdout","time":15458.612458118,"data":"Processing task251... No solution (25.4s)\n"}
+,{"stream_name":"stdout","time":15485.563654183,"data":"Processing task252... No solution (27.0s)\n"}
+,{"stream_name":"stdout","time":15485.598545003,"data":"Processing task253... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15895.087422929,"data":"Processing task254... No solution (409.4s)\n"}
+,{"stream_name":"stdout","time":15919.495498208,"data":"Processing task255... No solution (24.4s)\n"}
+,{"stream_name":"stdout","time":15944.095145094,"data":"Processing task256... No solution (24.6s)\n"}
+,{"stream_name":"stdout","time":15944.116449694,"data":"Processing task257... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15952.298524537,"data":"Processing task258... Solved cost=814500 score=11.4 (8.2s)\n"}
+,{"stream_name":"stdout","time":15952.326136956,"data":"Processing task259... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15978.917533474,"data":"Processing task260... No solution (26.6s)\n"}
+,{"stream_name":"stdout","time":15983.249557752,"data":"Processing task261... Solved cost=814500 score=11.4 (4.3s)\n"}
+,{"stream_name":"stdout","time":15990.891580692,"data":"Processing task262... Solved cost=1457080 score=10.8 (7.6s)\n"}
+,{"stream_name":"stdout","time":15990.915519572,"data":"Processing task263... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":15990.961919981,"data":"Processing task264... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":16015.001912556,"data":"Processing task265... No solution (24.0s)\n"}
+,{"stream_name":"stdout","time":16021.573481112,"data":"Processing task266... Solved cost=814500 score=11.4 (6.6s)\n"}
+,{"stream_name":"stdout","time":16412.6880978,"data":"Processing task267... No solution (391.1s)\n"}
+,{"stream_name":"stdout","time":16437.985036607,"data":"Processing task268... No solution (25.3s)\n"}
+,{"stream_name":"stdout","time":16438.012570277,"data":"Processing task269... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":16464.159487032,"data":"Processing task270... No solution (26.1s)\n"}
+,{"stream_name":"stdout","time":16464.164463601,"data":"Processing task271... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":16499.918288068,"data":"Processing task272... Solved cost=2615480 score=10.2 (35.7s)\n"}
+,{"stream_name":"stdout","time":16526.722378063,"data":"Processing task273... No solution (26.8s)\n"}
+,{"stream_name":"stdout","time":16526.745479113,"data":"Processing task274... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":16526.764249553,"data":"Processing task275... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":16526.896294441,"data":"Processing task276... Solved cost=90500 score=13.6 (0.1s)\n"}
+,{"stream_name":"stdout","time":16554.10850165,"data":"Processing task277... No solution (27.2s)\n"}
+,{"stream_name":"stdout","time":16627.572557084,"data":"Processing task278... Solved cost=2615480 score=10.2 (73.4s)\n"}
+,{"stream_name":"stdout","time":16655.67722058,"data":"Processing task279... No solution (28.1s)\n"}
+,{"stream_name":"stdout","time":16683.303967783,"data":"Processing task280... No solution (27.6s)\n"}
+,{"stream_name":"stdout","time":17100.943869485,"data":"Processing task281... No solution (417.6s)\n"}
+,{"stream_name":"stdout","time":17105.092105077,"data":"Processing task282... Solved cost=814500 score=11.4 (4.1s)\n"}
+,{"stream_name":"stdout","time":17127.678241816,"data":"Processing task283... Solved cost=1457080 score=10.8 (22.6s)\n"}
+,{"stream_name":"stdout","time":17152.99943897,"data":"Processing task284... No solution (25.3s)\n"}
+,{"stream_name":"stdout","time":17567.381167297,"data":"Processing task285... No solution (414.4s)\n"}
+,{"stream_name":"stdout","time":17975.704060992,"data":"Processing task286... No solution (408.3s)\n"}
+,{"stream_name":"stdout","time":18004.317142779,"data":"Processing task287... No solution (28.6s)\n"}
+,{"stream_name":"stdout","time":18422.603201436,"data":"Processing task288... No solution (418.2s)\n"}
+,{"stream_name":"stdout","time":18422.617073926,"data":"Processing task289... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":18422.644827346,"data":"Processing task290... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":18422.669188965,"data":"Processing task291... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":18453.583906257,"data":"Processing task292... No solution (30.9s)\n"}
+,{"stream_name":"stdout","time":18871.815582504,"data":"Processing task293... No solution (418.2s)\n"}
+,{"stream_name":"stdout","time":18878.931207986,"data":"Processing task294... Solved cost=814500 score=11.4 (7.1s)\n"}
+,{"stream_name":"stdout","time":18878.950837966,"data":"Processing task295... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":18878.976883416,"data":"Processing task296... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":18903.990049417,"data":"Processing task297... No solution (25.0s)\n"}
+,{"stream_name":"stdout","time":19302.896157103,"data":"Processing task298... No solution (398.9s)\n"}
+,{"stream_name":"stdout","time":19493.208360499,"data":"Processing task299... No solution (190.3s)\n"}
+,{"stream_name":"stdout","time":19493.223220649,"data":"Processing task300... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":19904.767633343,"data":"Processing task301... No solution (411.5s)\n"}
+,{"stream_name":"stdout","time":19930.497739791,"data":"Processing task302... No solution (25.7s)\n"}
+,{"stream_name":"stdout","time":19954.465250051,"data":"Processing task303... No solution (23.9s)\n"}
+,{"stream_name":"stdout","time":19954.480885391,"data":"Processing task304... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":19980.06743048,"data":"Processing task305... No solution (25.6s)\n"}
+,{"stream_name":"stdout","time":20384.926035861,"data":"Processing task306... No solution (404.8s)\n"}
+,{"stream_name":"stdout","time":20384.955823221,"data":"Processing task307... Solved cost=4563 score=16.6 (0.0s)\n"}
+,{"stream_name":"stdout","time":20384.9796172,"data":"Processing task308... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20385.090625039,"data":"Processing task309... Solved cost=90500 score=13.6 (0.1s)\n"}
+,{"stream_name":"stdout","time":20385.147065198,"data":"Processing task310... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20385.222955098,"data":"Processing task311... Solved cost=162 score=19.9 (0.1s)\n"}
+,{"stream_name":"stdout","time":20409.648968828,"data":"Processing task312... No solution (24.4s)\n"}
+,{"stream_name":"stdout","time":20435.796006818,"data":"Processing task313... No solution (26.1s)\n"}
+,{"stream_name":"stdout","time":20462.732554251,"data":"Processing task314... No solution (26.9s)\n"}
+,{"stream_name":"stdout","time":20462.75880953,"data":"Processing task315... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20462.7847643,"data":"Processing task316... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20465.739282098,"data":"Processing task317... Solved cost=814500 score=11.4 (3.0s)\n"}
+,{"stream_name":"stdout","time":20465.776117957,"data":"Processing task318... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20465.810798857,"data":"Processing task319... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20492.854686278,"data":"Processing task320... No solution (27.0s)\n"}
+,{"stream_name":"stdout","time":20492.882729277,"data":"Processing task321... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20552.130734443,"data":"Processing task322... Solved cost=2615480 score=10.2 (59.2s)\n"}
+,{"stream_name":"stdout","time":20956.002484677,"data":"Processing task323... No solution (403.8s)\n"}
+,{"stream_name":"stdout","time":20980.627024285,"data":"Processing task324... No solution (24.6s)\n"}
+,{"stream_name":"stdout","time":20980.643205155,"data":"Processing task325... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":20980.715787724,"data":"Processing task326... Solved cost=126 score=20.2 (0.1s)\n"}
+,{"stream_name":"stdout","time":20980.742572874,"data":"Processing task327... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":21007.959761423,"data":"Processing task328... No solution (27.2s)\n"}
+,{"stream_name":"stdout","time":21412.902861712,"data":"Processing task329... No solution (404.9s)\n"}
+,{"stream_name":"stdout","time":21441.232845864,"data":"Processing task330... No solution (28.3s)\n"}
+,{"stream_name":"stdout","time":21448.542325773,"data":"Processing task331... Solved cost=814500 score=11.4 (7.3s)\n"}
+,{"stream_name":"stdout","time":21478.710956928,"data":"Processing task332... No solution (30.1s)\n"}
+,{"stream_name":"stdout","time":21507.683782414,"data":"Processing task333... No solution (29.0s)\n"}
+,{"stream_name":"stdout","time":21507.726147093,"data":"Processing task334... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":21535.084001166,"data":"Processing task335... No solution (27.3s)\n"}
+,{"stream_name":"stdout","time":21798.697594519,"data":"Processing task336... No solution (263.6s)\n"}
+,{"stream_name":"stdout","time":21798.856441177,"data":"Processing task337... Solved cost=50 score=21.1 (0.1s)\n"}
+,{"stream_name":"stdout","time":21824.942107292,"data":"Processing task338... No solution (26.1s)\n"}
+,{"stream_name":"stdout","time":21824.980512032,"data":"Processing task339... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":21850.707068183,"data":"Processing task340... No solution (25.7s)\n"}
+,{"stream_name":"stdout","time":21877.220116836,"data":"Processing task341... No solution (26.5s)\n"}
+,{"stream_name":"stdout","time":21904.891861727,"data":"Processing task342... No solution (27.6s)\n"}
+,{"stream_name":"stdout","time":21930.904725686,"data":"Processing task343... No solution (26.0s)\n"}
+,{"stream_name":"stdout","time":21950.577624564,"data":"Processing task344... Solved cost=1457080 score=10.8 (19.4s)\n"}
+,{"stream_name":"stdout","time":22357.623067362,"data":"Processing task345... No solution (407.0s)\n"}
+,{"stream_name":"stdout","time":22357.630899652,"data":"Processing task346... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":22357.654472262,"data":"Processing task347... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":22764.105070946,"data":"Processing task348... No solution (406.4s)\n"}
+,{"stream_name":"stdout","time":22790.368720803,"data":"Processing task349... No solution (26.3s)\n"}
+,{"stream_name":"stdout","time":22818.40102061,"data":"Processing task350... No solution (28.0s)\n"}
+,{"stream_name":"stdout","time":22818.41635392,"data":"Processing task351... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":22825.835895952,"data":"Processing task352... Solved cost=814500 score=11.4 (7.4s)\n"}
+,{"stream_name":"stdout","time":22855.346215933,"data":"Processing task353... No solution (29.5s)\n"}
+,{"stream_name":"stdout","time":22881.332277365,"data":"Processing task354... No solution (26.0s)\n"}
+,{"stream_name":"stdout","time":22881.386588824,"data":"Processing task355... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":22908.253155331,"data":"Processing task356... No solution (26.8s)\n"}
+,{"stream_name":"stdout","time":22933.004180526,"data":"Processing task357... No solution (24.8s)\n"}
+,{"stream_name":"stdout","time":23341.61698178,"data":"Processing task358... No solution (408.5s)\n"}
+,{"stream_name":"stdout","time":23367.292248389,"data":"Processing task359... No solution (25.7s)\n"}
+,{"stream_name":"stdout","time":23367.312763389,"data":"Processing task360... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":23394.230064189,"data":"Processing task361... No solution (26.9s)\n"}
+,{"stream_name":"stdout","time":23421.766875644,"data":"Processing task362... No solution (27.5s)\n"}
+,{"stream_name":"stdout","time":23445.771661376,"data":"Processing task363... No solution (24.0s)\n"}
+,{"stream_name":"stdout","time":23471.406642455,"data":"Processing task364... No solution (25.6s)\n"}
+,{"stream_name":"stdout","time":23471.447452875,"data":"Processing task365... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":23471.476433245,"data":"Processing task366... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":23497.837385949,"data":"Processing task367... No solution (26.3s)\n"}
+,{"stream_name":"stdout","time":23907.791018672,"data":"Processing task368... No solution (409.9s)\n"}
+,{"stream_name":"stdout","time":23933.835187789,"data":"Processing task369... No solution (26.0s)\n"}
+,{"stream_name":"stdout","time":23958.718140464,"data":"Processing task370... No solution (24.8s)\n"}
+,{"stream_name":"stdout","time":24368.497148755,"data":"Processing task371... No solution (409.8s)\n"}
+,{"stream_name":"stdout","time":24368.507618065,"data":"Processing task372... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":24709.28710591,"data":"Processing task373... No solution (340.7s)\n"}
+,{"stream_name":"stdout","time":24737.607983869,"data":"Processing task374... No solution (28.3s)\n"}
+,{"stream_name":"stdout","time":25147.333006417,"data":"Processing task375... No solution (409.7s)\n"}
+,{"stream_name":"stdout","time":25147.355457246,"data":"Processing task376... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":25147.397038806,"data":"Processing task377... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":25176.020240606,"data":"Processing task378... No solution (28.6s)\n"}
+,{"stream_name":"stdout","time":25596.962428913,"data":"Processing task379... No solution (420.9s)\n"}
+,{"stream_name":"stdout","time":25598.12189539,"data":"Processing task380... Solved cost=162 score=19.9 (1.1s)\n"}
+,{"stream_name":"stdout","time":25625.226248467,"data":"Processing task381... No solution (27.1s)\n"}
+,{"stream_name":"stdout","time":26042.797383357,"data":"Processing task382... No solution (417.5s)\n"}
+,{"stream_name":"stdout","time":26067.834729996,"data":"Processing task383... No solution (25.0s)\n"}
+,{"stream_name":"stdout","time":26067.860278026,"data":"Processing task384... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26068.873326565,"data":"Processing task385... Solved cost=4563 score=16.6 (1.0s)\n"}
+,{"stream_name":"stdout","time":26068.903210735,"data":"Processing task386... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26095.479491306,"data":"Processing task387... No solution (26.5s)\n"}
+,{"stream_name":"stdout","time":26095.485289166,"data":"Processing task388... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26452.865870217,"data":"Processing task389... No solution (357.3s)\n"}
+,{"stream_name":"stdout","time":26478.11907843,"data":"Processing task390... No solution (25.3s)\n"}
+,{"stream_name":"stdout","time":26478.15457404,"data":"Processing task391... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26504.073274454,"data":"Processing task392... No solution (25.9s)\n"}
+,{"stream_name":"stdout","time":26504.082249774,"data":"Processing task393... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26504.099921343,"data":"Processing task394... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26504.131178673,"data":"Processing task395... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26504.164748683,"data":"Processing task396... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26529.904094239,"data":"Processing task397... No solution (25.7s)\n"}
+,{"stream_name":"stdout","time":26529.924727829,"data":"Processing task398... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26529.966924768,"data":"Processing task399... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26530.005540498,"data":"Processing task400... No solution (0.0s)\n"}
+,{"stream_name":"stdout","time":26530.005584838,"data":"\n"}
+,{"stream_name":"stdout","time":26530.005591758,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":26530.005596378,"data":"Solved: 53/400  Failed: 347\n"}
+,{"stream_name":"stdout","time":26530.005601418,"data":"Total local estimated score: 785.5  Total time: 26507.9s\n"}
+,{"stream_name":"stdout","time":26530.005606198,"data":"Submission: /kaggle/working/submission.zip (104.2 KB)\n"}
+,{"stream_name":"stderr","time":26533.748061086,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":26533.748129786,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":26533.923340633,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":26533.923393824,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":26534.88365623,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":26535.188766866,"data":"[NbConvertApp] Writing 175898 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":26537.891409289,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":26539.173825831,"data":"[NbConvertApp] Writing 1004557 bytes to __results__.html\n"}
+]

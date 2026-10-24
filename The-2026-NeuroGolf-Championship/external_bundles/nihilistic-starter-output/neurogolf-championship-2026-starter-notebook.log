@@ -1,0 +1,34 @@
+[{"stream_name":"stderr","time":9.901637301,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.901700646,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.901707962,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.901713009,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.804255351,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.804314607,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.804321674,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.804326238,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.539341,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 21.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.577647701,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.5/44.5 kB 1.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.742480475,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 21.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.742529153,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.5/44.5 kB 1.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":20.838082233,"data":"Writing starter_solver.py\n"}
+,{"stream_name":"stdout","time":20.875391315,"data":"Writing fast_solver.py\n"}
+,{"stream_name":"stdout","time":21.038517696,"data":"Found 400 tasks\n"}
+,{"stream_name":"stdout","time":7739.387671229,"data":"{\n"}
+,{"stream_name":"stdout","time":7739.387716252,"data":"  \"task_count\": 44,\n"}
+,{"stream_name":"stdout","time":7739.38772398,"data":"  \"proxy_score\": 578.2539315035135,\n"}
+,{"stream_name":"stdout","time":7739.387730129,"data":"  \"solver_counts\": {\n"}
+,{"stream_name":"stdout","time":7739.387735884,"data":"    \"starter\": 41,\n"}
+,{"stream_name":"stdout","time":7739.387741801,"data":"    \"fast_public\": 3\n"}
+,{"stream_name":"stdout","time":7739.387747687,"data":"  },\n"}
+,{"stream_name":"stdout","time":7739.387753726,"data":"  \"submission_csv\": \"/kaggle/working/submission.csv\",\n"}
+,{"stream_name":"stdout","time":7739.387760433,"data":"  \"submission_zip\": \"/kaggle/working/submission.zip\"\n"}
+,{"stream_name":"stdout","time":7739.387766532,"data":"}\n"}
+,{"stream_name":"stderr","time":7743.732021713,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7743.732065246,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7743.960233956,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7743.96026287,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7745.222642756,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7745.635130494,"data":"[NbConvertApp] Writing 151056 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7748.994295097,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7750.662143533,"data":"[NbConvertApp] Writing 1118701 bytes to __results__.html\n"}
+]

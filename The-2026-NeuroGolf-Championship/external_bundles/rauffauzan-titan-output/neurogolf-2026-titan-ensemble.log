@@ -1,0 +1,163 @@
+[{"stream_name":"stderr","time":8.354143916,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.354263829,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.35427378,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.354277192,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.115856088,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.115910179,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.115918429,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.115923706,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.531904902,"data":"====================================================================================================\n"}
+,{"stream_name":"stdout","time":10.531984252,"data":"                           NeuroGolf-2026 Titan Ensemble Dataset Scanner                            \n"}
+,{"stream_name":"stdout","time":10.531990539,"data":"====================================================================================================\n"}
+,{"stream_name":"stdout","time":10.532000717,"data":"\n"}
+,{"stream_name":"stdout","time":10.532004783,"data":"📂 DIRECTORY : /kaggle/input\n"}
+,{"stream_name":"stdout","time":10.532010556,"data":"┣━━ Subdirectories : 2\n"}
+,{"stream_name":"stdout","time":10.532013646,"data":"┣━━ Files          : 0\n"}
+,{"stream_name":"stdout","time":10.532016466,"data":"┗━━ Folder Size   : 0 bytes\n"}
+,{"stream_name":"stdout","time":10.532019623,"data":"\n"}
+,{"stream_name":"stdout","time":10.532040072000001,"data":"📂 DIRECTORY : /kaggle/input/competitions\n"}
+,{"stream_name":"stdout","time":10.532044779,"data":"┣━━ Subdirectories : 1\n"}
+,{"stream_name":"stdout","time":10.532049646,"data":"┣━━ Files          : 0\n"}
+,{"stream_name":"stdout","time":10.532054699,"data":"┗━━ Folder Size   : 0 bytes\n"}
+,{"stream_name":"stdout","time":10.978975851,"data":"\n"}
+,{"stream_name":"stdout","time":10.979170082,"data":"📂 DIRECTORY : /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":10.979259102,"data":"┣━━ Subdirectories : 1\n"}
+,{"stream_name":"stdout","time":10.979266777,"data":"┣━━ Files          : 400\n"}
+,{"stream_name":"stdout","time":10.979272141,"data":"┣━━ 📄 task001.json\n"}
+,{"stream_name":"stdout","time":10.979277347,"data":"┃      Size     : 85,526 bytes\n"}
+,{"stream_name":"stdout","time":10.979282872,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979288436000001,"data":"┣━━ 📄 task002.json\n"}
+,{"stream_name":"stdout","time":10.979293892,"data":"┃      Size     : 499,596 bytes\n"}
+,{"stream_name":"stdout","time":10.97929835,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.97930295,"data":"┣━━ 📄 task003.json\n"}
+,{"stream_name":"stdout","time":10.979307197,"data":"┃      Size     : 50,384 bytes\n"}
+,{"stream_name":"stdout","time":10.979311522,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979315852,"data":"┣━━ 📄 task004.json\n"}
+,{"stream_name":"stdout","time":10.979320322,"data":"┃      Size     : 246,889 bytes\n"}
+,{"stream_name":"stdout","time":10.979348569999999,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979354504,"data":"┣━━ 📄 task005.json\n"}
+,{"stream_name":"stdout","time":10.979359909,"data":"┃      Size     : 732,864 bytes\n"}
+,{"stream_name":"stdout","time":10.979364944,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979372307,"data":"┣━━ 📄 task006.json\n"}
+,{"stream_name":"stdout","time":10.979377542,"data":"┃      Size     : 33,816 bytes\n"}
+,{"stream_name":"stdout","time":10.979382829,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979387461,"data":"┣━━ 📄 task007.json\n"}
+,{"stream_name":"stdout","time":10.979394037,"data":"┃      Size     : 92,336 bytes\n"}
+,{"stream_name":"stdout","time":10.979402562,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979405733,"data":"┣━━ 📄 task008.json\n"}
+,{"stream_name":"stdout","time":10.979408698,"data":"┃      Size     : 246,742 bytes\n"}
+,{"stream_name":"stdout","time":10.979411615,"data":"┃      Modified : 2026-05-14 21:39:23\n"}
+,{"stream_name":"stdout","time":10.979414636,"data":"┣━━ 📄 task009.json\n"}
+,{"stream_name":"stdout","time":10.979417797,"data":"┃      Size     : 870,037 bytes\n"}
+,{"stream_name":"stdout","time":10.979444724,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979450516,"data":"┣━━ 📄 task010.json\n"}
+,{"stream_name":"stdout","time":10.979455938,"data":"┃      Size     : 144,989 bytes\n"}
+,{"stream_name":"stdout","time":10.979460877,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979465202,"data":"┣━━ ... and 390 more files\n"}
+,{"stream_name":"stdout","time":10.979469621,"data":"┗━━ Folder Size   : 97,125,539 bytes\n"}
+,{"stream_name":"stdout","time":10.979474079,"data":"\n"}
+,{"stream_name":"stdout","time":10.979479151,"data":"📂 DIRECTORY : /kaggle/input/competitions/neurogolf-2026/neurogolf_utils\n"}
+,{"stream_name":"stdout","time":10.979484444,"data":"┣━━ Subdirectories : 0\n"}
+,{"stream_name":"stdout","time":10.979488781,"data":"┣━━ Files          : 1\n"}
+,{"stream_name":"stdout","time":10.979493136,"data":"┣━━ 📄 neurogolf_utils.py\n"}
+,{"stream_name":"stdout","time":10.979497432,"data":"┃      Size     : 21,599 bytes\n"}
+,{"stream_name":"stdout","time":10.979501614,"data":"┃      Modified : 2026-05-14 21:39:24\n"}
+,{"stream_name":"stdout","time":10.979505758,"data":"┗━━ Folder Size   : 21,599 bytes\n"}
+,{"stream_name":"stdout","time":10.979510984000001,"data":"\n"}
+,{"stream_name":"stdout","time":10.979515903,"data":"📂 DIRECTORY : /kaggle/input/datasets\n"}
+,{"stream_name":"stdout","time":10.979520903000001,"data":"┣━━ Subdirectories : 1\n"}
+,{"stream_name":"stdout","time":10.979526187,"data":"┣━━ Files          : 0\n"}
+,{"stream_name":"stdout","time":10.979531399,"data":"┗━━ Folder Size   : 0 bytes\n"}
+,{"stream_name":"stdout","time":10.979536847,"data":"\n"}
+,{"stream_name":"stdout","time":10.979541757,"data":"📂 DIRECTORY : /kaggle/input/datasets/konbu17\n"}
+,{"stream_name":"stdout","time":10.979547226,"data":"┣━━ Subdirectories : 1\n"}
+,{"stream_name":"stdout","time":10.979551944,"data":"┣━━ Files          : 0\n"}
+,{"stream_name":"stdout","time":10.979557098,"data":"┗━━ Folder Size   : 0 bytes\n"}
+,{"stream_name":"stdout","time":11.575650049,"data":"\n"}
+,{"stream_name":"stdout","time":11.575713542,"data":"📂 DIRECTORY : /kaggle/input/datasets/konbu17/neurogolf-2026-blended-401-v117\n"}
+,{"stream_name":"stdout","time":11.575719986,"data":"┣━━ Subdirectories : 0\n"}
+,{"stream_name":"stdout","time":11.575724276999999,"data":"┣━━ Files          : 401\n"}
+,{"stream_name":"stdout","time":11.575728344,"data":"┣━━ 📄 task000.onnx\n"}
+,{"stream_name":"stdout","time":11.575732251,"data":"┃      Size     : 4,370 bytes\n"}
+,{"stream_name":"stdout","time":11.575736137,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575742507,"data":"┣━━ 📄 task001.onnx\n"}
+,{"stream_name":"stdout","time":11.575752216,"data":"┃      Size     : 1,156 bytes\n"}
+,{"stream_name":"stdout","time":11.57575516,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575757918,"data":"┣━━ 📄 task002.onnx\n"}
+,{"stream_name":"stdout","time":11.575760559,"data":"┃      Size     : 61,376 bytes\n"}
+,{"stream_name":"stdout","time":11.575763281,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575765893,"data":"┣━━ 📄 task003.onnx\n"}
+,{"stream_name":"stdout","time":11.575768575,"data":"┃      Size     : 4,921 bytes\n"}
+,{"stream_name":"stdout","time":11.575771239,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575773909,"data":"┣━━ 📄 task004.onnx\n"}
+,{"stream_name":"stdout","time":11.575776559,"data":"┃      Size     : 18,032 bytes\n"}
+,{"stream_name":"stdout","time":11.575779307,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575781914,"data":"┣━━ 📄 task005.onnx\n"}
+,{"stream_name":"stdout","time":11.575784553,"data":"┃      Size     : 15,334 bytes\n"}
+,{"stream_name":"stdout","time":11.575787189,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575789873,"data":"┣━━ 📄 task006.onnx\n"}
+,{"stream_name":"stdout","time":11.575792464,"data":"┃      Size     : 1,956 bytes\n"}
+,{"stream_name":"stdout","time":11.575795163,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575797804,"data":"┣━━ 📄 task007.onnx\n"}
+,{"stream_name":"stdout","time":11.575800506,"data":"┃      Size     : 13,527 bytes\n"}
+,{"stream_name":"stdout","time":11.575803172,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575805816999999,"data":"┣━━ 📄 task008.onnx\n"}
+,{"stream_name":"stdout","time":11.575808428,"data":"┃      Size     : 117,210 bytes\n"}
+,{"stream_name":"stdout","time":11.57581104,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575813708,"data":"┣━━ 📄 task009.onnx\n"}
+,{"stream_name":"stdout","time":11.575816349,"data":"┃      Size     : 11,946 bytes\n"}
+,{"stream_name":"stdout","time":11.575818975,"data":"┃      Modified : 2026-05-18 09:58:50\n"}
+,{"stream_name":"stdout","time":11.575821589,"data":"┣━━ ... and 391 more files\n"}
+,{"stream_name":"stdout","time":11.575824226,"data":"┗━━ Folder Size   : 13,476,040 bytes\n"}
+,{"stream_name":"stdout","time":11.575826929,"data":"\n"}
+,{"stream_name":"stdout","time":11.575829548,"data":"====================================================================================================\n"}
+,{"stream_name":"stdout","time":11.57583232,"data":"📊 FINAL SUMMARY\n"}
+,{"stream_name":"stdout","time":11.575834923,"data":"====================================================================================================\n"}
+,{"stream_name":"stdout","time":11.575845538,"data":"📁 Total Directories : 6\n"}
+,{"stream_name":"stdout","time":11.575848396,"data":"📄 Total Files       : 802\n"}
+,{"stream_name":"stdout","time":11.575851043,"data":"💾 Total Dataset Size: 110,623,178 bytes\n"}
+,{"stream_name":"stdout","time":11.575853707,"data":"💾 Total Dataset Size: 0.10 GB\n"}
+,{"stream_name":"stdout","time":11.5758564,"data":"====================================================================================================\n"}
+,{"stream_name":"stdout","time":11.598399901,"data":"DIR: /kaggle/input (0 files, 2 subdirs)\n"}
+,{"stream_name":"stdout","time":11.59845058,"data":"DIR: /kaggle/input/competitions (0 files, 1 subdirs)\n"}
+,{"stream_name":"stdout","time":11.598472662,"data":"DIR: /kaggle/input/competitions/neurogolf-2026 (400 files, 1 subdirs)\n"}
+,{"stream_name":"stdout","time":11.598477889,"data":"  - task221.json (220,294 bytes)\n"}
+,{"stream_name":"stdout","time":11.598482393,"data":"  - task189.json (108,030 bytes)\n"}
+,{"stream_name":"stdout","time":11.598487213,"data":"  - task292.json (8,378 bytes)\n"}
+,{"stream_name":"stdout","time":11.59849173,"data":"  ... and 397 more\n"}
+,{"stream_name":"stdout","time":11.598495658000001,"data":"DIR: /kaggle/input/competitions/neurogolf-2026/neurogolf_utils (1 files, 0 subdirs)\n"}
+,{"stream_name":"stdout","time":11.598499818,"data":"  - neurogolf_utils.py (21,599 bytes)\n"}
+,{"stream_name":"stdout","time":11.598503893,"data":"DIR: /kaggle/input/datasets (0 files, 1 subdirs)\n"}
+,{"stream_name":"stdout","time":11.598507946,"data":"DIR: /kaggle/input/datasets/konbu17 (0 files, 1 subdirs)\n"}
+,{"stream_name":"stdout","time":11.598512076,"data":"DIR: /kaggle/input/datasets/konbu17/neurogolf-2026-blended-401-v117 (401 files, 0 subdirs)\n"}
+,{"stream_name":"stdout","time":11.598518541,"data":"  - task273.onnx (4,092 bytes)\n"}
+,{"stream_name":"stdout","time":11.598526198,"data":"  - task259.onnx (4,189 bytes)\n"}
+,{"stream_name":"stdout","time":11.598528981,"data":"  - task209.onnx (177,552 bytes)\n"}
+,{"stream_name":"stdout","time":11.59853176,"data":"  ... and 398 more\n"}
+,{"stream_name":"stdout","time":21.144717619,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":21.144781028,"data":"NeuroGolf-2026 Titan Ensemble\n"}
+,{"stream_name":"stdout","time":21.144790024,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":21.144796168,"data":"Running on CPU mode\n"}
+,{"stream_name":"stdout","time":21.144801831,"data":"[INFO] Training engine started on cpu\n"}
+,{"stream_name":"stdout","time":21.144807003,"data":"[INFO] Optimizer : Adam\n"}
+,{"stream_name":"stdout","time":21.144812464,"data":"Analytics Metrics:\n"}
+,{"stream_name":"stdout","time":21.144817682,"data":"[0.016743412241339684, 0.18804380297660828, 0.4749767780303955, 0.7665444016456604, 0.8277899026870728, 0.8501808047294617, 0.9986484050750732, 0.9525642991065979, 0.9725725650787354, 0.9069041013717651]\n"}
+,{"stream_name":"stdout","time":22.346993829,"data":"found 401 task*.onnx files via recursive glob\n"}
+,{"stream_name":"stdout","time":22.347062292,"data":"found 0 submission.zip files: []\n"}
+,{"stream_name":"stdout","time":24.434633135,"data":"\n"}
+,{"stream_name":"stdout","time":24.434683167,"data":"Zipped 401 files -\u003e /kaggle/working/submission.zip\n"}
+,{"stream_name":"stdout","time":24.434699654,"data":"Output size: 1,941,647 bytes (1.85 MB)\n"}
+,{"stream_name":"stdout","time":24.434704715,"data":"Files in zip: 401\n"}
+,{"stream_name":"stdout","time":24.434725333,"data":"First 3: ['task000.onnx', 'task001.onnx', 'task002.onnx']\n"}
+,{"stream_name":"stdout","time":24.434755264,"data":"Last 3: ['task398.onnx', 'task399.onnx', 'task400.onnx']\n"}
+,{"stream_name":"stderr","time":28.437451641,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":28.437508944,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":28.623267027,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":28.623309181,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":29.565809897,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":29.942288934,"data":"[NbConvertApp] Writing 55992 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":33.363276745,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":34.405420763,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":34.405514284,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":34.405873339,"data":"[NbConvertApp] Writing 313985 bytes to __results__.html\n"}
+]

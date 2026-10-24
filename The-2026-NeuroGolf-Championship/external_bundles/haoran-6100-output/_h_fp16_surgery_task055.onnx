@@ -1,0 +1,806 @@
+:ñh
+.
+input	input_h16	input_h16"Cast*	
+to
+ 
+9
+	input_h16
+idx_ch0zeroGather_1"Gather*
+axis 
+:
+	input_h16
+idx_ch8eightGather_2"Gather*
+axis 
+%
+eight
+k_rowrow_sumConv_3"Conv
+%
+eight
+k_colcol_sumConv_4"Conv
+&
+row_sum
+f0equal_5Equal_6"Equal
+/
+equal_5row_is_zeroCast_7"Cast*	
+to
+ 
+&
+col_sum
+f0equal_8Equal_9"Equal
+0
+equal_8col_is_zeroCast_10"Cast*	
+to
+ 
+(
+row_sum
+f2equal_11Equal_12"Equal
+0
+equal_11
+row_is_twoCast_13"Cast*	
+to
+ 
+(
+col_sum
+f2equal_14Equal_15"Equal
+0
+equal_14
+col_is_twoCast_16"Cast*	
+to
+ 
+*
+f1
+row_is_zero
+row_activeSub_17"Sub
+*
+f1
+col_is_zero
+col_activeSub_18"Sub
+%
+f1
+
+row_is_twosub_19Sub_20"Sub
++
+
+row_active
+sub_19row_lineMul_21"Mul
+%
+f1
+
+col_is_twosub_22Sub_23"Sub
++
+
+col_active
+sub_22col_lineMul_24"Mul
+?
+row_line
+idx_ch0
+row_line_0	Gather_25"Gather*
+axis 
+=
+row_line
+idx_1
+row_line_1	Gather_27"Gather*
+axis 
+=
+
+row_line_0
+
+row_line_1
+row_pref_1sum_v56_row_pref_1"Sum
+=
+row_line
+idx_2
+row_line_2	Gather_29"Gather*
+axis 
+=
+
+row_pref_1
+
+row_line_2
+row_pref_2sum_v56_row_pref_2"Sum
+=
+row_line
+idx_3
+row_line_3	Gather_31"Gather*
+axis 
+=
+
+row_pref_2
+
+row_line_3
+row_pref_3sum_v56_row_pref_3"Sum
+=
+row_line
+idx_4
+row_line_4	Gather_33"Gather*
+axis 
+=
+
+row_pref_3
+
+row_line_4
+row_pref_4sum_v56_row_pref_4"Sum
+=
+row_line
+idx_5
+row_line_5	Gather_35"Gather*
+axis 
+=
+
+row_pref_4
+
+row_line_5
+row_pref_5sum_v56_row_pref_5"Sum
+=
+row_line
+idx_6
+row_line_6	Gather_37"Gather*
+axis 
+=
+
+row_pref_5
+
+row_line_6
+row_pref_6sum_v56_row_pref_6"Sum
+=
+row_line
+idx_7
+row_line_7	Gather_39"Gather*
+axis 
+=
+
+row_pref_6
+
+row_line_7
+row_pref_7sum_v56_row_pref_7"Sum
+?
+row_line
+idx_ch8
+row_line_8	Gather_41"Gather*
+axis 
+=
+
+row_pref_7
+
+row_line_8
+row_pref_8sum_v56_row_pref_8"Sum
+=
+row_line
+idx_9
+row_line_9	Gather_43"Gather*
+axis 
+=
+
+row_pref_8
+
+row_line_9
+row_pref_9sum_v56_row_pref_9"Sum
+?
+row_line
+idx_10row_line_10	Gather_45"Gather*
+axis 
+@
+
+row_pref_9
+row_line_10row_pref_10sum_v56_row_pref_10"Sum
+?
+row_line
+idx_11row_line_11	Gather_47"Gather*
+axis 
+A
+row_pref_10
+row_line_11row_pref_11sum_v56_row_pref_11"Sum
+?
+row_line
+idx_12row_line_12	Gather_49"Gather*
+axis 
+A
+row_pref_11
+row_line_12row_pref_12sum_v56_row_pref_12"Sum
+?
+row_line
+idx_13row_line_13	Gather_51"Gather*
+axis 
+A
+row_pref_12
+row_line_13row_pref_13sum_v56_row_pref_13"Sum
+?
+row_line
+idx_14row_line_14	Gather_53"Gather*
+axis 
+A
+row_pref_13
+row_line_14row_pref_14sum_v56_row_pref_14"Sum
+?
+row_line
+idx_15row_line_15	Gather_55"Gather*
+axis 
+A
+row_pref_14
+row_line_15row_pref_15sum_v56_row_pref_15"Sum
+?
+row_line
+idx_16row_line_16	Gather_57"Gather*
+axis 
+A
+row_pref_15
+row_line_16row_pref_16sum_v56_row_pref_16"Sum
+?
+row_line
+idx_17row_line_17	Gather_59"Gather*
+axis 
+A
+row_pref_16
+row_line_17row_pref_17sum_v56_row_pref_17"Sum
+?
+row_line
+idx_18row_line_18	Gather_61"Gather*
+axis 
+A
+row_pref_17
+row_line_18row_pref_18sum_v56_row_pref_18"Sum
+?
+row_line
+idx_19row_line_19	Gather_63"Gather*
+axis 
+A
+row_pref_18
+row_line_19row_pref_19sum_v56_row_pref_19"Sum
+?
+row_line
+idx_20row_line_20	Gather_65"Gather*
+axis 
+A
+row_pref_19
+row_line_20row_pref_20sum_v56_row_pref_20"Sum
+?
+row_line
+idx_21row_line_21	Gather_67"Gather*
+axis 
+A
+row_pref_20
+row_line_21row_pref_21sum_v56_row_pref_21"Sum
+?
+row_line
+idx_22row_line_22	Gather_69"Gather*
+axis 
+A
+row_pref_21
+row_line_22row_pref_22sum_v56_row_pref_22"Sum
+?
+row_line
+idx_23row_line_23	Gather_71"Gather*
+axis 
+A
+row_pref_22
+row_line_23row_pref_23sum_v56_row_pref_23"Sum
+?
+row_line
+idx_24row_line_24	Gather_73"Gather*
+axis 
+A
+row_pref_23
+row_line_24row_pref_24sum_v56_row_pref_24"Sum
+?
+row_line
+idx_25row_line_25	Gather_75"Gather*
+axis 
+A
+row_pref_24
+row_line_25row_pref_25sum_v56_row_pref_25"Sum
+?
+row_line
+idx_26row_line_26	Gather_77"Gather*
+axis 
+A
+row_pref_25
+row_line_26row_pref_26sum_v56_row_pref_26"Sum
+?
+row_line
+idx_27row_line_27	Gather_79"Gather*
+axis 
+A
+row_pref_26
+row_line_27row_pref_27sum_v56_row_pref_27"Sum
+?
+row_line
+idx_28row_line_28	Gather_81"Gather*
+axis 
+A
+row_pref_27
+row_line_28row_pref_28sum_v56_row_pref_28"Sum
+?
+row_line
+idx_29row_line_29	Gather_83"Gather*
+axis 
+A
+row_pref_28
+row_line_29row_pref_29sum_v56_row_pref_29"Sum
+¨
+
+row_line_0
+
+row_pref_1
+
+row_pref_2
+
+row_pref_3
+
+row_pref_4
+
+row_pref_5
+
+row_pref_6
+
+row_pref_7
+
+row_pref_8
+
+row_pref_9
+row_pref_10
+row_pref_11
+row_pref_12
+row_pref_13
+row_pref_14
+row_pref_15
+row_pref_16
+row_pref_17
+row_pref_18
+row_pref_19
+row_pref_20
+row_pref_21
+row_pref_22
+row_pref_23
+row_pref_24
+row_pref_25
+row_pref_26
+row_pref_27
+row_pref_28
+row_pref_29
+row_prefix	Concat_85"Concat*
+axis 
+?
+col_line
+idx_ch0
+col_line_0	Gather_86"Gather*
+axis 
+=
+col_line
+idx_1
+col_line_1	Gather_88"Gather*
+axis 
+=
+
+col_line_0
+
+col_line_1
+col_pref_1sum_v56_col_pref_1"Sum
+=
+col_line
+idx_2
+col_line_2	Gather_90"Gather*
+axis 
+=
+
+col_pref_1
+
+col_line_2
+col_pref_2sum_v56_col_pref_2"Sum
+=
+col_line
+idx_3
+col_line_3	Gather_92"Gather*
+axis 
+=
+
+col_pref_2
+
+col_line_3
+col_pref_3sum_v56_col_pref_3"Sum
+=
+col_line
+idx_4
+col_line_4	Gather_94"Gather*
+axis 
+=
+
+col_pref_3
+
+col_line_4
+col_pref_4sum_v56_col_pref_4"Sum
+=
+col_line
+idx_5
+col_line_5	Gather_96"Gather*
+axis 
+=
+
+col_pref_4
+
+col_line_5
+col_pref_5sum_v56_col_pref_5"Sum
+=
+col_line
+idx_6
+col_line_6	Gather_98"Gather*
+axis 
+=
+
+col_pref_5
+
+col_line_6
+col_pref_6sum_v56_col_pref_6"Sum
+>
+col_line
+idx_7
+col_line_7
+Gather_100"Gather*
+axis 
+=
+
+col_pref_6
+
+col_line_7
+col_pref_7sum_v56_col_pref_7"Sum
+@
+col_line
+idx_ch8
+col_line_8
+Gather_102"Gather*
+axis 
+=
+
+col_pref_7
+
+col_line_8
+col_pref_8sum_v56_col_pref_8"Sum
+>
+col_line
+idx_9
+col_line_9
+Gather_104"Gather*
+axis 
+=
+
+col_pref_8
+
+col_line_9
+col_pref_9sum_v56_col_pref_9"Sum
+@
+col_line
+idx_10col_line_10
+Gather_106"Gather*
+axis 
+@
+
+col_pref_9
+col_line_10col_pref_10sum_v56_col_pref_10"Sum
+@
+col_line
+idx_11col_line_11
+Gather_108"Gather*
+axis 
+A
+col_pref_10
+col_line_11col_pref_11sum_v56_col_pref_11"Sum
+@
+col_line
+idx_12col_line_12
+Gather_110"Gather*
+axis 
+A
+col_pref_11
+col_line_12col_pref_12sum_v56_col_pref_12"Sum
+@
+col_line
+idx_13col_line_13
+Gather_112"Gather*
+axis 
+A
+col_pref_12
+col_line_13col_pref_13sum_v56_col_pref_13"Sum
+@
+col_line
+idx_14col_line_14
+Gather_114"Gather*
+axis 
+A
+col_pref_13
+col_line_14col_pref_14sum_v56_col_pref_14"Sum
+@
+col_line
+idx_15col_line_15
+Gather_116"Gather*
+axis 
+A
+col_pref_14
+col_line_15col_pref_15sum_v56_col_pref_15"Sum
+@
+col_line
+idx_16col_line_16
+Gather_118"Gather*
+axis 
+A
+col_pref_15
+col_line_16col_pref_16sum_v56_col_pref_16"Sum
+@
+col_line
+idx_17col_line_17
+Gather_120"Gather*
+axis 
+A
+col_pref_16
+col_line_17col_pref_17sum_v56_col_pref_17"Sum
+@
+col_line
+idx_18col_line_18
+Gather_122"Gather*
+axis 
+A
+col_pref_17
+col_line_18col_pref_18sum_v56_col_pref_18"Sum
+@
+col_line
+idx_19col_line_19
+Gather_124"Gather*
+axis 
+A
+col_pref_18
+col_line_19col_pref_19sum_v56_col_pref_19"Sum
+@
+col_line
+idx_20col_line_20
+Gather_126"Gather*
+axis 
+A
+col_pref_19
+col_line_20col_pref_20sum_v56_col_pref_20"Sum
+@
+col_line
+idx_21col_line_21
+Gather_128"Gather*
+axis 
+A
+col_pref_20
+col_line_21col_pref_21sum_v56_col_pref_21"Sum
+@
+col_line
+idx_22col_line_22
+Gather_130"Gather*
+axis 
+A
+col_pref_21
+col_line_22col_pref_22sum_v56_col_pref_22"Sum
+@
+col_line
+idx_23col_line_23
+Gather_132"Gather*
+axis 
+A
+col_pref_22
+col_line_23col_pref_23sum_v56_col_pref_23"Sum
+@
+col_line
+idx_24col_line_24
+Gather_134"Gather*
+axis 
+A
+col_pref_23
+col_line_24col_pref_24sum_v56_col_pref_24"Sum
+@
+col_line
+idx_25col_line_25
+Gather_136"Gather*
+axis 
+A
+col_pref_24
+col_line_25col_pref_25sum_v56_col_pref_25"Sum
+@
+col_line
+idx_26col_line_26
+Gather_138"Gather*
+axis 
+A
+col_pref_25
+col_line_26col_pref_26sum_v56_col_pref_26"Sum
+@
+col_line
+idx_27col_line_27
+Gather_140"Gather*
+axis 
+A
+col_pref_26
+col_line_27col_pref_27sum_v56_col_pref_27"Sum
+@
+col_line
+idx_28col_line_28
+Gather_142"Gather*
+axis 
+A
+col_pref_27
+col_line_28col_pref_28sum_v56_col_pref_28"Sum
+@
+col_line
+idx_29col_line_29
+Gather_144"Gather*
+axis 
+A
+col_pref_28
+col_line_29col_pref_29sum_v56_col_pref_29"Sum
+©
+
+col_line_0
+
+col_pref_1
+
+col_pref_2
+
+col_pref_3
+
+col_pref_4
+
+col_pref_5
+
+col_pref_6
+
+col_pref_7
+
+col_pref_8
+
+col_pref_9
+col_pref_10
+col_pref_11
+col_pref_12
+col_pref_13
+col_pref_14
+col_pref_15
+col_pref_16
+col_pref_17
+col_pref_18
+col_pref_19
+col_pref_20
+col_pref_21
+col_pref_22
+col_pref_23
+col_pref_24
+col_pref_25
+col_pref_26
+col_pref_27
+col_pref_28
+col_pref_29
+col_prefix
+Concat_146"Concat*
+axis 
+-
+
+row_prefix
+f0	equal_147	Equal_148"Equal
+-
+
+row_prefix
+f1	equal_150	Equal_151"Equal
+-
+
+row_prefix
+f2	equal_153	Equal_154"Equal
+-
+
+col_prefix
+f0	equal_156	Equal_157"Equal
+-
+
+col_prefix
+f1	equal_159	Equal_160"Equal
+-
+
+col_prefix
+f2	equal_162	Equal_163"Equal
+*
+f1
+row_linerow_not_lineSub_165"Sub
+*
+f1
+col_linecol_not_lineSub_166"Sub
+B
+	equal_147
+
+row_active
+_boolmask_where_zerotopMul_167"Where
+F
+	equal_150
+
+row_active
+_boolmask_where_zeromul_168Mul_169"Where
+/
+mul_168
+row_not_linemid_rowsMul_170"Mul
+F
+	equal_153
+
+row_active
+_boolmask_where_zeromul_171Mul_172"Where
+*
+mul_171
+row_not_linebotMul_173"Mul
+C
+	equal_156
+
+col_active
+_boolmask_where_zeroleftMul_174"Where
+F
+	equal_159
+
+col_active
+_boolmask_where_zeromul_175Mul_176"Where
+/
+mul_175
+col_not_linemid_colsMul_177"Mul
+F
+	equal_162
+
+col_active
+_boolmask_where_zeromul_178Mul_179"Where
+,
+mul_178
+col_not_linerightMul_180"Mul
+"
+top
+mid_colsch2Mul_181"Mul
+#
+mid_rows
+leftch4Mul_182"Mul
+'
+mid_rows
+mid_colsch6Mul_183"Mul
+$
+mid_rows
+rightch3Mul_184"Mul
+"
+bot
+mid_colsch1Mul_185"Mul
+.
+ch2
+ch4
+ch6
+ch3
+ch1fillsAdd_189"Sum
+ 
+zero
+fillsch0Sub_190"Sub
+l
+ch0
+ch1
+ch2
+ch3
+ch4
+zero_map
+ch6
+zero_map
+eight
+zero_mapoutput
+Concat_191"Concat*
+axis task055*O
+Bk_rowJ< < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <*O
+Bk_colJ< < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <*Ÿ
+Bzero_mapJˆ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        *
+Bf0J  *
+Bf1J <*
+Bf2J @*: Bidx_ch0*:Bidx_ch8*:Bidx_1*:Bidx_2*:Bidx_3*:Bidx_4*:Bidx_5*:Bidx_6*:Bidx_7*:	Bidx_9*:
+Bidx_10*:Bidx_11*:Bidx_12*:Bidx_13*:Bidx_14*:Bidx_15*:Bidx_16*:Bidx_17*:Bidx_18*:Bidx_19*:Bidx_20*:Bidx_21*:Bidx_22*:Bidx_23*:Bidx_24*:Bidx_25*:Bidx_26*:Bidx_27*:Bidx_28*:Bidx_29*
+B_boolmask_where_zeroJ  Z
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+
+B
+ 

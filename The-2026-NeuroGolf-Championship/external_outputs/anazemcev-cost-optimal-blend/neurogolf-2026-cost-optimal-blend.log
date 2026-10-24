@@ -1,0 +1,185 @@
+[{"stream_name":"stderr","time":10.129622562,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.129689012,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.129696651,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.129701798,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.040485148,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.040534089,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.040540164,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.040545476,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.237989676,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 54.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.441213392,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 54.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.867129377,"data":"[WARN] neurogolf_utils not found — official validate disabled\n"}
+,{"stream_name":"stdout","time":21.867186769,"data":"Imports done\n"}
+,{"stream_name":"stdout","time":22.067798251,"data":"Created folder zips:\n"}
+,{"stream_name":"stdout","time":22.067844856,"data":"Loaded sources:\n"}
+,{"stream_name":"stdout","time":22.067863739,"data":"1 → /kaggle/input/notebooks/anazemcev/5831-solution/submission.zip\n"}
+,{"stream_name":"stdout","time":22.067871184,"data":"0 → /kaggle/input/notebooks/anazemcev/6060-submission/submission.zip\n"}
+,{"stream_name":"stdout","time":22.591891448,"data":"Saved: /kaggle/working/submission.zip\n"}
+,{"stream_name":"stdout","time":22.766064991,"data":"  [1] 400 models  \u003c- submission.zip\n"}
+,{"stream_name":"stdout","time":22.766109333,"data":"  [0] 400 models  \u003c- submission.zip\n"}
+,{"stream_name":"stdout","time":22.766116501,"data":"\n"}
+,{"stream_name":"stdout","time":22.766122827,"data":"Total unique task keys from ZIPs: 400\n"}
+,{"stream_name":"stdout","time":22.901749309,"data":"Profiler ready - cost = params + memory_bytes (no MACs)\n"}
+,{"stream_name":"stdout","time":30.706646108,"data":"Task JSONs: 400  (fallback validate: ON)\n"}
+,{"stream_name":"stdout","time":30.706702317,"data":"Validators ready\n"}
+,{"stream_name":"stdout","time":31.451759618,"data":"Arc-Nano solver ready\n"}
+,{"stream_name":"stdout","time":31.577229274,"data":"[+] task175.onnx successfully added (huge static graph)\n"}
+,{"stream_name":"stdout","time":31.881477176,"data":"023\n"}
+,{"stream_name":"stdout","time":32.086238316,"data":"=== TASK 153 ===\n"}
+,{"stream_name":"stdout","time":32.086287021,"data":"\n"}
+,{"stream_name":"stdout","time":32.330072302,"data":"Analyzing 400 tasks...\n"}
+,{"stream_name":"stdout","time":34.97458251,"data":"\n"}
+,{"stream_name":"stdout","time":34.974628511,"data":"=== SUMMARY ===\n"}
+,{"stream_name":"stdout","time":34.974635781,"data":"Status\n"}
+,{"stream_name":"stdout","time":34.974641366,"data":"EQUAL COST      149\n"}
+,{"stream_name":"stdout","time":34.974647161,"data":"SOL 0 BETTER    137\n"}
+,{"stream_name":"stdout","time":34.974652748,"data":"MATCH            71\n"}
+,{"stream_name":"stdout","time":34.974680897,"data":"SOL 1 BETTER     43\n"}
+,{"stream_name":"stdout","time":34.974686131,"data":"\n"}
+,{"stream_name":"stdout","time":34.97469031,"data":"=== SOL 1 BETTER (sorted by Score Gain) ===\n"}
+,{"stream_name":"stdout","time":34.974694431,"data":"Total: 43 tasks | Potential score gain: 90.96\n"}
+,{"stream_name":"stdout","time":34.986529574,"data":"\n"}
+,{"stream_name":"stdout","time":34.986572378,"data":"Candidates for BLEND_TASKS (copy what you need):\n"}
+,{"stream_name":"stdout","time":34.986582761,"data":"['task366.onnx', 'task319.onnx', 'task285.onnx', 'task255.onnx', 'task219.onnx', 'task153.onnx', 'task157.onnx', 'task076.onnx', 'task233.onnx', 'task044.onnx', 'task133.onnx', 'task209.onnx', 'task118.onnx', 'task243.onnx', 'task101.onnx', 'task066.onnx', 'task096.onnx', 'task363.onnx', 'task018.onnx', 'task387.onnx', 'task155.onnx', 'task150.onnx', 'task324.onnx', 'task272.onnx', 'task014.onnx', 'task073.onnx', 'task266.onnx', 'task147.onnx', 'task294.onnx', 'task171.onnx', 'task283.onnx', 'task322.onnx', 'task129.onnx', 'task338.onnx', 'task364.onnx', 'task360.onnx', 'task019.onnx', 'task216.onnx', 'task249.onnx', 'task295.onnx', 'task365.onnx', 'task392.onnx', 'task137.onnx']\n"}
+,{"stream_name":"stdout","time":34.986593782,"data":"\n"}
+,{"stream_name":"stdout","time":34.986598056,"data":"=== SOL 0 BETTER ===\n"}
+,{"stream_name":"stdout","time":34.986602228,"data":"Total: 137 tasks\n"}
+,{"stream_name":"stdout","time":35.186664288,"data":"=== Loading TOP_SOLUTION ===\n"}
+,{"stream_name":"stdout","time":36.83351437,"data":"TOP_SOLUTION loaded: 400/400\n"}
+,{"stream_name":"stdout","time":36.833582864,"data":"\n"}
+,{"stream_name":"stdout","time":36.833591519,"data":"=== Applying OVERRIDE from 1 ===\n"}
+,{"stream_name":"stdout","time":36.833597537,"data":"  task338.onnx: cost 48,960 -\u003e 47,710 | score 14.20 -\u003e 14.23 (+0.03)\n"}
+,{"stream_name":"stdout","time":36.833604671,"data":"  task150.onnx: cost 4,942 -\u003e 1,360 | score 16.49 -\u003e 17.78 (+1.29)\n"}
+,{"stream_name":"stdout","time":36.833610749,"data":"  task155.onnx: cost 4,951 -\u003e 1,360 | score 16.49 -\u003e 17.78 (+1.29)\n"}
+,{"stream_name":"stdout","time":36.833616684,"data":"  task014.onnx: cost 237,448 -\u003e 83,104 | score 12.62 -\u003e 13.67 (+1.05)\n"}
+,{"stream_name":"stdout","time":36.833622671,"data":"  task129.onnx: cost 1,106 -\u003e 1,075 | score 17.99 -\u003e 18.02 (+0.03)\n"}
+,{"stream_name":"stdout","time":36.83362834,"data":"  task216.onnx: cost 105,200 -\u003e 104,600 | score 13.44 -\u003e 13.44 (+0.01)\n"}
+,{"stream_name":"stdout","time":36.833633942,"data":"  task322.onnx: cost 1,508 -\u003e 1,427 | score 17.68 -\u003e 17.74 (+0.06)\n"}
+,{"stream_name":"stdout","time":36.833639884,"data":"  task400.onnx: cost 35,459 -\u003e 35,459 | score 14.52 -\u003e 14.52 (+0.00)\n"}
+,{"stream_name":"stdout","time":36.833645473,"data":"Blend applied: 8 tasks\n"}
+,{"stream_name":"stdout","time":36.833651109,"data":"\n"}
+,{"stream_name":"stdout","time":36.833656576,"data":"=== Applying MANUAL_RESCUE ===\n"}
+,{"stream_name":"stdout","time":36.833661915,"data":"Manual applied: 0\n"}
+,{"stream_name":"stdout","time":36.833667537,"data":"\n"}
+,{"stream_name":"stdout","time":36.833673101,"data":"TOTAL SOLVED: 400 / 400\n"}
+,{"stream_name":"stdout","time":37.205097124,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":37.205150662,"data":"  Tasks solved    : 400 / 400   (excluded: 0)\n"}
+,{"stream_name":"stdout","time":37.205158999,"data":"  Unsolved        : 0\n"}
+,{"stream_name":"stdout","time":37.205165656,"data":"  Internal score   : 5955.64\n"}
+,{"stream_name":"stdout","time":37.205190362,"data":"  ZIP size        : 1299.4 KB\n"}
+,{"stream_name":"stdout","time":37.205195156,"data":"  Sanity bad      : 0\n"}
+,{"stream_name":"stdout","time":37.205199747,"data":"\n"}
+,{"stream_name":"stdout","time":37.205204139,"data":"  Source breakdown:\n"}
+,{"stream_name":"stdout","time":37.205209128999996,"data":"    top_solution          :  400  (100.0%)  █████████████████████████████████\n"}
+,{"stream_name":"stdout","time":37.205215242,"data":"    blend_1               :    8  (  2.0%)  █\n"}
+,{"stream_name":"stdout","time":37.205219964,"data":"\n"}
+,{"stream_name":"stdout","time":37.205224186,"data":"  Top-10 expensive tasks:\n"}
+,{"stream_name":"stdout","time":37.205228724,"data":"    task209.onnx     cost=   3,958,650  score=9.81\n"}
+,{"stream_name":"stdout","time":37.205233276,"data":"    task233.onnx     cost=   5,697,092  score=9.44\n"}
+,{"stream_name":"stdout","time":37.205237834,"data":"    task158.onnx     cost=   6,568,221  score=9.30\n"}
+,{"stream_name":"stdout","time":37.205242349,"data":"    task157.onnx     cost=   8,529,677  score=9.04\n"}
+,{"stream_name":"stdout","time":37.205246874,"data":"    task133.onnx     cost=  10,522,570  score=8.83\n"}
+,{"stream_name":"stdout","time":37.205251392,"data":"    task219.onnx     cost=  15,856,211  score=8.42\n"}
+,{"stream_name":"stdout","time":37.205265414,"data":"    task319.onnx     cost=  26,535,559  score=7.91\n"}
+,{"stream_name":"stdout","time":37.205269797,"data":"    task255.onnx     cost=  43,400,302  score=7.41\n"}
+,{"stream_name":"stdout","time":37.205275658,"data":"    task366.onnx     cost=  60,644,265  score=7.08\n"}
+,{"stream_name":"stdout","time":37.205279954,"data":"    task285.onnx     cost= 181,226,591  score=5.98\n"}
+,{"stream_name":"stdout","time":37.205284758,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":37.205289282,"data":"Written: /kaggle/working/submission.zip  |  /kaggle/working/submission.csv\n"}
+,{"stream_name":"stdout","time":37.931015849,"data":"\n"}
+,{"stream_name":"stdout","time":37.931058065,"data":"Saved: submission.zip\n"}
+,{"stream_name":"stdout","time":38.138700819,"data":"\n"}
+,{"stream_name":"stdout","time":38.138807461,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":38.138815586,"data":"  TOP-7 MOST EXPENSIVE TASKS (cost = params + memory_bytes)\n"}
+,{"stream_name":"stdout","time":38.138818914,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":38.676906971,"data":"\n"}
+,{"stream_name":"stdout","time":38.676950257,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":38.676956841,"data":"  CUSTOM TASKS: [66, 76, 96, 101, 118, 153, 157, 158, 182, 44, 182, 18, 23, 25, 209, 219, 233, 243, 255, 285, 319, 324, 363, 366]\n"}
+,{"stream_name":"stdout","time":38.676961931,"data":"==============================================================\n"}
+,{"stream_name":"stderr","time":39.449860321,"data":"/tmp/ipykernel_16/3651675534.py:51: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.\n"}
+,{"stream_name":"stderr","time":39.449912527,"data":"  fig, axes = plt.subplots(1, n * 2, figsize=(fig_w, 2.6))\n"}
+,{"stream_name":"stderr","time":39.449938236,"data":"\n"}
+,{"stream_name":"stderr","time":39.449943829,"data":"/tmp/ipykernel_16/3651675534.py:51: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.\n"}
+,{"stream_name":"stderr","time":39.449950143,"data":"  fig, axes = plt.subplots(1, n * 2, figsize=(fig_w, 2.6))\n"}
+,{"stream_name":"stdout","time":40.051978989,"data":"\n"}
+,{"stream_name":"stdout","time":40.052031055,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":40.052038226,"data":"  COST SUMMARY (sorted by cost, descending)\n"}
+,{"stream_name":"stdout","time":40.05204257,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":40.05204734,"data":"  Solved: 400  |  Total cost: 401,417,534  |  Predicted score: 5955.64\n"}
+,{"stream_name":"stdout","time":40.052052155,"data":"  Avg cost: 1,003,543.8  |  Median cost: 30,233\n"}
+,{"stream_name":"stdout","time":40.052056603,"data":"--------------------------------------------------------------\n"}
+,{"stream_name":"stdout","time":40.052061055,"data":"  Task                       Cost     Score  % of total\n"}
+,{"stream_name":"stdout","time":40.052065574,"data":"  ------------------ ------------  --------  ----------\n"}
+,{"stream_name":"stdout","time":40.052069515,"data":"  task285.onnx        181,226,591      5.98       45.1%\n"}
+,{"stream_name":"stdout","time":40.052073782,"data":"  task366.onnx         60,644,265      7.08       15.1%\n"}
+,{"stream_name":"stdout","time":40.052078286,"data":"  task255.onnx         43,400,302      7.41       10.8%\n"}
+,{"stream_name":"stdout","time":40.05208291,"data":"  task319.onnx         26,535,559      7.91        6.6%\n"}
+,{"stream_name":"stdout","time":40.052087449,"data":"  task219.onnx         15,856,211      8.42        4.0%\n"}
+,{"stream_name":"stdout","time":40.052092154,"data":"  task133.onnx         10,522,570      8.83        2.6%\n"}
+,{"stream_name":"stdout","time":40.052096672,"data":"  task157.onnx          8,529,677      9.04        2.1%\n"}
+,{"stream_name":"stdout","time":40.052101366,"data":"  task158.onnx          6,568,221      9.30        1.6%\n"}
+,{"stream_name":"stdout","time":40.052105885,"data":"  task233.onnx          5,697,092      9.44        1.4%\n"}
+,{"stream_name":"stdout","time":40.052110102,"data":"  task209.onnx          3,958,650      9.81        1.0%\n"}
+,{"stream_name":"stdout","time":40.052114882,"data":"  task076.onnx          3,243,011     10.01        0.8%\n"}
+,{"stream_name":"stdout","time":40.052118336,"data":"  task044.onnx          2,385,179     10.32        0.6%\n"}
+,{"stream_name":"stdout","time":40.052121236,"data":"  task118.onnx          2,163,321     10.41        0.5%\n"}
+,{"stream_name":"stdout","time":40.052124164,"data":"  task387.onnx          2,077,516     10.45        0.5%\n"}
+,{"stream_name":"stdout","time":40.052127054,"data":"  task367.onnx          2,074,299     10.45        0.5%\n"}
+,{"stream_name":"stdout","time":40.052131464,"data":"  task153.onnx          1,470,420     10.80        0.4%\n"}
+,{"stream_name":"stdout","time":40.052135832,"data":"  task101.onnx          1,271,584     10.94        0.3%\n"}
+,{"stream_name":"stdout","time":40.052140602,"data":"  task243.onnx          1,243,144     10.97        0.3%\n"}
+,{"stream_name":"stdout","time":40.052144891,"data":"  task023.onnx          1,210,625     10.99        0.3%\n"}
+,{"stream_name":"stdout","time":40.052169282,"data":"  task018.onnx            872,209     11.32        0.2%\n"}
+,{"stream_name":"stdout","time":40.05217364,"data":"  ... (380 more tasks)\n"}
+,{"stream_name":"stdout","time":40.052177632,"data":"==============================================================\n"}
+,{"stream_name":"stdout","time":40.052181718,"data":"\n"}
+,{"stream_name":"stdout","time":40.052185643,"data":"  +----------------------------------------------+\n"}
+,{"stream_name":"stdout","time":40.052190258,"data":"  |  Solved             :   400 / 400           |\n"}
+,{"stream_name":"stdout","time":40.052194562,"data":"  |  Predicted LB score :        5955.64        |\n"}
+,{"stream_name":"stdout","time":40.052198442,"data":"  |  Total cost         :    401,417,534        |\n"}
+,{"stream_name":"stdout","time":40.052202553,"data":"  |  Avg cost           :    1,003,543.8        |\n"}
+,{"stream_name":"stdout","time":40.052206442,"data":"  |  Median cost        :         30,233        |\n"}
+,{"stream_name":"stdout","time":40.052210375,"data":"  |  Min cost           :              0        |\n"}
+,{"stream_name":"stdout","time":40.05221599,"data":"  |  Max cost           :    181,226,591        |\n"}
+,{"stream_name":"stdout","time":40.052219935,"data":"  +----------------------------------------------+\n"}
+,{"stream_name":"stderr","time":50.204375187,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":50.204425765,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":50.429509614,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":50.429544347,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":51.759174384,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":52.294047676,"data":"[NbConvertApp] Writing 760865 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":55.807383832,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":57.576237465,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":57.576293655,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.576583601,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.576790598,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.576933321,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.577118453,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.577370626,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.577478972,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.577931523,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.578166276,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.578329539,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.578565745,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.578700273,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.578864487,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.579061857,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.579182144,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.579359953,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.579560715,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.579693782,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.579880091,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.580039441,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.580326618,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.580474699,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.580640413,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.580781489,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.580972167,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.581132086,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.581311746,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.581503731,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.581626827,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.581789254,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.582028527,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":57.582212472,"data":"[NbConvertApp] Writing 861629 bytes to __results__.html\n"}
+]

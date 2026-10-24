@@ -1,0 +1,8 @@
+version,public_lb,change
+v0,6042.85,Original public notebook: 3 per-task hand-built ONNX solvers on top of public artifacts.
+v37,6081.31,Manual handbuild ladder through tasks 084 025 200 387 285 028 044 158 204 366 245 133 209 153 367 243 319.
+v76,6101.18,Safe manual rewrites and shrink bundle through finite-fp16 rewrites, interval-matrix task255, and crop/grid task optimizations.
+v167,6147.85,Continued task-local hand rewrites and accepted-model structural shrinking.
+v182,6151.22,Additional manual micro-optimizations without public-source blends.
+v187,6152.67,Manual rewrite anchor immediately before final v188-v205 structural shrink pass.
+v205,6154.71,Final clean manual-only anchor: task366 fp16 correlation Conv rewrite plus prior accepted manual rewrites.

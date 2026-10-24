@@ -1,0 +1,914 @@
+:„q
+'
+input
+s00
+s1010
+ax23inp10"Slice
+$
+inp10
+s2
+s3
+s1two_mask"Slice
+9
+two_masktwo_mask__h16two_mask__h16"Cast*	
+to
+ 
+
+inp10
+s1
+s2
+s1ch1"Slice
+*
+ch1ch1__h16ch1__h16"Cast*	
+to
+ 
+"
+inp10
+s3
+s10
+s1ch3_9"Slice
+0
+ch3_9
+ch3_9__h16
+ch3_9__h16"Cast*	
+to
+ 
+3
+ch1__h16
+
+ch3_9__h16ch_no2"Concat*
+axis 
+=
+ch_no2
+shape_mask"	ReduceMax*
+axes@ *
+keepdims 
+F
+ch_no2main_color_ch_no2"	ReduceMax*
+axes@@ *
+keepdims 
+.
+main_color_ch_no2
+s0
+s1
+s1mc_ch1"Slice
+3
+main_color_ch_no2
+s1
+s9_ch
+s1mc_ch3_9"Slice
+R
+zeros_ch_1x1
+mc_ch1
+zeros_ch_1x1
+mc_ch3_9main_color_ch"Concat*
+axis 
+,
+
+shape_mask
+s0
+s1
+s3shape_col_0"Slice
+(
+two_mask
+s0
+s1
+s3	two_col_0"Slice
+<
+	two_col_0two_col_0__h16two_col_0__h16"Cast*	
+to
+ 
+,
+
+shape_mask
+s0
+s1
+s2shape_row_0"Slice
+(
+two_mask
+s0
+s1
+s2	two_row_0"Slice
+<
+	two_row_0two_row_0__h16two_row_0__h16"Cast*	
+to
+ 
+,
+
+shape_mask
+s1
+s2
+s3shape_col_1"Slice
+(
+two_mask
+s1
+s2
+s3	two_col_1"Slice
+<
+	two_col_1two_col_1__h16two_col_1__h16"Cast*	
+to
+ 
+,
+
+shape_mask
+s1
+s2
+s2shape_row_1"Slice
+(
+two_mask
+s1
+s2
+s2	two_row_1"Slice
+<
+	two_row_1two_row_1__h16two_row_1__h16"Cast*	
+to
+ 
+,
+
+shape_mask
+s2
+s3
+s3shape_col_2"Slice
+(
+two_mask
+s2
+s3
+s3	two_col_2"Slice
+<
+	two_col_2two_col_2__h16two_col_2__h16"Cast*	
+to
+ 
+,
+
+shape_mask
+s2
+s3
+s2shape_row_2"Slice
+(
+two_mask
+s2
+s3
+s2	two_row_2"Slice
+<
+	two_row_2two_row_2__h16two_row_2__h16"Cast*	
+to
+ 
+.
+
+shape_mask
+s3
+se_3
+s3shape_col_3"Slice
+*
+two_mask
+s3
+se_3
+s3	two_col_3"Slice
+<
+	two_col_3two_col_3__h16two_col_3__h16"Cast*	
+to
+ 
+.
+
+shape_mask
+s3
+se_3
+s2shape_row_3"Slice
+*
+two_mask
+s3
+se_3
+s2	two_row_3"Slice
+<
+	two_row_3two_row_3__h16two_row_3__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_3
+se_4
+s3shape_col_4"Slice
+,
+two_mask
+se_3
+se_4
+s3	two_col_4"Slice
+<
+	two_col_4two_col_4__h16two_col_4__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_3
+se_4
+s2shape_row_4"Slice
+,
+two_mask
+se_3
+se_4
+s2	two_row_4"Slice
+<
+	two_row_4two_row_4__h16two_row_4__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_4
+se_5
+s3shape_col_5"Slice
+,
+two_mask
+se_4
+se_5
+s3	two_col_5"Slice
+<
+	two_col_5two_col_5__h16two_col_5__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_4
+se_5
+s2shape_row_5"Slice
+,
+two_mask
+se_4
+se_5
+s2	two_row_5"Slice
+<
+	two_row_5two_row_5__h16two_row_5__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_5
+se_6
+s3shape_col_6"Slice
+,
+two_mask
+se_5
+se_6
+s3	two_col_6"Slice
+<
+	two_col_6two_col_6__h16two_col_6__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_5
+se_6
+s2shape_row_6"Slice
+,
+two_mask
+se_5
+se_6
+s2	two_row_6"Slice
+<
+	two_row_6two_row_6__h16two_row_6__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_6
+se_7
+s3shape_col_7"Slice
+,
+two_mask
+se_6
+se_7
+s3	two_col_7"Slice
+<
+	two_col_7two_col_7__h16two_col_7__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+se_6
+se_7
+s2shape_row_7"Slice
+,
+two_mask
+se_6
+se_7
+s2	two_row_7"Slice
+<
+	two_row_7two_row_7__h16two_row_7__h16"Cast*	
+to
+ 
+1
+
+shape_mask
+se_7
+s9_ch
+s3shape_col_8"Slice
+-
+two_mask
+se_7
+s9_ch
+s3	two_col_8"Slice
+<
+	two_col_8two_col_8__h16two_col_8__h16"Cast*	
+to
+ 
+1
+
+shape_mask
+se_7
+s9_ch
+s2shape_row_8"Slice
+-
+two_mask
+se_7
+s9_ch
+s2	two_row_8"Slice
+<
+	two_row_8two_row_8__h16two_row_8__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+s9_ch
+s10
+s3shape_col_9"Slice
+,
+two_mask
+s9_ch
+s10
+s3	two_col_9"Slice
+<
+	two_col_9two_col_9__h16two_col_9__h16"Cast*	
+to
+ 
+0
+
+shape_mask
+s9_ch
+s10
+s2shape_row_9"Slice
+,
+two_mask
+s9_ch
+s10
+s2	two_row_9"Slice
+<
+	two_row_9two_row_9__h16two_row_9__h16"Cast*	
+to
+ 
+0
+shape_col_0
+two_col_1__h16right_prod_0"Mul
+G
+right_prod_0axis_right_0"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_0__h16
+shape_col_1left_prod_0"Mul
+E
+left_prod_0axis_left_0"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_0
+axis_left_0axis_horiz_0sum_v56_axis_horiz_0"Sum
+/
+shape_row_0
+two_row_1__h16down_prod_0"Mul
+E
+down_prod_0axis_down_0"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_0__h16
+shape_row_1	up_prod_0"Mul
+A
+	up_prod_0	axis_up_0"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_0
+	axis_up_0axis_vert_0sum_v56_axis_vert_0"Sum
+0
+shape_col_1
+two_col_2__h16right_prod_1"Mul
+G
+right_prod_1axis_right_1"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_1__h16
+shape_col_2left_prod_1"Mul
+E
+left_prod_1axis_left_1"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_1
+axis_left_1axis_horiz_1sum_v56_axis_horiz_1"Sum
+/
+shape_row_1
+two_row_2__h16down_prod_1"Mul
+E
+down_prod_1axis_down_1"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_1__h16
+shape_row_2	up_prod_1"Mul
+A
+	up_prod_1	axis_up_1"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_1
+	axis_up_1axis_vert_1sum_v56_axis_vert_1"Sum
+0
+shape_col_2
+two_col_3__h16right_prod_2"Mul
+G
+right_prod_2axis_right_2"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_2__h16
+shape_col_3left_prod_2"Mul
+E
+left_prod_2axis_left_2"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_2
+axis_left_2axis_horiz_2sum_v56_axis_horiz_2"Sum
+/
+shape_row_2
+two_row_3__h16down_prod_2"Mul
+E
+down_prod_2axis_down_2"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_2__h16
+shape_row_3	up_prod_2"Mul
+A
+	up_prod_2	axis_up_2"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_2
+	axis_up_2axis_vert_2sum_v56_axis_vert_2"Sum
+0
+shape_col_3
+two_col_4__h16right_prod_3"Mul
+G
+right_prod_3axis_right_3"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_3__h16
+shape_col_4left_prod_3"Mul
+E
+left_prod_3axis_left_3"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_3
+axis_left_3axis_horiz_3sum_v56_axis_horiz_3"Sum
+/
+shape_row_3
+two_row_4__h16down_prod_3"Mul
+E
+down_prod_3axis_down_3"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_3__h16
+shape_row_4	up_prod_3"Mul
+A
+	up_prod_3	axis_up_3"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_3
+	axis_up_3axis_vert_3sum_v56_axis_vert_3"Sum
+0
+shape_col_4
+two_col_5__h16right_prod_4"Mul
+G
+right_prod_4axis_right_4"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_4__h16
+shape_col_5left_prod_4"Mul
+E
+left_prod_4axis_left_4"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_4
+axis_left_4axis_horiz_4sum_v56_axis_horiz_4"Sum
+/
+shape_row_4
+two_row_5__h16down_prod_4"Mul
+E
+down_prod_4axis_down_4"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_4__h16
+shape_row_5	up_prod_4"Mul
+A
+	up_prod_4	axis_up_4"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_4
+	axis_up_4axis_vert_4sum_v56_axis_vert_4"Sum
+0
+shape_col_5
+two_col_6__h16right_prod_5"Mul
+G
+right_prod_5axis_right_5"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_5__h16
+shape_col_6left_prod_5"Mul
+E
+left_prod_5axis_left_5"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_5
+axis_left_5axis_horiz_5sum_v56_axis_horiz_5"Sum
+/
+shape_row_5
+two_row_6__h16down_prod_5"Mul
+E
+down_prod_5axis_down_5"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_5__h16
+shape_row_6	up_prod_5"Mul
+A
+	up_prod_5	axis_up_5"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_5
+	axis_up_5axis_vert_5sum_v56_axis_vert_5"Sum
+0
+shape_col_6
+two_col_7__h16right_prod_6"Mul
+G
+right_prod_6axis_right_6"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_6__h16
+shape_col_7left_prod_6"Mul
+E
+left_prod_6axis_left_6"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_6
+axis_left_6axis_horiz_6sum_v56_axis_horiz_6"Sum
+/
+shape_row_6
+two_row_7__h16down_prod_6"Mul
+E
+down_prod_6axis_down_6"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_6__h16
+shape_row_7	up_prod_6"Mul
+A
+	up_prod_6	axis_up_6"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_6
+	axis_up_6axis_vert_6sum_v56_axis_vert_6"Sum
+0
+shape_col_7
+two_col_8__h16right_prod_7"Mul
+G
+right_prod_7axis_right_7"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_7__h16
+shape_col_8left_prod_7"Mul
+E
+left_prod_7axis_left_7"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_7
+axis_left_7axis_horiz_7sum_v56_axis_horiz_7"Sum
+/
+shape_row_7
+two_row_8__h16down_prod_7"Mul
+E
+down_prod_7axis_down_7"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_7__h16
+shape_row_8	up_prod_7"Mul
+A
+	up_prod_7	axis_up_7"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_7
+	axis_up_7axis_vert_7sum_v56_axis_vert_7"Sum
+0
+shape_col_8
+two_col_9__h16right_prod_8"Mul
+G
+right_prod_8axis_right_8"	ReduceMax*
+axes@@ *
+keepdims 
+/
+two_col_8__h16
+shape_col_9left_prod_8"Mul
+E
+left_prod_8axis_left_8"	ReduceMax*
+axes@@ *
+keepdims 
+D
+axis_right_8
+axis_left_8axis_horiz_8sum_v56_axis_horiz_8"Sum
+/
+shape_row_8
+two_row_9__h16down_prod_8"Mul
+E
+down_prod_8axis_down_8"	ReduceMax*
+axes@@ *
+keepdims 
+-
+two_row_8__h16
+shape_row_9	up_prod_8"Mul
+A
+	up_prod_8	axis_up_8"	ReduceMax*
+axes@@ *
+keepdims 
+?
+axis_down_8
+	axis_up_8axis_vert_8sum_v56_axis_vert_8"Sum
+8
+
+shape_maskshape_mask_T"	Transpose*
+perm@ @@@ 
+'
+
+shape_mask
+P_0refl_h_0_raw"MatMul
++
+refl_h_0_raw
+axis_horiz_0refl_h_0"Mul
++
+shape_mask_T
+P_0refl_v_0_T_raw"MatMul
+<
+refl_v_0_T_rawrefl_v_0_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_0_raw
+axis_vert_0refl_v_0"Mul
+'
+
+shape_mask
+P_1refl_h_1_raw"MatMul
++
+refl_h_1_raw
+axis_horiz_1refl_h_1"Mul
++
+shape_mask_T
+P_1refl_v_1_T_raw"MatMul
+<
+refl_v_1_T_rawrefl_v_1_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_1_raw
+axis_vert_1refl_v_1"Mul
+'
+
+shape_mask
+P_2refl_h_2_raw"MatMul
++
+refl_h_2_raw
+axis_horiz_2refl_h_2"Mul
++
+shape_mask_T
+P_2refl_v_2_T_raw"MatMul
+<
+refl_v_2_T_rawrefl_v_2_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_2_raw
+axis_vert_2refl_v_2"Mul
+'
+
+shape_mask
+P_3refl_h_3_raw"MatMul
++
+refl_h_3_raw
+axis_horiz_3refl_h_3"Mul
++
+shape_mask_T
+P_3refl_v_3_T_raw"MatMul
+<
+refl_v_3_T_rawrefl_v_3_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_3_raw
+axis_vert_3refl_v_3"Mul
+'
+
+shape_mask
+P_4refl_h_4_raw"MatMul
++
+refl_h_4_raw
+axis_horiz_4refl_h_4"Mul
++
+shape_mask_T
+P_4refl_v_4_T_raw"MatMul
+<
+refl_v_4_T_rawrefl_v_4_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_4_raw
+axis_vert_4refl_v_4"Mul
+'
+
+shape_mask
+P_5refl_h_5_raw"MatMul
++
+refl_h_5_raw
+axis_horiz_5refl_h_5"Mul
++
+shape_mask_T
+P_5refl_v_5_T_raw"MatMul
+<
+refl_v_5_T_rawrefl_v_5_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_5_raw
+axis_vert_5refl_v_5"Mul
+'
+
+shape_mask
+P_6refl_h_6_raw"MatMul
++
+refl_h_6_raw
+axis_horiz_6refl_h_6"Mul
++
+shape_mask_T
+P_6refl_v_6_T_raw"MatMul
+<
+refl_v_6_T_rawrefl_v_6_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_6_raw
+axis_vert_6refl_v_6"Mul
+'
+
+shape_mask
+P_7refl_h_7_raw"MatMul
++
+refl_h_7_raw
+axis_horiz_7refl_h_7"Mul
++
+shape_mask_T
+P_7refl_v_7_T_raw"MatMul
+<
+refl_v_7_T_rawrefl_v_7_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_7_raw
+axis_vert_7refl_v_7"Mul
+'
+
+shape_mask
+P_8refl_h_8_raw"MatMul
++
+refl_h_8_raw
+axis_horiz_8refl_h_8"Mul
++
+shape_mask_T
+P_8refl_v_8_T_raw"MatMul
+<
+refl_v_8_T_rawrefl_v_8_raw"	Transpose*
+perm@ @@@ 
+*
+refl_v_8_raw
+axis_vert_8refl_v_8"Mul
+ê
+
+shape_mask
+two_mask__h16
+refl_h_0
+refl_h_1
+refl_h_2
+refl_h_3
+refl_h_4
+refl_h_5
+refl_h_6
+refl_h_7
+refl_h_8
+refl_v_0
+refl_v_1
+refl_v_2
+refl_v_3
+refl_v_4
+refl_v_5
+refl_v_6
+refl_v_7
+refl_v_8fg_raw2fg_raw2_sum"Sum
+
+fg_raw2fg_mask"Relu
+
+one_f
+fg_maskbg_raw"Sub
+
+bg_rawbg_mask"Relu
+%
+main_color_ch
+fg_maskout_fg"Mul
+"
+
+ch3_onehot
+bg_maskout_bg"Mul
++
+out_fg
+out_bgout10sum_v56_out10"Sum
+U
+out10output"Pad*
+mode"constant *
+pads@ @ @ @ @ @ @@ *
+value     task062_reflect_mirror*Ö
+
+
+BP_0JÈ   <                 <                                                                                                                                                                                  *Ö
+
+
+BP_1JÈ       <                 <                 <                 <                                                                                                                                          *Ö
+
+
+BP_2JÈ           <                 <                 <                 <                 <                 <                                                                                                  *Ö
+
+
+BP_3JÈ               <                 <                 <                 <                 <                 <                 <                 <                                                          *Ö
+
+
+BP_4JÈ                   <                 <                 <                 <                 <                 <                 <                 <                 <                 <                  *Ö
+
+
+BP_5JÈ                                                           <                 <                 <                 <                 <                 <                 <                 <              *Ö
+
+
+BP_6JÈ                                                                                                   <                 <                 <                 <                 <                 <          *Ö
+
+
+BP_7JÈ                                                                                                                                           <                 <                 <                 <      *Ö
+
+
+BP_8JÈ                                                                                                                                                                                   <                 <  *
+Bzeros_ch_1x1J  *,
+
+B
+ch3_onehotJ       <            *Bs0J        *Bs1J       *Bs2J       *Bs3J       *Bs10J
+       *Bs00J                *Bs1010J
+       
+       *Bax23J              *
+Bone_fJ <*Bs9_chJ	       *Bse_3J       *Bse_4J       *Bse_5J       *Bse_6J       *Bse_7J       Z
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+
+B
+ 

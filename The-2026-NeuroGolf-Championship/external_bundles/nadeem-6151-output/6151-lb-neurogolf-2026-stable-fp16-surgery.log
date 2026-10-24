@@ -1,0 +1,53 @@
+[{"stream_name":"stderr","time":9.378454721,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.378567067,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.378574747,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.378578402,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.17790832,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.177957167,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.177964068,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.177969504,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.976008224,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 72.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":15.178661435,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 72.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.87435794,"data":"onnx       : 1.21.0\n"}
+,{"stream_name":"stdout","time":18.874409065000002,"data":"onnxruntime: 1.26.0\n"}
+,{"stream_name":"stdout","time":19.223123855,"data":"anchor bundle: /kaggle/input/datasets/afr1ste/neurogolf-5689-51-current-rules-open-artifact/submission\n"}
+,{"stream_name":"stdout","time":19.425977826,"data":"processing 400 tasks ...\n"}
+,{"stream_name":"stdout","time":23.277474003000002,"data":"  [100/400]  fp16_kept=0  prune_kept=0  saved=0B  t=4s\n"}
+,{"stream_name":"stdout","time":27.085010774,"data":"  [200/400]  fp16_kept=0  prune_kept=0  saved=0B  t=7s\n"}
+,{"stream_name":"stdout","time":31.107844177,"data":"  [300/400]  fp16_kept=0  prune_kept=0  saved=0B  t=12s\n"}
+,{"stream_name":"stdout","time":36.222459535,"data":"  [400/400]  fp16_kept=0  prune_kept=0  saved=0B  t=17s\n"}
+,{"stream_name":"stdout","time":36.222513723,"data":"\n"}
+,{"stream_name":"stdout","time":36.222520955,"data":"final stats: {'fp16_attempted': 333, 'fp16_kept': 0, 'prune_attempted': 400, 'prune_kept': 0, 'fp16_skipped_risky_op': 67, 'transform_errors': 0, 'fell_back_to_anchor': 0, 'saved_bytes': 0}\n"}
+,{"stream_name":"stdout","time":36.222527906,"data":"elapsed: 17s\n"}
+,{"stream_name":"stdout","time":36.222532955,"data":"  task001: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222537746,"data":"  task003: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222542265,"data":"  task006: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222547317,"data":"  task007: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222552127,"data":"  task010: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222556336,"data":"  task012: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222560425,"data":"  task014: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222564794,"data":"  task017: ['fp16:no-gain', 'prune:verify-fail']\n"}
+,{"stream_name":"stdout","time":36.222569049,"data":"  task026: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222573538,"data":"  task027: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.22260053,"data":"  task028: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222604655,"data":"  task040: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.22260774,"data":"  task042: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222610815,"data":"  task046: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.22261425,"data":"  task047: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222617877,"data":"  task048: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222621395,"data":"  task049: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222624747,"data":"  task052: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222628322,"data":"  task055: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":36.222632017,"data":"  task058: ['fp16:error', 'prune:no-gain']\n"}
+,{"stream_name":"stdout","time":41.598494572999996,"data":"safety sweep: reset 0 files to anchor\n"}
+,{"stream_name":"stdout","time":41.83166973,"data":"submission.zip: 1,004,846B with 400 tasks\n"}
+,{"stream_name":"stdout","time":41.850074283,"data":"done -- submit /kaggle/working/submission.zip\n"}
+,{"stream_name":"stderr","time":45.145607877,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":45.145650874,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":45.356529974,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":45.35656175,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":46.700036585,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":47.106827409,"data":"[NbConvertApp] Writing 39889 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":50.376322992,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":51.582399533,"data":"[NbConvertApp] Writing 384390 bytes to __results__.html\n"}
+]

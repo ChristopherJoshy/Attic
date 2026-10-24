@@ -1,0 +1,1800 @@
+:¬Ù
+<
+input
+active_sum"	ReduceSum*
+axes@ *
+keepdims 
+(
+
+active_sum
+halfactive_bool"Greater
+(
+active_boolactive_f"Cast*	
+to 
+A
+input
+c1_start
+c1_end
+slice_axes_c
+slice_stepsc1_x"Slice
+<
+c1_xc1_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c1_xc1_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c1_v_countsc1_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c1_h_countsc1_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c1_v_counts
+c1_v_maxc1_v_eq"Equal
+'
+c1_h_counts
+c1_h_maxc1_h_eq"Equal
+(
+c1_v_max
+c1_h_max	c1_v_gt_h"Greater
+(
+c1_h_max
+c1_v_max	c1_h_gt_v"Greater
+'
+c1_v_max
+line_thrc1_v_thr"Greater
+'
+c1_h_max
+line_thrc1_h_thr"Greater
+#
+c1_v_eq
+	c1_v_gt_hc1_v_ok0"And
+)
+c1_v_ok0
+c1_v_thrc1_v_line_bool"And
+#
+c1_h_eq
+	c1_h_gt_vc1_h_ok0"And
+)
+c1_h_ok0
+c1_h_thrc1_h_line_bool"And
+.
+c1_v_line_boolc1_v_line_f"Cast*	
+to 
+.
+c1_h_line_boolc1_h_line_f"Cast*	
+to 
+'
+c1_v_line_f
+active_f	c1_v_full"Mul
+'
+c1_h_line_f
+active_f	c1_h_full"Mul
+)
+c1_v_line_f
+axis_colc1_v_cum"CumSum
+&
+one_f
+c1_v_cumc1_v_left_mask"Sub
+-
+c1_v_cum
+c1_v_line_fc1_v_right_mask"Sub
+H
+c1_v_line_f
+start1
+end30
+axes_col
+slice_stepsc1_v_sl_left"Slice
+Q
+c1_v_sl_left
+pad_col_right
+zero_fc1_v_target_left"Pad*
+mode"constant 
+I
+c1_v_line_f
+start0
+end29
+axes_col
+slice_stepsc1_v_sl_right"Slice
+R
+c1_v_sl_right
+pad_col_left
+zero_fc1_v_target_right"Pad*
+mode"constant 
++
+c1_x
+c1_v_left_maskc1_v_left_area"Mul
+-
+c1_x
+c1_v_right_maskc1_v_right_area"Mul
+H
+c1_v_left_areac1_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c1_v_right_areac1_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c1_v_left_row
+c1_v_target_leftc1_v_proj_left0"Mul
+:
+c1_v_right_row
+c1_v_target_rightc1_v_proj_right0"Mul
+0
+c1_v_proj_left0
+active_fc1_v_proj_left"Mul
+2
+c1_v_proj_right0
+active_fc1_v_proj_right"Mul
+)
+c1_h_line_f
+axis_rowc1_h_cum"CumSum
+'
+one_f
+c1_h_cumc1_h_above_mask"Sub
+-
+c1_h_cum
+c1_h_line_fc1_h_below_mask"Sub
+F
+c1_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c1_h_sl_up"Slice
+N
+
+c1_h_sl_up
+pad_row_bottom
+zero_fc1_h_target_up"Pad*
+mode"constant 
+H
+c1_h_line_f
+start0
+end29
+axes_row
+slice_stepsc1_h_sl_down"Slice
+O
+c1_h_sl_down
+pad_row_top
+zero_fc1_h_target_down"Pad*
+mode"constant 
+-
+c1_x
+c1_h_above_maskc1_h_above_area"Mul
+-
+c1_x
+c1_h_below_maskc1_h_below_area"Mul
+J
+c1_h_above_areac1_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c1_h_below_areac1_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c1_h_above_col
+c1_h_target_upc1_h_proj_up0"Mul
+8
+c1_h_below_col
+c1_h_target_downc1_h_proj_down0"Mul
+,
+c1_h_proj_up0
+active_fc1_h_proj_up"Mul
+0
+c1_h_proj_down0
+active_fc1_h_proj_down"Mul
+e
+	c1_v_full
+	c1_h_full
+c1_v_proj_left
+c1_v_proj_right
+c1_h_proj_up
+c1_h_proj_down	c1_merged"Max
+*
+	c1_merged
+halfc1_merged_bool"Greater
+)
+c1_merged_boolc1_out"Cast*	
+to 
+A
+input
+c2_start
+c2_end
+slice_axes_c
+slice_stepsc2_x"Slice
+<
+c2_xc2_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c2_xc2_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c2_v_countsc2_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c2_h_countsc2_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c2_v_counts
+c2_v_maxc2_v_eq"Equal
+'
+c2_h_counts
+c2_h_maxc2_h_eq"Equal
+(
+c2_v_max
+c2_h_max	c2_v_gt_h"Greater
+(
+c2_h_max
+c2_v_max	c2_h_gt_v"Greater
+'
+c2_v_max
+line_thrc2_v_thr"Greater
+'
+c2_h_max
+line_thrc2_h_thr"Greater
+#
+c2_v_eq
+	c2_v_gt_hc2_v_ok0"And
+)
+c2_v_ok0
+c2_v_thrc2_v_line_bool"And
+#
+c2_h_eq
+	c2_h_gt_vc2_h_ok0"And
+)
+c2_h_ok0
+c2_h_thrc2_h_line_bool"And
+.
+c2_v_line_boolc2_v_line_f"Cast*	
+to 
+.
+c2_h_line_boolc2_h_line_f"Cast*	
+to 
+'
+c2_v_line_f
+active_f	c2_v_full"Mul
+'
+c2_h_line_f
+active_f	c2_h_full"Mul
+)
+c2_v_line_f
+axis_colc2_v_cum"CumSum
+&
+one_f
+c2_v_cumc2_v_left_mask"Sub
+-
+c2_v_cum
+c2_v_line_fc2_v_right_mask"Sub
+H
+c2_v_line_f
+start1
+end30
+axes_col
+slice_stepsc2_v_sl_left"Slice
+Q
+c2_v_sl_left
+pad_col_right
+zero_fc2_v_target_left"Pad*
+mode"constant 
+I
+c2_v_line_f
+start0
+end29
+axes_col
+slice_stepsc2_v_sl_right"Slice
+R
+c2_v_sl_right
+pad_col_left
+zero_fc2_v_target_right"Pad*
+mode"constant 
++
+c2_x
+c2_v_left_maskc2_v_left_area"Mul
+-
+c2_x
+c2_v_right_maskc2_v_right_area"Mul
+H
+c2_v_left_areac2_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c2_v_right_areac2_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c2_v_left_row
+c2_v_target_leftc2_v_proj_left0"Mul
+:
+c2_v_right_row
+c2_v_target_rightc2_v_proj_right0"Mul
+0
+c2_v_proj_left0
+active_fc2_v_proj_left"Mul
+2
+c2_v_proj_right0
+active_fc2_v_proj_right"Mul
+)
+c2_h_line_f
+axis_rowc2_h_cum"CumSum
+'
+one_f
+c2_h_cumc2_h_above_mask"Sub
+-
+c2_h_cum
+c2_h_line_fc2_h_below_mask"Sub
+F
+c2_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c2_h_sl_up"Slice
+N
+
+c2_h_sl_up
+pad_row_bottom
+zero_fc2_h_target_up"Pad*
+mode"constant 
+H
+c2_h_line_f
+start0
+end29
+axes_row
+slice_stepsc2_h_sl_down"Slice
+O
+c2_h_sl_down
+pad_row_top
+zero_fc2_h_target_down"Pad*
+mode"constant 
+-
+c2_x
+c2_h_above_maskc2_h_above_area"Mul
+-
+c2_x
+c2_h_below_maskc2_h_below_area"Mul
+J
+c2_h_above_areac2_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c2_h_below_areac2_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c2_h_above_col
+c2_h_target_upc2_h_proj_up0"Mul
+8
+c2_h_below_col
+c2_h_target_downc2_h_proj_down0"Mul
+,
+c2_h_proj_up0
+active_fc2_h_proj_up"Mul
+0
+c2_h_proj_down0
+active_fc2_h_proj_down"Mul
+e
+	c2_v_full
+	c2_h_full
+c2_v_proj_left
+c2_v_proj_right
+c2_h_proj_up
+c2_h_proj_down	c2_merged"Max
+*
+	c2_merged
+halfc2_merged_bool"Greater
+)
+c2_merged_boolc2_out"Cast*	
+to 
+A
+input
+c3_start
+c3_end
+slice_axes_c
+slice_stepsc3_x"Slice
+<
+c3_xc3_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c3_xc3_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c3_v_countsc3_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c3_h_countsc3_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c3_v_counts
+c3_v_maxc3_v_eq"Equal
+'
+c3_h_counts
+c3_h_maxc3_h_eq"Equal
+(
+c3_v_max
+c3_h_max	c3_v_gt_h"Greater
+(
+c3_h_max
+c3_v_max	c3_h_gt_v"Greater
+'
+c3_v_max
+line_thrc3_v_thr"Greater
+'
+c3_h_max
+line_thrc3_h_thr"Greater
+#
+c3_v_eq
+	c3_v_gt_hc3_v_ok0"And
+)
+c3_v_ok0
+c3_v_thrc3_v_line_bool"And
+#
+c3_h_eq
+	c3_h_gt_vc3_h_ok0"And
+)
+c3_h_ok0
+c3_h_thrc3_h_line_bool"And
+.
+c3_v_line_boolc3_v_line_f"Cast*	
+to 
+.
+c3_h_line_boolc3_h_line_f"Cast*	
+to 
+'
+c3_v_line_f
+active_f	c3_v_full"Mul
+'
+c3_h_line_f
+active_f	c3_h_full"Mul
+)
+c3_v_line_f
+axis_colc3_v_cum"CumSum
+&
+one_f
+c3_v_cumc3_v_left_mask"Sub
+-
+c3_v_cum
+c3_v_line_fc3_v_right_mask"Sub
+H
+c3_v_line_f
+start1
+end30
+axes_col
+slice_stepsc3_v_sl_left"Slice
+Q
+c3_v_sl_left
+pad_col_right
+zero_fc3_v_target_left"Pad*
+mode"constant 
+I
+c3_v_line_f
+start0
+end29
+axes_col
+slice_stepsc3_v_sl_right"Slice
+R
+c3_v_sl_right
+pad_col_left
+zero_fc3_v_target_right"Pad*
+mode"constant 
++
+c3_x
+c3_v_left_maskc3_v_left_area"Mul
+-
+c3_x
+c3_v_right_maskc3_v_right_area"Mul
+H
+c3_v_left_areac3_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c3_v_right_areac3_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c3_v_left_row
+c3_v_target_leftc3_v_proj_left0"Mul
+:
+c3_v_right_row
+c3_v_target_rightc3_v_proj_right0"Mul
+0
+c3_v_proj_left0
+active_fc3_v_proj_left"Mul
+2
+c3_v_proj_right0
+active_fc3_v_proj_right"Mul
+)
+c3_h_line_f
+axis_rowc3_h_cum"CumSum
+'
+one_f
+c3_h_cumc3_h_above_mask"Sub
+-
+c3_h_cum
+c3_h_line_fc3_h_below_mask"Sub
+F
+c3_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c3_h_sl_up"Slice
+N
+
+c3_h_sl_up
+pad_row_bottom
+zero_fc3_h_target_up"Pad*
+mode"constant 
+H
+c3_h_line_f
+start0
+end29
+axes_row
+slice_stepsc3_h_sl_down"Slice
+O
+c3_h_sl_down
+pad_row_top
+zero_fc3_h_target_down"Pad*
+mode"constant 
+-
+c3_x
+c3_h_above_maskc3_h_above_area"Mul
+-
+c3_x
+c3_h_below_maskc3_h_below_area"Mul
+J
+c3_h_above_areac3_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c3_h_below_areac3_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c3_h_above_col
+c3_h_target_upc3_h_proj_up0"Mul
+8
+c3_h_below_col
+c3_h_target_downc3_h_proj_down0"Mul
+,
+c3_h_proj_up0
+active_fc3_h_proj_up"Mul
+0
+c3_h_proj_down0
+active_fc3_h_proj_down"Mul
+e
+	c3_v_full
+	c3_h_full
+c3_v_proj_left
+c3_v_proj_right
+c3_h_proj_up
+c3_h_proj_down	c3_merged"Max
+*
+	c3_merged
+halfc3_merged_bool"Greater
+)
+c3_merged_boolc3_out"Cast*	
+to 
+A
+input
+c4_start
+c4_end
+slice_axes_c
+slice_stepsc4_x"Slice
+<
+c4_xc4_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c4_xc4_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c4_v_countsc4_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c4_h_countsc4_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c4_v_counts
+c4_v_maxc4_v_eq"Equal
+'
+c4_h_counts
+c4_h_maxc4_h_eq"Equal
+(
+c4_v_max
+c4_h_max	c4_v_gt_h"Greater
+(
+c4_h_max
+c4_v_max	c4_h_gt_v"Greater
+'
+c4_v_max
+line_thrc4_v_thr"Greater
+'
+c4_h_max
+line_thrc4_h_thr"Greater
+#
+c4_v_eq
+	c4_v_gt_hc4_v_ok0"And
+)
+c4_v_ok0
+c4_v_thrc4_v_line_bool"And
+#
+c4_h_eq
+	c4_h_gt_vc4_h_ok0"And
+)
+c4_h_ok0
+c4_h_thrc4_h_line_bool"And
+.
+c4_v_line_boolc4_v_line_f"Cast*	
+to 
+.
+c4_h_line_boolc4_h_line_f"Cast*	
+to 
+'
+c4_v_line_f
+active_f	c4_v_full"Mul
+'
+c4_h_line_f
+active_f	c4_h_full"Mul
+)
+c4_v_line_f
+axis_colc4_v_cum"CumSum
+&
+one_f
+c4_v_cumc4_v_left_mask"Sub
+-
+c4_v_cum
+c4_v_line_fc4_v_right_mask"Sub
+H
+c4_v_line_f
+start1
+end30
+axes_col
+slice_stepsc4_v_sl_left"Slice
+Q
+c4_v_sl_left
+pad_col_right
+zero_fc4_v_target_left"Pad*
+mode"constant 
+I
+c4_v_line_f
+start0
+end29
+axes_col
+slice_stepsc4_v_sl_right"Slice
+R
+c4_v_sl_right
+pad_col_left
+zero_fc4_v_target_right"Pad*
+mode"constant 
++
+c4_x
+c4_v_left_maskc4_v_left_area"Mul
+-
+c4_x
+c4_v_right_maskc4_v_right_area"Mul
+H
+c4_v_left_areac4_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c4_v_right_areac4_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c4_v_left_row
+c4_v_target_leftc4_v_proj_left0"Mul
+:
+c4_v_right_row
+c4_v_target_rightc4_v_proj_right0"Mul
+0
+c4_v_proj_left0
+active_fc4_v_proj_left"Mul
+2
+c4_v_proj_right0
+active_fc4_v_proj_right"Mul
+)
+c4_h_line_f
+axis_rowc4_h_cum"CumSum
+'
+one_f
+c4_h_cumc4_h_above_mask"Sub
+-
+c4_h_cum
+c4_h_line_fc4_h_below_mask"Sub
+F
+c4_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c4_h_sl_up"Slice
+N
+
+c4_h_sl_up
+pad_row_bottom
+zero_fc4_h_target_up"Pad*
+mode"constant 
+H
+c4_h_line_f
+start0
+end29
+axes_row
+slice_stepsc4_h_sl_down"Slice
+O
+c4_h_sl_down
+pad_row_top
+zero_fc4_h_target_down"Pad*
+mode"constant 
+-
+c4_x
+c4_h_above_maskc4_h_above_area"Mul
+-
+c4_x
+c4_h_below_maskc4_h_below_area"Mul
+J
+c4_h_above_areac4_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c4_h_below_areac4_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c4_h_above_col
+c4_h_target_upc4_h_proj_up0"Mul
+8
+c4_h_below_col
+c4_h_target_downc4_h_proj_down0"Mul
+,
+c4_h_proj_up0
+active_fc4_h_proj_up"Mul
+0
+c4_h_proj_down0
+active_fc4_h_proj_down"Mul
+e
+	c4_v_full
+	c4_h_full
+c4_v_proj_left
+c4_v_proj_right
+c4_h_proj_up
+c4_h_proj_down	c4_merged"Max
+*
+	c4_merged
+halfc4_merged_bool"Greater
+)
+c4_merged_boolc4_out"Cast*	
+to 
+A
+input
+c5_start
+c5_end
+slice_axes_c
+slice_stepsc5_x"Slice
+<
+c5_xc5_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c5_xc5_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c5_v_countsc5_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c5_h_countsc5_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c5_v_counts
+c5_v_maxc5_v_eq"Equal
+'
+c5_h_counts
+c5_h_maxc5_h_eq"Equal
+(
+c5_v_max
+c5_h_max	c5_v_gt_h"Greater
+(
+c5_h_max
+c5_v_max	c5_h_gt_v"Greater
+'
+c5_v_max
+line_thrc5_v_thr"Greater
+'
+c5_h_max
+line_thrc5_h_thr"Greater
+#
+c5_v_eq
+	c5_v_gt_hc5_v_ok0"And
+)
+c5_v_ok0
+c5_v_thrc5_v_line_bool"And
+#
+c5_h_eq
+	c5_h_gt_vc5_h_ok0"And
+)
+c5_h_ok0
+c5_h_thrc5_h_line_bool"And
+.
+c5_v_line_boolc5_v_line_f"Cast*	
+to 
+.
+c5_h_line_boolc5_h_line_f"Cast*	
+to 
+'
+c5_v_line_f
+active_f	c5_v_full"Mul
+'
+c5_h_line_f
+active_f	c5_h_full"Mul
+)
+c5_v_line_f
+axis_colc5_v_cum"CumSum
+&
+one_f
+c5_v_cumc5_v_left_mask"Sub
+-
+c5_v_cum
+c5_v_line_fc5_v_right_mask"Sub
+H
+c5_v_line_f
+start1
+end30
+axes_col
+slice_stepsc5_v_sl_left"Slice
+Q
+c5_v_sl_left
+pad_col_right
+zero_fc5_v_target_left"Pad*
+mode"constant 
+I
+c5_v_line_f
+start0
+end29
+axes_col
+slice_stepsc5_v_sl_right"Slice
+R
+c5_v_sl_right
+pad_col_left
+zero_fc5_v_target_right"Pad*
+mode"constant 
++
+c5_x
+c5_v_left_maskc5_v_left_area"Mul
+-
+c5_x
+c5_v_right_maskc5_v_right_area"Mul
+H
+c5_v_left_areac5_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c5_v_right_areac5_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c5_v_left_row
+c5_v_target_leftc5_v_proj_left0"Mul
+:
+c5_v_right_row
+c5_v_target_rightc5_v_proj_right0"Mul
+0
+c5_v_proj_left0
+active_fc5_v_proj_left"Mul
+2
+c5_v_proj_right0
+active_fc5_v_proj_right"Mul
+)
+c5_h_line_f
+axis_rowc5_h_cum"CumSum
+'
+one_f
+c5_h_cumc5_h_above_mask"Sub
+-
+c5_h_cum
+c5_h_line_fc5_h_below_mask"Sub
+F
+c5_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c5_h_sl_up"Slice
+N
+
+c5_h_sl_up
+pad_row_bottom
+zero_fc5_h_target_up"Pad*
+mode"constant 
+H
+c5_h_line_f
+start0
+end29
+axes_row
+slice_stepsc5_h_sl_down"Slice
+O
+c5_h_sl_down
+pad_row_top
+zero_fc5_h_target_down"Pad*
+mode"constant 
+-
+c5_x
+c5_h_above_maskc5_h_above_area"Mul
+-
+c5_x
+c5_h_below_maskc5_h_below_area"Mul
+J
+c5_h_above_areac5_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c5_h_below_areac5_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c5_h_above_col
+c5_h_target_upc5_h_proj_up0"Mul
+8
+c5_h_below_col
+c5_h_target_downc5_h_proj_down0"Mul
+,
+c5_h_proj_up0
+active_fc5_h_proj_up"Mul
+0
+c5_h_proj_down0
+active_fc5_h_proj_down"Mul
+e
+	c5_v_full
+	c5_h_full
+c5_v_proj_left
+c5_v_proj_right
+c5_h_proj_up
+c5_h_proj_down	c5_merged"Max
+*
+	c5_merged
+halfc5_merged_bool"Greater
+)
+c5_merged_boolc5_out"Cast*	
+to 
+A
+input
+c6_start
+c6_end
+slice_axes_c
+slice_stepsc6_x"Slice
+<
+c6_xc6_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c6_xc6_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c6_v_countsc6_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c6_h_countsc6_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c6_v_counts
+c6_v_maxc6_v_eq"Equal
+'
+c6_h_counts
+c6_h_maxc6_h_eq"Equal
+(
+c6_v_max
+c6_h_max	c6_v_gt_h"Greater
+(
+c6_h_max
+c6_v_max	c6_h_gt_v"Greater
+'
+c6_v_max
+line_thrc6_v_thr"Greater
+'
+c6_h_max
+line_thrc6_h_thr"Greater
+#
+c6_v_eq
+	c6_v_gt_hc6_v_ok0"And
+)
+c6_v_ok0
+c6_v_thrc6_v_line_bool"And
+#
+c6_h_eq
+	c6_h_gt_vc6_h_ok0"And
+)
+c6_h_ok0
+c6_h_thrc6_h_line_bool"And
+.
+c6_v_line_boolc6_v_line_f"Cast*	
+to 
+.
+c6_h_line_boolc6_h_line_f"Cast*	
+to 
+'
+c6_v_line_f
+active_f	c6_v_full"Mul
+'
+c6_h_line_f
+active_f	c6_h_full"Mul
+)
+c6_v_line_f
+axis_colc6_v_cum"CumSum
+&
+one_f
+c6_v_cumc6_v_left_mask"Sub
+-
+c6_v_cum
+c6_v_line_fc6_v_right_mask"Sub
+H
+c6_v_line_f
+start1
+end30
+axes_col
+slice_stepsc6_v_sl_left"Slice
+Q
+c6_v_sl_left
+pad_col_right
+zero_fc6_v_target_left"Pad*
+mode"constant 
+I
+c6_v_line_f
+start0
+end29
+axes_col
+slice_stepsc6_v_sl_right"Slice
+R
+c6_v_sl_right
+pad_col_left
+zero_fc6_v_target_right"Pad*
+mode"constant 
++
+c6_x
+c6_v_left_maskc6_v_left_area"Mul
+-
+c6_x
+c6_v_right_maskc6_v_right_area"Mul
+H
+c6_v_left_areac6_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c6_v_right_areac6_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c6_v_left_row
+c6_v_target_leftc6_v_proj_left0"Mul
+:
+c6_v_right_row
+c6_v_target_rightc6_v_proj_right0"Mul
+0
+c6_v_proj_left0
+active_fc6_v_proj_left"Mul
+2
+c6_v_proj_right0
+active_fc6_v_proj_right"Mul
+)
+c6_h_line_f
+axis_rowc6_h_cum"CumSum
+'
+one_f
+c6_h_cumc6_h_above_mask"Sub
+-
+c6_h_cum
+c6_h_line_fc6_h_below_mask"Sub
+F
+c6_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c6_h_sl_up"Slice
+N
+
+c6_h_sl_up
+pad_row_bottom
+zero_fc6_h_target_up"Pad*
+mode"constant 
+H
+c6_h_line_f
+start0
+end29
+axes_row
+slice_stepsc6_h_sl_down"Slice
+O
+c6_h_sl_down
+pad_row_top
+zero_fc6_h_target_down"Pad*
+mode"constant 
+-
+c6_x
+c6_h_above_maskc6_h_above_area"Mul
+-
+c6_x
+c6_h_below_maskc6_h_below_area"Mul
+J
+c6_h_above_areac6_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c6_h_below_areac6_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c6_h_above_col
+c6_h_target_upc6_h_proj_up0"Mul
+8
+c6_h_below_col
+c6_h_target_downc6_h_proj_down0"Mul
+,
+c6_h_proj_up0
+active_fc6_h_proj_up"Mul
+0
+c6_h_proj_down0
+active_fc6_h_proj_down"Mul
+e
+	c6_v_full
+	c6_h_full
+c6_v_proj_left
+c6_v_proj_right
+c6_h_proj_up
+c6_h_proj_down	c6_merged"Max
+*
+	c6_merged
+halfc6_merged_bool"Greater
+)
+c6_merged_boolc6_out"Cast*	
+to 
+A
+input
+c7_start
+c7_end
+slice_axes_c
+slice_stepsc7_x"Slice
+<
+c7_xc7_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c7_xc7_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c7_v_countsc7_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c7_h_countsc7_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c7_v_counts
+c7_v_maxc7_v_eq"Equal
+'
+c7_h_counts
+c7_h_maxc7_h_eq"Equal
+(
+c7_v_max
+c7_h_max	c7_v_gt_h"Greater
+(
+c7_h_max
+c7_v_max	c7_h_gt_v"Greater
+'
+c7_v_max
+line_thrc7_v_thr"Greater
+'
+c7_h_max
+line_thrc7_h_thr"Greater
+#
+c7_v_eq
+	c7_v_gt_hc7_v_ok0"And
+)
+c7_v_ok0
+c7_v_thrc7_v_line_bool"And
+#
+c7_h_eq
+	c7_h_gt_vc7_h_ok0"And
+)
+c7_h_ok0
+c7_h_thrc7_h_line_bool"And
+.
+c7_v_line_boolc7_v_line_f"Cast*	
+to 
+.
+c7_h_line_boolc7_h_line_f"Cast*	
+to 
+'
+c7_v_line_f
+active_f	c7_v_full"Mul
+'
+c7_h_line_f
+active_f	c7_h_full"Mul
+)
+c7_v_line_f
+axis_colc7_v_cum"CumSum
+&
+one_f
+c7_v_cumc7_v_left_mask"Sub
+-
+c7_v_cum
+c7_v_line_fc7_v_right_mask"Sub
+H
+c7_v_line_f
+start1
+end30
+axes_col
+slice_stepsc7_v_sl_left"Slice
+Q
+c7_v_sl_left
+pad_col_right
+zero_fc7_v_target_left"Pad*
+mode"constant 
+I
+c7_v_line_f
+start0
+end29
+axes_col
+slice_stepsc7_v_sl_right"Slice
+R
+c7_v_sl_right
+pad_col_left
+zero_fc7_v_target_right"Pad*
+mode"constant 
++
+c7_x
+c7_v_left_maskc7_v_left_area"Mul
+-
+c7_x
+c7_v_right_maskc7_v_right_area"Mul
+H
+c7_v_left_areac7_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c7_v_right_areac7_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c7_v_left_row
+c7_v_target_leftc7_v_proj_left0"Mul
+:
+c7_v_right_row
+c7_v_target_rightc7_v_proj_right0"Mul
+0
+c7_v_proj_left0
+active_fc7_v_proj_left"Mul
+2
+c7_v_proj_right0
+active_fc7_v_proj_right"Mul
+)
+c7_h_line_f
+axis_rowc7_h_cum"CumSum
+'
+one_f
+c7_h_cumc7_h_above_mask"Sub
+-
+c7_h_cum
+c7_h_line_fc7_h_below_mask"Sub
+F
+c7_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c7_h_sl_up"Slice
+N
+
+c7_h_sl_up
+pad_row_bottom
+zero_fc7_h_target_up"Pad*
+mode"constant 
+H
+c7_h_line_f
+start0
+end29
+axes_row
+slice_stepsc7_h_sl_down"Slice
+O
+c7_h_sl_down
+pad_row_top
+zero_fc7_h_target_down"Pad*
+mode"constant 
+-
+c7_x
+c7_h_above_maskc7_h_above_area"Mul
+-
+c7_x
+c7_h_below_maskc7_h_below_area"Mul
+J
+c7_h_above_areac7_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c7_h_below_areac7_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c7_h_above_col
+c7_h_target_upc7_h_proj_up0"Mul
+8
+c7_h_below_col
+c7_h_target_downc7_h_proj_down0"Mul
+,
+c7_h_proj_up0
+active_fc7_h_proj_up"Mul
+0
+c7_h_proj_down0
+active_fc7_h_proj_down"Mul
+e
+	c7_v_full
+	c7_h_full
+c7_v_proj_left
+c7_v_proj_right
+c7_h_proj_up
+c7_h_proj_down	c7_merged"Max
+*
+	c7_merged
+halfc7_merged_bool"Greater
+)
+c7_merged_boolc7_out"Cast*	
+to 
+A
+input
+c8_start
+c8_end
+slice_axes_c
+slice_stepsc8_x"Slice
+<
+c8_xc8_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c8_xc8_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c8_v_countsc8_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c8_h_countsc8_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c8_v_counts
+c8_v_maxc8_v_eq"Equal
+'
+c8_h_counts
+c8_h_maxc8_h_eq"Equal
+(
+c8_v_max
+c8_h_max	c8_v_gt_h"Greater
+(
+c8_h_max
+c8_v_max	c8_h_gt_v"Greater
+'
+c8_v_max
+line_thrc8_v_thr"Greater
+'
+c8_h_max
+line_thrc8_h_thr"Greater
+#
+c8_v_eq
+	c8_v_gt_hc8_v_ok0"And
+)
+c8_v_ok0
+c8_v_thrc8_v_line_bool"And
+#
+c8_h_eq
+	c8_h_gt_vc8_h_ok0"And
+)
+c8_h_ok0
+c8_h_thrc8_h_line_bool"And
+.
+c8_v_line_boolc8_v_line_f"Cast*	
+to 
+.
+c8_h_line_boolc8_h_line_f"Cast*	
+to 
+'
+c8_v_line_f
+active_f	c8_v_full"Mul
+'
+c8_h_line_f
+active_f	c8_h_full"Mul
+)
+c8_v_line_f
+axis_colc8_v_cum"CumSum
+&
+one_f
+c8_v_cumc8_v_left_mask"Sub
+-
+c8_v_cum
+c8_v_line_fc8_v_right_mask"Sub
+H
+c8_v_line_f
+start1
+end30
+axes_col
+slice_stepsc8_v_sl_left"Slice
+Q
+c8_v_sl_left
+pad_col_right
+zero_fc8_v_target_left"Pad*
+mode"constant 
+I
+c8_v_line_f
+start0
+end29
+axes_col
+slice_stepsc8_v_sl_right"Slice
+R
+c8_v_sl_right
+pad_col_left
+zero_fc8_v_target_right"Pad*
+mode"constant 
++
+c8_x
+c8_v_left_maskc8_v_left_area"Mul
+-
+c8_x
+c8_v_right_maskc8_v_right_area"Mul
+H
+c8_v_left_areac8_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c8_v_right_areac8_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c8_v_left_row
+c8_v_target_leftc8_v_proj_left0"Mul
+:
+c8_v_right_row
+c8_v_target_rightc8_v_proj_right0"Mul
+0
+c8_v_proj_left0
+active_fc8_v_proj_left"Mul
+2
+c8_v_proj_right0
+active_fc8_v_proj_right"Mul
+)
+c8_h_line_f
+axis_rowc8_h_cum"CumSum
+'
+one_f
+c8_h_cumc8_h_above_mask"Sub
+-
+c8_h_cum
+c8_h_line_fc8_h_below_mask"Sub
+F
+c8_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c8_h_sl_up"Slice
+N
+
+c8_h_sl_up
+pad_row_bottom
+zero_fc8_h_target_up"Pad*
+mode"constant 
+H
+c8_h_line_f
+start0
+end29
+axes_row
+slice_stepsc8_h_sl_down"Slice
+O
+c8_h_sl_down
+pad_row_top
+zero_fc8_h_target_down"Pad*
+mode"constant 
+-
+c8_x
+c8_h_above_maskc8_h_above_area"Mul
+-
+c8_x
+c8_h_below_maskc8_h_below_area"Mul
+J
+c8_h_above_areac8_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c8_h_below_areac8_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c8_h_above_col
+c8_h_target_upc8_h_proj_up0"Mul
+8
+c8_h_below_col
+c8_h_target_downc8_h_proj_down0"Mul
+,
+c8_h_proj_up0
+active_fc8_h_proj_up"Mul
+0
+c8_h_proj_down0
+active_fc8_h_proj_down"Mul
+e
+	c8_v_full
+	c8_h_full
+c8_v_proj_left
+c8_v_proj_right
+c8_h_proj_up
+c8_h_proj_down	c8_merged"Max
+*
+	c8_merged
+halfc8_merged_bool"Greater
+)
+c8_merged_boolc8_out"Cast*	
+to 
+A
+input
+c9_start
+c9_end
+slice_axes_c
+slice_stepsc9_x"Slice
+<
+c9_xc9_v_counts"	ReduceSum*
+axes@ *
+keepdims 
+<
+c9_xc9_h_counts"	ReduceSum*
+axes@ *
+keepdims 
+@
+c9_v_countsc9_v_max"	ReduceMax*
+axes@ *
+keepdims 
+@
+c9_h_countsc9_h_max"	ReduceMax*
+axes@ *
+keepdims 
+'
+c9_v_counts
+c9_v_maxc9_v_eq"Equal
+'
+c9_h_counts
+c9_h_maxc9_h_eq"Equal
+(
+c9_v_max
+c9_h_max	c9_v_gt_h"Greater
+(
+c9_h_max
+c9_v_max	c9_h_gt_v"Greater
+'
+c9_v_max
+line_thrc9_v_thr"Greater
+'
+c9_h_max
+line_thrc9_h_thr"Greater
+#
+c9_v_eq
+	c9_v_gt_hc9_v_ok0"And
+)
+c9_v_ok0
+c9_v_thrc9_v_line_bool"And
+#
+c9_h_eq
+	c9_h_gt_vc9_h_ok0"And
+)
+c9_h_ok0
+c9_h_thrc9_h_line_bool"And
+.
+c9_v_line_boolc9_v_line_f"Cast*	
+to 
+.
+c9_h_line_boolc9_h_line_f"Cast*	
+to 
+'
+c9_v_line_f
+active_f	c9_v_full"Mul
+'
+c9_h_line_f
+active_f	c9_h_full"Mul
+)
+c9_v_line_f
+axis_colc9_v_cum"CumSum
+&
+one_f
+c9_v_cumc9_v_left_mask"Sub
+-
+c9_v_cum
+c9_v_line_fc9_v_right_mask"Sub
+H
+c9_v_line_f
+start1
+end30
+axes_col
+slice_stepsc9_v_sl_left"Slice
+Q
+c9_v_sl_left
+pad_col_right
+zero_fc9_v_target_left"Pad*
+mode"constant 
+I
+c9_v_line_f
+start0
+end29
+axes_col
+slice_stepsc9_v_sl_right"Slice
+R
+c9_v_sl_right
+pad_col_left
+zero_fc9_v_target_right"Pad*
+mode"constant 
++
+c9_x
+c9_v_left_maskc9_v_left_area"Mul
+-
+c9_x
+c9_v_right_maskc9_v_right_area"Mul
+H
+c9_v_left_areac9_v_left_row"	ReduceMax*
+axes@ *
+keepdims 
+J
+c9_v_right_areac9_v_right_row"	ReduceMax*
+axes@ *
+keepdims 
+7
+c9_v_left_row
+c9_v_target_leftc9_v_proj_left0"Mul
+:
+c9_v_right_row
+c9_v_target_rightc9_v_proj_right0"Mul
+0
+c9_v_proj_left0
+active_fc9_v_proj_left"Mul
+2
+c9_v_proj_right0
+active_fc9_v_proj_right"Mul
+)
+c9_h_line_f
+axis_rowc9_h_cum"CumSum
+'
+one_f
+c9_h_cumc9_h_above_mask"Sub
+-
+c9_h_cum
+c9_h_line_fc9_h_below_mask"Sub
+F
+c9_h_line_f
+start1
+end30
+axes_row
+slice_steps
+c9_h_sl_up"Slice
+N
+
+c9_h_sl_up
+pad_row_bottom
+zero_fc9_h_target_up"Pad*
+mode"constant 
+H
+c9_h_line_f
+start0
+end29
+axes_row
+slice_stepsc9_h_sl_down"Slice
+O
+c9_h_sl_down
+pad_row_top
+zero_fc9_h_target_down"Pad*
+mode"constant 
+-
+c9_x
+c9_h_above_maskc9_h_above_area"Mul
+-
+c9_x
+c9_h_below_maskc9_h_below_area"Mul
+J
+c9_h_above_areac9_h_above_col"	ReduceMax*
+axes@ *
+keepdims 
+J
+c9_h_below_areac9_h_below_col"	ReduceMax*
+axes@ *
+keepdims 
+4
+c9_h_above_col
+c9_h_target_upc9_h_proj_up0"Mul
+8
+c9_h_below_col
+c9_h_target_downc9_h_proj_down0"Mul
+,
+c9_h_proj_up0
+active_fc9_h_proj_up"Mul
+0
+c9_h_proj_down0
+active_fc9_h_proj_down"Mul
+e
+	c9_v_full
+	c9_h_full
+c9_v_proj_left
+c9_v_proj_right
+c9_h_proj_up
+c9_h_proj_down	c9_merged"Max
+*
+	c9_merged
+halfc9_merged_bool"Greater
+)
+c9_merged_boolc9_out"Cast*	
+to 
+Z
+c1_out
+c2_out
+c3_out
+c4_out
+c5_out
+c6_out
+c7_out
+c8_out
+c9_outnonzero_sum"Sum
+*
+nonzero_sum
+halfnonzero_bool"Greater
+*
+nonzero_bool	nonzero_f"Cast*	
+to 
+$
+one_f
+	nonzero_finv_nonzero"Sub
+$
+active_f
+inv_nonzerobg_out"Mul
+m
+bg_out
+c1_out
+c2_out
+c3_out
+c4_out
+c5_out
+c6_out
+c7_out
+c8_out
+c9_outoutput"Concat*
+axis task025_rule_v3_cumsum_graph*BhalfJ   ?*Bzero_fJ    *Bone_fJ  €?*Bline_thrJ  @*Bslice_axes_cJ       *Bslice_stepsJ       *Baxis_colJ       *Baxis_rowJ       *Baxes_colJ       *Baxes_rowJ       *Bstart0J        *Bstart1J       *Bend29J       *Bend30J       *UBpad_col_rightJ@                                                               *TBpad_col_leftJ@                                                               *VBpad_row_bottomJ@                                                               *SBpad_row_topJ@                                                               *Bc1_startJ       *Bc1_endJ       *Bc2_startJ       *Bc2_endJ       *Bc3_startJ       *Bc3_endJ       *Bc4_startJ       *Bc4_endJ       *Bc5_startJ       *Bc5_endJ       *Bc6_startJ       *Bc6_endJ       *Bc7_startJ       *Bc7_endJ       *Bc8_startJ       *Bc8_endJ	       *Bc9_startJ	       *Bc9_endJ
+       Z
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+B
+ 

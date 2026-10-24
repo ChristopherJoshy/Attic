@@ -1,0 +1,77 @@
+[{"stream_name":"stderr","time":7.140655422,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":7.140752956,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":8.203168353,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.203205873,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.203211759,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.203222742,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.966824057,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.96687197,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.966876782,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.966879791,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.229903624,"data":"  v0 | 6042.85 | Original public notebook: 3 per-task hand-built ONNX solvers on top of public artifacts.\n"}
+,{"stream_name":"stdout","time":10.229958649,"data":" v37 | 6081.31 | Manual handbuild ladder through tasks 084 025 200 387 285 028 044 158 204 366 245 133 209 153 367 243 319.\n"}
+,{"stream_name":"stdout","time":10.229964263,"data":" v76 | 6101.18 | Safe manual rewrites and shrink bundle through finite-fp16 rewrites\n"}
+,{"stream_name":"stdout","time":10.229968764,"data":"v167 | 6147.85 | Continued task-local hand rewrites and accepted-model structural shrinking.\n"}
+,{"stream_name":"stdout","time":10.229973059,"data":"v182 | 6151.22 | Additional manual micro-optimizations without public-source blends.\n"}
+,{"stream_name":"stdout","time":10.229977521,"data":"v187 | 6152.67 | Manual rewrite anchor immediately before final v188-v205 structural shrink pass.\n"}
+,{"stream_name":"stdout","time":10.229981747,"data":"v205 | 6154.71 | Final clean manual-only anchor: task366 fp16 correlation Conv rewrite plus prior accepted manual rewrites.\n"}
+,{"stream_name":"stdout","time":13.682998106,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 51.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":13.885851929,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 51.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.807943473,"data":"jsrdcht 6029 bundle : /kaggle/input/neurogolf-6029-submission-bundle\n"}
+,{"stream_name":"stdout","time":17.8079852,"data":"competition data    : /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":17.930122281,"data":"task277 built: 7325 bytes, 56 nodes\n"}
+,{"stream_name":"stdout","time":18.063870212,"data":"task277: verify 266/266, cost 120462, predicted score 13.301\n"}
+,{"stream_name":"stdout","time":18.109141409,"data":"task330 built: 7543 bytes, 22 nodes\n"}
+,{"stream_name":"stderr","time":18.142073602,"data":"\u001b[0;93m2026-06-01 10:52:08.990378049 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.142135038,"data":"\u001b[0;93m2026-06-01 10:52:08.990461014 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.142600134,"data":"\u001b[0;93m2026-06-01 10:52:08.990475271 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.142623517,"data":"\u001b[0;93m2026-06-01 10:52:08.990483703 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":18.224341257,"data":"task330: verify 266/266, cost 62036, predicted score 13.965\n"}
+,{"stream_name":"stderr","time":18.225764214,"data":"\u001b[0;93m2026-06-01 10:52:08.990378049 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.225793261,"data":"\u001b[0;93m2026-06-01 10:52:08.990461014 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.225799289,"data":"\u001b[0;93m2026-06-01 10:52:08.990475271 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.225804019999998,"data":"\u001b[0;93m2026-06-01 10:52:08.990483703 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.225809327,"data":"\n"}
+,{"stream_name":"stderr","time":18.225814101,"data":"\u001b[0;93m2026-06-01 10:52:08.990378049 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.225819525,"data":"\u001b[0;93m2026-06-01 10:52:08.990461014 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.225824354,"data":"\u001b[0;93m2026-06-01 10:52:08.990475271 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.225829277,"data":"\u001b[0;93m2026-06-01 10:52:08.990483703 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":18.285940913,"data":"task364 built: 10890 bytes, 63 nodes\n"}
+,{"stream_name":"stderr","time":18.333546695,"data":"\u001b[0;93m2026-06-01 10:52:09.177425469 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.346222442,"data":"\u001b[0;93m2026-06-01 10:52:09.177425469 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":18.346302946,"data":"\n"}
+,{"stream_name":"stderr","time":18.346308454,"data":"\u001b[0;93m2026-06-01 10:52:09.177425469 [W:onnxruntime:, graph.cc:5337 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":18.490026166,"data":"task364: verify 266/266, cost 153871, predicted score 13.056\n"}
+,{"stream_name":"stdout","time":21.102134699,"data":"submission built\n"}
+,{"stream_name":"stdout","time":21.1021928,"data":"  hand-built tasks : [277, 330, 364]\n"}
+,{"stream_name":"stdout","time":21.102197628,"data":"  total ONNX       : 400\n"}
+,{"stream_name":"stdout","time":21.102200515,"data":"  zip size (bytes) : 1461548\n"}
+,{"stream_name":"stderr","time":21.578113805,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":21.578166419,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":21.578174503,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":21.578293656,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":21.578346192,"data":"  File \"/usr/local/lib/python3.12/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":21.57856853,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":21.578674685,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":21.578683002,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":21.578687674,"data":"Exception encountered at \"In [12]\":\n"}
+,{"stream_name":"stderr","time":21.578691934,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":21.57869631,"data":"AssertionError                            Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":21.578700093,"data":"/tmp/ipykernel_16/2290576512.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":21.578704727999998,"data":"      8 output_zip = Path('/kaggle/working/submission.zip')\n"}
+,{"stream_name":"stderr","time":21.578709,"data":"      9 \n"}
+,{"stream_name":"stderr","time":21.578713132,"data":"---\u003e 10 assert manual_zip.exists(), f'Missing manual-only v205 artifact: {manual_zip}'\n"}
+,{"stream_name":"stderr","time":21.578717418,"data":"     11 shutil.copy2(manual_zip, output_zip)\n"}
+,{"stream_name":"stderr","time":21.57872136,"data":"     12 \n"}
+,{"stream_name":"stderr","time":21.578725126,"data":"\n"}
+,{"stream_name":"stderr","time":21.578729023,"data":"AssertionError: Missing manual-only v205 artifact: /kaggle/input/neurogolf-manual-rewrites-v205/submission.zip\n"}
+,{"stream_name":"stderr","time":21.578733236,"data":"\n"}
+,{"stream_name":"stderr","time":24.385718577,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":24.385761467000002,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":24.567734775,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":24.567768376,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":25.648728548,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":26.043705836,"data":"[NbConvertApp] Writing 73001 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":29.294494629,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":30.522960511,"data":"[NbConvertApp] Writing 496541 bytes to __results__.html\n"}
+]

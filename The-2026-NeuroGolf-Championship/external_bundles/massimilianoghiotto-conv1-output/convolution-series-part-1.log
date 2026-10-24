@@ -1,0 +1,86 @@
+[{"stream_name":"stderr","time":8.750856231,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.750948021,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.750952811,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.750955401,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.42340638,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.42347904,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.42348623,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.42348991,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.56511643,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/16.6 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/16.6 MB\u001b[0m \u001b[31m2.2 MB/s\u001b[0m eta \u001b[36m0:00:08\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.1/16.6 MB\u001b[0m \u001b[31m1.3 MB/s\u001b[0m eta \u001b[36m0:00:13\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.2/16.6 MB\u001b[0m \u001b[31m1.5 MB/s\u001b[0m eta \u001b[36m0:00:12\u001b[0m\r\u001b[2K   \u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.3/16.6 MB\u001b[0m \u001b[31m2.1 MB/s\u001b[0m eta \u001b[36m0:00:08\u001b[0m\r\u001b[2K   \u001b[91m━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.6/16.6 MB\u001b[0m \u001b[31m3.4 MB/s\u001b[0m eta \u001b[36m0:00:05\u001b[0m\r\u001b[2K   \u001b[91m━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.9/16.6 MB\u001b[0m \u001b[31m4.3 MB/s\u001b[0m eta \u001b[36m0:00:04\u001b[0m\r\u001b[2K   \u001b[91m━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.3/16.6 MB\u001b[0m \u001b[31m5.6 MB/s\u001b[0m eta \u001b[36m0:00:03\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.6/16.6 MB\u001b[0m \u001b[31m9.6 MB/s\u001b[0m eta \u001b[36m0:00:02\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.1/16.6 MB\u001b[0m \u001b[31m13.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.2/16.6 MB\u001b[0m \u001b[31m18.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.2/16.6 MB\u001b[0m \u001b[31m24.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━\u001b[0m \u001b[32m12.8/16.6 MB\u001b[0m \u001b[31m70.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━\u001b[0m \u001b[32m15.1/16.6 MB\u001b[0m \u001b[31m76.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m16.6/16.6 MB\u001b[0m \u001b[31m88.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m16.6/16.6 MB\u001b[0m \u001b[31m88.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m16.6/16.6 MB\u001b[0m \u001b[31m51.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":25.259852855,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/17.2 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/17.2 MB\u001b[0m \u001b[31m2.1 MB/s\u001b[0m eta \u001b[36m0:00:09\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.1/17.2 MB\u001b[0m \u001b[31m1.6 MB/s\u001b[0m eta \u001b[36m0:00:11\u001b[0m\r\u001b[2K   \u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.3/17.2 MB\u001b[0m \u001b[31m2.5 MB/s\u001b[0m eta \u001b[36m0:00:07\u001b[0m\r\u001b[2K   \u001b[91m━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.5/17.2 MB\u001b[0m \u001b[31m3.5 MB/s\u001b[0m eta \u001b[36m0:00:05\u001b[0m\r\u001b[2K   \u001b[91m━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.9/17.2 MB\u001b[0m \u001b[31m5.0 MB/s\u001b[0m eta \u001b[36m0:00:04\u001b[0m\r\u001b[2K   \u001b[91m━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.6/17.2 MB\u001b[0m \u001b[31m7.4 MB/s\u001b[0m eta \u001b[36m0:00:03\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.7/17.2 MB\u001b[0m \u001b[31m11.0 MB/s\u001b[0m eta \u001b[36m0:00:02\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.0/17.2 MB\u001b[0m \u001b[31m18.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m9.2/17.2 MB\u001b[0m \u001b[31m29.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━\u001b[0m \u001b[32m12.9/17.2 MB\u001b[0m \u001b[31m96.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━\u001b[0m \u001b[32m15.8/17.2 MB\u001b[0m \u001b[31m105.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m17.2/17.2 MB\u001b[0m \u001b[31m91.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m17.2/17.2 MB\u001b[0m \u001b[31m91.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m17.2/17.2 MB\u001b[0m \u001b[31m53.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":30.020119468,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/56.2 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m30.7/56.2 kB\u001b[0m \u001b[31m2.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m56.2/56.2 kB\u001b[0m \u001b[31m797.1 kB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":32.786081002,"data":"\u001b[?25hOnly the center (0,0) is 1.0 — the pixel passes through unchanged.\n"}
+,{"stream_name":"stdout","time":32.786140162,"data":"All other offsets are 0.0 — no neighbor pixels bleed in.\n"}
+,{"stream_name":"stdout","time":32.950869517,"data":"The two kernels are identical in pattern (corners), opposite in sign.\n"}
+,{"stream_name":"stdout","time":32.950930757,"data":"Together they ensure: when center is Red → corners become Yellow, not Black.\n"}
+,{"stream_name":"stdout","time":33.706169554,"data":"Blue at center → Orange created at cross positions, Black suppressed there.\n"}
+,{"stream_name":"stdout","time":34.361483655,"data":"Results on ARC-AGI examples: 4 pass, 0 fail\n"}
+,{"stream_name":"stdout","time":34.361541445,"data":"Results on ARC-GEN examples: 261 pass, 0 fail\n"}
+,{"stream_name":"stdout","time":34.361547325,"data":"\n"}
+,{"stream_name":"stdout","time":34.361551365,"data":"Your network IS READY for submission!\n"}
+,{"stream_name":"stdout","time":34.361554715,"data":"\n"}
+,{"stream_name":"stdout","time":34.361557735,"data":"Performance stats (memory values reported here are approximate):\n"}
+,{"stream_name":"stdout","time":34.361561025,"data":"Name    Type    Forward_MACs    FPercent    Memory    MPercent      Params  PPercent    InShape     OutShape\n"}
+,{"stream_name":"stdout","time":34.361564155,"data":"------  ------  --------------  ----------  --------  ----------  --------  ----------  ----------  ----------\n"}
+,{"stream_name":"stdout","time":34.361593875,"data":"Conv_0  Conv    810,000         100.00%     39,600    100.00%          900  100.00%     1x10x30x30  1x10x30x30\n"}
+,{"stream_name":"stdout","time":34.361599125,"data":"Total   _       810,000         100%        39,600    100%             900  100%        _           _\n"}
+,{"stream_name":"stdout","time":34.361603655,"data":"\n"}
+,{"stream_name":"stdout","time":34.361606945,"data":"It appears to require 0 bytes + 900 params, yielding 18.198 points.\n"}
+,{"stream_name":"stdout","time":34.361609985,"data":"\n"}
+,{"stream_name":"stdout","time":34.361613085,"data":"Next steps:\n"}
+,{"stream_name":"stdout","time":34.361616095,"data":" * Click the link below to download task015.onnx onto your local machine.\n"}
+,{"stream_name":"stdout","time":34.361619345,"data":" * Create a zip file containing that network along with all others.\n"}
+,{"stream_name":"stdout","time":34.361622575,"data":" * Submit that zip file to the Kaggle competition so that it can be officially scored.\n"}
+,{"stream_name":"stdout","time":34.361625835,"data":"\n"}
+,{"stream_name":"stdout","time":34.710968833,"data":"Bias vector (10 output channels):\n"}
+,{"stream_name":"stdout","time":34.711016582,"data":"  [0] black   : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711021613,"data":"  [1] blue    : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711024842,"data":"  [2] red     : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711027633,"data":"  [3] green   : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711030462,"data":"  [4] yellow  : -0.0133\n"}
+,{"stream_name":"stdout","time":34.711033462,"data":"  [5] gray    : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711036313,"data":"  [6] magenta : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711039622,"data":"  [7] orange  : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711042482,"data":"  [8] teal    : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711045222,"data":"  [9] maroon  : -0.0100\n"}
+,{"stream_name":"stdout","time":34.711048002,"data":"\n"}
+,{"stream_name":"stdout","time":34.711050702,"data":"Total params: 910 (900 weights + 10 biases)\n"}
+,{"stream_name":"stdout","time":35.353113916,"data":"Results on ARC-AGI examples: 4 pass, 0 fail\n"}
+,{"stream_name":"stdout","time":35.353155316,"data":"Results on ARC-GEN examples: 262 pass, 0 fail\n"}
+,{"stream_name":"stdout","time":35.353160316,"data":"\n"}
+,{"stream_name":"stdout","time":35.353163986,"data":"Your network IS READY for submission!\n"}
+,{"stream_name":"stdout","time":35.353167536,"data":"\n"}
+,{"stream_name":"stdout","time":35.353170826,"data":"Performance stats (memory values reported here are approximate):\n"}
+,{"stream_name":"stdout","time":35.353174166,"data":"Name    Type    Forward_MACs    FPercent    Memory    MPercent      Params  PPercent    InShape     OutShape\n"}
+,{"stream_name":"stdout","time":35.353177646,"data":"------  ------  --------------  ----------  --------  ----------  --------  ----------  ----------  ----------\n"}
+,{"stream_name":"stdout","time":35.353181206,"data":"Conv_0  Conv    819,000         100.00%     39,640    100.00%          910  100.00%     1x10x30x30  1x10x30x30\n"}
+,{"stream_name":"stdout","time":35.353184756,"data":"Total   _       819,000         100%        39,640    100%             910  100%        _           _\n"}
+,{"stream_name":"stdout","time":35.353188216,"data":"\n"}
+,{"stream_name":"stdout","time":35.353191846,"data":"It appears to require 0 bytes + 910 params, yielding 18.187 points.\n"}
+,{"stream_name":"stdout","time":35.353212206,"data":"\n"}
+,{"stream_name":"stdout","time":35.353215556,"data":"Next steps:\n"}
+,{"stream_name":"stdout","time":35.353218526,"data":" * Click the link below to download task151.onnx onto your local machine.\n"}
+,{"stream_name":"stdout","time":35.353221506,"data":" * Create a zip file containing that network along with all others.\n"}
+,{"stream_name":"stdout","time":35.353224536,"data":" * Submit that zip file to the Kaggle competition so that it can be officially scored.\n"}
+,{"stream_name":"stdout","time":35.353227526,"data":"\n"}
+,{"stream_name":"stderr","time":40.70191268,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":40.70196456,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":40.899081491,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":40.899128371,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":42.061231226,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":42.405238654,"data":"[NbConvertApp] Writing 431821 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":45.299109089,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":46.269069683,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":46.269133613,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.269238103,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.269527023,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.269662023,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.269788643,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.270262303,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.270308163,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.270404752,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.270519613,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.270706602,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.270828182,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":46.271052912,"data":"[NbConvertApp] Writing 483952 bytes to __results__.html\n"}
+]

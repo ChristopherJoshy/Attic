@@ -1,0 +1,42 @@
+[{"stream_name":"stderr","time":11.364440734,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.364541548,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.364549917,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.364553461,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.400017442,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.400061548,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.400068315,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.400073376,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.635586526,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":14.635633677,"data":"  NEUROGOLF SUPER-BLEND\n"}
+,{"stream_name":"stdout","time":14.635639502,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":14.635644626,"data":"\n"}
+,{"stream_name":"stdout","time":14.635648756,"data":"Downloading: vyankteshdwivedi/neurogolf-multi-source-onnx-solver\n"}
+,{"stream_name":"stdout","time":17.716749434,"data":"  Valid: 400 tasks from 1061585 byte zip\n"}
+,{"stream_name":"stdout","time":17.71696815,"data":"\n"}
+,{"stream_name":"stdout","time":17.716985517,"data":"Downloading: needless090/neurogolf-4250\n"}
+,{"stream_name":"stdout","time":20.278797155,"data":"  Valid: 249 tasks from 1071309 byte zip\n"}
+,{"stream_name":"stdout","time":20.278840743,"data":"\n"}
+,{"stream_name":"stdout","time":20.278848229,"data":"Downloading: afr1ste/neurogolf-5689-51-current-rules-open-solution\n"}
+,{"stream_name":"stdout","time":22.914715719,"data":"  Valid: 400 tasks from 1119149 byte zip\n"}
+,{"stream_name":"stdout","time":22.914768305,"data":"\n"}
+,{"stream_name":"stdout","time":22.914775796,"data":"Downloading: jonathanchan/ngc26-constraint-smart-logic-mix-blending\n"}
+,{"stream_name":"stdout","time":106.43610932,"data":"  Valid: 398 tasks from 1271380 byte zip\n"}
+,{"stream_name":"stdout","time":106.436147734,"data":"\n"}
+,{"stream_name":"stdout","time":106.436153714,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":106.436157828,"data":"  MERGED: 400 tasks\n"}
+,{"stream_name":"stdout","time":106.436161848,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":106.436165675,"data":"  vyankteshdwivedi: 233 winning tasks\n"}
+,{"stream_name":"stdout","time":106.436169532,"data":"  needless090: 87 winning tasks\n"}
+,{"stream_name":"stdout","time":106.43617339,"data":"  jonathanchan: 80 winning tasks\n"}
+,{"stream_name":"stdout","time":106.439054277,"data":"\n"}
+,{"stream_name":"stdout","time":106.43908932,"data":"  Wrote 400 tasks -\u003e /kaggle/working/submission.zip (935930 bytes)\n"}
+,{"stream_name":"stdout","time":106.439097073,"data":"  Done!\n"}
+,{"stream_name":"stderr","time":110.852461887,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":110.852657746,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":111.181303219,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":111.181358832,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":112.67755408,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":113.178438088,"data":"[NbConvertApp] Writing 9105 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":117.181666896,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":118.414701768,"data":"[NbConvertApp] Writing 300373 bytes to __results__.html\n"}
+]

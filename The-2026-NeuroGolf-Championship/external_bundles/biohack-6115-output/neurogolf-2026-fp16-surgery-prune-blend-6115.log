@@ -1,0 +1,25 @@
+[{"stream_name":"stderr","time":9.305271464,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.305382365,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.305389746,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.305393754,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.067967853,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.06801742,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.068024583,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.068029407,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":14.675355471,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 77.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":14.877772128,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 77.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":21.090745342,"data":"Anchor bundle: /kaggle/input/datasets/biohack44/neurogolf-6113-bundle\n"}
+,{"stream_name":"stdout","time":31.664128206,"data":"400 tasks processed\n"}
+,{"stream_name":"stdout","time":31.664180257,"data":"surgery accepted on 0 tasks\n"}
+,{"stream_name":"stdout","time":31.664188836,"data":"additional prune savings on 10 tasks\n"}
+,{"stream_name":"stdout","time":31.664194285,"data":"total cost saved: 196,764 bytes\n"}
+,{"stream_name":"stdout","time":31.947778778,"data":"submission.zip written: 1,301,488 bytes, 400 files\n"}
+,{"stream_name":"stderr","time":35.15050557,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":35.150556224,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":35.345365621,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":35.345404419,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":36.425530973,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":36.809223059,"data":"[NbConvertApp] Writing 20901 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":39.975169512,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":41.103464061,"data":"[NbConvertApp] Writing 340950 bytes to __results__.html\n"}
+]

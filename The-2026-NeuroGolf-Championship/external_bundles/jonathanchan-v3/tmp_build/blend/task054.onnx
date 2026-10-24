@@ -1,0 +1,1563 @@
+
+:ÿÍ
+:
+inputcounts"	ReduceSum*
+axes@@ *
+keepdims 
+<
+counts	max_count"	ReduceMax*
+axes@ *
+keepdims 
+(
+	max_count
+halfmax_count_m_half"Sub
+4
+counts
+max_count_m_halfis_bg_chan_bool"Greater
+.
+is_bg_chan_bool
+is_bg_chan"Cast*	
+to 
+%
+one_f
+
+is_bg_channot_bg_chan"Sub
+(
+counts
+not_bg_channonbg_counts"Mul
+?
+nonbg_countsmax_rf"	ReduceMax*
+axes@ *
+keepdims 
+"
+max_rf
+halfmax_rf_m_half"Sub
+7
+nonbg_counts
+max_rf_m_halfis_rf_chan_bool"Greater
+.
+is_rf_chan_bool
+is_rf_chan"Cast*	
+to 
+
+input
+
+is_bg_chanin_bg"Mul
+9
+in_bgbg_mask"	ReduceSum*
+axes@ *
+keepdims 
+
+input
+
+is_rf_chanin_rf"Mul
+<
+in_rf
+rfill_mask"	ReduceSum*
+axes@ *
+keepdims 
+"
+one_f
+bg_masknot_bg_mask"Sub
+(
+one_f
+
+rfill_masknot_rfill_mask"Sub
+L
+
+rfill_mask
+w_nbnb_count"Conv*
+kernel_shape@@ *
+pads@@@@ 
+*
+nb_count
+
+seven_half	all8_bool"Greater
+"
+	all8_boolall8"Cast*	
+to 
+(
+not_bg_mask
+not_rfill_masknbnr"Mul
+
+nbnr
+all8marker_mask"Mul
+(
+input
+marker_maskin_at_markers"Mul
+E
+in_at_markers	mcount_pc"	ReduceSum*
+axes@@ *
+keepdims 
+*
+	mcount_pc
+halfis_m_chan_bool"Greater
+,
+is_m_chan_bool	is_m_chan"Cast*	
+to 
+
+input
+	is_m_chanin_m"Mul
+7
+in_mM_mask"	ReduceSum*
+axes@ *
+keepdims 
+%
+one_f
+marker_mask
+not_marker"Sub
+!
+M_mask
+
+not_markert_seed"Mul
+
+t_seedtm_0"Identity
+S
+tm_0tm_d_0"MaxPool*
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 
+ 
+tm_d_0
+not_bg_masktm_1"Mul
+S
+tm_1tm_d_1"MaxPool*
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 
+ 
+tm_d_1
+not_bg_masktm_2"Mul
+S
+tm_2tm_d_2"MaxPool*
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 
+ 
+tm_d_2
+not_bg_masktm_3"Mul
+S
+tm_3tm_d_3"MaxPool*
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 
+ 
+tm_d_3
+not_bg_masktm_4"Mul
+S
+tm_4tm_d_4"MaxPool*
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 
+ 
+tm_d_4
+not_bg_masktm_5"Mul
+S
+tm_5tm_d_5"MaxPool*
+kernel_shape@@ *
+pads@@@@ *
+strides@@ 
+ 
+tm_d_5
+not_bg_masktm_6"Mul
+
+tm_6template_mask"Identity
+B
+template_maskrows_any"	ReduceMax*
+axes@ *
+keepdims 
+B
+template_maskcols_any"	ReduceMax*
+axes@ *
+keepdims 
+
+rows_any
+row_idxtr_w"Mul
+9
+tr_wtr_sum"	ReduceSum*
+axes@@ *
+keepdims 
+?
+rows_anyrows_cnt"	ReduceSum*
+axes@@ *
+keepdims 
+"
+tr_sum
+rows_cnt	tr_scalar"Div
+
+cols_any
+col_idxtc_w"Mul
+9
+tc_wtc_sum"	ReduceSum*
+axes@@ *
+keepdims 
+?
+cols_anycols_cnt"	ReduceSum*
+axes@@ *
+keepdims 
+"
+tc_sum
+cols_cnt	tc_scalar"Div
+#
+row_idx
+	tr_scalarrow_diff"Sub
+
+row_diffrow_abs"Abs
+"
+row_abs
+halfrow_eq_bool"Less
+)
+row_eq_bool	row_eq_tr"Cast*	
+to 
+#
+col_idx
+	tc_scalarcol_diff"Sub
+
+col_diffcol_abs"Abs
+"
+col_abs
+halfcol_eq_bool"Less
+)
+col_eq_bool	col_eq_tc"Cast*	
+to 
+(
+	row_eq_tr
+	col_eq_tccenter_mask"Mul
+"
+input
+inputzero_10_30_30"Sub
+X
+center_mask
+
+kshift_0_0center_sh_0_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_0_0in_x_cm_0_0"Mul
+C
+in_x_cm_0_0	T_col_0_0"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_0_0
+not_bg_chanT_col_nb_0_0"Mul
+X
+marker_mask
+
+kshift_0_0marker_sh_0_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_0_0
+T_col_nb_0_0stamp_c_0_0"Mul
+0
+zero_10_30_30
+stamp_c_0_0stamp_acc_0_0"Add
+X
+center_mask
+
+kshift_0_1center_sh_0_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_0_1in_x_cm_0_1"Mul
+C
+in_x_cm_0_1	T_col_0_1"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_0_1
+not_bg_chanT_col_nb_0_1"Mul
+X
+marker_mask
+
+kshift_0_1marker_sh_0_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_0_1
+T_col_nb_0_1stamp_c_0_1"Mul
+0
+stamp_acc_0_0
+stamp_c_0_1stamp_acc_0_1"Add
+X
+center_mask
+
+kshift_0_2center_sh_0_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_0_2in_x_cm_0_2"Mul
+C
+in_x_cm_0_2	T_col_0_2"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_0_2
+not_bg_chanT_col_nb_0_2"Mul
+X
+marker_mask
+
+kshift_0_2marker_sh_0_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_0_2
+T_col_nb_0_2stamp_c_0_2"Mul
+0
+stamp_acc_0_1
+stamp_c_0_2stamp_acc_0_2"Add
+X
+center_mask
+
+kshift_0_3center_sh_0_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_0_3in_x_cm_0_3"Mul
+C
+in_x_cm_0_3	T_col_0_3"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_0_3
+not_bg_chanT_col_nb_0_3"Mul
+X
+marker_mask
+
+kshift_0_3marker_sh_0_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_0_3
+T_col_nb_0_3stamp_c_0_3"Mul
+0
+stamp_acc_0_2
+stamp_c_0_3stamp_acc_0_3"Add
+X
+center_mask
+
+kshift_0_4center_sh_0_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_0_4in_x_cm_0_4"Mul
+C
+in_x_cm_0_4	T_col_0_4"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_0_4
+not_bg_chanT_col_nb_0_4"Mul
+X
+marker_mask
+
+kshift_0_4marker_sh_0_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_0_4
+T_col_nb_0_4stamp_c_0_4"Mul
+0
+stamp_acc_0_3
+stamp_c_0_4stamp_acc_0_4"Add
+X
+center_mask
+
+kshift_1_0center_sh_1_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_1_0in_x_cm_1_0"Mul
+C
+in_x_cm_1_0	T_col_1_0"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_1_0
+not_bg_chanT_col_nb_1_0"Mul
+X
+marker_mask
+
+kshift_1_0marker_sh_1_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_1_0
+T_col_nb_1_0stamp_c_1_0"Mul
+0
+stamp_acc_0_4
+stamp_c_1_0stamp_acc_1_0"Add
+X
+center_mask
+
+kshift_1_1center_sh_1_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_1_1in_x_cm_1_1"Mul
+C
+in_x_cm_1_1	T_col_1_1"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_1_1
+not_bg_chanT_col_nb_1_1"Mul
+X
+marker_mask
+
+kshift_1_1marker_sh_1_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_1_1
+T_col_nb_1_1stamp_c_1_1"Mul
+0
+stamp_acc_1_0
+stamp_c_1_1stamp_acc_1_1"Add
+X
+center_mask
+
+kshift_1_2center_sh_1_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_1_2in_x_cm_1_2"Mul
+C
+in_x_cm_1_2	T_col_1_2"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_1_2
+not_bg_chanT_col_nb_1_2"Mul
+X
+marker_mask
+
+kshift_1_2marker_sh_1_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_1_2
+T_col_nb_1_2stamp_c_1_2"Mul
+0
+stamp_acc_1_1
+stamp_c_1_2stamp_acc_1_2"Add
+X
+center_mask
+
+kshift_1_3center_sh_1_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_1_3in_x_cm_1_3"Mul
+C
+in_x_cm_1_3	T_col_1_3"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_1_3
+not_bg_chanT_col_nb_1_3"Mul
+X
+marker_mask
+
+kshift_1_3marker_sh_1_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_1_3
+T_col_nb_1_3stamp_c_1_3"Mul
+0
+stamp_acc_1_2
+stamp_c_1_3stamp_acc_1_3"Add
+X
+center_mask
+
+kshift_1_4center_sh_1_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_1_4in_x_cm_1_4"Mul
+C
+in_x_cm_1_4	T_col_1_4"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_1_4
+not_bg_chanT_col_nb_1_4"Mul
+X
+marker_mask
+
+kshift_1_4marker_sh_1_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_1_4
+T_col_nb_1_4stamp_c_1_4"Mul
+0
+stamp_acc_1_3
+stamp_c_1_4stamp_acc_1_4"Add
+X
+center_mask
+
+kshift_2_0center_sh_2_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_2_0in_x_cm_2_0"Mul
+C
+in_x_cm_2_0	T_col_2_0"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_2_0
+not_bg_chanT_col_nb_2_0"Mul
+X
+marker_mask
+
+kshift_2_0marker_sh_2_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_2_0
+T_col_nb_2_0stamp_c_2_0"Mul
+0
+stamp_acc_1_4
+stamp_c_2_0stamp_acc_2_0"Add
+X
+center_mask
+
+kshift_2_1center_sh_2_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_2_1in_x_cm_2_1"Mul
+C
+in_x_cm_2_1	T_col_2_1"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_2_1
+not_bg_chanT_col_nb_2_1"Mul
+X
+marker_mask
+
+kshift_2_1marker_sh_2_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_2_1
+T_col_nb_2_1stamp_c_2_1"Mul
+0
+stamp_acc_2_0
+stamp_c_2_1stamp_acc_2_1"Add
+X
+center_mask
+
+kshift_2_2center_sh_2_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_2_2in_x_cm_2_2"Mul
+C
+in_x_cm_2_2	T_col_2_2"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_2_2
+not_bg_chanT_col_nb_2_2"Mul
+X
+marker_mask
+
+kshift_2_2marker_sh_2_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_2_2
+T_col_nb_2_2stamp_c_2_2"Mul
+0
+stamp_acc_2_1
+stamp_c_2_2stamp_acc_2_2"Add
+X
+center_mask
+
+kshift_2_3center_sh_2_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_2_3in_x_cm_2_3"Mul
+C
+in_x_cm_2_3	T_col_2_3"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_2_3
+not_bg_chanT_col_nb_2_3"Mul
+X
+marker_mask
+
+kshift_2_3marker_sh_2_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_2_3
+T_col_nb_2_3stamp_c_2_3"Mul
+0
+stamp_acc_2_2
+stamp_c_2_3stamp_acc_2_3"Add
+X
+center_mask
+
+kshift_2_4center_sh_2_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_2_4in_x_cm_2_4"Mul
+C
+in_x_cm_2_4	T_col_2_4"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_2_4
+not_bg_chanT_col_nb_2_4"Mul
+X
+marker_mask
+
+kshift_2_4marker_sh_2_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_2_4
+T_col_nb_2_4stamp_c_2_4"Mul
+0
+stamp_acc_2_3
+stamp_c_2_4stamp_acc_2_4"Add
+X
+center_mask
+
+kshift_3_0center_sh_3_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_3_0in_x_cm_3_0"Mul
+C
+in_x_cm_3_0	T_col_3_0"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_3_0
+not_bg_chanT_col_nb_3_0"Mul
+X
+marker_mask
+
+kshift_3_0marker_sh_3_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_3_0
+T_col_nb_3_0stamp_c_3_0"Mul
+0
+stamp_acc_2_4
+stamp_c_3_0stamp_acc_3_0"Add
+X
+center_mask
+
+kshift_3_1center_sh_3_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_3_1in_x_cm_3_1"Mul
+C
+in_x_cm_3_1	T_col_3_1"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_3_1
+not_bg_chanT_col_nb_3_1"Mul
+X
+marker_mask
+
+kshift_3_1marker_sh_3_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_3_1
+T_col_nb_3_1stamp_c_3_1"Mul
+0
+stamp_acc_3_0
+stamp_c_3_1stamp_acc_3_1"Add
+X
+center_mask
+
+kshift_3_2center_sh_3_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_3_2in_x_cm_3_2"Mul
+C
+in_x_cm_3_2	T_col_3_2"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_3_2
+not_bg_chanT_col_nb_3_2"Mul
+X
+marker_mask
+
+kshift_3_2marker_sh_3_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_3_2
+T_col_nb_3_2stamp_c_3_2"Mul
+0
+stamp_acc_3_1
+stamp_c_3_2stamp_acc_3_2"Add
+X
+center_mask
+
+kshift_3_3center_sh_3_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_3_3in_x_cm_3_3"Mul
+C
+in_x_cm_3_3	T_col_3_3"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_3_3
+not_bg_chanT_col_nb_3_3"Mul
+X
+marker_mask
+
+kshift_3_3marker_sh_3_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_3_3
+T_col_nb_3_3stamp_c_3_3"Mul
+0
+stamp_acc_3_2
+stamp_c_3_3stamp_acc_3_3"Add
+X
+center_mask
+
+kshift_3_4center_sh_3_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_3_4in_x_cm_3_4"Mul
+C
+in_x_cm_3_4	T_col_3_4"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_3_4
+not_bg_chanT_col_nb_3_4"Mul
+X
+marker_mask
+
+kshift_3_4marker_sh_3_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_3_4
+T_col_nb_3_4stamp_c_3_4"Mul
+0
+stamp_acc_3_3
+stamp_c_3_4stamp_acc_3_4"Add
+X
+center_mask
+
+kshift_4_0center_sh_4_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_4_0in_x_cm_4_0"Mul
+C
+in_x_cm_4_0	T_col_4_0"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_4_0
+not_bg_chanT_col_nb_4_0"Mul
+X
+marker_mask
+
+kshift_4_0marker_sh_4_0"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_4_0
+T_col_nb_4_0stamp_c_4_0"Mul
+0
+stamp_acc_3_4
+stamp_c_4_0stamp_acc_4_0"Add
+X
+center_mask
+
+kshift_4_1center_sh_4_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_4_1in_x_cm_4_1"Mul
+C
+in_x_cm_4_1	T_col_4_1"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_4_1
+not_bg_chanT_col_nb_4_1"Mul
+X
+marker_mask
+
+kshift_4_1marker_sh_4_1"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_4_1
+T_col_nb_4_1stamp_c_4_1"Mul
+0
+stamp_acc_4_0
+stamp_c_4_1stamp_acc_4_1"Add
+X
+center_mask
+
+kshift_4_2center_sh_4_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_4_2in_x_cm_4_2"Mul
+C
+in_x_cm_4_2	T_col_4_2"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_4_2
+not_bg_chanT_col_nb_4_2"Mul
+X
+marker_mask
+
+kshift_4_2marker_sh_4_2"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_4_2
+T_col_nb_4_2stamp_c_4_2"Mul
+0
+stamp_acc_4_1
+stamp_c_4_2stamp_acc_4_2"Add
+X
+center_mask
+
+kshift_4_3center_sh_4_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_4_3in_x_cm_4_3"Mul
+C
+in_x_cm_4_3	T_col_4_3"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_4_3
+not_bg_chanT_col_nb_4_3"Mul
+X
+marker_mask
+
+kshift_4_3marker_sh_4_3"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_4_3
+T_col_nb_4_3stamp_c_4_3"Mul
+0
+stamp_acc_4_2
+stamp_c_4_3stamp_acc_4_3"Add
+X
+center_mask
+
+kshift_4_4center_sh_4_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+(
+input
+center_sh_4_4in_x_cm_4_4"Mul
+C
+in_x_cm_4_4	T_col_4_4"	ReduceSum*
+axes@@ *
+keepdims 
++
+	T_col_4_4
+not_bg_chanT_col_nb_4_4"Mul
+X
+marker_mask
+
+kshift_4_4marker_sh_4_4"Conv*
+kernel_shape@@ *
+pads@@@@ 
+/
+marker_sh_4_4
+T_col_nb_4_4stamp_c_4_4"Mul
+0
+stamp_acc_4_3
+stamp_c_4_4stamp_acc_4_4"Add
+,
+stamp_acc_4_4stamp_per_channel"Identity
+H
+stamp_per_channel
+stamp_mask"	ReduceSum*
+axes@ *
+keepdims 
+%
+T_col_nb_1_2v_arm_color"Identity
+%
+T_col_nb_2_1h_arm_color"Identity
+-
+rows_cnt
+	four_halfextend_v_bool"Greater
+*
+extend_v_boolextend_v"Cast*	
+to 
+-
+cols_cnt
+	four_halfextend_h_bool"Greater
+*
+extend_h_boolextend_h"Cast*	
+to 
++
+
+rfill_mask
+marker_maskinside_rect"Add
+
+marker_maskvf_0"Identity
+S
+vf_0vf_d_0"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_0
+inside_rectvf_1"Mul
+S
+vf_1vf_d_1"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_1
+inside_rectvf_2"Mul
+S
+vf_2vf_d_2"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_2
+inside_rectvf_3"Mul
+S
+vf_3vf_d_3"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_3
+inside_rectvf_4"Mul
+S
+vf_4vf_d_4"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_4
+inside_rectvf_5"Mul
+S
+vf_5vf_d_5"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_5
+inside_rectvf_6"Mul
+S
+vf_6vf_d_6"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_6
+inside_rectvf_7"Mul
+S
+vf_7vf_d_7"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_7
+inside_rectvf_8"Mul
+S
+vf_8vf_d_8"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+ 
+vf_d_8
+inside_rectvf_9"Mul
+S
+vf_9vf_d_9"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+!
+vf_d_9
+inside_rectvf_10"Mul
+U
+vf_10vf_d_10"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_10
+inside_rectvf_11"Mul
+U
+vf_11vf_d_11"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_11
+inside_rectvf_12"Mul
+U
+vf_12vf_d_12"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_12
+inside_rectvf_13"Mul
+U
+vf_13vf_d_13"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_13
+inside_rectvf_14"Mul
+U
+vf_14vf_d_14"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_14
+inside_rectvf_15"Mul
+U
+vf_15vf_d_15"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_15
+inside_rectvf_16"Mul
+U
+vf_16vf_d_16"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_16
+inside_rectvf_17"Mul
+U
+vf_17vf_d_17"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_17
+inside_rectvf_18"Mul
+U
+vf_18vf_d_18"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_18
+inside_rectvf_19"Mul
+U
+vf_19vf_d_19"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_19
+inside_rectvf_20"Mul
+U
+vf_20vf_d_20"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_20
+inside_rectvf_21"Mul
+U
+vf_21vf_d_21"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_21
+inside_rectvf_22"Mul
+U
+vf_22vf_d_22"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_22
+inside_rectvf_23"Mul
+U
+vf_23vf_d_23"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_23
+inside_rectvf_24"Mul
+U
+vf_24vf_d_24"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_24
+inside_rectvf_25"Mul
+U
+vf_25vf_d_25"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_25
+inside_rectvf_26"Mul
+U
+vf_26vf_d_26"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_26
+inside_rectvf_27"Mul
+U
+vf_27vf_d_27"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_27
+inside_rectvf_28"Mul
+U
+vf_28vf_d_28"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_28
+inside_rectvf_29"Mul
+U
+vf_29vf_d_29"MaxPool*
+kernel_shape@@ *
+pads@@ @@  *
+strides@@ 
+"
+vf_d_29
+inside_rectvf_30"Mul
+
+vf_30vflood"Identity
+"
+vflood
+
+rfill_maskv_paint"Mul
+'
+v_paint
+extend_vv_paint_final"Mul
+
+marker_maskhf_0"Identity
+S
+hf_0hf_d_0"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_0
+inside_recthf_1"Mul
+S
+hf_1hf_d_1"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_1
+inside_recthf_2"Mul
+S
+hf_2hf_d_2"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_2
+inside_recthf_3"Mul
+S
+hf_3hf_d_3"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_3
+inside_recthf_4"Mul
+S
+hf_4hf_d_4"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_4
+inside_recthf_5"Mul
+S
+hf_5hf_d_5"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_5
+inside_recthf_6"Mul
+S
+hf_6hf_d_6"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_6
+inside_recthf_7"Mul
+S
+hf_7hf_d_7"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_7
+inside_recthf_8"Mul
+S
+hf_8hf_d_8"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+ 
+hf_d_8
+inside_recthf_9"Mul
+S
+hf_9hf_d_9"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+!
+hf_d_9
+inside_recthf_10"Mul
+U
+hf_10hf_d_10"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_10
+inside_recthf_11"Mul
+U
+hf_11hf_d_11"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_11
+inside_recthf_12"Mul
+U
+hf_12hf_d_12"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_12
+inside_recthf_13"Mul
+U
+hf_13hf_d_13"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_13
+inside_recthf_14"Mul
+U
+hf_14hf_d_14"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_14
+inside_recthf_15"Mul
+U
+hf_15hf_d_15"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_15
+inside_recthf_16"Mul
+U
+hf_16hf_d_16"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_16
+inside_recthf_17"Mul
+U
+hf_17hf_d_17"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_17
+inside_recthf_18"Mul
+U
+hf_18hf_d_18"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_18
+inside_recthf_19"Mul
+U
+hf_19hf_d_19"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_19
+inside_recthf_20"Mul
+U
+hf_20hf_d_20"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_20
+inside_recthf_21"Mul
+U
+hf_21hf_d_21"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_21
+inside_recthf_22"Mul
+U
+hf_22hf_d_22"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_22
+inside_recthf_23"Mul
+U
+hf_23hf_d_23"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_23
+inside_recthf_24"Mul
+U
+hf_24hf_d_24"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_24
+inside_recthf_25"Mul
+U
+hf_25hf_d_25"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_25
+inside_recthf_26"Mul
+U
+hf_26hf_d_26"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_26
+inside_recthf_27"Mul
+U
+hf_27hf_d_27"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_27
+inside_recthf_28"Mul
+U
+hf_28hf_d_28"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_28
+inside_recthf_29"Mul
+U
+hf_29hf_d_29"MaxPool*
+kernel_shape@@ *
+pads@ @@ @ *
+strides@@ 
+"
+hf_d_29
+inside_recthf_30"Mul
+
+hf_30hflood"Identity
+"
+hflood
+
+rfill_maskh_paint"Mul
+'
+h_paint
+extend_hh_paint_final"Mul
+,
+v_paint_final
+v_arm_color	v_paint_c"Mul
+,
+h_paint_final
+h_arm_color	h_paint_c"Mul
+2
+stamp_per_channel
+inside_rectstamp_restr"Mul
+0
+
+stamp_mask
+inside_rectstamp_mask_restr"Mul
+,
+template_mask
+stamp_mask_restrpa_1"Add
+ 
+pa_1
+v_paint_finalpa_2"Add
+"
+pa_2
+h_paint_finalpa_sum"Add
+ 
+pa_sum
+halfpa_bool"Greater
+%
+pa_bool	paint_any"Cast*	
+to 
+"
+one_f
+	paint_any	keep_orig"Sub
+#
+input
+	keep_orig
+kept_input"Mul
+,
+template_mask
+
+is_bg_chan
+tmpl_to_bg"Mul
+#
+stamp_restr
+	v_paint_cnp_1"Add
+
+np_1
+	h_paint_cnp_2"Add
+"
+np_2
+
+tmpl_to_bg	new_paint"Add
+*
+	new_paint
+halfnew_paint_bool"Greater
+.
+new_paint_boolnew_paint_f"Cast*	
+to 
+)
+new_paint_f
+	paint_any
+new_masked"Mul
+%
+
+kept_input
+
+new_maskedoutput"Addtask054*BhalfJ   ?*Bone_fJ  €?*6Bw_nbJ$  €?  €?  €?  €?      €?  €?  €?  €?*B
+seven_halfJ  ğ@*Brow_idxJx      €?   @  @@  €@   @  À@  à@   A  A   A  0A  @A  PA  `A  pA  €A  ˆA  A  ˜A   A  ¨A  °A  ¸A  ÀA  ÈA  ĞA  ØA  àA  èA*Bcol_idxJx      €?   @  @@  €@   @  À@  à@   A  A   A  0A  @A  PA  `A  pA  €A  ˆA  A  ˜A   A  ¨A  °A  ¸A  ÀA  ÈA  ĞA  ØA  àA  èA*|B
+kshift_0_0Jd                                                                                                  €?*|B
+kshift_0_1Jd                                                                                              €?    *|B
+kshift_0_2Jd                                                                                          €?        *|B
+kshift_0_3Jd                                                                                      €?            *|B
+kshift_0_4Jd                                                                                  €?                *|B
+kshift_1_0Jd                                                                              €?                    *|B
+kshift_1_1Jd                                                                          €?                        *|B
+kshift_1_2Jd                                                                      €?                            *|B
+kshift_1_3Jd                                                                  €?                                *|B
+kshift_1_4Jd                                                              €?                                    *|B
+kshift_2_0Jd                                                          €?                                        *|B
+kshift_2_1Jd                                                      €?                                            *|B
+kshift_2_2Jd                                                  €?                                                *|B
+kshift_2_3Jd                                              €?                                                    *|B
+kshift_2_4Jd                                          €?                                                        *|B
+kshift_3_0Jd                                      €?                                                            *|B
+kshift_3_1Jd                                  €?                                                                *|B
+kshift_3_2Jd                              €?                                                                    *|B
+kshift_3_3Jd                          €?                                                                        *|B
+kshift_3_4Jd                      €?                                                                            *|B
+kshift_4_0Jd                  €?                                                                                *|B
+kshift_4_1Jd              €?                                                                                    *|B
+kshift_4_2Jd          €?                                                                                        *|B
+kshift_4_3Jd      €?                                                                                            *|B
+kshift_4_4Jd  €?                                                                                                *B	four_halfJ  @Z
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+B
+ 

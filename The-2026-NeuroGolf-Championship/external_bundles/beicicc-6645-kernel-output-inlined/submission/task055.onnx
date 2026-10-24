@@ -1,0 +1,677 @@
+:¸ñ
+=
+input
+idx_ch0
+inl_0_zero
+inl_0_zero"Gather*
+axis†
+?
+input
+idx_ch8inl_0_eightinl_0_eight"Gather*
+axis†
+8
+inl_0_eight
+k_rowinl_0_row_suminl_0_row_sum"Conv
+8
+inl_0_eight
+k_colinl_0_col_suminl_0_col_sum"Conv
+8
+inl_0_row_sum
+f0inl_0_equal_5inl_0_equal_5"Equal
+F
+inl_0_equal_5inl_0_row_is_zeroinl_0_row_is_zero"Cast*	
+to†
+8
+inl_0_col_sum
+f0inl_0_equal_8inl_0_equal_8"Equal
+F
+inl_0_equal_8inl_0_col_is_zeroinl_0_col_is_zero"Cast*	
+to†
+:
+inl_0_row_sum
+f2inl_0_equal_11inl_0_equal_11"Equal
+E
+inl_0_equal_11inl_0_row_is_twoinl_0_row_is_two"Cast*	
+to†
+:
+inl_0_col_sum
+f2inl_0_equal_14inl_0_equal_14"Equal
+E
+inl_0_equal_14inl_0_col_is_twoinl_0_col_is_two"Cast*	
+to†
+@
+f1
+inl_0_row_is_zeroinl_0_row_activeinl_0_row_active"Sub
+@
+f1
+inl_0_col_is_zeroinl_0_col_activeinl_0_col_active"Sub
+7
+f1
+inl_0_row_is_twoinl_0_sub_19inl_0_sub_19"Sub
+E
+inl_0_row_active
+inl_0_sub_19inl_0_row_lineinl_0_row_line"Mul
+7
+f1
+inl_0_col_is_twoinl_0_sub_22inl_0_sub_22"Sub
+E
+inl_0_col_active
+inl_0_sub_22inl_0_col_lineinl_0_col_line"Mul
+P
+inl_0_row_line
+idx_0inl_0_row_line_0inl_0_row_line_0"Gather*
+axis†
+D
+zero_px
+inl_0_row_line_0inl_0_row_pref_0inl_0_row_pref_0"Add
+P
+inl_0_row_line
+idx_1inl_0_row_line_1inl_0_row_line_1"Gather*
+axis†
+M
+inl_0_row_pref_0
+inl_0_row_line_1inl_0_row_pref_1inl_0_row_pref_1"Add
+P
+inl_0_row_line
+idx_2inl_0_row_line_2inl_0_row_line_2"Gather*
+axis†
+M
+inl_0_row_pref_1
+inl_0_row_line_2inl_0_row_pref_2inl_0_row_pref_2"Add
+P
+inl_0_row_line
+idx_3inl_0_row_line_3inl_0_row_line_3"Gather*
+axis†
+M
+inl_0_row_pref_2
+inl_0_row_line_3inl_0_row_pref_3inl_0_row_pref_3"Add
+P
+inl_0_row_line
+idx_4inl_0_row_line_4inl_0_row_line_4"Gather*
+axis†
+M
+inl_0_row_pref_3
+inl_0_row_line_4inl_0_row_pref_4inl_0_row_pref_4"Add
+P
+inl_0_row_line
+idx_5inl_0_row_line_5inl_0_row_line_5"Gather*
+axis†
+M
+inl_0_row_pref_4
+inl_0_row_line_5inl_0_row_pref_5inl_0_row_pref_5"Add
+P
+inl_0_row_line
+idx_6inl_0_row_line_6inl_0_row_line_6"Gather*
+axis†
+M
+inl_0_row_pref_5
+inl_0_row_line_6inl_0_row_pref_6inl_0_row_pref_6"Add
+P
+inl_0_row_line
+idx_7inl_0_row_line_7inl_0_row_line_7"Gather*
+axis†
+M
+inl_0_row_pref_6
+inl_0_row_line_7inl_0_row_pref_7inl_0_row_pref_7"Add
+P
+inl_0_row_line
+idx_8inl_0_row_line_8inl_0_row_line_8"Gather*
+axis†
+M
+inl_0_row_pref_7
+inl_0_row_line_8inl_0_row_pref_8inl_0_row_pref_8"Add
+P
+inl_0_row_line
+idx_9inl_0_row_line_9inl_0_row_line_9"Gather*
+axis†
+M
+inl_0_row_pref_8
+inl_0_row_line_9inl_0_row_pref_9inl_0_row_pref_9"Add
+S
+inl_0_row_line
+idx_10inl_0_row_line_10inl_0_row_line_10"Gather*
+axis†
+P
+inl_0_row_pref_9
+inl_0_row_line_10inl_0_row_pref_10inl_0_row_pref_10"Add
+S
+inl_0_row_line
+idx_11inl_0_row_line_11inl_0_row_line_11"Gather*
+axis†
+Q
+inl_0_row_pref_10
+inl_0_row_line_11inl_0_row_pref_11inl_0_row_pref_11"Add
+S
+inl_0_row_line
+idx_12inl_0_row_line_12inl_0_row_line_12"Gather*
+axis†
+Q
+inl_0_row_pref_11
+inl_0_row_line_12inl_0_row_pref_12inl_0_row_pref_12"Add
+S
+inl_0_row_line
+idx_13inl_0_row_line_13inl_0_row_line_13"Gather*
+axis†
+Q
+inl_0_row_pref_12
+inl_0_row_line_13inl_0_row_pref_13inl_0_row_pref_13"Add
+S
+inl_0_row_line
+idx_14inl_0_row_line_14inl_0_row_line_14"Gather*
+axis†
+Q
+inl_0_row_pref_13
+inl_0_row_line_14inl_0_row_pref_14inl_0_row_pref_14"Add
+S
+inl_0_row_line
+idx_15inl_0_row_line_15inl_0_row_line_15"Gather*
+axis†
+Q
+inl_0_row_pref_14
+inl_0_row_line_15inl_0_row_pref_15inl_0_row_pref_15"Add
+S
+inl_0_row_line
+idx_16inl_0_row_line_16inl_0_row_line_16"Gather*
+axis†
+Q
+inl_0_row_pref_15
+inl_0_row_line_16inl_0_row_pref_16inl_0_row_pref_16"Add
+S
+inl_0_row_line
+idx_17inl_0_row_line_17inl_0_row_line_17"Gather*
+axis†
+Q
+inl_0_row_pref_16
+inl_0_row_line_17inl_0_row_pref_17inl_0_row_pref_17"Add
+S
+inl_0_row_line
+idx_18inl_0_row_line_18inl_0_row_line_18"Gather*
+axis†
+Q
+inl_0_row_pref_17
+inl_0_row_line_18inl_0_row_pref_18inl_0_row_pref_18"Add
+S
+inl_0_row_line
+idx_19inl_0_row_line_19inl_0_row_line_19"Gather*
+axis†
+Q
+inl_0_row_pref_18
+inl_0_row_line_19inl_0_row_pref_19inl_0_row_pref_19"Add
+S
+inl_0_row_line
+idx_20inl_0_row_line_20inl_0_row_line_20"Gather*
+axis†
+Q
+inl_0_row_pref_19
+inl_0_row_line_20inl_0_row_pref_20inl_0_row_pref_20"Add
+S
+inl_0_row_line
+idx_21inl_0_row_line_21inl_0_row_line_21"Gather*
+axis†
+Q
+inl_0_row_pref_20
+inl_0_row_line_21inl_0_row_pref_21inl_0_row_pref_21"Add
+S
+inl_0_row_line
+idx_22inl_0_row_line_22inl_0_row_line_22"Gather*
+axis†
+Q
+inl_0_row_pref_21
+inl_0_row_line_22inl_0_row_pref_22inl_0_row_pref_22"Add
+S
+inl_0_row_line
+idx_23inl_0_row_line_23inl_0_row_line_23"Gather*
+axis†
+Q
+inl_0_row_pref_22
+inl_0_row_line_23inl_0_row_pref_23inl_0_row_pref_23"Add
+S
+inl_0_row_line
+idx_24inl_0_row_line_24inl_0_row_line_24"Gather*
+axis†
+Q
+inl_0_row_pref_23
+inl_0_row_line_24inl_0_row_pref_24inl_0_row_pref_24"Add
+S
+inl_0_row_line
+idx_25inl_0_row_line_25inl_0_row_line_25"Gather*
+axis†
+Q
+inl_0_row_pref_24
+inl_0_row_line_25inl_0_row_pref_25inl_0_row_pref_25"Add
+S
+inl_0_row_line
+idx_26inl_0_row_line_26inl_0_row_line_26"Gather*
+axis†
+Q
+inl_0_row_pref_25
+inl_0_row_line_26inl_0_row_pref_26inl_0_row_pref_26"Add
+S
+inl_0_row_line
+idx_27inl_0_row_line_27inl_0_row_line_27"Gather*
+axis†
+Q
+inl_0_row_pref_26
+inl_0_row_line_27inl_0_row_pref_27inl_0_row_pref_27"Add
+S
+inl_0_row_line
+idx_28inl_0_row_line_28inl_0_row_line_28"Gather*
+axis†
+Q
+inl_0_row_pref_27
+inl_0_row_line_28inl_0_row_pref_28inl_0_row_pref_28"Add
+S
+inl_0_row_line
+idx_29inl_0_row_line_29inl_0_row_line_29"Gather*
+axis†
+Q
+inl_0_row_pref_28
+inl_0_row_line_29inl_0_row_pref_29inl_0_row_pref_29"Add
+È
+inl_0_row_pref_0
+inl_0_row_pref_1
+inl_0_row_pref_2
+inl_0_row_pref_3
+inl_0_row_pref_4
+inl_0_row_pref_5
+inl_0_row_pref_6
+inl_0_row_pref_7
+inl_0_row_pref_8
+inl_0_row_pref_9
+inl_0_row_pref_10
+inl_0_row_pref_11
+inl_0_row_pref_12
+inl_0_row_pref_13
+inl_0_row_pref_14
+inl_0_row_pref_15
+inl_0_row_pref_16
+inl_0_row_pref_17
+inl_0_row_pref_18
+inl_0_row_pref_19
+inl_0_row_pref_20
+inl_0_row_pref_21
+inl_0_row_pref_22
+inl_0_row_pref_23
+inl_0_row_pref_24
+inl_0_row_pref_25
+inl_0_row_pref_26
+inl_0_row_pref_27
+inl_0_row_pref_28
+inl_0_row_pref_29inl_0_row_prefixinl_0_row_prefix"Concat*
+axis†
+P
+inl_0_col_line
+idx_0inl_0_col_line_0inl_0_col_line_0"Gather*
+axis†
+D
+zero_px
+inl_0_col_line_0inl_0_col_pref_0inl_0_col_pref_0"Add
+P
+inl_0_col_line
+idx_1inl_0_col_line_1inl_0_col_line_1"Gather*
+axis†
+M
+inl_0_col_pref_0
+inl_0_col_line_1inl_0_col_pref_1inl_0_col_pref_1"Add
+P
+inl_0_col_line
+idx_2inl_0_col_line_2inl_0_col_line_2"Gather*
+axis†
+M
+inl_0_col_pref_1
+inl_0_col_line_2inl_0_col_pref_2inl_0_col_pref_2"Add
+P
+inl_0_col_line
+idx_3inl_0_col_line_3inl_0_col_line_3"Gather*
+axis†
+M
+inl_0_col_pref_2
+inl_0_col_line_3inl_0_col_pref_3inl_0_col_pref_3"Add
+P
+inl_0_col_line
+idx_4inl_0_col_line_4inl_0_col_line_4"Gather*
+axis†
+M
+inl_0_col_pref_3
+inl_0_col_line_4inl_0_col_pref_4inl_0_col_pref_4"Add
+P
+inl_0_col_line
+idx_5inl_0_col_line_5inl_0_col_line_5"Gather*
+axis†
+M
+inl_0_col_pref_4
+inl_0_col_line_5inl_0_col_pref_5inl_0_col_pref_5"Add
+P
+inl_0_col_line
+idx_6inl_0_col_line_6inl_0_col_line_6"Gather*
+axis†
+M
+inl_0_col_pref_5
+inl_0_col_line_6inl_0_col_pref_6inl_0_col_pref_6"Add
+P
+inl_0_col_line
+idx_7inl_0_col_line_7inl_0_col_line_7"Gather*
+axis†
+M
+inl_0_col_pref_6
+inl_0_col_line_7inl_0_col_pref_7inl_0_col_pref_7"Add
+P
+inl_0_col_line
+idx_8inl_0_col_line_8inl_0_col_line_8"Gather*
+axis†
+M
+inl_0_col_pref_7
+inl_0_col_line_8inl_0_col_pref_8inl_0_col_pref_8"Add
+P
+inl_0_col_line
+idx_9inl_0_col_line_9inl_0_col_line_9"Gather*
+axis†
+M
+inl_0_col_pref_8
+inl_0_col_line_9inl_0_col_pref_9inl_0_col_pref_9"Add
+S
+inl_0_col_line
+idx_10inl_0_col_line_10inl_0_col_line_10"Gather*
+axis†
+P
+inl_0_col_pref_9
+inl_0_col_line_10inl_0_col_pref_10inl_0_col_pref_10"Add
+S
+inl_0_col_line
+idx_11inl_0_col_line_11inl_0_col_line_11"Gather*
+axis†
+Q
+inl_0_col_pref_10
+inl_0_col_line_11inl_0_col_pref_11inl_0_col_pref_11"Add
+S
+inl_0_col_line
+idx_12inl_0_col_line_12inl_0_col_line_12"Gather*
+axis†
+Q
+inl_0_col_pref_11
+inl_0_col_line_12inl_0_col_pref_12inl_0_col_pref_12"Add
+S
+inl_0_col_line
+idx_13inl_0_col_line_13inl_0_col_line_13"Gather*
+axis†
+Q
+inl_0_col_pref_12
+inl_0_col_line_13inl_0_col_pref_13inl_0_col_pref_13"Add
+S
+inl_0_col_line
+idx_14inl_0_col_line_14inl_0_col_line_14"Gather*
+axis†
+Q
+inl_0_col_pref_13
+inl_0_col_line_14inl_0_col_pref_14inl_0_col_pref_14"Add
+S
+inl_0_col_line
+idx_15inl_0_col_line_15inl_0_col_line_15"Gather*
+axis†
+Q
+inl_0_col_pref_14
+inl_0_col_line_15inl_0_col_pref_15inl_0_col_pref_15"Add
+S
+inl_0_col_line
+idx_16inl_0_col_line_16inl_0_col_line_16"Gather*
+axis†
+Q
+inl_0_col_pref_15
+inl_0_col_line_16inl_0_col_pref_16inl_0_col_pref_16"Add
+S
+inl_0_col_line
+idx_17inl_0_col_line_17inl_0_col_line_17"Gather*
+axis†
+Q
+inl_0_col_pref_16
+inl_0_col_line_17inl_0_col_pref_17inl_0_col_pref_17"Add
+S
+inl_0_col_line
+idx_18inl_0_col_line_18inl_0_col_line_18"Gather*
+axis†
+Q
+inl_0_col_pref_17
+inl_0_col_line_18inl_0_col_pref_18inl_0_col_pref_18"Add
+S
+inl_0_col_line
+idx_19inl_0_col_line_19inl_0_col_line_19"Gather*
+axis†
+Q
+inl_0_col_pref_18
+inl_0_col_line_19inl_0_col_pref_19inl_0_col_pref_19"Add
+S
+inl_0_col_line
+idx_20inl_0_col_line_20inl_0_col_line_20"Gather*
+axis†
+Q
+inl_0_col_pref_19
+inl_0_col_line_20inl_0_col_pref_20inl_0_col_pref_20"Add
+S
+inl_0_col_line
+idx_21inl_0_col_line_21inl_0_col_line_21"Gather*
+axis†
+Q
+inl_0_col_pref_20
+inl_0_col_line_21inl_0_col_pref_21inl_0_col_pref_21"Add
+S
+inl_0_col_line
+idx_22inl_0_col_line_22inl_0_col_line_22"Gather*
+axis†
+Q
+inl_0_col_pref_21
+inl_0_col_line_22inl_0_col_pref_22inl_0_col_pref_22"Add
+S
+inl_0_col_line
+idx_23inl_0_col_line_23inl_0_col_line_23"Gather*
+axis†
+Q
+inl_0_col_pref_22
+inl_0_col_line_23inl_0_col_pref_23inl_0_col_pref_23"Add
+S
+inl_0_col_line
+idx_24inl_0_col_line_24inl_0_col_line_24"Gather*
+axis†
+Q
+inl_0_col_pref_23
+inl_0_col_line_24inl_0_col_pref_24inl_0_col_pref_24"Add
+S
+inl_0_col_line
+idx_25inl_0_col_line_25inl_0_col_line_25"Gather*
+axis†
+Q
+inl_0_col_pref_24
+inl_0_col_line_25inl_0_col_pref_25inl_0_col_pref_25"Add
+S
+inl_0_col_line
+idx_26inl_0_col_line_26inl_0_col_line_26"Gather*
+axis†
+Q
+inl_0_col_pref_25
+inl_0_col_line_26inl_0_col_pref_26inl_0_col_pref_26"Add
+S
+inl_0_col_line
+idx_27inl_0_col_line_27inl_0_col_line_27"Gather*
+axis†
+Q
+inl_0_col_pref_26
+inl_0_col_line_27inl_0_col_pref_27inl_0_col_pref_27"Add
+S
+inl_0_col_line
+idx_28inl_0_col_line_28inl_0_col_line_28"Gather*
+axis†
+Q
+inl_0_col_pref_27
+inl_0_col_line_28inl_0_col_pref_28inl_0_col_pref_28"Add
+S
+inl_0_col_line
+idx_29inl_0_col_line_29inl_0_col_line_29"Gather*
+axis†
+Q
+inl_0_col_pref_28
+inl_0_col_line_29inl_0_col_pref_29inl_0_col_pref_29"Add
+È
+inl_0_col_pref_0
+inl_0_col_pref_1
+inl_0_col_pref_2
+inl_0_col_pref_3
+inl_0_col_pref_4
+inl_0_col_pref_5
+inl_0_col_pref_6
+inl_0_col_pref_7
+inl_0_col_pref_8
+inl_0_col_pref_9
+inl_0_col_pref_10
+inl_0_col_pref_11
+inl_0_col_pref_12
+inl_0_col_pref_13
+inl_0_col_pref_14
+inl_0_col_pref_15
+inl_0_col_pref_16
+inl_0_col_pref_17
+inl_0_col_pref_18
+inl_0_col_pref_19
+inl_0_col_pref_20
+inl_0_col_pref_21
+inl_0_col_pref_22
+inl_0_col_pref_23
+inl_0_col_pref_24
+inl_0_col_pref_25
+inl_0_col_pref_26
+inl_0_col_pref_27
+inl_0_col_pref_28
+inl_0_col_pref_29inl_0_col_prefixinl_0_col_prefix"Concat*
+axis†
+?
+inl_0_row_prefix
+f0inl_0_equal_147inl_0_equal_147"Equal
+D
+inl_0_equal_147inl_0_row_pref0inl_0_row_pref0"Cast*	
+to†
+?
+inl_0_row_prefix
+f1inl_0_equal_150inl_0_equal_150"Equal
+D
+inl_0_equal_150inl_0_row_pref1inl_0_row_pref1"Cast*	
+to†
+?
+inl_0_row_prefix
+f2inl_0_equal_153inl_0_equal_153"Equal
+D
+inl_0_equal_153inl_0_row_pref2inl_0_row_pref2"Cast*	
+to†
+?
+inl_0_col_prefix
+f0inl_0_equal_156inl_0_equal_156"Equal
+D
+inl_0_equal_156inl_0_col_pref0inl_0_col_pref0"Cast*	
+to†
+?
+inl_0_col_prefix
+f1inl_0_equal_159inl_0_equal_159"Equal
+D
+inl_0_equal_159inl_0_col_pref1inl_0_col_pref1"Cast*	
+to†
+?
+inl_0_col_prefix
+f2inl_0_equal_162inl_0_equal_162"Equal
+D
+inl_0_equal_162inl_0_col_pref2inl_0_col_pref2"Cast*	
+to†
+A
+f1
+inl_0_row_lineinl_0_row_not_lineinl_0_row_not_line"Sub
+A
+f1
+inl_0_col_lineinl_0_col_not_lineinl_0_col_not_line"Sub
+>
+inl_0_row_active
+inl_0_row_pref0	inl_0_top	inl_0_top"Mul
+F
+inl_0_row_active
+inl_0_row_pref1inl_0_mul_168inl_0_mul_168"Mul
+H
+inl_0_mul_168
+inl_0_row_not_lineinl_0_mid_rowsinl_0_mid_rows"Mul
+F
+inl_0_row_active
+inl_0_row_pref2inl_0_mul_171inl_0_mul_171"Mul
+>
+inl_0_mul_171
+inl_0_row_not_line	inl_0_bot	inl_0_bot"Mul
+@
+inl_0_col_active
+inl_0_col_pref0
+inl_0_left
+inl_0_left"Mul
+F
+inl_0_col_active
+inl_0_col_pref1inl_0_mul_175inl_0_mul_175"Mul
+H
+inl_0_mul_175
+inl_0_col_not_lineinl_0_mid_colsinl_0_mid_cols"Mul
+F
+inl_0_col_active
+inl_0_col_pref2inl_0_mul_178inl_0_mul_178"Mul
+B
+inl_0_mul_178
+inl_0_col_not_lineinl_0_rightinl_0_right"Mul
+6
+	inl_0_top
+inl_0_mid_cols	inl_0_ch2	inl_0_ch2"Mul
+7
+inl_0_mid_rows
+
+inl_0_left	inl_0_ch4	inl_0_ch4"Mul
+;
+inl_0_mid_rows
+inl_0_mid_cols	inl_0_ch6	inl_0_ch6"Mul
+8
+inl_0_mid_rows
+inl_0_right	inl_0_ch3	inl_0_ch3"Mul
+6
+	inl_0_bot
+inl_0_mid_cols	inl_0_ch1	inl_0_ch1"Mul
+9
+	inl_0_ch2
+	inl_0_ch4inl_0_fills_ainl_0_fills_a"Add
+9
+	inl_0_ch6
+	inl_0_ch3inl_0_fills_binl_0_fills_b"Add
+=
+inl_0_fills_b
+	inl_0_ch1inl_0_fills_cinl_0_fills_c"Add
+=
+inl_0_fills_a
+inl_0_fills_cinl_0_fillsinl_0_fills"Add
+4
+
+inl_0_zero
+inl_0_fills	inl_0_ch0	inl_0_ch0"Sub
+í
+	inl_0_ch0
+	inl_0_ch1
+	inl_0_ch2
+	inl_0_ch3
+	inl_0_ch4
+zero_map
+	inl_0_ch6
+zero_map
+inl_0_eight
+zero_mapoutputoutput"Concat*
+axis†hacked_graph*ã"x  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?Bk_row*ã"x  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?  Ä?Bk_col*ß"ê                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Bzero_map*"    Bzero_px*"    Bf0*"  Ä?Bf1*"   @Bf2*: Bidx_ch0*:Bidx_ch8*: Bidx_0*:Bidx_1*:Bidx_2*:Bidx_3*:Bidx_4*:Bidx_5*:Bidx_6*:Bidx_7*:Bidx_8*:	Bidx_9*:
+Bidx_10*:Bidx_11*:Bidx_12*:Bidx_13*:Bidx_14*:Bidx_15*:Bidx_16*:Bidx_17*:Bidx_18*:Bidx_19*:Bidx_20*:Bidx_21*:Bidx_22*:Bidx_23*:Bidx_24*:Bidx_25*:Bidx_26*:Bidx_27*:Bidx_28*:Bidx_29*"  Ä?Bdummy_cost_scalarZ
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+B
+ 

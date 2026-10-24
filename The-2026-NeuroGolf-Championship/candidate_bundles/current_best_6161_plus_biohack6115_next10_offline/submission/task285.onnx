@@ -1,0 +1,3425 @@
+:ò˚
+M
+inputcell_color_i64cell_color_i64"ArgMax*
+axis†*
+keepdims†
+9
+cell_color_i64
+cell_color
+cell_color"Cast*	
+to
+†
+1
+
+cell_color
+ZERO16non_bg_bnon_bg_b"Greater
+F
+
+cell_color
+pads_1
+ZERO16cc_padcc_pad"Pad*
+mode"constant†
+E
+cc_pad
+s_n1_n1
+e_n1_n1
+axes_allcc_n1_n1slice_cc_n1_n1"Slice
+A
+cc_pad
+s_n1_0
+e_n1_0
+axes_allcc_n1_0slice_cc_n1_0"Slice
+A
+cc_pad
+s_n1_1
+e_n1_1
+axes_allcc_n1_1slice_cc_n1_1"Slice
+A
+cc_pad
+s_0_n1
+e_0_n1
+axes_allcc_0_n1slice_cc_0_n1"Slice
+=
+cc_pad
+s_0_0
+e_0_0
+axes_allcc_0_0slice_cc_0_0"Slice
+=
+cc_pad
+s_0_1
+e_0_1
+axes_allcc_0_1slice_cc_0_1"Slice
+A
+cc_pad
+s_1_n1
+e_1_n1
+axes_allcc_1_n1slice_cc_1_n1"Slice
+=
+cc_pad
+s_1_0
+e_1_0
+axes_allcc_1_0slice_cc_1_0"Slice
+=
+cc_pad
+s_1_1
+e_1_1
+axes_allcc_1_1slice_cc_1_1"Slice
+2
+cc_0_n1
+cc_0_0bh_eq_n1_n1bh_eq_n1_n1"Equal
+2
+cc_n1_0
+cc_0_0bv_eq_n1_n1bv_eq_n1_n1"Equal
+3
+cc_n1_n1
+cc_0_0bd_eq_n1_n1bd_eq_n1_n1"Equal
+1
+cc_0_1
+cc_0_0fh_eq_n1_n1fh_eq_n1_n1"Equal
+1
+cc_1_0
+cc_0_0fv_eq_n1_n1fv_eq_n1_n1"Equal
+1
+cc_1_1
+cc_0_0fd_eq_n1_n1fd_eq_n1_n1"Equal
+8
+bh_eq_n1_n1
+bv_eq_n1_n1back1_n1_n1back1_n1_n1"Or
+>
+back1_n1_n1
+bd_eq_n1_n1back_any_n1_n1back_any_n1_n1"Or
+:
+fh_eq_n1_n1
+fv_eq_n1_n1front1_n1_n1front1_n1_n1"Or
+C
+front1_n1_n1
+fd_eq_n1_n1front_same_n1_n1front_same_n1_n1"Or
+;
+front_same_n1_n1front_none_n1_n1front_none_n1_n1"Not
+3
+cc_0_1
+ZERO16fh_nb_n1_n1fh_nb_n1_n1"Greater
+.
+fh_eq_n1_n1fh_neq_n1_n1fh_neq_n1_n1"Not
+@
+fh_nb_n1_n1
+fh_neq_n1_n1fh_valid_n1_n1fh_valid_n1_n1"And
+9
+fh_valid_n1_n1
+cc_0_1
+ZERO16H_n1_n1H_n1_n1"Where
+=
+fh_valid_n1_n1fh_cnt_n1_n1fh_cnt_n1_n1"Cast*	
+to
+†
+3
+cc_1_0
+ZERO16fv_nb_n1_n1fv_nb_n1_n1"Greater
+.
+fv_eq_n1_n1fv_neq_n1_n1fv_neq_n1_n1"Not
+@
+fv_nb_n1_n1
+fv_neq_n1_n1fv_valid_n1_n1fv_valid_n1_n1"And
+9
+fv_valid_n1_n1
+cc_1_0
+ZERO16V_n1_n1V_n1_n1"Where
+=
+fv_valid_n1_n1fv_cnt_n1_n1fv_cnt_n1_n1"Cast*	
+to
+†
+3
+cc_1_1
+ZERO16fd_nb_n1_n1fd_nb_n1_n1"Greater
+.
+fd_eq_n1_n1fd_neq_n1_n1fd_neq_n1_n1"Not
+@
+fd_nb_n1_n1
+fd_neq_n1_n1fd_valid_n1_n1fd_valid_n1_n1"And
+9
+fd_valid_n1_n1
+cc_1_1
+ZERO16D_n1_n1D_n1_n1"Where
+=
+fd_valid_n1_n1fd_cnt_n1_n1fd_cnt_n1_n1"Cast*	
+to
+†
+B
+fh_valid_n1_n1
+fv_valid_n1_n1marker1_n1_n1marker1_n1_n1"Or
+G
+marker1_n1_n1
+fd_valid_n1_n1marker_any_n1_n1marker_any_n1_n1"Or
+5
+non_bg_b
+back_any_n1_n1	xm1_n1_n1	xm1_n1_n1"And
+8
+	xm1_n1_n1
+front_none_n1_n1	xm2_n1_n1	xm2_n1_n1"And
+<
+	xm2_n1_n1
+marker_any_n1_n1xmark_n1_n1xmark_n1_n1"And
+9
+fh_cnt_n1_n1
+fv_cnt_n1_n1
+cnt1_n1_n1
+cnt1_n1_n1"Add
+5
+
+cnt1_n1_n1
+fd_cnt_n1_n1	cnt_n1_n1	cnt_n1_n1"Add
+4
+	cnt_n1_n1
+
+PRIO_n1_n1
+cntp_n1_n1
+cntp_n1_n1"Add
+B
+xmark_n1_n1
+
+cntp_n1_n1
+ZERO16score_n1_n1score_n1_n1"Where
+/
+cc_0_1
+cc_0_0
+bh_eq_n1_1
+bh_eq_n1_1"Equal
+0
+cc_n1_0
+cc_0_0
+bv_eq_n1_1
+bv_eq_n1_1"Equal
+0
+cc_n1_1
+cc_0_0
+bd_eq_n1_1
+bd_eq_n1_1"Equal
+0
+cc_0_n1
+cc_0_0
+fh_eq_n1_1
+fh_eq_n1_1"Equal
+/
+cc_1_0
+cc_0_0
+fv_eq_n1_1
+fv_eq_n1_1"Equal
+0
+cc_1_n1
+cc_0_0
+fd_eq_n1_1
+fd_eq_n1_1"Equal
+4
+
+bh_eq_n1_1
+
+bv_eq_n1_1
+back1_n1_1
+back1_n1_1"Or
+:
+
+back1_n1_1
+
+bd_eq_n1_1back_any_n1_1back_any_n1_1"Or
+6
+
+fh_eq_n1_1
+
+fv_eq_n1_1front1_n1_1front1_n1_1"Or
+?
+front1_n1_1
+
+fd_eq_n1_1front_same_n1_1front_same_n1_1"Or
+8
+front_same_n1_1front_none_n1_1front_none_n1_1"Not
+2
+cc_0_n1
+ZERO16
+fh_nb_n1_1
+fh_nb_n1_1"Greater
++
+
+fh_eq_n1_1fh_neq_n1_1fh_neq_n1_1"Not
+<
+
+fh_nb_n1_1
+fh_neq_n1_1fh_valid_n1_1fh_valid_n1_1"And
+7
+fh_valid_n1_1
+cc_0_n1
+ZERO16H_n1_1H_n1_1"Where
+:
+fh_valid_n1_1fh_cnt_n1_1fh_cnt_n1_1"Cast*	
+to
+†
+1
+cc_1_0
+ZERO16
+fv_nb_n1_1
+fv_nb_n1_1"Greater
++
+
+fv_eq_n1_1fv_neq_n1_1fv_neq_n1_1"Not
+<
+
+fv_nb_n1_1
+fv_neq_n1_1fv_valid_n1_1fv_valid_n1_1"And
+6
+fv_valid_n1_1
+cc_1_0
+ZERO16V_n1_1V_n1_1"Where
+:
+fv_valid_n1_1fv_cnt_n1_1fv_cnt_n1_1"Cast*	
+to
+†
+2
+cc_1_n1
+ZERO16
+fd_nb_n1_1
+fd_nb_n1_1"Greater
++
+
+fd_eq_n1_1fd_neq_n1_1fd_neq_n1_1"Not
+<
+
+fd_nb_n1_1
+fd_neq_n1_1fd_valid_n1_1fd_valid_n1_1"And
+7
+fd_valid_n1_1
+cc_1_n1
+ZERO16D_n1_1D_n1_1"Where
+:
+fd_valid_n1_1fd_cnt_n1_1fd_cnt_n1_1"Cast*	
+to
+†
+>
+fh_valid_n1_1
+fv_valid_n1_1marker1_n1_1marker1_n1_1"Or
+C
+marker1_n1_1
+fd_valid_n1_1marker_any_n1_1marker_any_n1_1"Or
+2
+non_bg_b
+back_any_n1_1xm1_n1_1xm1_n1_1"And
+4
+xm1_n1_1
+front_none_n1_1xm2_n1_1xm2_n1_1"And
+8
+xm2_n1_1
+marker_any_n1_1
+xmark_n1_1
+xmark_n1_1"And
+5
+fh_cnt_n1_1
+fv_cnt_n1_1	cnt1_n1_1	cnt1_n1_1"Add
+1
+	cnt1_n1_1
+fd_cnt_n1_1cnt_n1_1cnt_n1_1"Add
+0
+cnt_n1_1
+	PRIO_n1_1	cntp_n1_1	cntp_n1_1"Add
+>
+
+xmark_n1_1
+	cntp_n1_1
+ZERO16
+score_n1_1
+score_n1_1"Where
+0
+cc_0_n1
+cc_0_0
+bh_eq_1_n1
+bh_eq_1_n1"Equal
+/
+cc_1_0
+cc_0_0
+bv_eq_1_n1
+bv_eq_1_n1"Equal
+0
+cc_1_n1
+cc_0_0
+bd_eq_1_n1
+bd_eq_1_n1"Equal
+/
+cc_0_1
+cc_0_0
+fh_eq_1_n1
+fh_eq_1_n1"Equal
+0
+cc_n1_0
+cc_0_0
+fv_eq_1_n1
+fv_eq_1_n1"Equal
+0
+cc_n1_1
+cc_0_0
+fd_eq_1_n1
+fd_eq_1_n1"Equal
+4
+
+bh_eq_1_n1
+
+bv_eq_1_n1
+back1_1_n1
+back1_1_n1"Or
+:
+
+back1_1_n1
+
+bd_eq_1_n1back_any_1_n1back_any_1_n1"Or
+6
+
+fh_eq_1_n1
+
+fv_eq_1_n1front1_1_n1front1_1_n1"Or
+?
+front1_1_n1
+
+fd_eq_1_n1front_same_1_n1front_same_1_n1"Or
+8
+front_same_1_n1front_none_1_n1front_none_1_n1"Not
+1
+cc_0_1
+ZERO16
+fh_nb_1_n1
+fh_nb_1_n1"Greater
++
+
+fh_eq_1_n1fh_neq_1_n1fh_neq_1_n1"Not
+<
+
+fh_nb_1_n1
+fh_neq_1_n1fh_valid_1_n1fh_valid_1_n1"And
+6
+fh_valid_1_n1
+cc_0_1
+ZERO16H_1_n1H_1_n1"Where
+:
+fh_valid_1_n1fh_cnt_1_n1fh_cnt_1_n1"Cast*	
+to
+†
+2
+cc_n1_0
+ZERO16
+fv_nb_1_n1
+fv_nb_1_n1"Greater
++
+
+fv_eq_1_n1fv_neq_1_n1fv_neq_1_n1"Not
+<
+
+fv_nb_1_n1
+fv_neq_1_n1fv_valid_1_n1fv_valid_1_n1"And
+7
+fv_valid_1_n1
+cc_n1_0
+ZERO16V_1_n1V_1_n1"Where
+:
+fv_valid_1_n1fv_cnt_1_n1fv_cnt_1_n1"Cast*	
+to
+†
+2
+cc_n1_1
+ZERO16
+fd_nb_1_n1
+fd_nb_1_n1"Greater
++
+
+fd_eq_1_n1fd_neq_1_n1fd_neq_1_n1"Not
+<
+
+fd_nb_1_n1
+fd_neq_1_n1fd_valid_1_n1fd_valid_1_n1"And
+7
+fd_valid_1_n1
+cc_n1_1
+ZERO16D_1_n1D_1_n1"Where
+:
+fd_valid_1_n1fd_cnt_1_n1fd_cnt_1_n1"Cast*	
+to
+†
+>
+fh_valid_1_n1
+fv_valid_1_n1marker1_1_n1marker1_1_n1"Or
+C
+marker1_1_n1
+fd_valid_1_n1marker_any_1_n1marker_any_1_n1"Or
+2
+non_bg_b
+back_any_1_n1xm1_1_n1xm1_1_n1"And
+4
+xm1_1_n1
+front_none_1_n1xm2_1_n1xm2_1_n1"And
+8
+xm2_1_n1
+marker_any_1_n1
+xmark_1_n1
+xmark_1_n1"And
+5
+fh_cnt_1_n1
+fv_cnt_1_n1	cnt1_1_n1	cnt1_1_n1"Add
+1
+	cnt1_1_n1
+fd_cnt_1_n1cnt_1_n1cnt_1_n1"Add
+0
+cnt_1_n1
+	PRIO_1_n1	cntp_1_n1	cntp_1_n1"Add
+>
+
+xmark_1_n1
+	cntp_1_n1
+ZERO16
+score_1_n1
+score_1_n1"Where
+-
+cc_0_1
+cc_0_0	bh_eq_1_1	bh_eq_1_1"Equal
+-
+cc_1_0
+cc_0_0	bv_eq_1_1	bv_eq_1_1"Equal
+-
+cc_1_1
+cc_0_0	bd_eq_1_1	bd_eq_1_1"Equal
+.
+cc_0_n1
+cc_0_0	fh_eq_1_1	fh_eq_1_1"Equal
+.
+cc_n1_0
+cc_0_0	fv_eq_1_1	fv_eq_1_1"Equal
+/
+cc_n1_n1
+cc_0_0	fd_eq_1_1	fd_eq_1_1"Equal
+0
+	bh_eq_1_1
+	bv_eq_1_1	back1_1_1	back1_1_1"Or
+6
+	back1_1_1
+	bd_eq_1_1back_any_1_1back_any_1_1"Or
+2
+	fh_eq_1_1
+	fv_eq_1_1
+front1_1_1
+front1_1_1"Or
+;
+
+front1_1_1
+	fd_eq_1_1front_same_1_1front_same_1_1"Or
+5
+front_same_1_1front_none_1_1front_none_1_1"Not
+0
+cc_0_n1
+ZERO16	fh_nb_1_1	fh_nb_1_1"Greater
+(
+	fh_eq_1_1
+fh_neq_1_1
+fh_neq_1_1"Not
+8
+	fh_nb_1_1
+
+fh_neq_1_1fh_valid_1_1fh_valid_1_1"And
+4
+fh_valid_1_1
+cc_0_n1
+ZERO16H_1_1H_1_1"Where
+7
+fh_valid_1_1
+fh_cnt_1_1
+fh_cnt_1_1"Cast*	
+to
+†
+0
+cc_n1_0
+ZERO16	fv_nb_1_1	fv_nb_1_1"Greater
+(
+	fv_eq_1_1
+fv_neq_1_1
+fv_neq_1_1"Not
+8
+	fv_nb_1_1
+
+fv_neq_1_1fv_valid_1_1fv_valid_1_1"And
+4
+fv_valid_1_1
+cc_n1_0
+ZERO16V_1_1V_1_1"Where
+7
+fv_valid_1_1
+fv_cnt_1_1
+fv_cnt_1_1"Cast*	
+to
+†
+1
+cc_n1_n1
+ZERO16	fd_nb_1_1	fd_nb_1_1"Greater
+(
+	fd_eq_1_1
+fd_neq_1_1
+fd_neq_1_1"Not
+8
+	fd_nb_1_1
+
+fd_neq_1_1fd_valid_1_1fd_valid_1_1"And
+5
+fd_valid_1_1
+cc_n1_n1
+ZERO16D_1_1D_1_1"Where
+7
+fd_valid_1_1
+fd_cnt_1_1
+fd_cnt_1_1"Cast*	
+to
+†
+:
+fh_valid_1_1
+fv_valid_1_1marker1_1_1marker1_1_1"Or
+?
+marker1_1_1
+fd_valid_1_1marker_any_1_1marker_any_1_1"Or
+/
+non_bg_b
+back_any_1_1xm1_1_1xm1_1_1"And
+0
+xm1_1_1
+front_none_1_1xm2_1_1xm2_1_1"And
+4
+xm2_1_1
+marker_any_1_1	xmark_1_1	xmark_1_1"And
+1
+
+fh_cnt_1_1
+
+fv_cnt_1_1cnt1_1_1cnt1_1_1"Add
+-
+cnt1_1_1
+
+fd_cnt_1_1cnt_1_1cnt_1_1"Add
+,
+cnt_1_1
+PRIO_1_1cntp_1_1cntp_1_1"Add
+:
+	xmark_1_1
+cntp_1_1
+ZERO16	score_1_1	score_1_1"Where
+M
+score_n1_n1
+
+score_n1_1
+
+score_1_n1
+	score_1_1
+best_score
+best_score"Max
+?
+
+best_score
+ZERO16has_marker_cellhas_marker_cell"Greater
+<
+score_n1_n1
+
+best_scoresel_eq_n1_n1sel_eq_n1_n1"Equal
+8
+sel_eq_n1_n1
+xmark_n1_n1
+sel1_n1_n1
+sel1_n1_n1"And
+8
+
+sel1_n1_n1
+has_marker_cell	sel_n1_n1	sel_n1_n1"And
+9
+
+score_n1_1
+
+best_scoresel_eq_n1_1sel_eq_n1_1"Equal
+4
+sel_eq_n1_1
+
+xmark_n1_1	sel1_n1_1	sel1_n1_1"And
+5
+	sel1_n1_1
+has_marker_cellsel_n1_1sel_n1_1"And
+9
+
+score_1_n1
+
+best_scoresel_eq_1_n1sel_eq_1_n1"Equal
+4
+sel_eq_1_n1
+
+xmark_1_n1	sel1_1_n1	sel1_1_n1"And
+5
+	sel1_1_n1
+has_marker_cellsel_1_n1sel_1_n1"And
+6
+	score_1_1
+
+best_score
+sel_eq_1_1
+sel_eq_1_1"Equal
+0
+
+sel_eq_1_1
+	xmark_1_1sel1_1_1sel1_1_1"And
+2
+sel1_1_1
+has_marker_cellsel_1_1sel_1_1"And
+<
+	sel_n1_n1
+DS_n1_n1
+ZERO16
+v_ds_n1_n1
+v_ds_n1_n1"Where
+<
+	sel_n1_n1
+CS_n1_n1
+ZERO16
+v_cs_n1_n1
+v_cs_n1_n1"Where
+9
+	sel_n1_n1
+H_n1_n1
+ZERO16	v_A_n1_n1	v_A_n1_n1"Where
+9
+	sel_n1_n1
+V_n1_n1
+ZERO16	v_B_n1_n1	v_B_n1_n1"Where
+9
+	sel_n1_n1
+D_n1_n1
+ZERO16	v_D_n1_n1	v_D_n1_n1"Where
+8
+sel_n1_1
+DS_n1_1
+ZERO16	v_ds_n1_1	v_ds_n1_1"Where
+8
+sel_n1_1
+CS_n1_1
+ZERO16	v_cs_n1_1	v_cs_n1_1"Where
+5
+sel_n1_1
+H_n1_1
+ZERO16v_A_n1_1v_A_n1_1"Where
+5
+sel_n1_1
+V_n1_1
+ZERO16v_B_n1_1v_B_n1_1"Where
+5
+sel_n1_1
+D_n1_1
+ZERO16v_D_n1_1v_D_n1_1"Where
+8
+sel_1_n1
+DS_1_n1
+ZERO16	v_ds_1_n1	v_ds_1_n1"Where
+8
+sel_1_n1
+CS_1_n1
+ZERO16	v_cs_1_n1	v_cs_1_n1"Where
+5
+sel_1_n1
+H_1_n1
+ZERO16v_A_1_n1v_A_1_n1"Where
+5
+sel_1_n1
+V_1_n1
+ZERO16v_B_1_n1v_B_1_n1"Where
+5
+sel_1_n1
+D_1_n1
+ZERO16v_D_1_n1v_D_1_n1"Where
+4
+sel_1_1
+DS_1_1
+ZERO16v_ds_1_1v_ds_1_1"Where
+4
+sel_1_1
+CS_1_1
+ZERO16v_cs_1_1v_cs_1_1"Where
+1
+sel_1_1
+H_1_1
+ZERO16v_A_1_1v_A_1_1"Where
+1
+sel_1_1
+V_1_1
+ZERO16v_B_1_1v_B_1_1"Where
+1
+sel_1_1
+D_1_1
+ZERO16v_D_1_1v_D_1_1"Where
+/
+	sel_n1_n1
+sel_n1_1	sel_any01	sel_any01"Or
+-
+sel_1_n1
+sel_1_1	sel_any23	sel_any23"Or
+,
+	sel_any01
+	sel_any23sel_anysel_any"Or
+C
+
+v_ds_n1_n1
+	v_ds_n1_1
+	v_ds_1_n1
+v_ds_1_1ds_gridds_grid"Sum
+/
+ds_grid
+	shape_900ds_flatds_flat"Reshape
+C
+
+v_cs_n1_n1
+	v_cs_n1_1
+	v_cs_1_n1
+v_cs_1_1cs_gridcs_grid"Sum
+/
+cs_grid
+	shape_900cs_flatcs_flat"Reshape
+=
+	v_A_n1_n1
+v_A_n1_1
+v_A_1_n1
+v_A_1_1A_gridA_grid"Sum
+,
+A_grid
+	shape_900A_flatA_flat"Reshape
+=
+	v_B_n1_n1
+v_B_n1_1
+v_B_1_n1
+v_B_1_1B_gridB_grid"Sum
+,
+B_grid
+	shape_900B_flatB_flat"Reshape
+=
+	v_D_n1_n1
+v_D_n1_1
+v_D_1_n1
+v_D_1_1D_gridD_grid"Sum
+,
+D_grid
+	shape_900D_flatD_flat"Reshape
+J
+sel_any
+
+cell_color
+ZERO16marker_color_gridmarker_color_grid"Where
+M
+marker_color_grid
+	shape_900marker_color_flatmarker_color_flat"Reshape
+?
+sel_any
+LABEL_P1
+NEG16seed_single_0seed_single_0"Where
+t
+seed_single_0seed_single_p0seed_single_p0"MaxPool*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†
+E
+seed_single_p0
+ZERO16seed_single_has0seed_single_has0"Greater
+C
+seed_single_p0
+ONE_HWseed_single_id_f0seed_single_id_f0"Sub
+N
+seed_single_id_f0seed_single_id_raw0seed_single_id_raw0"Cast*	
+to†
+U
+seed_single_id_raw0
+ZERO_I32
+BOUND899_I32seed_single_id0seed_single_id0"Clip
+a
+marker_color_flat
+seed_single_id0seed_single_color0seed_single_color0"Gather*
+axis †
+M
+seed_single_color0
+
+cell_colorseed_single_same0seed_single_same0"Equal
+P
+seed_single_has0
+seed_single_same0seed_single_ok1_0seed_single_ok1_0"And
+D
+seed_single_ok1_0
+non_bg_bseed_single_ok0seed_single_ok0"And
+M
+seed_single_ok0
+seed_single_p0
+NEG16seed_single_1seed_single_1"Where
+t
+seed_single_1seed_single_p1seed_single_p1"MaxPool*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†
+E
+seed_single_p1
+ZERO16seed_single_has1seed_single_has1"Greater
+C
+seed_single_p1
+ONE_HWseed_single_id_f1seed_single_id_f1"Sub
+N
+seed_single_id_f1seed_single_id_raw1seed_single_id_raw1"Cast*	
+to†
+U
+seed_single_id_raw1
+ZERO_I32
+BOUND899_I32seed_single_id1seed_single_id1"Clip
+a
+marker_color_flat
+seed_single_id1seed_single_color1seed_single_color1"Gather*
+axis †
+M
+seed_single_color1
+
+cell_colorseed_single_same1seed_single_same1"Equal
+P
+seed_single_has1
+seed_single_same1seed_single_ok1_1seed_single_ok1_1"And
+D
+seed_single_ok1_1
+non_bg_bseed_single_ok1seed_single_ok1"And
+M
+seed_single_ok1
+seed_single_p1
+NEG16seed_single_2seed_single_2"Where
+t
+seed_single_2seed_single_p2seed_single_p2"MaxPool*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†
+E
+seed_single_p2
+ZERO16seed_single_has2seed_single_has2"Greater
+C
+seed_single_p2
+ONE_HWseed_single_id_f2seed_single_id_f2"Sub
+N
+seed_single_id_f2seed_single_id_raw2seed_single_id_raw2"Cast*	
+to†
+U
+seed_single_id_raw2
+ZERO_I32
+BOUND899_I32seed_single_id2seed_single_id2"Clip
+a
+marker_color_flat
+seed_single_id2seed_single_color2seed_single_color2"Gather*
+axis †
+M
+seed_single_color2
+
+cell_colorseed_single_same2seed_single_same2"Equal
+P
+seed_single_has2
+seed_single_same2seed_single_ok1_2seed_single_ok1_2"And
+D
+seed_single_ok1_2
+non_bg_bseed_single_ok2seed_single_ok2"And
+M
+seed_single_ok2
+seed_single_p2
+NEG16seed_single_3seed_single_3"Where
+t
+seed_single_3seed_single_p3seed_single_p3"MaxPool*
+kernel_shape@@†*
+pads@@@@†*
+strides@@†
+E
+seed_single_p3
+ZERO16seed_single_has3seed_single_has3"Greater
+C
+seed_single_p3
+ONE_HWseed_single_id_f3seed_single_id_f3"Sub
+N
+seed_single_id_f3seed_single_id_raw3seed_single_id_raw3"Cast*	
+to†
+U
+seed_single_id_raw3
+ZERO_I32
+BOUND899_I32seed_single_id3seed_single_id3"Clip
+a
+marker_color_flat
+seed_single_id3seed_single_color3seed_single_color3"Gather*
+axis †
+M
+seed_single_color3
+
+cell_colorseed_single_same3seed_single_same3"Equal
+P
+seed_single_has3
+seed_single_same3seed_single_ok1_3seed_single_ok1_3"And
+D
+seed_single_ok1_3
+non_bg_bseed_single_ok3seed_single_ok3"And
+M
+seed_single_ok3
+seed_single_p3
+NEG16seed_single_4seed_single_4"Where
+6
+seed_single_4
+ZERO16	has_xmark	has_xmark"Greater
+6
+seed_single_4
+ONE_HWmarker_id_fmarker_id_f"Sub
+D
+marker_id_fmarker_id_i64_rawmarker_id_i64_raw"Cast*	
+to†
+O
+marker_id_i64_raw
+ZERO_I32
+BOUND899_I32marker_id_i64marker_id_i64"Clip
+0
+marker_id_i64
+
+THIRTY_I32xr_i64xr_i64"Div
+0
+marker_id_i64
+
+THIRTY_I32xc_i64xc_i64"Mod
+!
+xr_i64xrxr"Cast*	
+to
+†
+!
+xc_i64xcxc"Cast*	
+to
+†
+;
+ds_flat
+marker_id_i64ds_atds_at"Gather*
+axis †
+;
+cs_flat
+marker_id_i64cs_atcs_at"Gather*
+axis †
+8
+A_flat
+marker_id_i64A_atA_at"Gather*
+axis †
+8
+B_flat
+marker_id_i64B_atB_at"Gather*
+axis †
+8
+D_flat
+marker_id_i64D_atD_at"Gather*
+axis †
+"
+xr
+ROW16self_rself_r"Equal
+"
+xc
+COL16self_cself_c"Equal
+/
+self_r
+self_cself_markerself_marker"And
+4
+self_markernot_self_markernot_self_marker"Not
+.
+	has_xmark
+non_bg_bprimary1primary1"And
+6
+primary1
+not_self_marker	primary_b	primary_b"And
+
+xc
+TWO_HWxc2xc2"Mul
+
+xc2
+cs_atxc2csxc2cs"Add
+!
+xc2cs
+COL16tgt_ctgt_c"Sub
+
+xr
+TWO_HWxr2xr2"Mul
+
+xr2
+ds_atxr2dsxr2ds"Add
+!
+xr2ds
+ROW16tgt_rtgt_r"Sub
++
+tgt_c
+NEG_HALF_HWtc_getc_ge"Greater
+'
+tgt_c
+
+BOUND29_HWtc_lttc_lt"Less
+!
+tc_ge
+tc_lttc_oktc_ok"And
++
+tgt_r
+NEG_HALF_HWtr_getr_ge"Greater
+'
+tgt_r
+
+BOUND29_HWtr_lttr_lt"Less
+!
+tr_ge
+tr_lttr_oktr_ok"And
+6
+tgt_ctgt_c_i64_rawtgt_c_i64_raw"Cast*	
+to†
+6
+tgt_rtgt_r_i64_rawtgt_r_i64_raw"Cast*	
+to†
+B
+tgt_c_i64_raw
+ZERO_I32
+BOUND29_I32	tgt_c_i64	tgt_c_i64"Clip
+B
+tgt_r_i64_raw
+ZERO_I32
+BOUND29_I32	tgt_r_i64	tgt_r_i64"Clip
+7
+ROW_I32
+THIRTY_I32_HWrow_x30_i32row_x30_i32"Mul
+7
+	tgt_r_i64
+THIRTY_I32_HW
+tr_x30_i32
+tr_x30_i32"Mul
+?
+row_x30_i32
+	tgt_c_i64idx_H_flat_grididx_H_flat_grid"Add
+<
+
+tr_x30_i32
+COL_I32idx_V_flat_grididx_V_flat_grid"Add
+>
+
+tr_x30_i32
+	tgt_c_i64idx_D_flat_grididx_D_flat_grid"Add
+K
+idx_H_flat_grid
+	shape_900idx_H_flat_grid_ridx_H_flat_grid_r"Reshape
+K
+idx_V_flat_grid
+	shape_900idx_V_flat_grid_ridx_V_flat_grid_r"Reshape
+K
+idx_D_flat_grid
+	shape_900idx_D_flat_grid_ridx_D_flat_grid_r"Reshape
+1
+A_at
+ZERO16A_value_posA_value_pos"Greater
+3
+	primary_b
+A_value_pos	A_value_a	A_value_a"And
+-
+	A_value_a
+tc_ok	A_value_b	A_value_b"And
+2
+	A_value_b
+A_at
+ZERO16A_valueA_value"Where
+0
+A_value	A_value32	A_value32"Cast*	
+to†
+5
+	A_value32
+	shape_900	A_value_r	A_value_r"Reshape
+1
+B_at
+ZERO16B_value_posB_value_pos"Greater
+3
+	primary_b
+B_value_pos	B_value_a	B_value_a"And
+-
+	B_value_a
+tr_ok	B_value_b	B_value_b"And
+2
+	B_value_b
+B_at
+ZERO16B_valueB_value"Where
+0
+B_value	B_value32	B_value32"Cast*	
+to†
+5
+	B_value32
+	shape_900	B_value_r	B_value_r"Reshape
+!
+tc_ok
+tr_oktd_oktd_ok"And
+1
+D_at
+ZERO16D_value_posD_value_pos"Greater
+3
+	primary_b
+D_value_pos	D_value_a	D_value_a"And
+-
+	D_value_a
+td_ok	D_value_b	D_value_b"And
+2
+	D_value_b
+D_at
+ZERO16D_valueD_value"Where
+0
+D_value	D_value32	D_value32"Cast*	
+to†
+5
+	D_value32
+	shape_900	D_value_r	D_value_r"Reshape
+t
+CANVAS_ZERO32
+idx_H_flat_grid_r
+	A_value_rcanvas_Hcanvas_H"ScatterElements*
+axis †*
+	reduction"max†
+o
+canvas_H
+idx_V_flat_grid_r
+	B_value_rcanvas_Vcanvas_V"ScatterElements*
+axis †*
+	reduction"max†
+o
+canvas_V
+idx_D_flat_grid_r
+	D_value_rcanvas_Dcanvas_D"ScatterElements*
+axis †*
+	reduction"max†
+8
+canvas_D
+shape_1_1_30_30mirror32mirror32"Reshape
++
+mirror32mirrormirror"Cast*	
+to
+†
+?
+non_bg_b
+
+cell_color
+mirrorfinal_colorfinal_color"Where
+B
+input
+axes_ch	in_border	in_border"	ReduceSum*
+keepdims†
+6
+	in_border
+ZERO32in_border_bin_border_b"Greater
+*
+final_color
+C0out0_b0out0_b0"Equal
++
+out0_b0
+in_border_bout0_bout0_b"And
+*
+final_color
+C1out1_b0out1_b0"Equal
+*
+final_color
+C2out2_b0out2_b0"Equal
+*
+final_color
+C3out3_b0out3_b0"Equal
+*
+final_color
+C4out4_b0out4_b0"Equal
+*
+final_color
+C5out5_b0out5_b0"Equal
+*
+final_color
+C6out6_b0out6_b0"Equal
+*
+final_color
+C7out7_b0out7_b0"Equal
+*
+final_color
+C8out8_b0out8_b0"Equal
+*
+final_color
+C9out9_b0out9_b0"Equal
+~
+out0_b
+out1_b0
+out2_b0
+out3_b0
+out4_b0
+out5_b0
+out6_b0
+out7_b0
+out8_b0
+out9_b0outputoutput"Concat*
+axis†task285_localprop*
+BZERO16J  *BZERO32J    *
+BNEG16J‚*ù
+BONE_HWJà < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <*ù
+BTWO_HWJà @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @*¢
+BNEG_HALF_HWJà ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏ ∏*°
+B
+BOUND29_HWJà`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O`O*ú
+BROW16Jà                                                             < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B D D D D D D D D D D D D D D D D D D D D D D D D D D D D D D E E E E E E E E E E E E E E E E E E E E E E E E E E E E E E F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F G G G G G G G G G G G G G G G G G G G G G G G G G G G G G G H H H H H H H H H H H H H H H H H H H H H H H H H H H H H HÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄHÄH I I I I I I I I I I I I I I I I I I I I I I I I I I I I I IÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄIÄI J J J J J J J J J J J J J J J J J J J J J J J J J J J J J JÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJÄJ K K K K K K K K K K K K K K K K K K K K K K K K K K K K K KÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄKÄK L L L L L L L L L L L L L L L L L L L L L L L L L L L L L L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@L@LÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄLÄL¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L¿L M M M M M M M M M M M M M M M M M M M M M M M M M M M M M M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@M@MÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄMÄM¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M¿M N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@N@NÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄNÄN¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N¿N O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O@O*ú
+BCOL16Jà   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O   < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@O*¶BROW_I32Jê                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   	   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 *¶BCOL_I32Jê                            	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                                                        	   
+                                                            *ü
+BLABEL_P1Jà < @ B D E F G HÄH IÄI JÄJ KÄK L@LÄL¿L M@MÄM¿M N@NÄN¿N O@OÄO¿O P P@P`PÄP†P¿P‡P Q Q@Q`QÄQ†Q¿Q‡Q R R@R`RÄR†R¿R‡R S S@S`SÄS†S¿S‡S TT T0T@TPT`TpTÄTêT†T∞T¿T–T‡TT UU U0U@UPU`UpUÄUêU†U∞U¿U–U‡UU VV V0V@VPV`VpVÄVêV†V∞V¿V–V‡VV WW W0W@WPW`WpWÄWêW†W∞W¿W–W‡WW XXXX X(X0X8X@XHXPXXX`XhXpXxXÄXàXêXòX†X®X∞X∏X¿X»X–XÿX‡XËXX¯X YYYY Y(Y0Y8Y@YHYPYXY`YhYpYxYÄYàYêYòY†Y®Y∞Y∏Y¿Y»Y–YÿY‡YËYY¯Y ZZZZ Z(Z0Z8Z@ZHZPZXZ`ZhZpZxZÄZàZêZòZ†Z®Z∞Z∏Z¿Z»Z–ZÿZ‡ZËZZ¯Z [[[[ [([0[8[@[H[P[X[`[h[p[x[Ä[à[ê[ò[†[®[∞[∏[¿[»[–[ÿ[‡[Ë[[¯[ \\\\\\\\ \$\(\,\0\4\8\<\@\D\H\L\P\T\X\\\`\d\h\l\p\t\x\|\Ä\Ñ\à\å\ê\î\ò\ú\†\§\®\¨\∞\¥\∏\º\¿\ƒ\»\Ã\–\‘\ÿ\‹\‡\‰\Ë\Ï\\Ù\¯\¸\ ]]]]]]]] ]$](],]0]4]8]<]@]D]H]L]P]T]X]\]`]d]h]l]p]t]x]|]Ä]Ñ]à]å]ê]î]ò]ú]†]§]®]¨]∞]¥]∏]º]¿]ƒ]»]Ã]–]‘]ÿ]‹]‡]‰]Ë]Ï]]Ù]¯]¸] ^^^^^^^^ ^$^(^,^0^4^8^<^@^D^H^L^P^T^X^\^`^d^h^l^p^t^x^|^Ä^Ñ^à^å^ê^î^ò^ú^†^§^®^¨^∞^¥^∏^º^¿^ƒ^»^Ã^–^‘^ÿ^‹^‡^‰^Ë^Ï^^Ù^¯^¸^ ________ _$_(_,_0_4_8_<_@_D_H_L_P_T_X_\_`_d_h_l_p_t_x_|_Ä_Ñ_à_å_ê_î_ò_ú_†_§_®_¨_∞_¥_∏_º_¿_ƒ_»_Ã_–_‘_ÿ_‹_‡_‰_Ë_Ï__Ù_¯_¸_ `````
+``````````` `"`$`&`(`*`,`.`0`2`4`6`8`:`<`>`@`B`D`F`H`J`L`N`P`R`T`V`X`Z`\`^```b`d`f`h`j`l`n`p`r`t`v`x`z`|`~`Ä`Ç`Ñ`Ü`à`ä`å`é`ê`í`î`ñ`ò`ö`ú`û`†`¢`§`¶`®`™`¨`Æ`∞`≤`¥`∂`∏`∫`º`æ`¿`¬`ƒ`∆`»` `Ã`Œ`–`“`‘`÷`ÿ`⁄`‹`ﬁ`‡`‚`‰`Ê`Ë`Í`Ï`Ó``Ú`Ù`ˆ`¯`˙`¸`˛` aaaaa
+aaaaaaaaaaa a"a$a&a(a*a,a.a0a2a4a6a8a:a<a>a@aBaDaFaHaJaLaNaPaRaTaVaXaZa\a^a`abadafahajalanaparatavaxaza|a~aÄaÇaÑaÜaàaäaåaéaêaíaîañaòaöaúaûa†a¢a§a¶a®a™a¨aÆa∞a≤a¥a∂a∏a∫aºaæa¿a¬aƒa∆a»a aÃaŒa–a“a‘a÷aÿa⁄a‹aﬁa‡a‚a‰aÊaËaÍaÏaÓaaÚaÙaˆa¯a˙a¸a˛a bbbbb
+bbbbbbbbbbb b"b$b&b(b*b,b.b0b2b4b6b8b:b<b>b@bBbDbFbHbJbLbNbPbRbTbVbXbZb\b^b`bbbdbfbhbjblbnbpbrbtbvbxbzb|b~bÄbÇbÑbÜbàbäbåbébêbíbîbñbòböbúbûb†b¢b§b¶b®b™b¨bÆb∞b≤b¥b∂b∏b∫bºbæb¿b¬bƒb∆b»b bÃbŒb–b“b‘b÷bÿb⁄b‹bﬁb‡b‚b‰bÊbËbÍbÏbÓbbÚbÙbˆb¯b˙b¸b˛b ccccc*Baxes_chJ       *0Baxes_allJ                              *B	shape_900JÑ      *7Bshape_1_1_30_30J                             *BZERO_I32J    *BBOUND29_I32J   *B
+THIRTY_I32J   *BBOUND899_I32JÉ  *¨BTHIRTY_I32_HWJê                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            *õÑBCANVAS_ZERO32JÑ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    *
+
+BC0J  *
+
+BC1J <*
+
+BC2J @*
+
+BC3J B*
+
+BC4J D*
+
+BC5J E*
+
+BC6J F*
+
+BC7J G*
+
+BC8J H*
+
+BC9JÄH*NBpads_1J@                                                            */Bs_n1_n1J                               */Be_n1_n1J                               *.Bs_n1_0J                               *.Be_n1_0J                              *.Bs_n1_1J                                *.Be_n1_1J                              *.Bs_0_n1J                               *.Be_0_n1J                              *-Bs_0_0J                               *-Be_0_0J                             *-Bs_0_1J                                *-Be_0_1J                             *.Bs_1_n1J                                *.Be_1_n1J                              *-Bs_1_0J                                *-Be_1_0J                             *-Bs_1_1J                                 *-Be_1_1J                             *°
+B
+PRIO_n1_n1JàÕ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4Õ4*†
+B	PRIO_n1_1Jàf6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6f6*†
+B	PRIO_1_n1Jàf.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.f.*ü
+BPRIO_1_1Jàf2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2f2*
+BDS_n1_n1J º*
+BCS_n1_n1J º*
+BDS_n1_1J º*
+BCS_n1_1J <*
+BDS_1_n1J <*
+BCS_1_n1J º*
+BDS_1_1J <*
+BCS_1_1J <Z
+input
+
+
+
+
+
+b 
+output
+	
+
+
+
+
+j(
+cell_color_i64
+
+
+
+
+j$
+
+cell_color
+
+
+
+
+
+j"
+non_bg_b
+	
+
+
+
+j 
+cc_pad
+
+
+
+
+ 
+ j"
+cc_n1_n1
+
+
+
+
+
+j!
+cc_n1_0
+
+
+
+
+
+j!
+cc_n1_1
+
+
+
+
+
+j!
+cc_0_n1
+
+
+
+
+
+j 
+cc_0_0
+
+
+
+
+
+j 
+cc_0_1
+
+
+
+
+
+j!
+cc_1_n1
+
+
+
+
+
+j 
+cc_1_0
+
+
+
+
+
+j 
+cc_1_1
+
+
+
+
+
+j%
+bh_eq_n1_n1
+	
+
+
+
+j%
+bv_eq_n1_n1
+	
+
+
+
+j%
+bd_eq_n1_n1
+	
+
+
+
+j%
+fh_eq_n1_n1
+	
+
+
+
+j%
+fv_eq_n1_n1
+	
+
+
+
+j%
+fd_eq_n1_n1
+	
+
+
+
+j%
+back1_n1_n1
+	
+
+
+
+j(
+back_any_n1_n1
+	
+
+
+
+j&
+front1_n1_n1
+	
+
+
+
+j*
+front_same_n1_n1
+	
+
+
+
+j*
+front_none_n1_n1
+	
+
+
+
+j%
+fh_nb_n1_n1
+	
+
+
+
+j&
+fh_neq_n1_n1
+	
+
+
+
+j(
+fh_valid_n1_n1
+	
+
+
+
+j!
+H_n1_n1
+
+
+
+
+
+j&
+fh_cnt_n1_n1
+
+
+
+
+
+j%
+fv_nb_n1_n1
+	
+
+
+
+j&
+fv_neq_n1_n1
+	
+
+
+
+j(
+fv_valid_n1_n1
+	
+
+
+
+j!
+V_n1_n1
+
+
+
+
+
+j&
+fv_cnt_n1_n1
+
+
+
+
+
+j%
+fd_nb_n1_n1
+	
+
+
+
+j&
+fd_neq_n1_n1
+	
+
+
+
+j(
+fd_valid_n1_n1
+	
+
+
+
+j!
+D_n1_n1
+
+
+
+
+
+j&
+fd_cnt_n1_n1
+
+
+
+
+
+j'
+marker1_n1_n1
+	
+
+
+
+j*
+marker_any_n1_n1
+	
+
+
+
+j#
+	xm1_n1_n1
+	
+
+
+
+j#
+	xm2_n1_n1
+	
+
+
+
+j%
+xmark_n1_n1
+	
+
+
+
+j$
+
+cnt1_n1_n1
+
+
+
+
+
+j#
+	cnt_n1_n1
+
+
+
+
+
+j$
+
+cntp_n1_n1
+
+
+
+
+
+j%
+score_n1_n1
+
+
+
+
+
+j$
+
+bh_eq_n1_1
+	
+
+
+
+j$
+
+bv_eq_n1_1
+	
+
+
+
+j$
+
+bd_eq_n1_1
+	
+
+
+
+j$
+
+fh_eq_n1_1
+	
+
+
+
+j$
+
+fv_eq_n1_1
+	
+
+
+
+j$
+
+fd_eq_n1_1
+	
+
+
+
+j$
+
+back1_n1_1
+	
+
+
+
+j'
+back_any_n1_1
+	
+
+
+
+j%
+front1_n1_1
+	
+
+
+
+j)
+front_same_n1_1
+	
+
+
+
+j)
+front_none_n1_1
+	
+
+
+
+j$
+
+fh_nb_n1_1
+	
+
+
+
+j%
+fh_neq_n1_1
+	
+
+
+
+j'
+fh_valid_n1_1
+	
+
+
+
+j 
+H_n1_1
+
+
+
+
+
+j%
+fh_cnt_n1_1
+
+
+
+
+
+j$
+
+fv_nb_n1_1
+	
+
+
+
+j%
+fv_neq_n1_1
+	
+
+
+
+j'
+fv_valid_n1_1
+	
+
+
+
+j 
+V_n1_1
+
+
+
+
+
+j%
+fv_cnt_n1_1
+
+
+
+
+
+j$
+
+fd_nb_n1_1
+	
+
+
+
+j%
+fd_neq_n1_1
+	
+
+
+
+j'
+fd_valid_n1_1
+	
+
+
+
+j 
+D_n1_1
+
+
+
+
+
+j%
+fd_cnt_n1_1
+
+
+
+
+
+j&
+marker1_n1_1
+	
+
+
+
+j)
+marker_any_n1_1
+	
+
+
+
+j"
+xm1_n1_1
+	
+
+
+
+j"
+xm2_n1_1
+	
+
+
+
+j$
+
+xmark_n1_1
+	
+
+
+
+j#
+	cnt1_n1_1
+
+
+
+
+
+j"
+cnt_n1_1
+
+
+
+
+
+j#
+	cntp_n1_1
+
+
+
+
+
+j$
+
+score_n1_1
+
+
+
+
+
+j$
+
+bh_eq_1_n1
+	
+
+
+
+j$
+
+bv_eq_1_n1
+	
+
+
+
+j$
+
+bd_eq_1_n1
+	
+
+
+
+j$
+
+fh_eq_1_n1
+	
+
+
+
+j$
+
+fv_eq_1_n1
+	
+
+
+
+j$
+
+fd_eq_1_n1
+	
+
+
+
+j$
+
+back1_1_n1
+	
+
+
+
+j'
+back_any_1_n1
+	
+
+
+
+j%
+front1_1_n1
+	
+
+
+
+j)
+front_same_1_n1
+	
+
+
+
+j)
+front_none_1_n1
+	
+
+
+
+j$
+
+fh_nb_1_n1
+	
+
+
+
+j%
+fh_neq_1_n1
+	
+
+
+
+j'
+fh_valid_1_n1
+	
+
+
+
+j 
+H_1_n1
+
+
+
+
+
+j%
+fh_cnt_1_n1
+
+
+
+
+
+j$
+
+fv_nb_1_n1
+	
+
+
+
+j%
+fv_neq_1_n1
+	
+
+
+
+j'
+fv_valid_1_n1
+	
+
+
+
+j 
+V_1_n1
+
+
+
+
+
+j%
+fv_cnt_1_n1
+
+
+
+
+
+j$
+
+fd_nb_1_n1
+	
+
+
+
+j%
+fd_neq_1_n1
+	
+
+
+
+j'
+fd_valid_1_n1
+	
+
+
+
+j 
+D_1_n1
+
+
+
+
+
+j%
+fd_cnt_1_n1
+
+
+
+
+
+j&
+marker1_1_n1
+	
+
+
+
+j)
+marker_any_1_n1
+	
+
+
+
+j"
+xm1_1_n1
+	
+
+
+
+j"
+xm2_1_n1
+	
+
+
+
+j$
+
+xmark_1_n1
+	
+
+
+
+j#
+	cnt1_1_n1
+
+
+
+
+
+j"
+cnt_1_n1
+
+
+
+
+
+j#
+	cntp_1_n1
+
+
+
+
+
+j$
+
+score_1_n1
+
+
+
+
+
+j#
+	bh_eq_1_1
+	
+
+
+
+j#
+	bv_eq_1_1
+	
+
+
+
+j#
+	bd_eq_1_1
+	
+
+
+
+j#
+	fh_eq_1_1
+	
+
+
+
+j#
+	fv_eq_1_1
+	
+
+
+
+j#
+	fd_eq_1_1
+	
+
+
+
+j#
+	back1_1_1
+	
+
+
+
+j&
+back_any_1_1
+	
+
+
+
+j$
+
+front1_1_1
+	
+
+
+
+j(
+front_same_1_1
+	
+
+
+
+j(
+front_none_1_1
+	
+
+
+
+j#
+	fh_nb_1_1
+	
+
+
+
+j$
+
+fh_neq_1_1
+	
+
+
+
+j&
+fh_valid_1_1
+	
+
+
+
+j
+H_1_1
+
+
+
+
+
+j$
+
+fh_cnt_1_1
+
+
+
+
+
+j#
+	fv_nb_1_1
+	
+
+
+
+j$
+
+fv_neq_1_1
+	
+
+
+
+j&
+fv_valid_1_1
+	
+
+
+
+j
+V_1_1
+
+
+
+
+
+j$
+
+fv_cnt_1_1
+
+
+
+
+
+j#
+	fd_nb_1_1
+	
+
+
+
+j$
+
+fd_neq_1_1
+	
+
+
+
+j&
+fd_valid_1_1
+	
+
+
+
+j
+D_1_1
+
+
+
+
+
+j$
+
+fd_cnt_1_1
+
+
+
+
+
+j%
+marker1_1_1
+	
+
+
+
+j(
+marker_any_1_1
+	
+
+
+
+j!
+xm1_1_1
+	
+
+
+
+j!
+xm2_1_1
+	
+
+
+
+j#
+	xmark_1_1
+	
+
+
+
+j"
+cnt1_1_1
+
+
+
+
+
+j!
+cnt_1_1
+
+
+
+
+
+j"
+cntp_1_1
+
+
+
+
+
+j#
+	score_1_1
+
+
+
+
+
+j$
+
+best_score
+
+
+
+
+
+j)
+has_marker_cell
+	
+
+
+
+j&
+sel_eq_n1_n1
+	
+
+
+
+j$
+
+sel1_n1_n1
+	
+
+
+
+j#
+	sel_n1_n1
+	
+
+
+
+j%
+sel_eq_n1_1
+	
+
+
+
+j#
+	sel1_n1_1
+	
+
+
+
+j"
+sel_n1_1
+	
+
+
+
+j%
+sel_eq_1_n1
+	
+
+
+
+j#
+	sel1_1_n1
+	
+
+
+
+j"
+sel_1_n1
+	
+
+
+
+j$
+
+sel_eq_1_1
+	
+
+
+
+j"
+sel1_1_1
+	
+
+
+
+j!
+sel_1_1
+	
+
+
+
+j$
+
+v_ds_n1_n1
+
+
+
+
+
+j$
+
+v_cs_n1_n1
+
+
+
+
+
+j#
+	v_A_n1_n1
+
+
+
+
+
+j#
+	v_B_n1_n1
+
+
+
+
+
+j#
+	v_D_n1_n1
+
+
+
+
+
+j#
+	v_ds_n1_1
+
+
+
+
+
+j#
+	v_cs_n1_1
+
+
+
+
+
+j"
+v_A_n1_1
+
+
+
+
+
+j"
+v_B_n1_1
+
+
+
+
+
+j"
+v_D_n1_1
+
+
+
+
+
+j#
+	v_ds_1_n1
+
+
+
+
+
+j#
+	v_cs_1_n1
+
+
+
+
+
+j"
+v_A_1_n1
+
+
+
+
+
+j"
+v_B_1_n1
+
+
+
+
+
+j"
+v_D_1_n1
+
+
+
+
+
+j"
+v_ds_1_1
+
+
+
+
+
+j"
+v_cs_1_1
+
+
+
+
+
+j!
+v_A_1_1
+
+
+
+
+
+j!
+v_B_1_1
+
+
+
+
+
+j!
+v_D_1_1
+
+
+
+
+
+j#
+	sel_any01
+	
+
+
+
+j#
+	sel_any23
+	
+
+
+
+j!
+sel_any
+	
+
+
+
+j!
+ds_grid
+
+
+
+
+
+j
+ds_flat
+	
+
+Ñj!
+cs_grid
+
+
+
+
+
+j
+cs_flat
+	
+
+Ñj 
+A_grid
+
+
+
+
+
+j
+A_flat
+	
+
+Ñj 
+B_grid
+
+
+
+
+
+j
+B_flat
+	
+
+Ñj 
+D_grid
+
+
+
+
+
+j
+D_flat
+	
+
+Ñj+
+marker_color_grid
+
+
+
+
+
+j 
+marker_color_flat
+	
+
+Ñj'
+seed_single_0
+
+
+
+
+
+j(
+seed_single_p0
+
+
+
+
+
+j*
+seed_single_has0
+	
+
+
+
+j+
+seed_single_id_f0
+
+
+
+
+
+j-
+seed_single_id_raw0
+
+
+
+
+j)
+seed_single_id0
+
+
+
+
+j,
+seed_single_color0
+
+
+
+
+
+j+
+seed_single_same0
+	
+
+
+
+j+
+seed_single_ok1_0
+	
+
+
+
+j)
+seed_single_ok0
+	
+
+
+
+j'
+seed_single_1
+
+
+
+
+
+j(
+seed_single_p1
+
+
+
+
+
+j*
+seed_single_has1
+	
+
+
+
+j+
+seed_single_id_f1
+
+
+
+
+
+j-
+seed_single_id_raw1
+
+
+
+
+j)
+seed_single_id1
+
+
+
+
+j,
+seed_single_color1
+
+
+
+
+
+j+
+seed_single_same1
+	
+
+
+
+j+
+seed_single_ok1_1
+	
+
+
+
+j)
+seed_single_ok1
+	
+
+
+
+j'
+seed_single_2
+
+
+
+
+
+j(
+seed_single_p2
+
+
+
+
+
+j*
+seed_single_has2
+	
+
+
+
+j+
+seed_single_id_f2
+
+
+
+
+
+j-
+seed_single_id_raw2
+
+
+
+
+j)
+seed_single_id2
+
+
+
+
+j,
+seed_single_color2
+
+
+
+
+
+j+
+seed_single_same2
+	
+
+
+
+j+
+seed_single_ok1_2
+	
+
+
+
+j)
+seed_single_ok2
+	
+
+
+
+j'
+seed_single_3
+
+
+
+
+
+j(
+seed_single_p3
+
+
+
+
+
+j*
+seed_single_has3
+	
+
+
+
+j+
+seed_single_id_f3
+
+
+
+
+
+j-
+seed_single_id_raw3
+
+
+
+
+j)
+seed_single_id3
+
+
+
+
+j,
+seed_single_color3
+
+
+
+
+
+j+
+seed_single_same3
+	
+
+
+
+j+
+seed_single_ok1_3
+	
+
+
+
+j)
+seed_single_ok3
+	
+
+
+
+j'
+seed_single_4
+
+
+
+
+
+j#
+	has_xmark
+	
+
+
+
+j%
+marker_id_f
+
+
+
+
+
+j+
+marker_id_i64_raw
+
+
+
+
+j'
+marker_id_i64
+
+
+
+
+j 
+xr_i64
+
+
+
+
+j 
+xc_i64
+
+
+
+
+j
+xr
+
+
+
+
+
+j
+xc
+
+
+
+
+
+j
+ds_at
+
+
+
+
+
+j
+cs_at
+
+
+
+
+
+j
+A_at
+
+
+
+
+
+j
+B_at
+
+
+
+
+
+j
+D_at
+
+
+
+
+
+j 
+self_r
+	
+
+
+
+j 
+self_c
+	
+
+
+
+j%
+self_marker
+	
+
+
+
+j)
+not_self_marker
+	
+
+
+
+j"
+primary1
+	
+
+
+
+j#
+	primary_b
+	
+
+
+
+j
+xc2
+
+
+
+
+
+j
+xc2cs
+
+
+
+
+
+j
+tgt_c
+
+
+
+
+
+j
+xr2
+
+
+
+
+
+j
+xr2ds
+
+
+
+
+
+j
+tgt_r
+
+
+
+
+
+j
+tc_ge
+	
+
+
+
+j
+tc_lt
+	
+
+
+
+j
+tc_ok
+	
+
+
+
+j
+tr_ge
+	
+
+
+
+j
+tr_lt
+	
+
+
+
+j
+tr_ok
+	
+
+
+
+j'
+tgt_c_i64_raw
+
+
+
+
+j'
+tgt_r_i64_raw
+
+
+
+
+j#
+	tgt_c_i64
+
+
+
+
+j#
+	tgt_r_i64
+
+
+
+
+j%
+row_x30_i32
+
+
+
+
+j$
+
+tr_x30_i32
+
+
+
+
+j)
+idx_H_flat_grid
+
+
+
+
+j)
+idx_V_flat_grid
+
+
+
+
+j)
+idx_D_flat_grid
+
+
+
+
+j 
+idx_H_flat_grid_r
+	
+Ñj 
+idx_V_flat_grid_r
+	
+Ñj 
+idx_D_flat_grid_r
+	
+Ñj%
+A_value_pos
+	
+
+
+
+j#
+	A_value_a
+	
+
+
+
+j#
+	A_value_b
+	
+
+
+
+j!
+A_value
+
+
+
+
+
+j#
+	A_value32
+
+
+
+
+j
+	A_value_r
+	
+Ñj%
+B_value_pos
+	
+
+
+
+j#
+	B_value_a
+	
+
+
+
+j#
+	B_value_b
+	
+
+
+
+j!
+B_value
+
+
+
+
+
+j#
+	B_value32
+
+
+
+
+j
+	B_value_r
+	
+Ñj
+td_ok
+	
+
+
+
+j%
+D_value_pos
+	
+
+
+
+j#
+	D_value_a
+	
+
+
+
+j#
+	D_value_b
+	
+
+
+
+j!
+D_value
+
+
+
+
+
+j#
+	D_value32
+
+
+
+
+j
+	D_value_r
+	
+Ñj
+canvas_H
+	
+Ñj
+canvas_V
+	
+Ñj
+canvas_D
+	
+Ñj"
+mirror32
+
+
+
+
+j 
+mirror
+
+
+
+
+
+j%
+final_color
+
+
+
+
+
+j#
+	in_border
+
+
+
+
+j%
+in_border_b
+	
+
+
+
+j!
+out0_b0
+	
+
+
+
+j 
+out0_b
+	
+
+
+
+j!
+out1_b0
+	
+
+
+
+j!
+out2_b0
+	
+
+
+
+j!
+out3_b0
+	
+
+
+
+j!
+out4_b0
+	
+
+
+
+j!
+out5_b0
+	
+
+
+
+j!
+out6_b0
+	
+
+
+
+j!
+out7_b0
+	
+
+
+
+j!
+out8_b0
+	
+
+
+
+j!
+out9_b0
+	
+
+
+
+B
+ 

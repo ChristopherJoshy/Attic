@@ -1,0 +1,23 @@
+[{"stream_name":"stderr","time":13.989436891,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.989537948,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.989545591,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.989550341,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":15.040572261,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":15.040618904,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":15.040625112,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":15.040630004,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":18.643172001,"data":"Wrote /kaggle/working/submission.zip\n"}
+,{"stream_name":"stdout","time":18.643233684,"data":"Submission SHA256: 21B1D31241AF38A6B118A4C526A81A55509517F0CA6686F6C0F9A0A477842DB5\n"}
+,{"stream_name":"stdout","time":18.643240163,"data":"Task count: 400\n"}
+,{"stream_name":"stdout","time":18.727564728,"data":"Manifest task count: 400\n"}
+,{"stream_name":"stdout","time":18.727604433,"data":"Total zip bytes: 1004846\n"}
+,{"stream_name":"stdout","time":18.727610876,"data":"Smallest ONNX files:\n"}
+,{"stream_name":"stderr","time":22.360693982,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":22.360743062,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":22.62773695,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":22.627768474,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":24.115184759999998,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":24.53600912,"data":"[NbConvertApp] Writing 28164 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":27.974351964,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":29.128596573,"data":"[NbConvertApp] Writing 303922 bytes to __results__.html\n"}
+]

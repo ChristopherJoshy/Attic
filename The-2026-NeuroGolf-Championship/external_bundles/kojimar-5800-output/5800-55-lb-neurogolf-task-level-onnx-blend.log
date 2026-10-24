@@ -1,0 +1,39 @@
+[{"stream_name":"stderr","time":9.719913452,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.720024529,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.720030751,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.72003461,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.556790925,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.556835468,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.556841726,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.556846255,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.612886504,"data":"Asset bundle: /kaggle/input/datasets/kojimar/neurogolf-5800-55-minimal-onnx-blend-assets\n"}
+,{"stream_name":"stdout","time":13.577000799,"data":"Loaded base tasks: 400\n"}
+,{"stream_name":"stdout","time":13.57704272,"data":"Loaded overrides: 13\n"}
+,{"stream_name":"stdout","time":13.625724634000001,"data":"Applied overrides: 13\n"}
+,{"stream_name":"stdout","time":13.625782717,"data":"task191: 7a6880b96e -\u003e 722fceefad (old_6285_current_valid)\n"}
+,{"stream_name":"stdout","time":13.625790397,"data":"task158: 656fcf2619 -\u003e 0272248663 (compress_rewrite)\n"}
+,{"stream_name":"stdout","time":13.625794678,"data":"task182: 31e954dcf0 -\u003e 6b44786b3f (compress_rewrite)\n"}
+,{"stream_name":"stdout","time":13.625799595,"data":"task025: a077974004 -\u003e a0187f4259 (compress_rewrite)\n"}
+,{"stream_name":"stdout","time":13.625803423,"data":"task387: 6b3693612d -\u003e 8d2da09220 (staticized_repair)\n"}
+,{"stream_name":"stdout","time":13.625807213,"data":"task129: b4bf897268 -\u003e bc11e9e80b (new_public_source)\n"}
+,{"stream_name":"stdout","time":13.625811479,"data":"task150: 99459c432d -\u003e 3713f1d83d (gemma4_block)\n"}
+,{"stream_name":"stdout","time":13.625815067,"data":"task155: aacac70649 -\u003e 9b6ad9025b (gemma4_block)\n"}
+,{"stream_name":"stdout","time":13.625818811,"data":"task322: ccc4719455 -\u003e f43610dda9 (gemma4_block)\n"}
+,{"stream_name":"stdout","time":13.625821985,"data":"task338: 0c4affac5d -\u003e b35b8a9c78 (gemma4_block)\n"}
+,{"stream_name":"stdout","time":13.625824482,"data":"task364: 42ef34235a -\u003e 45105a4fd4 (gemma4_block)\n"}
+,{"stream_name":"stdout","time":13.625827179,"data":"task295: d252d62850 -\u003e 32ce72bb19 (gemma4_block)\n"}
+,{"stream_name":"stdout","time":13.62582988,"data":"task216: 11128e4d73 -\u003e 8736d30a18 (gemma4_block)\n"}
+,{"stream_name":"stdout","time":13.784801884,"data":"Wrote /kaggle/working/submission.zip (992,078 bytes)\n"}
+,{"stream_name":"stdout","time":13.806214845,"data":"Zip entries: 400\n"}
+,{"stream_name":"stdout","time":13.806256592,"data":"Bad paths: []\n"}
+,{"stream_name":"stdout","time":13.806261952,"data":"Missing: []\n"}
+,{"stream_name":"stdout","time":13.806265781,"data":"Extra: []\n"}
+,{"stream_name":"stderr","time":17.063407414,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":17.063454549,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":17.28060146,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":17.280686578,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":18.159932435,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":18.545035802,"data":"[NbConvertApp] Writing 14638 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":21.973770326,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":23.286072001,"data":"[NbConvertApp] Writing 314631 bytes to __results__.html\n"}
+]

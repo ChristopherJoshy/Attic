@@ -1,0 +1,34 @@
+[{"stream_name":"stderr","time":8.068143152,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.068198682,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.068205898,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.068210709,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.813982592,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.814020373,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.814026589000001,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.814031549,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.560206812,"data":"Collecting onnxruntime\r\n"}
+,{"stream_name":"stdout","time":12.611302628,"data":"  Downloading onnxruntime-1.26.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.3 kB)\r\n"}
+,{"stream_name":"stdout","time":12.611347161,"data":"Requirement already satisfied: flatbuffers in /usr/local/lib/python3.12/dist-packages (from onnxruntime) (25.12.19)\r\n"}
+,{"stream_name":"stdout","time":12.611353966,"data":"Requirement already satisfied: numpy\u003e=1.21.6 in /usr/local/lib/python3.12/dist-packages (from onnxruntime) (2.0.2)\r\n"}
+,{"stream_name":"stdout","time":12.611359368,"data":"Requirement already satisfied: packaging in /usr/local/lib/python3.12/dist-packages (from onnxruntime) (26.0)\r\n"}
+,{"stream_name":"stdout","time":12.611364465,"data":"Requirement already satisfied: protobuf in /usr/local/lib/python3.12/dist-packages (from onnxruntime) (5.29.5)\r\n"}
+,{"stream_name":"stdout","time":12.662932222,"data":"Downloading onnxruntime-1.26.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (18.2 MB)\r\n"}
+,{"stream_name":"stdout","time":12.816834878,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/18.2 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.3/18.2 MB\u001b[0m \u001b[31m191.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━\u001b[0m \u001b[32m13.6/18.2 MB\u001b[0m \u001b[31m207.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m18.2/18.2 MB\u001b[0m \u001b[31m213.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m18.2/18.2 MB\u001b[0m \u001b[31m213.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m18.2/18.2 MB\u001b[0m \u001b[31m78.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.357827637,"data":"\u001b[?25hInstalling collected packages: onnxruntime\r\n"}
+,{"stream_name":"stdout","time":16.731813936,"data":"Successfully installed onnxruntime-1.26.0\r\n"}
+,{"stream_name":"stdout","time":18.979213758,"data":"All 4 examples correct: True\n"}
+,{"stream_name":"stdout","time":18.979252357,"data":"Score: Mem=772 + Params=25 = 797 → 18.319 pts\n"}
+,{"stream_name":"stderr","time":25.454380753,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":25.454427133,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":25.645068733,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":25.645097081,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":26.866234893,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":27.292476918,"data":"[NbConvertApp] Writing 324494 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":30.57061095,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":31.80393188,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":31.803969402,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":31.804252293,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":31.804430231,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":31.804647078,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":31.804913148,"data":"[NbConvertApp] Writing 395800 bytes to __results__.html\n"}
+]

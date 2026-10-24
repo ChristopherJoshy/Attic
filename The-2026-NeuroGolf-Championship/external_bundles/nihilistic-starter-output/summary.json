@@ -1,0 +1,10 @@
+{
+  "task_count": 44,
+  "proxy_score": 578.2539315035135,
+  "solver_counts": {
+    "starter": 41,
+    "fast_public": 3
+  },
+  "submission_csv": "/kaggle/working/submission.csv",
+  "submission_zip": "/kaggle/working/submission.zip"
+}

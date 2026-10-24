@@ -1,0 +1,688 @@
+:¡h
+
+input
+slice_chain_starts_1
+slice_chain_ends_1
+slice_chain_axes_1
+slice_chain_steps_1fg_1slice_chain_composed_1"Slice
+-
+fg_1	fg_1__h16	fg_1__h16"Cast*	
+to
+ 
+B
+	fg_1__h16obj_f_2204"	ReduceSum*
+axes@ *
+keepdims 
+$
+obj_f_2
+halfobj_3205"Greater
+€
+input
+slice_chain_starts_4
+slice_chain_ends_4
+slice_chain_axes_1
+slice_chain_steps_1ch0_4slice_chain_composed_4"Slice
+0
+ch0_4
+ch0_4__h16
+ch0_4__h16"Cast*	
+to
+ 
+&
+
+ch0_4__h16
+halfbg_5206"Greater
+)
+obj_3
+row
+big
+row_vals_6207"Where
+)
+obj_3
+col
+big
+col_vals_7208"Where
+B
+
+row_vals_6y0_8209"	ReduceMin*
+axes@@ *
+keepdims 
+B
+
+col_vals_7x0_9210"	ReduceMin*
+axes@@ *
+keepdims 
+%
+obj_f_2
+rowrow_prod_10211"Mul
+D
+row_prod_10y1_11212"	ReduceMax*
+axes@@ *
+keepdims 
+%
+obj_f_2
+colcol_prod_12213"Mul
+D
+col_prod_12x1_13214"	ReduceMax*
+axes@@ *
+keepdims 
+%
+row
+y0_8in_rows_lt_14215"Less
+(
+in_rows_lt_14in_rows_ge_15216"Not
+)
+row
+y1_11in_rows_gt_16217"Greater
+(
+in_rows_gt_16in_rows_le_17218"Not
+>
+in_rows_ge_15
+in_rows_le_17in_rows_between_1_18219"And
+%
+col
+x0_9in_cols_lt_19220"Less
+(
+in_cols_lt_19in_cols_ge_20221"Not
+)
+col
+x1_13in_cols_gt_21222"Greater
+(
+in_cols_gt_21in_cols_le_22223"Not
+>
+in_cols_ge_20
+in_cols_le_22in_cols_between_1_23224"And
+A
+in_rows_between_1_18
+in_cols_between_1_23	in_box_24225"And
+$
+obj_3not_obj_inside_25226"Not
+8
+	in_box_24
+not_obj_inside_25fill_inside_26227"And
+#
+row
+y0_8
+row_top_27228"Equal
+'
+row
+y1_11row_bottom_28229"Equal
+$
+col
+x0_9col_left_29230"Equal
+&
+col
+x1_13col_right_30231"Equal
+9
+
+row_top_27
+in_cols_between_1_23top_side_31232"And
+?
+row_bottom_28
+in_cols_between_1_23bottom_side_32233"And
+;
+col_left_29
+in_rows_between_1_18left_side_33234"And
+=
+col_right_30
+in_rows_between_1_18right_side_34235"And
+"
+x1_13
+x0_9	width0_36236"Sub
+1
+	width0_36
+onewidth_37sum_v56_width_37"Sum
+#
+y1_11
+y0_8
+height0_38238"Sub
+4
+
+height0_38
+one	height_39sum_v56_height_39"Sum
+@
+obj_3
+top_side_31top_hits_41_boolboolmask_and_40_and"And
+F
+top_hits_41_booltop_hits_41boolmask_and_cast_40"Cast*	
+to
+ 
+K
+top_hits_41top_count_42240"	ReduceSum*
+axes@@ *
+keepdims 
+2
+width_37
+top_count_42top_missing_43241"Sub
+F
+obj_3
+bottom_side_32bottom_hits_45_boolboolmask_and_44_and"And
+L
+bottom_hits_45_boolbottom_hits_45boolmask_and_cast_44"Cast*	
+to
+ 
+Q
+bottom_hits_45bottom_count_46242"	ReduceSum*
+axes@@ *
+keepdims 
+8
+width_37
+bottom_count_46bottom_missing_47243"Sub
+B
+obj_3
+left_side_33left_hits_49_boolboolmask_and_48_and"And
+H
+left_hits_49_boolleft_hits_49boolmask_and_cast_48"Cast*	
+to
+ 
+M
+left_hits_49left_count_50244"	ReduceSum*
+axes@@ *
+keepdims 
+5
+	height_39
+left_count_50left_missing_51245"Sub
+D
+obj_3
+right_side_34right_hits_53_boolboolmask_and_52_and"And
+J
+right_hits_53_boolright_hits_53boolmask_and_cast_52"Cast*	
+to
+ 
+O
+right_hits_53right_count_54246"	ReduceSum*
+axes@@ *
+keepdims 
+7
+	height_39
+right_count_54right_missing_55247"Sub
+C
+top_missing_43
+bottom_missing_47top_gt_bottom_56248"Greater
+?
+top_missing_43
+left_missing_51top_gt_left_57249"Greater
+A
+top_missing_43
+right_missing_55top_gt_right_58250"Greater
+;
+top_gt_bottom_56
+top_gt_left_57top_open_1_59251"And
+9
+top_open_1_59
+top_gt_right_58top_open_2_60252"And
+C
+bottom_missing_47
+top_missing_43bottom_gt_top_61253"Greater
+E
+bottom_missing_47
+left_missing_51bottom_gt_left_62254"Greater
+G
+bottom_missing_47
+right_missing_55bottom_gt_right_63255"Greater
+A
+bottom_gt_top_61
+bottom_gt_left_62bottom_open_1_64256"And
+B
+bottom_open_1_64
+bottom_gt_right_63bottom_open_2_65257"And
+?
+left_missing_51
+top_missing_43left_gt_top_66258"Greater
+E
+left_missing_51
+bottom_missing_47left_gt_bottom_67259"Greater
+C
+left_missing_51
+right_missing_55left_gt_right_68260"Greater
+=
+left_gt_top_66
+left_gt_bottom_67left_open_1_69261"And
+<
+left_open_1_69
+left_gt_right_68left_open_2_70262"And
+A
+right_missing_55
+top_missing_43right_gt_top_71263"Greater
+G
+right_missing_55
+bottom_missing_47right_gt_bottom_72264"Greater
+C
+right_missing_55
+left_missing_51right_gt_left_73265"Greater
+@
+right_gt_top_71
+right_gt_bottom_72right_open_1_74266"And
+>
+right_open_1_74
+right_gt_left_73right_open_2_75267"And
+6
+top_side_31
+not_obj_inside_25
+top_gap_77268"And
+3
+
+top_gap_77
+col
+bigtop_min_vals_78269"Where
+L
+top_min_vals_78	top_g0_79270"	ReduceMin*
+axes@@ *
+keepdims 
+4
+
+top_gap_77
+col
+zerotop_max_vals_80271"Where
+L
+top_max_vals_80	top_g1_81272"	ReduceMax*
+axes@@ *
+keepdims 
+<
+bottom_side_32
+not_obj_inside_25bottom_gap_83273"And
+9
+bottom_gap_83
+col
+bigbottom_min_vals_84274"Where
+R
+bottom_min_vals_84bottom_g0_85275"	ReduceMin*
+axes@@ *
+keepdims 
+:
+bottom_gap_83
+col
+zerobottom_max_vals_86276"Where
+R
+bottom_max_vals_86bottom_g1_87277"	ReduceMax*
+axes@@ *
+keepdims 
+8
+left_side_33
+not_obj_inside_25left_gap_89278"And
+5
+left_gap_89
+row
+bigleft_min_vals_90279"Where
+N
+left_min_vals_90
+left_g0_91280"	ReduceMin*
+axes@@ *
+keepdims 
+6
+left_gap_89
+row
+zeroleft_max_vals_92281"Where
+N
+left_max_vals_92
+left_g1_93282"	ReduceMax*
+axes@@ *
+keepdims 
+:
+right_side_34
+not_obj_inside_25right_gap_95283"And
+7
+right_gap_95
+row
+bigright_min_vals_96284"Where
+P
+right_min_vals_96right_g0_97285"	ReduceMin*
+axes@@ *
+keepdims 
+8
+right_gap_95
+row
+zeroright_max_vals_98286"Where
+P
+right_max_vals_98right_g1_99287"	ReduceMax*
+axes@@ *
+keepdims 
+ 
+y0_8
+row	d_top_101288"Sub
+/
+col
+	top_g0_79top_central_lt_102289"Less
+2
+top_central_lt_102top_central_ge_103290"Not
+2
+col
+	top_g1_81top_central_gt_104291"Greater
+2
+top_central_gt_104top_central_le_105292"Not
+M
+top_central_ge_103
+top_central_le_105top_central_between_1_106293"And
+2
+	top_g0_79
+	d_top_101top_left_pos_107294"Sub
+1
+col
+top_left_pos_107top_left_108295"Equal
+I
+	top_g1_81
+	d_top_101top_right_pos_109sum_v56_top_right_pos_109"Sum
+3
+col
+top_right_pos_109top_right_110297"Equal
+B
+top_central_between_1_106
+top_left_108top_beam_1_111298"Or
+8
+top_beam_1_111
+top_right_110top_beam_2_112299"Or
+8
+top_open_2_60
+in_rows_lt_14top_proj_1_113300"And
+:
+top_proj_1_113
+top_beam_2_112top_proj_2_114301"And
+$
+row
+y1_11d_bottom_116302"Sub
+5
+col
+bottom_g0_85bottom_central_lt_117303"Less
+8
+bottom_central_lt_117bottom_central_ge_118304"Not
+8
+col
+bottom_g1_87bottom_central_gt_119305"Greater
+8
+bottom_central_gt_119bottom_central_le_120306"Not
+V
+bottom_central_ge_118
+bottom_central_le_120bottom_central_between_1_121307"And
+;
+bottom_g0_85
+d_bottom_116bottom_left_pos_122308"Sub
+7
+col
+bottom_left_pos_122bottom_left_123309"Equal
+U
+bottom_g1_87
+d_bottom_116bottom_right_pos_124sum_v56_bottom_right_pos_124"Sum
+9
+col
+bottom_right_pos_124bottom_right_125311"Equal
+K
+bottom_central_between_1_121
+bottom_left_123bottom_beam_1_126312"Or
+A
+bottom_beam_1_126
+bottom_right_125bottom_beam_2_127313"Or
+>
+bottom_open_2_65
+in_rows_gt_16bottom_proj_1_128314"And
+C
+bottom_proj_1_128
+bottom_beam_2_127bottom_proj_2_129315"And
+!
+x0_9
+col
+d_left_131316"Sub
+1
+row
+
+left_g0_91left_central_lt_132317"Less
+4
+left_central_lt_132left_central_ge_133318"Not
+4
+row
+
+left_g1_93left_central_gt_134319"Greater
+4
+left_central_gt_134left_central_le_135320"Not
+P
+left_central_ge_133
+left_central_le_135left_central_between_1_136321"And
+4
+
+left_g0_91
+
+d_left_131left_top_pos_137322"Sub
+1
+row
+left_top_pos_137left_top_138323"Equal
+O
+
+left_g1_93
+
+d_left_131left_bottom_pos_139sum_v56_left_bottom_pos_139"Sum
+7
+row
+left_bottom_pos_139left_bottom_140325"Equal
+D
+left_central_between_1_136
+left_top_138left_beam_1_141326"Or
+<
+left_beam_1_141
+left_bottom_140left_beam_2_142327"Or
+:
+left_open_2_70
+in_cols_lt_19left_proj_1_143328"And
+=
+left_proj_1_143
+left_beam_2_142left_proj_2_144329"And
+#
+col
+x1_13d_right_146330"Sub
+3
+row
+right_g0_97right_central_lt_147331"Less
+6
+right_central_lt_147right_central_ge_148332"Not
+6
+row
+right_g1_99right_central_gt_149333"Greater
+6
+right_central_gt_149right_central_le_150334"Not
+S
+right_central_ge_148
+right_central_le_150right_central_between_1_151335"And
+7
+right_g0_97
+d_right_146right_top_pos_152336"Sub
+3
+row
+right_top_pos_152right_top_153337"Equal
+S
+right_g1_99
+d_right_146right_bottom_pos_154sum_v56_right_bottom_pos_154"Sum
+9
+row
+right_bottom_pos_154right_bottom_155339"Equal
+G
+right_central_between_1_151
+right_top_153right_beam_1_156340"Or
+?
+right_beam_1_156
+right_bottom_155right_beam_2_157341"Or
+<
+right_open_2_75
+in_cols_gt_21right_proj_1_158342"And
+@
+right_proj_1_158
+right_beam_2_157right_proj_2_159343"And
+9
+fill_inside_26
+top_proj_2_114fill_any_1_160344"Or
+<
+fill_any_1_160
+bottom_proj_2_129fill_any_2_161345"Or
+:
+fill_any_2_161
+left_proj_2_144fill_any_3_162346"Or
+;
+fill_any_3_162
+right_proj_2_159fill_any_4_163347"Or
+-
+fill_any_4_163
+bg_5fill_bg_164348"And
+/
+fill_bg_164
+fill_f_165349"Cast*	
+to
+ 
+,
+
+ch0_4__h16
+
+fill_f_165out0_166350"Sub
+†
+input
+slice_chain_starts_1
+slice_chain_ends_159
+slice_chain_axes_1
+slice_chain_steps_1ch1_167slice_chain_composed_159"Slice
+6
+ch1_167ch1_167__h16ch1_167__h16"Cast*	
+to
+ 
+ˆ
+input
+slice_chain_starts_160
+slice_chain_ends_160
+slice_chain_axes_1
+slice_chain_steps_1ch2_168slice_chain_composed_160"Slice
+6
+ch2_168ch2_168__h16ch2_168__h16"Cast*	
+to
+ 
+ˆ
+input
+slice_chain_starts_161
+slice_chain_ends_161
+slice_chain_axes_1
+slice_chain_steps_1ch3_169slice_chain_composed_161"Slice
+6
+ch3_169ch3_169__h16ch3_169__h16"Cast*	
+to
+ 
+ˆ
+input
+slice_chain_starts_162
+slice_chain_ends_162
+slice_chain_axes_1
+slice_chain_steps_1ch4_170slice_chain_composed_162"Slice
+6
+ch4_170ch4_170__h16ch4_170__h16"Cast*	
+to
+ 
+;
+ch4_170__h16
+
+fill_f_165out4_171sum_v56_out4_171"Sum
+ˆ
+input
+slice_chain_starts_164
+slice_chain_ends_164
+slice_chain_axes_1
+slice_chain_steps_1ch5_172slice_chain_composed_164"Slice
+6
+ch5_172ch5_172__h16ch5_172__h16"Cast*	
+to
+ 
+ˆ
+input
+slice_chain_starts_165
+slice_chain_ends_165
+slice_chain_axes_1
+slice_chain_steps_1ch6_173slice_chain_composed_165"Slice
+6
+ch6_173ch6_173__h16ch6_173__h16"Cast*	
+to
+ 
+ˆ
+input
+slice_chain_starts_166
+slice_chain_ends_166
+slice_chain_axes_1
+slice_chain_steps_1ch7_174slice_chain_composed_166"Slice
+6
+ch7_174ch7_174__h16ch7_174__h16"Cast*	
+to
+ 
+ˆ
+input
+slice_chain_starts_167
+slice_chain_ends_167
+slice_chain_axes_1
+slice_chain_steps_1ch8_175slice_chain_composed_167"Slice
+6
+ch8_175ch8_175__h16ch8_175__h16"Cast*	
+to
+ 
+†
+input
+slice_chain_starts_168
+slice_chain_ends_1
+slice_chain_axes_1
+slice_chain_steps_1ch9_176slice_chain_composed_168"Slice
+6
+ch9_176ch9_176__h16ch9_176__h16"Cast*	
+to
+ 
+¬
+out0_166
+ch1_167__h16
+ch2_168__h16
+ch3_169__h16
+out4_171
+ch5_172__h16
+ch6_173__h16
+ch7_174__h16
+ch8_175__h16
+ch9_176__h16output_inner352"Concat*
+axis 
+`
+output_inner
+pad_to_external
+pad_zerooutputpad_output_external"Pad*
+mode"constant task268_funnel_fill*
+BhalfJ 8*
+BoneJ <*
+BbigJÎc*
+BzeroJ  *%
+
+BrowJ   < @ B D E F G H€H*%
+
+BcolJ   < @ B D E F G H€H*WBpad_to_externalJ@                                                              *
+Bpad_zeroJ  *4Bslice_chain_starts_1J                       *2Bslice_chain_ends_1J
+       
+       
+       *2Bslice_chain_axes_1J                     *3Bslice_chain_steps_1J                     *4Bslice_chain_starts_4J                        *2Bslice_chain_ends_4J       
+       
+       *4Bslice_chain_ends_159J       
+       
+       *6Bslice_chain_starts_160J                       *4Bslice_chain_ends_160J       
+       
+       *6Bslice_chain_starts_161J                       *4Bslice_chain_ends_161J       
+       
+       *6Bslice_chain_starts_162J                       *4Bslice_chain_ends_162J       
+       
+       *6Bslice_chain_starts_164J                       *4Bslice_chain_ends_164J       
+       
+       *6Bslice_chain_starts_165J                       *4Bslice_chain_ends_165J       
+       
+       *6Bslice_chain_starts_166J                       *4Bslice_chain_ends_166J       
+       
+       *6Bslice_chain_starts_167J                       *4Bslice_chain_ends_167J	       
+       
+       *6Bslice_chain_starts_168J	                       Z
+input
+
+
+
+
+
+b 
+output
+
+
+
+
+
+
+B
+ 

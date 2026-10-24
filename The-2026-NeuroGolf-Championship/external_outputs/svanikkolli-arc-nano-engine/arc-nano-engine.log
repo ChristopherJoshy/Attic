@@ -1,0 +1,174 @@
+[{"stream_name":"stderr","time":10.189235237,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.189322521,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.189329864,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.189333935,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.080160825,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.080199691,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.080204964,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.080209036,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.25739829,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.46031827,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.736799363,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.6/17.6 MB 65.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.939915048,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.6/17.6 MB 65.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":16.961263726,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 64.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.006691243,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.2/56.2 kB 2.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.043427041,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.6/70.6 kB 3.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.080545704,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 217.8/217.8 kB 11.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.163977756,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.2/17.2 MB 64.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.164025846,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.2/56.2 kB 2.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.164032501,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.6/70.6 kB 3.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.164037575,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 217.8/217.8 kB 11.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":40.449975321,"data":"Installed: onnxruntime\n"}
+,{"stream_name":"stdout","time":42.045351375,"data":"Input root: /kaggle/input\n"}
+,{"stream_name":"stdout","time":42.04542906,"data":"Working dir: /kaggle/working\n"}
+,{"stream_name":"stdout","time":42.045435625,"data":"Datasets requested:\n"}
+,{"stream_name":"stdout","time":42.045439662,"data":"   competition  /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":42.045443701,"data":"     base_6029  /kaggle/input/notebooks/octaviograu/6042-85-per-task-hand-built-onnx-solvers\n"}
+,{"stream_name":"stdout","time":42.045447782,"data":"   anchor_5689  /kaggle/input/notebooks/afr1ste/neurogolf-5689-51-current-rules-open-solution\n"}
+,{"stream_name":"stdout","time":42.045452102,"data":"    blend_v360  /kaggle/input/datasets/konbu17/neurogolf-2026-blend-source-v3-6-0\n"}
+,{"stream_name":"stdout","time":42.045456149,"data":"  arc_gen_100k  /kaggle/input/datasets/arcgen100k/the-arc-gen-100k-dataset\n"}
+,{"stream_name":"stdout","time":42.24597974,"data":"Sample input tree:\n"}
+,{"stream_name":"stdout","time":44.660959619,"data":"  /kaggle/input/competitions\n"}
+,{"stream_name":"stdout","time":44.661009172,"data":"  /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":44.661015021,"data":"  /kaggle/input/competitions/neurogolf-2026/neurogolf_utils\n"}
+,{"stream_name":"stdout","time":44.661019359,"data":"  /kaggle/input/competitions/neurogolf-2026/neurogolf_utils/neurogolf_utils.py\n"}
+,{"stream_name":"stdout","time":44.661023142,"data":"  /kaggle/input/competitions/neurogolf-2026/task001.json\n"}
+,{"stream_name":"stdout","time":44.661027093,"data":"  /kaggle/input/competitions/neurogolf-2026/task002.json\n"}
+,{"stream_name":"stdout","time":44.661031058,"data":"  /kaggle/input/competitions/neurogolf-2026/task003.json\n"}
+,{"stream_name":"stdout","time":44.661034815,"data":"  /kaggle/input/competitions/neurogolf-2026/task004.json\n"}
+,{"stream_name":"stdout","time":44.661038544,"data":"  /kaggle/input/competitions/neurogolf-2026/task005.json\n"}
+,{"stream_name":"stdout","time":44.661042429,"data":"  /kaggle/input/competitions/neurogolf-2026/task006.json\n"}
+,{"stream_name":"stdout","time":44.661046139,"data":"  /kaggle/input/competitions/neurogolf-2026/task007.json\n"}
+,{"stream_name":"stdout","time":44.661050333,"data":"  /kaggle/input/competitions/neurogolf-2026/task008.json\n"}
+,{"stream_name":"stdout","time":44.661054488,"data":"  /kaggle/input/competitions/neurogolf-2026/task009.json\n"}
+,{"stream_name":"stdout","time":44.66105859,"data":"  /kaggle/input/competitions/neurogolf-2026/task010.json\n"}
+,{"stream_name":"stdout","time":44.661061517,"data":"  /kaggle/input/competitions/neurogolf-2026/task011.json\n"}
+,{"stream_name":"stdout","time":44.661063925,"data":"  /kaggle/input/competitions/neurogolf-2026/task012.json\n"}
+,{"stream_name":"stdout","time":44.661066249,"data":"  /kaggle/input/competitions/neurogolf-2026/task013.json\n"}
+,{"stream_name":"stdout","time":44.661068652,"data":"  /kaggle/input/competitions/neurogolf-2026/task014.json\n"}
+,{"stream_name":"stdout","time":44.661070942,"data":"  /kaggle/input/competitions/neurogolf-2026/task015.json\n"}
+,{"stream_name":"stdout","time":44.66112745,"data":"  /kaggle/input/competitions/neurogolf-2026/task016.json\n"}
+,{"stream_name":"stdout","time":44.661133879,"data":"  /kaggle/input/competitions/neurogolf-2026/task017.json\n"}
+,{"stream_name":"stdout","time":44.661137491,"data":"  /kaggle/input/competitions/neurogolf-2026/task018.json\n"}
+,{"stream_name":"stdout","time":44.661140903,"data":"  /kaggle/input/competitions/neurogolf-2026/task019.json\n"}
+,{"stream_name":"stdout","time":44.661144166,"data":"  /kaggle/input/competitions/neurogolf-2026/task020.json\n"}
+,{"stream_name":"stdout","time":44.66114771,"data":"  /kaggle/input/competitions/neurogolf-2026/task021.json\n"}
+,{"stream_name":"stdout","time":44.661166843,"data":"  /kaggle/input/competitions/neurogolf-2026/task022.json\n"}
+,{"stream_name":"stdout","time":44.661170905,"data":"  /kaggle/input/competitions/neurogolf-2026/task023.json\n"}
+,{"stream_name":"stdout","time":44.661174518,"data":"  /kaggle/input/competitions/neurogolf-2026/task024.json\n"}
+,{"stream_name":"stdout","time":44.661177744,"data":"  /kaggle/input/competitions/neurogolf-2026/task025.json\n"}
+,{"stream_name":"stdout","time":44.661181332,"data":"  /kaggle/input/competitions/neurogolf-2026/task026.json\n"}
+,{"stream_name":"stdout","time":44.661184563,"data":"  /kaggle/input/competitions/neurogolf-2026/task027.json\n"}
+,{"stream_name":"stdout","time":44.661187816,"data":"  /kaggle/input/competitions/neurogolf-2026/task028.json\n"}
+,{"stream_name":"stdout","time":44.661191258,"data":"  /kaggle/input/competitions/neurogolf-2026/task029.json\n"}
+,{"stream_name":"stdout","time":44.661195237,"data":"  /kaggle/input/competitions/neurogolf-2026/task030.json\n"}
+,{"stream_name":"stdout","time":44.661198951,"data":"  /kaggle/input/competitions/neurogolf-2026/task031.json\n"}
+,{"stream_name":"stdout","time":44.661202972,"data":"  /kaggle/input/competitions/neurogolf-2026/task032.json\n"}
+,{"stream_name":"stdout","time":44.661209338,"data":"  /kaggle/input/competitions/neurogolf-2026/task033.json\n"}
+,{"stream_name":"stdout","time":44.661216505,"data":"  /kaggle/input/competitions/neurogolf-2026/task034.json\n"}
+,{"stream_name":"stdout","time":44.661220342,"data":"  /kaggle/input/competitions/neurogolf-2026/task035.json\n"}
+,{"stream_name":"stdout","time":44.661223761,"data":"  /kaggle/input/competitions/neurogolf-2026/task036.json\n"}
+,{"stream_name":"stdout","time":44.987398559,"data":"competition_json_root = /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":44.987596997,"data":"arcgen_json_root      = None\n"}
+,{"stream_name":"stdout","time":44.987606926,"data":"bundle_6029_root      = /kaggle/working/bundle_notebooks_octaviograu_6042_85_per_task_hand_built_onnx_solvers_submission\n"}
+,{"stream_name":"stdout","time":44.987611565,"data":"bundle_5689_root      = /kaggle/working/bundle_notebooks_afr1ste_neurogolf_5689_51_current_rules_open_solution_submission\n"}
+,{"stream_name":"stdout","time":44.987616282,"data":"bundle_blend_root     = /kaggle/input/datasets/konbu17/neurogolf-2026-blend-source-v3-6-0\n"}
+,{"stream_name":"stdout","time":44.987620808,"data":"ARC-GEN dataset was not found. The notebook will continue with ARC-only verification.\n"}
+,{"stream_name":"stdout","time":44.9876248,"data":"available bundles     = ['base_6029', 'anchor_5689', 'blend_v360']\n"}
+,{"stream_name":"stdout","time":45.036998052,"data":"{'train': 5, 'test': 1, 'arc_gen': 0}\n"}
+,{"stream_name":"stdout","time":45.188217542,"data":"strongest_bundle_name = base_6029\n"}
+,{"stream_name":"stdout","time":45.188259103,"data":"strongest_bundle_root = /kaggle/working/bundle_notebooks_octaviograu_6042_85_per_task_hand_built_onnx_solvers_submission\n"}
+,{"stream_name":"stderr","time":46.928302068,"data":"\u001b[0;93m2026-05-21 23:36:03.007924583 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_ch'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":47.232562086,"data":"\u001b[0;93m2026-05-21 23:36:03.007924583 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_ch'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":47.232608056,"data":"\n"}
+,{"stream_name":"stderr","time":47.232632484,"data":"\u001b[0;93m2026-05-21 23:36:03.007924583 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_ch'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":49.252450389,"data":"\u001b[0;93m2026-05-21 23:36:06.512314322 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'false_bool'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":49.252500421,"data":"\u001b[0;93m2026-05-21 23:36:06.512345104 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_f16'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":69.279001101,"data":"\u001b[0;93m2026-05-21 23:36:06.512314322 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'false_bool'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":69.279220251,"data":"\u001b[0;93m2026-05-21 23:36:06.512345104 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_f16'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":69.279235327,"data":"\n"}
+,{"stream_name":"stderr","time":69.279240252,"data":"\u001b[0;93m2026-05-21 23:36:06.512314322 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'false_bool'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":69.279244824,"data":"\u001b[0;93m2026-05-21 23:36:06.512345104 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_f16'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":69.813810869,"data":"\u001b[0;93m2026-05-21 23:36:27.033491309 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'sentinel_val_21'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":70.018320717,"data":"\u001b[0;93m2026-05-21 23:36:27.033491309 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'sentinel_val_21'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":70.018400446,"data":"\n"}
+,{"stream_name":"stderr","time":70.018406932,"data":"\u001b[0;93m2026-05-21 23:36:27.033491309 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'sentinel_val_21'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":72.557068995,"data":"\u001b[0;93m2026-05-21 23:36:29.692298577 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_4'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.557123716,"data":"\u001b[0;93m2026-05-21 23:36:29.692376794 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_3'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.557131233,"data":"\u001b[0;93m2026-05-21 23:36:29.692677123 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.557136065,"data":"\u001b[0;93m2026-05-21 23:36:29.692800225 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_2'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.557140424,"data":"\u001b[0;93m2026-05-21 23:36:29.692973135 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_1'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.557159134,"data":"\u001b[0;93m2026-05-21 23:36:29.708071893 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_4'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.560800405,"data":"\u001b[0;93m2026-05-21 23:36:29.708139441 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_3'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.560866201,"data":"\u001b[0;93m2026-05-21 23:36:29.708195893 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.560876259,"data":"\u001b[0;93m2026-05-21 23:36:29.708236276 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_2'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.560881722,"data":"\u001b[0;93m2026-05-21 23:36:29.708275103 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_1'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778319079,"data":"\u001b[0;93m2026-05-21 23:36:29.692298577 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_4'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778387021,"data":"\u001b[0;93m2026-05-21 23:36:29.692376794 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_3'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.77839481,"data":"\u001b[0;93m2026-05-21 23:36:29.692677123 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778399784,"data":"\u001b[0;93m2026-05-21 23:36:29.692800225 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_2'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778404252,"data":"\u001b[0;93m2026-05-21 23:36:29.692973135 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_1'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.77840858,"data":"\u001b[0;93m2026-05-21 23:36:29.708071893 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_4'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778412827,"data":"\u001b[0;93m2026-05-21 23:36:29.708139441 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_3'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778417256,"data":"\u001b[0;93m2026-05-21 23:36:29.708195893 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778495645,"data":"\u001b[0;93m2026-05-21 23:36:29.708236276 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_2'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778503124,"data":"\u001b[0;93m2026-05-21 23:36:29.708275103 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_1'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778507423,"data":"\n"}
+,{"stream_name":"stderr","time":72.778511204,"data":"\u001b[0;93m2026-05-21 23:36:29.692298577 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_4'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778538043,"data":"\u001b[0;93m2026-05-21 23:36:29.692376794 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_3'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778546508,"data":"\u001b[0;93m2026-05-21 23:36:29.692677123 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778551692,"data":"\u001b[0;93m2026-05-21 23:36:29.692800225 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_2'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.77855654,"data":"\u001b[0;93m2026-05-21 23:36:29.692973135 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_1'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778561188,"data":"\u001b[0;93m2026-05-21 23:36:29.708071893 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_4'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778565738,"data":"\u001b[0;93m2026-05-21 23:36:29.708139441 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_3'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778569697,"data":"\u001b[0;93m2026-05-21 23:36:29.708195893 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778573665,"data":"\u001b[0;93m2026-05-21 23:36:29.708236276 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_2'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.778576499,"data":"\u001b[0;93m2026-05-21 23:36:29.708275103 [W:onnxruntime:, constant_folding.cc:278 ApplyImpl] Could not find a CPU kernel and hence can't constant fold Sub node '/Sub_1'\u001b[m\n"}
+,{"stream_name":"stderr","time":72.924222967,"data":"\u001b[0;93m2026-05-21 23:36:30.142721114 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'c_1'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":72.924283403,"data":"\u001b[0;93m2026-05-21 23:36:30.142768990 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'c_2'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":73.144726914,"data":"\u001b[0;93m2026-05-21 23:36:30.142721114 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'c_1'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":73.144783635,"data":"\u001b[0;93m2026-05-21 23:36:30.142768990 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'c_2'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":73.14479292,"data":"\n"}
+,{"stream_name":"stderr","time":73.144798539,"data":"\u001b[0;93m2026-05-21 23:36:30.142721114 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'c_1'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":73.144805436,"data":"\u001b[0;93m2026-05-21 23:36:30.142768990 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'c_2'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":74.566909882,"data":"\u001b[0;93m2026-05-21 23:36:30.502155046 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'EPS'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":74.772229304,"data":"\u001b[0;93m2026-05-21 23:36:30.502155046 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'EPS'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":74.772270326,"data":"\n"}
+,{"stream_name":"stderr","time":74.772275144,"data":"\u001b[0;93m2026-05-21 23:36:30.502155046 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'EPS'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":74.778618211,"data":"\u001b[0;93m2026-05-21 23:36:32.037539152 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":74.778668006,"data":"\u001b[0;93m2026-05-21 23:36:32.037571649 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":74.778674972,"data":"\u001b[0;93m2026-05-21 23:36:32.037577081 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":74.77867957,"data":"\u001b[0;93m2026-05-21 23:36:32.037581112 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.004827386,"data":"\u001b[0;93m2026-05-21 23:36:32.242450337 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_f'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009095334,"data":"\u001b[0;93m2026-05-21 23:36:32.037539152 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009142675,"data":"\u001b[0;93m2026-05-21 23:36:32.037571649 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009149438,"data":"\u001b[0;93m2026-05-21 23:36:32.037577081 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009154766,"data":"\u001b[0;93m2026-05-21 23:36:32.037581112 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009159381,"data":"\u001b[0;93m2026-05-21 23:36:32.242450337 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_f'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009164056,"data":"\n"}
+,{"stream_name":"stderr","time":75.009168085,"data":"\u001b[0;93m2026-05-21 23:36:32.037539152 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'BIG'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009172877,"data":"\u001b[0;93m2026-05-21 23:36:32.037571649 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'ONE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.0092011,"data":"\u001b[0;93m2026-05-21 23:36:32.037577081 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'pads_hw'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.00920599,"data":"\u001b[0;93m2026-05-21 23:36:32.037581112 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'TWO'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.009213991,"data":"\u001b[0;93m2026-05-21 23:36:32.242450337 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'zero_f'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.027773689,"data":"\u001b[0;93m2026-05-21 23:36:32.282359782 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.327821574,"data":"\u001b[0;93m2026-05-21 23:36:32.282359782 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stderr","time":75.32788869,"data":"\n"}
+,{"stream_name":"stderr","time":75.327895302,"data":"\u001b[0;93m2026-05-21 23:36:32.282359782 [W:onnxruntime:, graph.cc:5241 CleanUnusedInitializersAndNodeArgs] Removing initializer 'THREE'. It is not used by any node and should be removed from the model.\u001b[m\n"}
+,{"stream_name":"stdout","time":79.354452035,"data":"invalid public tasks in strongest bundle: 0\n"}
+,{"stream_name":"stdout","time":79.354494148,"data":"most expensive valid tasks in strongest bundle:\n"}
+,{"stream_name":"stdout","time":147.134274512,"data":"submission path: /kaggle/working/submission.zip\n"}
+,{"stream_name":"stdout","time":147.134338958,"data":"submission size: 1461548 bytes\n"}
+,{"stream_name":"stdout","time":147.134347567,"data":"non-baseline task sources used: 0\n"}
+,{"stream_name":"stdout","time":147.13435303,"data":"auto swap policy: baseline_safe\n"}
+,{"stream_name":"stdout","time":147.134357782,"data":"production overrides used: []\n"}
+,{"stream_name":"stdout","time":147.134362424,"data":"demo artifacts available: [38, 116, 129]\n"}
+,{"stream_name":"stderr","time":150.933487291,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":150.933538677,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":151.227432583,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":151.227477008,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":152.482539754,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":152.911172432,"data":"[NbConvertApp] Writing 148704 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":156.400080509,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":157.768912109,"data":"[NbConvertApp] Writing 552537 bytes to __results__.html\n"}
+]

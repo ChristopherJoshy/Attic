@@ -1,0 +1,5974 @@
+{
+  "task001": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task002": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task003": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task004": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task005": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task006": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task007": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task008": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task009": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task010": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task011": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task012": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task013": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task014": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task015": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task016": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task017": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task018": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task019": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task020": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task021": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task022": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task023": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task024": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task025": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task026": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task027": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Flood Fill"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task028": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task029": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task030": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task031": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task032": {
+    "Spatial_and_Geometric": [
+      "Gravity"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task033": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion",
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task034": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task035": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Collision Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping",
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task036": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task037": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task038": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task039": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task040": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task041": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task042": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task043": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task044": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task045": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task046": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task047": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task048": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task049": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task050": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill",
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task051": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task052": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task053": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task054": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion",
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task055": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task056": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task057": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task058": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task059": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task060": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task061": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "In-painting"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task062": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Background Separation",
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task063": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task064": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task065": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task066": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task067": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task068": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task069": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task070": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task071": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task072": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task073": {
+    "Spatial_and_Geometric": [
+      "Gravity"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task074": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions",
+      "In-painting"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task075": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task076": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task077": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task078": {
+    "Spatial_and_Geometric": [
+      "Gravity"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Collision Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task079": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task080": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task081": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task082": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task083": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task084": {
+    "Spatial_and_Geometric": [
+      "Shifting"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task085": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task086": {
+    "Spatial_and_Geometric": [
+      "Magnification"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task087": {
+    "Spatial_and_Geometric": [
+      "Rotation"
+    ],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task088": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task089": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task090": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task091": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task092": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task093": {
+    "Spatial_and_Geometric": [
+      "Gravity"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Collision Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task094": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task095": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task096": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task097": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task098": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task099": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill",
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task100": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task101": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task102": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task103": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Bitwise Logic"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task104": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task105": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task106": {
+    "Spatial_and_Geometric": [
+      "Reflection",
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task107": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task108": {
+    "Spatial_and_Geometric": [
+      "Magnification"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 8
+  },
+  "task109": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task110": {
+    "Spatial_and_Geometric": [
+      "Filling Regions"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task111": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task112": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task113": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task114": {
+    "Spatial_and_Geometric": [
+      "Magnification",
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task115": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task116": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task117": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task118": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task119": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task120": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task121": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task122": {
+    "Spatial_and_Geometric": [
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task123": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task124": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions",
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task125": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task126": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task127": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task128": {
+    "Spatial_and_Geometric": [
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task129": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task130": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task131": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task132": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task133": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task134": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task135": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task136": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task137": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task138": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task139": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task140": {
+    "Spatial_and_Geometric": [
+      "Rotation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task141": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task142": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task143": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task144": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task145": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task146": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task147": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task148": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task149": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task150": {
+    "Spatial_and_Geometric": [
+      "Rotation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task151": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Collision Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task152": {
+    "Spatial_and_Geometric": [
+      "Reflection",
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task153": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task154": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task155": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task156": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task157": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task158": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task159": {
+    "Spatial_and_Geometric": [
+      "Cropping",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task160": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task161": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task162": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task163": {
+    "Spatial_and_Geometric": [
+      "Gravity"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task164": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task165": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task166": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task167": {
+    "Spatial_and_Geometric": [
+      "Rotation"
+    ],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task168": {
+    "Spatial_and_Geometric": [
+      "Rotation",
+      "Reflection"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task169": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task170": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task171": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task172": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task173": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task174": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task175": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "In-painting"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task176": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task177": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Background Separation"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task178": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task179": {
+    "Spatial_and_Geometric": [
+      "Rotation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task180": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task181": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task182": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task183": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task184": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task185": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task186": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task187": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task188": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task189": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task190": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task191": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task192": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task193": {
+    "Spatial_and_Geometric": [
+      "Gravity"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task194": {
+    "Spatial_and_Geometric": [
+      "Reflection",
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task195": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task196": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task197": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task198": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task199": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task200": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions",
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task201": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task202": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task203": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task204": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill",
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task205": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task206": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task207": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task208": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task209": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task210": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task211": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task212": {
+    "Spatial_and_Geometric": [
+      "Gravity"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task213": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Background Separation"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task214": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task215": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task216": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task217": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task218": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Background Separation"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task219": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task220": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task221": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task222": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Background Separation"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task223": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Magnification"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task224": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task225": {
+    "Spatial_and_Geometric": [
+      "Reflection",
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task226": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task227": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity",
+      "Collision Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task228": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task229": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task230": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Intersection Finding"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task231": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task232": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task233": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task234": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task235": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task236": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task237": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task238": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task239": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task240": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion",
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task241": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task242": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion",
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task243": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task244": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task245": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task246": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task247": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task248": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task249": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task250": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task251": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task252": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task253": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task254": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task255": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Flood Fill",
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task256": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task257": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task258": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task259": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task260": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task261": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task262": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task263": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task264": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task265": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task266": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task267": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task268": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task269": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Magnification"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task270": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task271": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task272": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task273": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task274": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task275": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Magnification"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task276": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 1
+  },
+  "task277": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task278": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task279": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task280": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task281": {
+    "Spatial_and_Geometric": [
+      "Magnification"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task282": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task283": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task284": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task285": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions",
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task286": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task287": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task288": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task289": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task290": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task291": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task292": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task293": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task294": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task295": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task296": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task297": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task298": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Swapping",
+      "Background Separation"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task299": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task300": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task301": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task302": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task303": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task304": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task305": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task306": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task307": {
+    "Spatial_and_Geometric": [
+      "Magnification"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task308": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task309": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task310": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task311": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task312": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task313": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task314": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task315": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task316": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task317": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task318": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task319": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task320": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task321": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task322": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task323": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task324": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task325": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task326": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task327": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task328": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task329": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task330": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task331": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task332": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task333": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task334": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task335": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task336": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task337": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task338": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task339": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task340": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task341": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task342": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task343": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task344": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Collision Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task345": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task346": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task347": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task348": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion",
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task349": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task350": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task351": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task352": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task353": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task354": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task355": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 6
+  },
+  "task356": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Flood Fill"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task357": {
+    "Spatial_and_Geometric": [
+      "Shifting"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task358": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task359": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task360": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Background Separation"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task361": {
+    "Spatial_and_Geometric": [
+      "Reflection",
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task362": {
+    "Spatial_and_Geometric": [
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task363": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task364": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task365": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 2
+  },
+  "task366": {
+    "Spatial_and_Geometric": [
+      "Cropping",
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Background Separation"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task367": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task368": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task369": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 3
+  },
+  "task370": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task371": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task372": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task373": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Swapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Color_and_Logical",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 2
+  },
+  "task374": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task375": {
+    "Spatial_and_Geometric": [
+      "Reflection",
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task376": {
+    "Spatial_and_Geometric": [
+      "Tiling"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task377": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task378": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task379": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Gravity",
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task380": {
+    "Spatial_and_Geometric": [
+      "Rotation",
+      "Reflection"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task381": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 5
+  },
+  "task382": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task383": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Shifting"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion",
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 7
+  },
+  "task384": {
+    "Spatial_and_Geometric": [
+      "Translation",
+      "Tiling"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task385": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task386": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task387": {
+    "Spatial_and_Geometric": [
+      "Reflection"
+    ],
+    "Object_Based": [
+      "Object Detection",
+      "Shape Matching"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion",
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task388": {
+    "Spatial_and_Geometric": [
+      "Tiling",
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Symmetry Completion"
+    ],
+    "Primary_Category": "Spatial_and_Geometric",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task389": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task390": {
+    "Spatial_and_Geometric": [
+      "Translation"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task391": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task392": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task393": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task394": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Outlier Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 4
+  },
+  "task395": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Sorting"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 4
+  },
+  "task396": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 5
+  },
+  "task397": {
+    "Spatial_and_Geometric": [],
+    "Object_Based": [
+      "Object Detection",
+      "Gravity"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Object_Based",
+    "Grid_Size_Changed": false,
+    "Estimated_Complexity": 6
+  },
+  "task398": {
+    "Spatial_and_Geometric": [
+      "Shifting"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [],
+    "Pattern_Recognition": [
+      "Line Extrapolation"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 3
+  },
+  "task399": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [
+      "Object Detection"
+    ],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  },
+  "task400": {
+    "Spatial_and_Geometric": [
+      "Cropping"
+    ],
+    "Object_Based": [],
+    "Color_and_Logical": [
+      "Color Mapping"
+    ],
+    "Pattern_Recognition": [
+      "Filling Regions"
+    ],
+    "Primary_Category": "Pattern_Recognition",
+    "Grid_Size_Changed": true,
+    "Estimated_Complexity": 7
+  }
+}

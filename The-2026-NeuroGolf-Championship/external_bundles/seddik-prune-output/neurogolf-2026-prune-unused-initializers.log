@@ -1,0 +1,52 @@
+[{"stream_name":"stderr","time":10.251705271,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.251811014,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.251818912,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.251823109,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.158015652,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.15805735,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.1580633,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.158067819,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":16.447765368,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/16.6 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.5/16.6 MB\u001b[0m \u001b[31m15.8 MB/s\u001b[0m eta \u001b[36m0:00:02\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.3/16.6 MB\u001b[0m \u001b[31m62.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━\u001b[0m \u001b[32m11.2/16.6 MB\u001b[0m \u001b[31m163.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m16.6/16.6 MB\u001b[0m \u001b[31m207.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m16.6/16.6 MB\u001b[0m \u001b[31m207.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m16.6/16.6 MB\u001b[0m \u001b[31m207.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m16.6/16.6 MB\u001b[0m \u001b[31m77.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":25.803135334,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/17.6 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.3/17.6 MB\u001b[0m \u001b[31m10.6 MB/s\u001b[0m eta \u001b[36m0:00:02\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.8/17.6 MB\u001b[0m \u001b[31m40.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m8.9/17.6 MB\u001b[0m \u001b[31m85.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━\u001b[0m \u001b[32m15.8/17.6 MB\u001b[0m \u001b[31m195.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m17.6/17.6 MB\u001b[0m \u001b[31m193.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m17.6/17.6 MB\u001b[0m \u001b[31m193.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m17.6/17.6 MB\u001b[0m \u001b[31m78.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":45.725417044,"data":"\u001b[?25hrm: cannot remove 'submission': No such file or directory\r\n"}
+,{"stream_name":"stdout","time":46.310326917,"data":"total 44\r\n"}
+,{"stream_name":"stdout","time":46.310383602,"data":"drwxr-xr-x 3 root root  4096 May 26 00:12 \u001b[0m\u001b[01;34m.\u001b[0m/\r\n"}
+,{"stream_name":"stdout","time":46.310392523,"data":"drwxr-xr-x 8 root root  4096 May 26 00:12 \u001b[01;34m..\u001b[0m/\r\n"}
+,{"stream_name":"stdout","time":46.310398305,"data":"---------- 1 root root 18771 May 26 00:12 __notebook__.ipynb\r\n"}
+,{"stream_name":"stdout","time":46.310403815,"data":"drwxr-xr-x 2 root root 16384 May 26 00:12 \u001b[01;34msubmission\u001b[0m/\r\n"}
+,{"stream_name":"stdout","time":47.237544516,"data":"[Task 146] Removing unused:\n"}
+,{"stream_name":"stdout","time":47.237587833,"data":"  'zero_f16' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.237595439,"data":"  'false_bool' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.237600962,"data":"\n"}
+,{"stream_name":"stdout","time":47.2376059,"data":"[Task 157] Removing unused:\n"}
+,{"stream_name":"stdout","time":47.237611012,"data":"  'sentinel_val_21' [1, 1, 1, 1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.237616044,"data":"\n"}
+,{"stream_name":"stdout","time":47.403161932,"data":"[Task 285] Removing unused:\n"}
+,{"stream_name":"stdout","time":47.403222336,"data":"  'c_1' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.40322981,"data":"  'c_2' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.403234983,"data":"\n"}
+,{"stream_name":"stdout","time":47.403239483,"data":"[Task 319] Removing unused:\n"}
+,{"stream_name":"stdout","time":47.4032445,"data":"  'EPS' [1, 1, 1, 1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.403249769,"data":"\n"}
+,{"stream_name":"stdout","time":47.40325441,"data":"[Task 330] Removing unused:\n"}
+,{"stream_name":"stdout","time":47.403259002,"data":"  'BIG' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.403263743,"data":"  'ONE' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.403268891,"data":"  'TWO' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.403273873,"data":"  'pads_hw' [8] = 8 params saved\n"}
+,{"stream_name":"stdout","time":47.40327855,"data":"\n"}
+,{"stream_name":"stdout","time":47.403303446,"data":"[Task 363] Removing unused:\n"}
+,{"stream_name":"stdout","time":47.403307791,"data":"  'zero_f' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.403311109,"data":"\n"}
+,{"stream_name":"stdout","time":47.403314297,"data":"[Task 364] Removing unused:\n"}
+,{"stream_name":"stdout","time":47.403317844,"data":"  'THREE' [1] = 1 params saved\n"}
+,{"stream_name":"stdout","time":47.403321183,"data":"\n"}
+,{"stream_name":"stdout","time":47.768341437,"data":"__notebook__.ipynb  \u001b[0m\u001b[01;34msubmission\u001b[0m/  submission.zip\r\n"}
+,{"stream_name":"stderr","time":51.255832617,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":51.25588688,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":51.468933828,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":51.468978411,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":52.617235428,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":53.060067978,"data":"[NbConvertApp] Writing 27504 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":56.318642139,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":57.409787028,"data":"[NbConvertApp] Writing 303043 bytes to __results__.html\n"}
+]
