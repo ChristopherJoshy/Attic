@@ -1,0 +1,24 @@
+{
+  "2P": {
+    "neutral_mult": 0.10579476009174694,
+    "enemy_mult": 0.10227330645889181,
+    "static_mult": 0.7856458170382942,
+    "exposed_mult": 1.029360513360885,
+    "weakest_mult": 0.613867053878602,
+    "comet_mult": 0.2772563131739155,
+    "dist_coeff": 0.018531028281749948,
+    "sun_penalty": 1.3200810784002894,
+    "finishing_mult": 0.1
+  },
+  "4P": {
+    "neutral_mult": 0.1,
+    "enemy_mult": 0.10768456505697743,
+    "static_mult": 0.8121908364486807,
+    "exposed_mult": 1.0387452633301244,
+    "weakest_mult": 0.7328317157129356,
+    "comet_mult": 2.417321623556626,
+    "dist_coeff": 0.02667002569960207,
+    "sun_penalty": 0.8727858314856047,
+    "finishing_mult": 1.4983662509079236
+  }
+}
