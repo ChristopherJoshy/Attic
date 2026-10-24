@@ -1,7 +1,7 @@
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,35:1d4ed8,70:7c3aed,100:ec4899&height=190&section=header&text=Project%20Shelf&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Small%20experiments%2C%20built%20to%20learn%20something.&descAlignY=58&descSize=17" alt="Animated project shelf header" />
   <p>
-    <img src="https://img.shields.io/badge/Projects-23-7C3AED?style=for-the-badge" alt="23 projects" />
+    <img src="https://img.shields.io/badge/Projects-25-7C3AED?style=for-the-badge" alt="23 projects" />
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-EC4899?style=for-the-badge" alt="MIT License" /></a>
   </p>
 </div>
@@ -44,6 +44,8 @@ Where a project has a live deployment, it's linked in its section.
 | [Orbit-Wars-2026-herustrics-model](#orbit-wars-2026-herustrics-model) | Heuristic Kaggle Orbit Wars agent | Python, NumPy |
 | [The-2026-NeuroGolf-Championship](#the-2026-neurogolf-championship) | Kaggle NeuroGolf workspace and profiler | Python, ONNX |
 | [claude-workflow-run-config-lab](#claude-workflow-run-config-lab) | GitHub Actions security experiment | GitHub Actions |
+| [Nexus-Fabric-SiH](#nexus-fabric-sih) | Empty repository; no implementation files | — |
+| [kaggriculture](#kaggriculture) | Empty repository; no implementation files | — |
 
 ---
 
@@ -264,6 +266,15 @@ A small GitHub Actions security experiment: two workflows testing whether a PR-c
 
 ---
 
+### Nexus-Fabric-SiH
+
+An empty repository with no committed implementation files.
+
+### kaggriculture
+
+An empty repository with no committed implementation files.
+
+---
 ## Running a project
 
 Each folder has its own dependencies and its own README where one exists. The general shape
