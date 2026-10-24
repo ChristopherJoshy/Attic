@@ -244,8 +244,7 @@ A heuristic-only Kaggle Orbit Wars agent: a single-file, ~6k-line deterministic 
 tactical search and NumPy prediction, plus a contract test and a benchmark script.
 
 - Python 3, NumPy
-- This copy is source-only; the replay/artifact workspace from the original repo is not
-  included (see `ARCHIVE-NOTE.md`)
+- Full working-tree snapshot, including the replay and artifact workspace.
 
 ### The-2026-NeuroGolf-Championship
 
@@ -253,8 +252,7 @@ A Kaggle NeuroGolf working repo: an ONNX bundle profiling tool, submission track
 set of process and evidence notes from the competition.
 
 - Python, onnx/onnxruntime, pytest
-- This copy is source-only; model bundles, datasets and submitted artifacts are not
-  included (see `ARCHIVE-NOTE.md`)
+- Full working-tree snapshot, including model bundles, datasets and submitted artifacts.
 
 ### claude-workflow-run-config-lab
 
