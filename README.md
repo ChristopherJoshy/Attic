@@ -1,7 +1,7 @@
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,35:1d4ed8,70:7c3aed,100:ec4899&height=190&section=header&text=Attic&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Small%20experiments%2C%20built%20to%20learn%20something.&descAlignY=58&descSize=17" alt="Attic animated header" />
   <p>
-    <img src="https://img.shields.io/badge/Projects-25-7C3AED?style=for-the-badge" alt="23 projects" />
+    <img src="https://img.shields.io/badge/Projects-25-7C3AED?style=for-the-badge" alt="25 projects" />
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-EC4899?style=for-the-badge" alt="MIT License" /></a>
   </p>
 </div>
